@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>MCF10A Dense Data Cube</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.3.15/slick.css">
+
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    {% include "partials/header.html"%}
+  <div class="container">
+        <div class="masonry-container"> <!-- beginning of .masonry-container -->
+          <div class="grid-item"><!-- beginning of GR assay tile -->
+            <div class="tile">
+              <div class="tile-title">GR</div>
+              <div class="assay-description">
+                metrics based on estimating <span class="emphasis">growth rate inhibition (GR)</span> in the presence of a drug (relative to an untreated control) using endpoint or time-course assays
+              </div>
+              <div class="data-table">
+                <div class="title">data</div>
+                <table style="width:100%">
+                  <tr>
+                    <td class="file-name" width="50%">Cell Counts</td>
+                    <td width="25%">download</td>
+                    <td width="25%">details</td>
+                  </tr>
+                  <tr>
+                    <td class="file-name" width="50%">GR Metrics</td>
+                    <td width="25%">download</td>
+                    <td width="25%">details</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div> <!-- end of GR assay tile -->
+          <div class="grid-item"><!-- beginning of L1000 assay tile -->
+            <div class="tile">
+              <div class="tile-title">L1000</div>
+              <div class="assay-description">
+                measures transcriptome of <span class="emphasis">1,000 (landmark) genes</span> that capture approximately 80% of information
+              </div>
+              <div class="data-table">
+                <div class="title">data</div>
+                <table style="width:100%">
+                  <tr>
+                    <td class="file-name" width="50%">GCT</td>
+                    <td width="25%">download</td>
+                    <td width="25%">details</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div> <!-- end of L1000 assay tile -->
+
+          <div class="grid-item"> <!-- beginning of P100 assay tile -->
+            <div class="tile">
+              <div class="tile-title">P100</div>
+              <div class="assay-description">
+                a mass spectrometry-based targeted proteomics assay that detects and quantifies a representative set of <span class="emphasis">~100 phosphopeptide probes</span> that have been demonstrated to be modulated via perturbations
+              </div>
+              <div class="data-table">
+                <div class="title">data</div>
+                <table style="width:100%">
+                  <tr>
+                    <td class="file-name" width="50%">GCT</td>
+                    <td width="25%">download</td>
+                    <td width="25%">details</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div> <!-- end of P100 assay tile -->
+
+          <div class="grid-item"> <!-- beginning of GCP assay tile -->
+            <div class="tile">
+              <div class="tile-title">Global Chromatin Profiling (GCP)</div>
+              <div class="assay-description">
+                a targeted proteomic assay against ~60 probes that monitor combinations of post-translational modifications on histones
+              </div>
+              <div class="data-table">
+                <div class="title">data</div>
+                <table style="width:100%">
+                  <tr>
+                    <td class="file-name" width="50%">GCT</td>
+                    <td width="25%">download</td>
+                    <td width="25%">details</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div> <!-- end of GCP assay tile -->
+
+          <div class="grid-item"> <!-- beginning of MEP assay tile -->
+            <div class="tile">
+              <div class="tile-title">MEP</div>
+              <div class="assay-description">
+                <b>Staining Set 1 (SS1)</b>: Morphology and Metabolism <br>
+                (DAPI, phalloidin, CellMask, mitoTracker) <br>
+                <b>Staining Set 2 (SS2)</b>: Cell Cycle and Nuclear State <br>
+                (DAPI, none, FBL, EdU) <br>
+                <b>Staining Set 3 (SS3)</b>: Lineage Status <br>
+                (DAPI, KRT5, KRT19, CellMask)
+              </div>
+              <div class="data-table">
+                <div class="title">data</div>
+                <table style="width:100%">
+                  <tr>
+                    <td class="file-name" width="50%">SS1</td>
+                    <td width="25%">download</td>
+                    <td width="25%">details</td>
+                  </tr>
+                  <tr>
+                    <td class="file-name" width="50%">SS2</td>
+                    <td width="25%">download</td>
+                    <td width="25%">details</td>
+                  </tr>
+                  <tr>
+                    <td class="file-name" width="50%">SS3</td>
+                    <td width="25%">download</td>
+                    <td width="25%">details</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div> <!-- end of MEP assay tile -->
+        </div> <!-- end of .masonry-container-->
+  </div> <!-- /.container -->
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>
+  <script src="static/js/index.js"></script>
+</body>
+</html>

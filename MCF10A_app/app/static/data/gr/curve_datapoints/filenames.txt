@@ -1,0 +1,9 @@
+Alpelisib_curve_datapoints.csv
+Dasatinib_curve_datapoints.csv
+Etoposide_curve_datapoints.csv
+filenames.txt
+Neratinib_curve_datapoints.csv
+Paclitaxel_curve_datapoints.csv
+Palbociclib_curve_datapoints.csv
+Trametinib_curve_datapoints.csv
+Vorinostat_curve_datapoints.csv

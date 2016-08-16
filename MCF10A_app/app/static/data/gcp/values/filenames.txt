@@ -1,0 +1,9 @@
+filenames.txt
+GCP_alpelisib_24h.tsv
+GCP_dasatinib_24h.tsv
+GCP_etoposide_24h.tsv
+GCP_neratinib_24h.tsv
+GCP_paclitaxel_24h.tsv
+GCP_palbociclib_24h.tsv
+GCP_trametinib_24h.tsv
+GCP_vorinostat_24h.tsv
