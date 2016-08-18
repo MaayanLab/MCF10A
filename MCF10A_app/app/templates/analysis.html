@@ -79,354 +79,57 @@
             </div>
         </div>
         <div class="col-xs-11">
-          <div class="col-xs-6">
-            <div class="row overview">
-                <div class="col-xs-3">
-                    <div class="drug-label overview-drug-dropdown">
-                          <select id="drug1-dropdown">
-                            <option selected="selected">Trametinib</option>
-                            <option>Alpelisib</option>
-                            <option>Vorinostat</option>
-                            <option>Palbociclib</option>
-                            <option>Neratinib</option>
-                            <option>Paclitaxel</option>
-                            <option>Etoposide</option>
-                            <option>Dasatinib</option>
-                        </select>
-                    </div>
-                    <div class="time-toggle">
-                        <input type="radio" value="3h" name="drug1" id="drug1-time1"><label for="drug1-time1">3h</label>
-                        <input type="radio" value="24h" name="drug1" id="drug1-time2" checked="checked"><label for="drug1-time2">24h</label>
-                    </div>
-                <div class="gr-curve" id="drug1-gr-curve-container"></div>
-                <p class="concentration-val">Concentration (&#x3BC;M) = <br><span id="drug1-concentration-val"><br></span></p>
-                <div class="available-dose" id="drug1-l1000-dose-container"></div>
-                <div class="available-dose" id="drug1-p100-dose-container"></div>
-                <div class="available-dose" id="drug1-gcp-dose-container"></div>
-                <div class="gr-slider" id="drug1-gr-slider-container"></div>
-                <div class="l1000-container">
-                    <p class="concentration-val" id="drug1-l1000-val"></p>
-                    <div class="l1000-up-container" id="drug1-l1000-up-container">
-                            <svg width="120" height="120" class="grid" id="drug1-l1000-up"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-                    </div>
-                    <div class="l1000-down-container" id="drug1-l1000-down-container">
-                            <svg width="120" height="120" class="grid" id="drug1-l1000-down"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-                    </div>
+            <div class="col-xs-6">
+                <div class="row overview">
+                    <div class="col-xs-3">
+                        {% with drug_num="drug1", drug_selected="trametinib"%}
+                            {% include "partials/analysis-drug.html" %}
+                        {% endwith %}
+                    </div> <!-- end col Trametinib -->
+                    <div class="col-xs-3">
+                        {% with drug_num="drug2", drug_selected="alpelisib"%}
+                            {% include "partials/analysis-drug.html" %}
+                        {% endwith %}
+                    </div> <!-- end col Alpelisib -->
+                    <div class="col-xs-3">
+                        {% with drug_num="drug3", drug_selected="vorinostat"%}
+                            {% include "partials/analysis-drug.html" %}
+                        {% endwith %}
+                    </div> <!-- end col Vorinostat -->
+                    <div class="col-xs-3">
+                        {% with drug_num="drug4", drug_selected="palbociclib"%}
+                            {% include "partials/analysis-drug.html" %}
+                        {% endwith %}
+                    </div> <!-- end col-xc-3 Palbociclib -->
                 </div>
-                
-            <div class="p100-container" id="drug1-p100-container">
-                <p class="concentration-val" id="drug1-p100-val"></p>
-                <svg width="120" height="120" class="grid" id="drug1-p100"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-            </div>
-            <div class="gcp-container" id="drug1-gcp-container">
-                <p class="concentration-val" id="drug1-gcp-val"></p>
-                <svg width="120" height="120" class="grid" id="drug1-gcp"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-            </div>
-
-            </div> <!-- end col Trametinib -->
-            <div class="col-xs-3">
-                <div class="drug-label overview-drug-dropdown">
-                          <select id="drug2-dropdown">
-                            <option>Trametinib</option>
-                            <option selected="selected">Alpelisib</option>
-                            <option>Vorinostat</option>
-                            <option>Palbociclib</option>
-                            <option>Neratinib</option>
-                            <option>Paclitaxel</option>
-                            <option>Etoposide</option>
-                            <option>Dasatinib</option>
-                        </select>
-                    </div>
-                    <div class="time-toggle">
-                        <input type="radio" value="3h" name="drug2" id="drug2-time1"><label for="drug2-time1">3h</label>
-                        <input type="radio" value="24h" name="drug2" id="drug2-time2" checked="checked"><label for="drug2-time2">24h</label>
-                    </div>
-                <div class="gr-curve" id="drug2-gr-curve-container"></div>
-                <p class="concentration-val">Concentration (&#x3BC;M) = <br><span id="drug2-concentration-val"><br></span></p>
-                <div class="available-dose" id="drug2-l1000-dose-container"></div>
-                <div class="available-dose" id="drug2-p100-dose-container"></div>
-                <div class="available-dose" id="drug2-gcp-dose-container"></div>
-                <div class="gr-slider" id="drug2-gr-slider-container"></div>
-                <div class="l1000-container">
-                    <p class="concentration-val" id="drug2-l1000-val"></p>
-                    <div class="l1000-up-container" id="drug2-l1000-up-container">
-                            <svg width="120" height="120" class="grid" id="drug2-l1000-up"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-                    </div>
-                    <div class="l1000-down-container" id="drug2-l1000-down-container">
-                            <svg width="120" height="120" class="grid" id="drug2-l1000-down"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-                    </div>
+            </div> 
+            <div class="col-xs-6">
+                <div class="row overview">
+                    <div class="col-xs-3">
+                        {% with drug_num="drug5", drug_selected="neratinib"%}
+                            {% include "partials/analysis-drug.html" %}
+                        {% endwith %}
+                    </div> <!-- end col Neratinib -->
+                    <div class="col-xs-3">
+                        {% with drug_num="drug6", drug_selected="paclitaxel"%}
+                            {% include "partials/analysis-drug.html" %}
+                        {% endwith %}
+                    </div> <!-- end col Paclitaxel -->
+                    <div class="col-xs-3">
+                        {% with drug_num="drug7", drug_selected="etoposide"%}
+                            {% include "partials/analysis-drug.html" %}
+                        {% endwith %}
+                    </div> <!-- end col Etoposide -->
+                    <div class="col-xs-3">
+                        {% with drug_num="drug8", drug_selected="dasatinib"%}
+                            {% include "partials/analysis-drug.html" %}
+                        {% endwith %}
+                    </div> <!-- end col-xc-3 Dasatinib -->
                 </div>
-                
-            <div class="p100-container" id="drug2-p100-container">
-                <p class="concentration-val" id="drug2-p100-val"></p>
-                <svg width="120" height="120" class="grid" id="drug2-p100"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
             </div>
-            <div class="gcp-container" id="drug2-gcp-container">
-                <p class="concentration-val" id="drug2-gcp-val"></p>
-                <svg width="120" height="120" class="grid" id="drug2-gcp"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-            </div>
-            </div> <!-- end col-xc-3 Alpelisib -->
-            <div class="col-xs-3">
-                <div class="drug-label overview-drug-dropdown">
-                          <select id="drug3-dropdown">
-                            <option>Trametinib</option>
-                            <option>Alpelisib</option>
-                            <option selected="selected">Vorinostat</option>
-                            <option>Palbociclib</option>
-                            <option>Neratinib</option>
-                            <option>Paclitaxel</option>
-                            <option>Etoposide</option>
-                            <option>Dasatinib</option>
-                        </select>
-                    </div>
-                    <div class="time-toggle">
-                        <input type="radio" value="3h" name="drug3" id="drug3-time1"><label for="drug3-time1">3h</label>
-                        <input type="radio" value="24h" name="drug3" id="drug3-time2" checked="checked"><label for="drug3-time2">24h</label>
-                    </div>
-                <div class="gr-curve" id="drug3-gr-curve-container"></div>
-                <p class="concentration-val">Concentration (&#x3BC;M) = <br><span id="drug3-concentration-val"><br></span></p>
-                <div class="available-dose" id="drug3-l1000-dose-container"></div>
-                <div class="available-dose" id="drug3-p100-dose-container"></div>
-                <div class="available-dose" id="drug3-gcp-dose-container"></div>
-                <div class="gr-slider" id="drug3-gr-slider-container"></div>
-                <div class="l1000-container">
-                    <p class="concentration-val" id="drug3-l1000-val"></p>
-                    <div class="l1000-up-container" id="drug3-l1000-up-container">
-                            <svg width="120" height="120" class="grid" id="drug3-l1000-up"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-                    </div>
-                    <div class="l1000-down-container" id="drug3-l1000-down-container">
-                            <svg width="120" height="120" class="grid" id="drug3-l1000-down"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-                    </div>
-                </div>
-                
-            <div class="p100-container" id="drug3-p100-container">
-                <p class="concentration-val" id="drug3-p100-val"></p>
-                <svg width="120" height="120" class="grid" id="drug3-p100"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-            </div>
-            <div class="gcp-container" id="drug3-gcp-container">
-                <p class="concentration-val" id="drug3-gcp-val"></p>
-                <svg width="120" height="120" class="grid" id="drug3-gcp"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-            </div>
-            </div> <!-- end col-xc-3 Vorinostat -->
-            <div class="col-xs-3">
-                <div class="drug-label overview-drug-dropdown">
-                          <select id="drug4-dropdown">
-                            <option>Trametinib</option>
-                            <option>Alpelisib</option>
-                            <option>Vorinostat</option>
-                            <option selected="selected">Palbociclib</option>
-                            <option>Neratinib</option>
-                            <option>Paclitaxel</option>
-                            <option>Etoposide</option>
-                            <option>Dasatinib</option>
-                        </select>
-                    </div>
-                    <div class="time-toggle">
-                        <input type="radio" value="3h" name="drug4" id="drug4-time1"><label for="drug4-time1">3h</label>
-                        <input type="radio" value="24h" name="drug4" id="drug4-time2" checked="checked"><label for="drug4-time2">24h</label>
-                    </div>
-                <div class="gr-curve" id="drug4-gr-curve-container"></div>
-                <p class="concentration-val">Concentration (&#x3BC;M) = <br><span id="drug4-concentration-val"><br></span></p>
-                <div class="available-dose" id="drug4-l1000-dose-container"></div>
-                <div class="available-dose" id="drug4-p100-dose-container"></div>
-                <div class="available-dose" id="drug4-gcp-dose-container"></div>
-                <div class="gr-slider" id="drug4-gr-slider-container"></div>
-                <div class="l1000-container">
-                    <p class="concentration-val" id="drug4-l1000-val"></p>
-                    <div class="l1000-up-container" id="drug4-l1000-up-container">
-                            <svg width="120" height="120" class="grid" id="drug4-l1000-up"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-                    </div>
-                    <div class="l1000-down-container" id="drug4-l1000-down-container">
-                            <svg width="120" height="120" class="grid" id="drug4-l1000-down"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-                    </div>
-                </div>
-                
-            <div class="p100-container" id="drug4-p100-container">
-                <p class="concentration-val" id="drug4-p100-val"></p>
-                <svg width="120" height="120" class="grid" id="drug4-p100"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-            </div>
-            <div class="gcp-container" id="drug4-gcp-container">
-                <p class="concentration-val" id="drug4-gcp-val"></p>
-                <svg width="120" height="120" class="grid" id="drug4-gcp"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-            </div>
-            </div> <!-- end col-xc-3 Palbociclib -->
         </div>
-    </div> 
-    <div class="col-xs-6">
-        <div class="row overview">
-            <div class="col-xs-3">
-                <div class="drug-label overview-drug-dropdown">
-                          <select id="drug5-dropdown">
-                            <option>Trametinib</option>
-                            <option>Alpelisib</option>
-                            <option>Vorinostat</option>
-                            <option>Palbociclib</option>
-                            <option selected="selected">Neratinib</option>
-                            <option>Paclitaxel</option>
-                            <option>Etoposide</option>
-                            <option>Dasatinib</option>
-                        </select>
-                    </div>
-                    <div class="time-toggle">
-                        <input type="radio" value="3h" name="drug5" id="drug5-time1"><label for="drug5-time1">3h</label>
-                        <input type="radio" value="24h" name="drug5" id="drug5-time2" checked="checked"><label for="drug5-time2">24h</label>
-                    </div>
-                <div class="gr-curve" id="drug5-gr-curve-container"></div>
-                <p class="concentration-val">Concentration (&#x3BC;M) = <br><span id="drug5-concentration-val"><br></span></p>
-                <div class="available-dose" id="drug5-l1000-dose-container"></div>
-                <div class="available-dose" id="drug5-p100-dose-container"></div>
-                <div class="available-dose" id="drug5-gcp-dose-container"></div>
-                <div class="gr-slider" id="drug5-gr-slider-container"></div>
-                <div class="l1000-container">
-                    <p class="concentration-val" id="drug5-l1000-val"></p>
-                    <div class="l1000-up-container" id="drug5-l1000-up-container">
-                            <svg width="120" height="120" class="grid" id="drug5-l1000-up"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-                    </div>
-                    <div class="l1000-down-container" id="drug5-l1000-down-container">
-                            <svg width="120" height="120" class="grid" id="drug5-l1000-down"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-                    </div>
-                </div>
-                
-            <div class="p100-container" id="drug5-p100-container">
-                <p class="concentration-val" id="drug5-p100-val"></p>
-                <svg width="120" height="120" class="grid" id="drug5-p100"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-            </div>
-            <div class="gcp-container" id="drug5-gcp-container">
-                <p class="concentration-val" id="drug5-gcp-val"></p>
-                <svg width="120" height="120" class="grid" id="drug5-gcp"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-            </div>
-            </div> <!-- end col-xc-3 Neratinib -->
-            <div class="col-xs-3">
-                <div class="drug-label overview-drug-dropdown">
-                          <select id="drug6-dropdown">
-                            <option>Trametinib</option>
-                            <option>Alpelisib</option>
-                            <option>Vorinostat</option>
-                            <option>Palbociclib</option>
-                            <option>Neratinib</option>
-                            <option selected="selected">Paclitaxel</option>
-                            <option>Etoposide</option>
-                            <option>Dasatinib</option>
-                        </select>
-                    </div>
-                    <div class="time-toggle">
-                        <input type="radio" value="3h" name="drug6" id="drug6-time1"><label for="drug6-time1">3h</label>
-                        <input type="radio" value="24h" name="drug6" id="drug6-time2" checked="checked"><label for="drug6-time2">24h</label>
-                    </div>
-                <div class="gr-curve" id="drug6-gr-curve-container"></div>
-                <p class="concentration-val">Concentration (&#x3BC;M) = <br><span id="drug6-concentration-val"><br></span></p>
-                <div class="available-dose" id="drug6-l1000-dose-container"></div>
-                <div class="available-dose" id="drug6-p100-dose-container"></div>
-                <div class="available-dose" id="drug6-gcp-dose-container"></div>
-                <div class="gr-slider" id="drug6-gr-slider-container"></div>
-                <div class="l1000-container">
-                    <p class="concentration-val" id="drug6-l1000-val"></p>
-                    <div class="l1000-up-container" id="drug6-l1000-up-container">
-                            <svg width="120" height="120" class="grid" id="drug6-l1000-up"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-                    </div>
-                    <div class="l1000-down-container" id="drug6-l1000-down-container">
-                            <svg width="120" height="120" class="grid" id="drug6-l1000-down"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-                    </div>
-                </div>
-                
-            <div class="p100-container" id="drug6-p100-container">
-                <p class="concentration-val" id="drug6-p100-val"></p>
-                <svg width="120" height="120" class="grid" id="drug6-p100"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-            </div>
-            <div class="gcp-container" id="drug6-gcp-container">
-                <p class="concentration-val" id="drug6-gcp-val"></p>
-                <svg width="120" height="120" class="grid" id="drug6-gcp"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-            </div>
-            </div> <!-- end col-xc-3 Paclitaxel -->
-            <div class="col-xs-3">
-                <div class="drug-label overview-drug-dropdown">
-                          <select id="drug7-dropdown">
-                            <option>Trametinib</option>
-                            <option>Alpelisib</option>
-                            <option>Vorinostat</option>
-                            <option>Palbociclib</option>
-                            <option>Neratinib</option>
-                            <option>Paclitaxel</option>
-                            <option selected="selected">Etoposide</option>
-                            <option>Dasatinib</option>
-                        </select>
-                    </div>
-                    <div class="time-toggle">
-                        <input type="radio" value="3h" name="drug7" id="drug7-time1"><label for="drug7-time1">3h</label>
-                        <input type="radio" value="24h" name="drug7" id="drug7-time2" checked="checked"><label for="drug7-time2">24h</label>
-                    </div>
-                <div class="gr-curve" id="drug7-gr-curve-container"></div>
-                <p class="concentration-val">Concentration (&#x3BC;M) = <br><span id="drug7-concentration-val"><br></span></p>
-                <div class="available-dose" id="drug7-l1000-dose-container"></div>
-                <div class="available-dose" id="drug7-p100-dose-container"></div>
-                <div class="available-dose" id="drug7-gcp-dose-container"></div>
-                <div class="gr-slider" id="drug7-gr-slider-container"></div>
-                <div class="l1000-container">
-                    <p class="concentration-val" id="drug7-l1000-val"></p>
-                    <div class="l1000-up-container" id="drug7-l1000-up-container">
-                            <svg width="120" height="120" class="grid" id="drug7-l1000-up"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-                    </div>
-                    <div class="l1000-down-container" id="drug7-l1000-down-container">
-                            <svg width="120" height="120" class="grid" id="drug7-l1000-down"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-                    </div>
-                </div>
-                
-            <div class="p100-container" id="drug7-p100-container">
-                <p class="concentration-val" id="drug7-p100-val"></p>
-                <svg width="120" height="120" class="grid" id="drug7-p100"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-            </div>
-            <div class="gcp-container" id="drug7-gcp-container">
-                <p class="concentration-val" id="drug7-gcp-val"></p>
-                <svg width="120" height="120" class="grid" id="drug7-gcp"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-            </div>
-            </div> <!-- end col-xc-3 Etoposide -->
-            <div class="col-xs-3">
-                <div class="drug-label overview-drug-dropdown">
-                          <select id="drug8-dropdown">
-                            <option>Trametinib</option>
-                            <option>Alpelisib</option>
-                            <option>Vorinostat</option>
-                            <option>Palbociclib</option>
-                            <option>Neratinib</option>
-                            <option>Paclitaxel</option>
-                            <option>Etoposide</option>
-                            <option selected="selected">Dasatinib</option>
-                        </select>
-                    </div>
-                    <div class="time-toggle">
-                        <input type="radio" value="3h" name="drug8" id="drug8-time1"><label for="drug8-time1">3h</label>
-                        <input type="radio" value="24h" name="drug8" id="drug8-time2" checked="checked"><label for="drug8-time2">24h</label>
-                    </div>
-                <div class="gr-curve" id="drug8-gr-curve-container"></div>
-                <p class="concentration-val">Concentration (&#x3BC;M) = <br><span id="drug8-concentration-val"><br></span></p>
-                <div class="available-dose" id="drug8-l1000-dose-container"></div>
-                <div class="available-dose" id="drug8-p100-dose-container"></div>
-                <div class="available-dose" id="drug8-gcp-dose-container"></div>
-                <div class="gr-slider" id="drug8-gr-slider-container"></div>
-                <div class="l1000-container">
-                    <p class="concentration-val" id="drug8-l1000-val"></p>
-                    <div class="l1000-up-container" id="drug8-l1000-up-container">
-                            <svg width="120" height="120" class="grid" id="drug8-l1000-up"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-                    </div>
-                    <div class="l1000-down-container" id="drug8-l1000-down-container">
-                            <svg width="120" height="120" class="grid" id="drug8-l1000-down"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-                    </div>
-                </div>
-                
-            <div class="p100-container" id="drug8-p100-container">
-                <p class="concentration-val" id="drug8-p100-val"></p>
-                <svg width="120" height="120" class="grid" id="drug8-p100"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-            </div>
-            <div class="gcp-container" id="drug8-gcp-container">
-                <p class="concentration-val" id="drug8-gcp-val"></p>
-                <svg width="120" height="120" class="grid" id="drug8-gcp"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-            </div>
-            </div> <!-- end col-xc-3 Dasatinib -->
-        </div>
-    </div>
-</div>
-</div>
-</div> <!-- /.container -->
+    </div> <!-- /.row -->
+    </div> <!-- /.analysis -->
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
