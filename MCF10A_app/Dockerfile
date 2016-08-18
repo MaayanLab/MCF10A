@@ -17,6 +17,6 @@ RUN pip install -Iv Flask==0.10.1
 
 EXPOSE 80
 
-ADD . /flask-apache
+ADD . /mcf10a
 
-CMD /flask-apache/boot.sh
+CMD /mcf10a/boot.sh
