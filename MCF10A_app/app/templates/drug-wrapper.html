@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>{{drug_selected|capitalize}} | MCF10A Dense Data Cube</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.3.15/slick.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  {% include "partials/header.html"%}
+  <div class="container">{% block content %}{% endblock %}</div>
+
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+          <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>
+          <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+          <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+          <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+          <script src="gr_curve.js"></script>
+          <script src="boxplot.js"></script>
+
+          <!-- Required JS Libraries -->
+          <script src="lib/js/d3.js"></script>
+          <script src="lib/js/jquery-1.11.2.min.js"></script>
+          <script src="lib/js/jquery-ui.js"></script>
+          <script src="lib/js/underscore-min.js"></script>
+          <script src="lib/js/bootstrap.min.js"></script>
+          <script src="lib/js/blockUI.js"></script>
+
+          <!-- Clustergrammer JS -->
+          <script src='clustergrammer.js'></script>
+          <script src='gene_info.js'></script>
+          <script src='load_clustergram.js'></script>
+        </body>
+        </html>

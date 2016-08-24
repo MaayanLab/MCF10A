@@ -1,0 +1,368 @@
+{% extends "drug-wrapper.html" %}
+{% block content %}
+    <div class="drug-dropdown">
+      <select class="all-drugs" id="drug-select">
+        <option {{'selected="selected"' if drug_selected == "trametinib" else "" }}>Trametinib</option>
+        <option {{'selected="selected"' if drug_selected == "alpelisib" else "" }}>Alpelisib</option>
+        <option {{'selected="selected"' if drug_selected == "vorinostat" else "" }}>Vorinostat</option>
+        <option {{'selected="selected"' if drug_selected == "palbociclib" else "" }}>Palbociclib</option>
+        <option {{'selected="selected"' if drug_selected == "neratinib" else "" }}>Neratinib</option>
+        <option {{'selected="selected"' if drug_selected == "paclitaxel" else "" }}>Paclitaxel</option>
+        <option {{'selected="selected"' if drug_selected == "etoposide" else "" }}>Etoposide</option>
+        <option {{'selected="selected"' if drug_selected == "dasatinib" else "" }}>Dasatinib</option>
+      </select>
+    </div>
+
+    <div class="drug-subheading">
+      <p>(MEK)</p>
+      <p>BRD-K12343256</p>
+    </div>
+
+    <div class="description">
+      MEK Inhibitor Trametinib is an orally bioavailable inhibitor of mitogen-activated protein kinase kinase (MEK MAPK/ERK kinase) with potential antineoplastic activity. Trametinib specifically binds to and inhibits MEK 1 and 2, resulting in an inhibition of growth factor-mediated cell signaling and cellular proliferation in various cancers. MEK 1 and 2, dual specificity threonine/tyrosine kinases often upregulated in various cancer cell types, play a key role in the activation of the RAS/RAF/MEK/ERK signaling pathway that regulates cell growth.
+
+      <div class="pubchem-link">Learn more on <a href="https://pubchem.ncbi.nlm.nih.gov/compound/Trametinib" target="_blank"><img class="pubchem-logo" src="{{ url_for('static', filename='image/pubchem-logo.svg') }}"></a></div>
+      <br>
+      More drug information can be found on 
+      <table style="width:60%;text-align:center; margin: 0 auto;">
+        <tr>
+          <td><a class="lincs-logo" href="http://lincsportal.ccs.miami.edu/entities/#/view/LSM-1143" target="_blank">LINCS Data Portal</a></td>
+          <td><a href="http://www.drugbank.ca/drugs/DB08911b" target="_blank"><img class="pubchem-logo" src="{{ url_for('static', filename='image/drugbank-logo.png') }}"></a></td>
+          <td><a class="chembl-logo" href="https://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL2103875" target="_blank">ChEMBL</a></td>
+        </tr>
+      </table>
+    </div>
+    <div class="data-overview"> 
+      <h2>Data Available</h2>
+      <table style="width:60%; text-align:center; margin: 0 auto; border: 1px solid black;">
+        <tr>
+          <td class="data-box gr-metrics-box" onClick="window.location.href='#GR';"><div class="data-box-title">GR Metrics</div></td>
+          <td class="data-box l1k-box" onClick="window.location.href='#L1000';" style="vertical-align: top;">
+            <table style="width:100%">
+              <tr>
+                <td colspan=2 style="width:100%"><div class="data-box-title">L1000</div></td></tr>
+                <tr>
+                  <td>3h</td>
+                  <td>24h</td>
+                </tr>
+                <tr>
+                  <td>0.04 &mu;M</td>
+                  <td>0.04 &mu;M</td>
+                </tr>
+                <tr>
+                  <td>0.12 &mu;M</td>
+                  <td>0.12 &mu;M</td>
+                </tr>
+                <tr>
+                  <td>0.37 &mu;M</td>
+                  <td>0.37 &mu;M</td>
+                </tr>
+                <tr>
+                  <td>1.11 &mu;M</td>
+                  <td>1.11 &mu;M</td>
+                </tr>
+                <tr>
+                  <td>3.33 &mu;M</td>
+                  <td>3.33 &mu;M</td>
+                </tr>
+                <tr>
+                  <td>10 &mu;M</td>
+                  <td>10 &mu;M</td>
+                </tr>
+              </table>
+            </td>
+            <td class="data-box p100-box" onClick="window.location.href='#P100';"style="vertical-align: top;">
+              <table style="width:100%;">
+                <tr>
+                  <td colspan=2 style="width:100%"><div class="data-box-title">P100</div></td></tr>
+                  <tr>
+                    <td>3h</td>
+                  </tr>
+                  <tr>
+                    <td>0.001 &mu;M</td>
+                  </tr>
+                  <tr>
+                    <td>0.003162 &mu;M</td>
+                  </tr>
+                  <tr>
+                    <td>0.01 &mu;M</td>
+                  </tr>
+                </table>
+              </td>
+              <td class="data-box gcp-box" onClick="window.location.href='#GCP';"style="vertical-align: top;">
+                <table style="width:100%;">
+                  <tr>
+                    <td colspan=2 style="width:100%"><div class="data-box-title">GCP</div></td></tr>
+                    <tr>
+                      <td>24h</td>
+                    </tr>
+                    <tr>
+                      <td>0.001 &mu;M</td>
+                    </tr>
+                    <tr>
+                      <td>0.003162 &mu;M</td>
+                    </tr>
+                    <tr>
+                      <td>0.01 &mu;M</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+          </div> <!-- data-overview -->
+          <div class="assay-content">
+            <h2 id="GR">GR Metrics</h2>
+            <div class="description">
+              <p>
+                <a href="http://eh3.uc.edu/apps/grtutorial/Home.html" target="_blank">GR metrics</a> are derived from normalized growth rate inhibition (GR) values which are based on the ratio of growth rates in the presence and absence of perturbagen. Largely independent of cell division rate and assay duration, GR metrics are more robust than IC<sub>50</sub> and E<sub>max</sub> for assessing cellular response to drugs, RNAi, and other perturbations in which control cells divide over the course of the assay.
+              </p>
+              <div class="gr-equation">
+                <p>Each GR curve is fitted to a sigmoidal curve as follows</p>
+                <math>
+                  <!-- <mrow> -->
+                  <mi>GR(c)</mi>
+                  <mo>=</mo>
+                  <msub>
+                    <mi>GR</mi>
+                    <mn>inf</mn>
+                  </msub>
+                  <mo>+</mo>
+                  <mfrac>
+                    <mrow>
+                      <mi>1</mi>
+                      <mo>&#x2212;</mo>
+                      <msub>
+                        <mi>GR</mi>
+                        <mn>inf</mn>
+                      </msub>
+                    </mrow>
+                    <mrow>
+                      <mi>1</mi>
+                      <mo>&#x2b;</mo>
+                      <mo>(</mo>
+                      <mi>c</mi>
+                      <mo>/</mo>
+                      <msub>
+                        <mi>GEC</mi>
+                        <mn>50</mn>
+                      </msub>
+                      <msup>
+                        <mo>)</mo>
+                        <mn>
+                          <msub>
+                          <mi>h</mi>
+                          <mn>GR</mn>
+                          </msub>
+                        </mn>
+
+                      </msup>
+                    </mrow>
+                  </mfrac>
+                  <!-- </mrow> -->
+                </math>
+              </div>
+            </div>
+            <div class="gr-curve"></div>
+
+<!--             <div class="row display-table">
+              <div class="col-sm-2 col-sm-table-cell vertical-align-middle">
+                <p>GEC<sub>50</sub></p>
+              </div>
+              <div class="col-sm-10">
+                <div class="gec50-boxplot"></div>
+              </div>
+            </div> -->
+            <div class="row">
+              <div class="col-sm-2">
+                <div class="gr-parameter">GEC<sub>50</sub>
+                  <p>concentration at half-maximal effect</p>
+                </div>
+              </div>
+              <div class="col-sm-10">
+                <div class="gec50-boxplot"></div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-2">
+                <div class="gr-parameter">GR<sub>Inf</sub>
+                  <p>effect of drug at infinite concentration</p>
+                </div>
+              </div>
+              <div class="col-sm-10">
+                <div class="grinf-boxplot"></div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-sm-2">
+                <div class="gr-parameter">h<sub>GR</sub>
+                  <p>(Hill coefficient) reflects how steep the dose-response curve is</p>
+                </div>
+              </div>
+              <div class="col-sm-10">
+                <div class="hill-boxplot"></div>
+              </div>
+            </div>
+            <!-- <div class="gr50-boxplot"></div> -->
+            <div class="download-table">
+              <a href="data/gr/metrics/MCF10A_trametinib_GR.tsv">download GR metrics</a>
+            </div>
+          </div> <!-- /.assay-content -->
+
+          <div class="assay-content">
+            <h2>GR + L1000 (Enrichr)</h2>
+            <div class="description">
+              <p>
+                <a href="http://amp.pharm.mssm.edu/Enrichr/" target="_blank">
+                  Enrichr</a> is a web tool that performs gene set enrichment analysis. <b>ADD DESCRIPTION</b>
+                </p>
+                <p>
+                  Enriched terms from
+                  <select>
+                    <option>ChEA 2015</option>
+                    <option>ENCODE TF ChIP-seq 2015</option>
+                    <option>KEGG 2016</option>
+                    <option>MGI Mammalian Phenotype Level 4</option>
+                    <option>GO Biological Process 2015</option>
+                  </select>
+                </p>
+                <div class="row">
+                  <div class="col-md-6">
+                    <p>Up Regulated Genes</p>
+                    <table class="table table-hover" id="enrichr">
+                      <thead>
+                        <tr>
+                          <th>Rank</th>
+                          <th>Enriched Term</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td># </td>
+                          <td>term</td>
+                        </tr>
+                        <tr>
+                          <td># </td>
+                          <td>term</td>
+                        </tr>
+                        <tr>
+                          <td># </td>
+                          <td>term</td>
+                        </tr>
+                        <tr>
+                          <td># </td>
+                          <td>term</td>
+                        </tr>
+                        <tr>
+                          <td># </td>
+                          <td>term</td>
+                        </tr>
+                        <tr>
+                          <td># </td>
+                          <td>term</td>
+                        </tr>
+                        <tr>
+                          <td># </td>
+                          <td>term</td>
+                        </tr>
+                        <tr>
+                          <td># </td>
+                          <td>term</td>
+                        </tr>
+                        <tr>
+                          <td># </td>
+                          <td>term</td>
+                        </tr>
+                        <tr>
+                          <td># </td>
+                          <td>term</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Down Regulated Genes</h4>
+                    <p>Term</p>
+                    <p>Term</p>
+                    <p>Term</p>
+                    <p>Term</p>
+                    <p>Term</p>
+                    <p>Term</p>
+                    <p>Term</p>
+                    <p>Term</p>
+                    <p>Term</p>
+                    <p>Term</p>
+                  </div>
+                </div>
+                
+              </div>
+              <!-- <div class="l1000" style="overflow:hidden;"><iframe src="http://amp.pharm.mssm.edu/clustergrammer/viz/578e84c9b30ca205ff4655f5/KEGG_2016_trametinib_24h_combined_score.tsv" style="width:100%; height:800px; border:none;"></iframe></div> -->
+              <div id="enrichr-clustergrammer">
+                <div id="ChEA_2015" style="display:block;"><span id="ChEA_2015-loading">Loading Clustergrammer</span></div>
+                <div id="ENCODE_TF_ChIP-seq_2015" style="display:none;"><span id="ENCODE_TF_ChIP-seq_2015-loading">Loading Clustergrammer</span></div>
+                <div id="KEGG_2016" style="display:none;"><span id="KEGG_2016-loading">Loading Clustergrammer</span></div>
+                <div id="MGI_Mammalian_Phenotype_Level_4" style="display:none;"><span id="MGI_Mammalian_Phenotype_Level_4-loading">Loading Clustergrammer</span></div>
+                <div id="GO_Biological_Process_2015" style="display:none;"><span id="GO_Biological_Process_2015-loading">Loading Clustergrammer</span></div>
+              </div>
+              <div class="download-table">
+                <b>ADD DOWNLOAD TABLE</b>
+              </div>
+            </div> <!-- /.assay-content -->
+
+            <div class="assay-content">
+              <h2 id="L1000">L1000</h2>
+              <div class="description">
+                <a href="http://www.lincscloud.org/l1000/" target="_blank">L1000</a> is a gene expression profiling assay based on the direct measurement of a reduced representation of the transcriptome and computational inference of the portion of the transcriptome not explicitly measured.
+              </div>
+              <div class="time-toggle" id="l1000-time-btns">
+                <b>Time:</b>
+                <input type="radio" id="l1000-time1" name="l1000-time" value="3h" checked>
+                <label for="l1000-time1">3h</label>
+
+                <input type="radio" id="l1000-time2" name="l1000-time" value="24h">
+                <label for="l1000-time2">24h</label>
+              </div>
+
+              <!-- <div style="overflow:hidden;"><iframe src="http://amp.pharm.mssm.edu/clustergrammer/viz/5773f64dcf06495defba288c/MCF10A_L1000_trametinib_3h.tsv" style="width:100%; height:800px; border:none;"></iframe></div> -->
+              <div id="l1000-clustergrammer">
+                <div id="l1000-3h" style="display:block;"><span id="l1000-3h-clustergrammer-loading">Loading Clustergrammer</span></div>
+                <div id="l1000-24h" style="display:none;"><span id="l1000-24h-clustergrammer-loading">Loading Clustergrammer</span></div>
+              </div>
+              <div class="download-table">
+                <b>ADD DOWNLOAD TABLE</b>
+              </div> <!-- /.assay-content (L1000) -->
+            </div>
+            <div class="assay-content">
+              <h2 id="P100">P100</h2>
+              <div class="description">
+                <a href="http://www.broadinstitute.org/~jjaffe/p100.php" target="_blank">P100</a> assay consists of a set of 96 phosphopeptide probes that are easily observable and quantifiable in diverse cell types ranging from embryonic stem cells to human leukemia cells, and that they behave in interesting and orthogonal ways in response to varied chemical and genetic pertrubations. 
+              </div>
+              <div class="time-toggle" id="p100-time-btns">
+                <b>Time:</b>
+                <input type="radio" id="p100-time1" name="p100-time" value="3h" checked>
+                <label for="p100-time1">3h</label>
+              </div>
+              <div id="p100-clustergrammer"><span id="p100-clustergrammer-loading">Loading Clustergrammer</span></div>
+              <div class="download-table">
+              <a href="data/p100/values/P100_trametinib_3h.tsv">download P100 metrics</a>
+            </div>
+            </div> <!-- /.assay-content (P100) -->
+            <div class="assay-content">
+              <h2 id="GCP">GCP</h2>
+              <div class="description">
+                <a href="http://www.broadinstitute.org/~jjaffe/p100.php" target="_blank">Global chromatin profiling (GCP)</a> technology is a mass spectrometry-based assay to identify and quantify post-translational modifications on histone proteins from bulk chromatin.
+              </div>
+              <div class="time-toggle" id="gcp-time-btns">
+                <b>Time:</b>
+                <input type="radio" id="gcp-time1" name="gcp-time" value="3h" checked>
+                <label for="gcp-time1">24h</label>
+              </div>
+              <div class="l1000" id="gcp-clustergrammer"><span id="gcp-clustergrammer-loading">Loading Clustergrammer</span></div>
+              <div class="download-table">
+              <a href="data/gcp/values/GCP_trametinib_24h.tsv">download GCP metrics</a>
+            </div>
+            </div> <!-- /.assay-content (GCP) -->
+          {% endblock %}
+
