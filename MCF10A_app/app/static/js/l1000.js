@@ -1,6 +1,6 @@
 // GLOBAL VARIABLES
 var drugNumArray = ["drug1", "drug2", "drug3", "drug4", "drug5", "drug6", "drug7", "drug8"];
-var all_layouts = {}; //Object with all tile layouts
+//var all_layouts = {}; //Object with all tile layouts
 /*{
 	'library': {'3h': [], '24h': []},
 	'library': {'3h': [], '24h': []}, 
@@ -8,7 +8,7 @@ var all_layouts = {}; //Object with all tile layouts
 }*/
 
 
-var all_values = {};
+//var all_values = {};
 
 /*{
 	'library': {'3h': {'drug': values}, '24h': {'drug': values}}
@@ -252,95 +252,4 @@ $('#l1000-dropdown').on('change', function() {
 		// TODO: need to update canvas for all 8 drugs
 		updateL1000Concentration(grDatapoints[curDrugSelected]['x'].invert(curPosition), drugNum, curDrugSelected, curLibSelected, curTimeSelected);
 	}
-});
-
-function addCanvasOrder(order, filename){
-	var time = filename.split("_").slice(-1)[0];
-	var library = filename.split("_").slice(0, -1).join("_");
-
-	/*{
-		'library': {'3h': [], '24h': []},
-		'library': {'3h': [], '24h': []}, 
-		...
-	}*/
-
-	if (!(library in all_layouts)){
-		all_layouts[library] = {};
-	}
-	all_layouts[library][time] = order;
-}
-
-$(document).ready(function() {
-	// Load all data from server using AJAX requests
-	// get file with file location of all tile orderings
-	/*window.testData*/
-	console.log(window.testData);
-	/*{% for d in json_data %}
-            console.log({{d | safe}})
-     {%endfor%}*/
-	$.ajax({
-		type: "GET",
-		url: "static/data/l1000/canvas_order/filenames.txt",
-		dataType: "text",
-		success: function(data) {
-			var lines = data.split(/\r\n|\n/);
-			for(var i = 0; i < lines.length; i++){
-				if (lines[i] == "filenames.txt" || !lines[i]){
-					continue;
-				}
-				$.ajax({
-					type: "GET",
-					url: "static/data/l1000/canvas_order/" + lines[i],
-					dataType: "text",
-					success: function(data) {
-						var filename = this.url.split("/").slice(-1)[0].split(".")[0];
-						//add tile orderings to global var 'all_layouts'
-						addCanvasOrder(JSON.parse(data)['texts'], filename);
-					}
-				});
-			}
-		}
-	});
-
-	// get file with file location of all values for tiles
-	$.ajax({
-		type: "GET",
-		url: "static/data/l1000/values/filenames.txt",
-		dataType: "text",
-		success: function(data) {
-			var lines = data.split(/\r\n|\n/);
-			for(var i = 0; i < lines.length; i++){
-				if (lines[i] == "filenames.txt" || !lines[i]){
-					continue;
-				}
-				$.ajax({
-					type: "GET",
-					url: "static/data/l1000/values/" + lines[i],
-					dataType: "text",
-					success: function(data) {
-						var filename = this.url.split("/").slice(-1)[0].split(".")[0];
-						var time = filename.split("_").slice(-3)[0];
-						var drug = filename.split("_").slice(-4)[0];
-						var library = filename.split("_").slice(0, -4).join("_");
-						//add values to global var 'all_values'
-						if (!(library in all_values)){
-							all_values[library] = {};
-						}
-						if (!(time in all_values[library])){
-							all_values[library][time] = {};
-						}
-
-						all_values[library][time][drug] = parseCombinedScoreL1000(data);
-					}
-				});
-			}
-		}
-	});
-});
-
-
-// After all data has loaded, this function is called
-$(document).ajaxStop(function() {
-
-
 });

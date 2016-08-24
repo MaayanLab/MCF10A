@@ -11,19 +11,7 @@ var marginSlider = {top: 10, right: 10, bottom: 10, left: 10},
 widthSlider = widthRange - marginSlider.left - marginSlider.right,
 heightSlider = 20 - marginSlider.top - marginSlider.bottom;
 
-/*{
-  'drug': {
-    'datapoints': [medianData],
-    'x': xFunction,
-    'y': yFunction,
-    'line': lineFunction,
-    'buckets': 
-        {"library/P100/GCP": {
-                              '3h': {[minCoord, maxCoord]: concentration, [minCoord, maxCoord]: concentration, ...}
-                            }
-        }
-  }
-}*/
+
 var grDatapoints = {};
 
 function between(val, min, max){
@@ -190,7 +178,8 @@ function getConcentrationArray(curLibSelected, curTimeSelected, curDrugSelected)
   var concentrationArray = NaN;
   if (curTimeSelected in all_values[curLibSelected]){
     if(curDrugSelected in all_values[curLibSelected][curTimeSelected]){
-      var concentrationArray = Object.keys(all_values[curLibSelected][curTimeSelected][curDrugSelected]).map(Number);
+      /*var concentrationArray = Object.keys(all_values[curLibSelected][curTimeSelected][curDrugSelected]).map(Number);*/
+      var concentrationArray = Object.keys(all_values[curLibSelected][curTimeSelected][curDrugSelected]);
       concentrationArray.sort(function(a,b) { return a - b; }); // sort the concentrations from smallest to largest
     }
   }
@@ -415,20 +404,6 @@ function addGRCurve(initialPosition, curDrugSelected, curTimeSelected, curLibSel
   var max = d3.max(allConcentrations);
   var min = d3.min(allConcentrations);
 
-/*  var play = slider.append("polygon")
-                  .attr("points", "-20,-5 -20,5 -10,0")
-                  .attr("class", "play-button")
-                  .attr("id", drugNum + "-play")
-                  .on("click", function() { 
-
-                    slider.transition() 
-                    .duration(20000)
-                    .tween("play", function() {
-                      var i = d3.interpolate(min, max);
-                      return function(t) { updateConcentration(i(t), drugNum, xFunction); };
-                    }); 
-                  });*/
-
   playSlider(slider, drugNum, min, max, xFunction);
 
   // if assay has concentration available, add track with color, otherwise make track "white"
@@ -519,7 +494,7 @@ function renderBlank(drugNum) {
 }
 
 function updateConcentration(c, drugNum, xFunction){
-  $("#" + drugNum + "-concentration-val").text(c.toPrecision(6));
+  $("#" + drugNum + "-concentration-val").text(Number(c).toPrecision(6));
   $("#" + drugNum + "-verticalline").attr("x1", xFunction(c))
                                 .attr("x2", xFunction(c));
   $("#" + drugNum + "-gr-curve-handle").attr("x", xFunction(c));

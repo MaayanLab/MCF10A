@@ -21,7 +21,10 @@
         {% include "partials/header.html"%}
         
     <script>
-        window.testData = {{json_data | tojson}};
+        window.all_layouts = {{canvas_order | tojson}};
+        window.all_values = {{canvas_values | tojson}};
+        window.p100GeneLookup = {{p100_gene_lookup | tojson}};
+        window.gcpLookup = {{gcp_lookup | tojson}};
     </script>
 
     <div class="analysis">
