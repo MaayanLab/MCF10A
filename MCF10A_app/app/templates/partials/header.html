@@ -1,6 +1,6 @@
 <h1>MCF10A Dense Cube </h1>
 <div class="navigation-container">
-	<span class="navigation {{'current' if menu_item == "analysis" else "" }}"><a href="analysis.html">Analysis</a></span> | 
-	<span class="navigation {{'current' if menu_item == "assays" else "" }}"><a href="assays.html">Assays</a></span> | 
-	<span class="navigation {{'current' if menu_item == "drugs" else "" }}"><a href="drugs.html">Drugs</a></span>
+	<span class="navigation {{'current' if menu_item == "analysis" else "" }}"><a href="{{ url_for('analysis') }}">Analysis</a></span> | 
+	<span class="navigation {{'current' if menu_item == "assays" else "" }}"><a href="{{ url_for('assays') }}">Assays</a></span> | 
+	<span class="navigation {{'current' if menu_item == "drugs" else "" }}"><a href="{{ url_for('drugs') }}">Drugs</a></span>
 </div>
