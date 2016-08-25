@@ -3,17 +3,21 @@ import os
 import glob, json, csv
 from . import flask_app as app
 import utils
+from tile_factory import parser
 
 # define all routes
 @app.route(app.config["ENTRY_POINT"], methods=['GET'])
 @app.route(app.config["ENTRY_POINT"] + "index.html", methods=['GET'])
 @app.route(app.config["ENTRY_POINT"] + "assays", methods=['GET'])
 def assays():
-    return render_template("assays.html", menu_item="assays")
+    all_tiles =  parser.get_tile_list(app.static_folder + "/data/tiles/assay-tiles.txt")
+    return render_template("all-tiles.html", menu_item="assays", tile_list=all_tiles)
 
 @app.route(app.config["ENTRY_POINT"] + "drugs", methods=['GET'])
 def drugs():
-    return render_template("drugs.html", menu_item="drugs")
+    all_tiles =  parser.get_tile_list(app.static_folder + "/data/tiles/drug-tiles.txt")
+    return render_template("all-tiles.html", menu_item="drugs", tile_list=all_tiles)
+    # return render_template("assays.html", menu_item="assays", all_tiles=all_tiles)
 
 @app.route(app.config["ENTRY_POINT"] + "analysis", methods=['GET'])
 @app.route(app.config["ENTRY_POINT"] + "analysis.html", methods=['GET'])

@@ -1,0 +1,77 @@
+title
+GR
+description
+metrics based on estimating <span class="emphasis">growth rate inhibition (GR)</span> in the presence of a drug (relative to an untreated control) using endpoint or time-course assays
+data
+Cell Counts
+download
+gr/raw/All-Centers_cellcounts_060216.tsv
+details
+gr#cellcounts
+data
+GR Metrics
+download
+gr/raw/All-Centers_GRmetrics_060116.tsv
+details
+gr#grmetrics
+
+title
+L1000
+description
+measures transcriptome of <span class="emphasis">1,000 (landmark) genes</span> that capture approximately 80% of information
+data
+GCT
+download
+
+details
+
+
+title
+P100
+description
+a mass spectrometry-based targeted proteomics assay that detects and quantifies a representative set of <span class="emphasis">~100 phosphopeptide probes</span> that have been demonstrated to be modulated via perturbations
+data
+GCT
+download
+LINCS_P100_PRM_Plate35_annotated_minimized_2016-06-10_11-43-55.processed.gct
+details
+p100
+
+title
+Global Chromatin Profiling (GCP)
+description
+a targeted proteomic assay against ~60 probes that monitor combinations of post-translational modifications on histones
+data
+GCT
+download
+LINCS_GCP_Plate35_annotated_minimized_2016-06-09_13-14-47.processed.gct
+details
+gcp
+
+title
+MEP
+description
+<b>Staining Set 1 (SS1)</b>: Morphology and Metabolism <br>
+(DAPI, phalloidin, CellMask, mitoTracker) <br>
+<b>Staining Set 2 (SS2)</b>: Cell Cycle and Nuclear State <br>
+(DAPI, none, FBL, EdU) <br>
+<b>Staining Set 3 (SS3)</b>: Lineage Status <br>
+(DAPI, KRT5, KRT19, CellMask)
+data
+SS1
+download
+
+details
+
+data
+SS2
+download
+
+details
+
+data
+SS3
+download
+
+details
+

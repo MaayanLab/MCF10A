@@ -1,0 +1,251 @@
+title
+Trametinib
+description
+(MEK) <br>
+BRD-K12343256
+data
+GR metrics
+download
+
+details
+
+data
+L1000 - 3h
+download
+
+details
+
+data
+L1000 - 24h
+download
+
+details
+
+data
+P100 - 3h
+download
+
+details
+
+data
+GCP - 24h
+download
+
+details
+
+
+title
+Alpelisib
+description
+(PIK3CA) <br>
+BRD-K54997624
+data
+GR metrics
+download
+
+details
+
+data
+L1000 - 3h
+download
+
+details
+
+data
+L1000 - 24h
+download
+
+details
+
+data
+P100 - 3h
+download
+
+details
+
+data
+GCP - 24h
+download
+
+details
+
+
+title
+Vorinostat
+description
+(HDAC) <br>
+BRD-K81418486
+data
+GR metrics
+download
+
+details
+
+data
+P100 - 3h
+download
+
+details
+
+data
+GCP - 24h
+download
+
+details
+
+
+title
+Palbociclib
+description
+(CDK4/6K) <br>
+BRD-K51313569
+data
+GR metrics
+download
+
+details
+
+data
+L1000 - 3h
+download
+
+details
+
+data
+L1000 - 24h
+download
+
+details
+
+data
+P100 - 3h
+download
+
+details
+
+data
+GCP - 24h
+download
+
+details
+
+
+title
+Neratinib
+description
+(HER2/EGFR) <br>
+BRD-K85606544
+data
+GR metrics
+download
+
+details
+
+data
+L1000 - 3h
+download
+
+details
+
+data
+L1000 - 24h
+download
+
+details
+
+data
+P100 - 3h
+download
+
+details
+
+data
+GCP - 24h
+download
+
+details
+
+
+title
+Paclitaxel
+description
+(microtubules) <br>
+BRD-A99265323
+data
+GR metrics
+download
+
+details
+
+data
+P100 - 3h
+download
+
+details
+
+data
+GCP - 24h
+download
+
+details
+
+
+title
+Etoposide
+description
+(topoisomerase) <br>
+BRD-K37798499
+data
+GR metrics
+download
+
+details
+
+data
+P100 - 3h
+download
+
+details
+
+data
+GCP - 24h
+download
+
+details
+
+
+title
+Dasatinib
+description
+(BCR/ABL) <br>
+BRD-K49328571
+data
+GR metrics
+download
+
+details
+
+data
+L1000 - 3h
+download
+
+details
+
+data
+L1000 - 24h
+download
+
+details
+
+data
+P100 - 3h
+download
+
+details
+
+data
+GCP - 24h
+download
+
+details
+

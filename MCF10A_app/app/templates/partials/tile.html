@@ -1,0 +1,32 @@
+<div class="grid-item">
+  <div class="tile">
+    <div class="tile-title">{{tile.title}}</div>
+    <div class="tile-description">
+      {{tile.description | safe}}
+    </div>
+    <div class="data-table">
+      <div class="title">data</div>
+      <table style="width:100%">
+        {% for d in tile.data%}
+          <tr>
+            <td class="file-name" width="50%">{{d[0]}}</td>
+            <td width="25%">
+              {% if d[1] %}
+                <a href="{{d[1]}}">download</a>
+              {% else %}
+                download
+              {% endif %}
+            </td>
+            <td width="25%">
+              {% if d[2] %}
+                <a href="{{d[2]}}">details</a>
+              {% else %}
+                details
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
+</div>
