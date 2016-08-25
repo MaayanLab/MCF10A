@@ -7,15 +7,13 @@ import glob, json, csv
 
 from . import flask_app as app
 
-CANVAS_ASSAYS = ['gcp', 'l1000', 'p100']
-
 # get JSON for layouts
 def get_canvas_layouts():
     print "static folder=", app.static_folder
     data_dir = app.static_folder + "/data"
     all_canvas_layouts = {}
 
-    for assay in CANVAS_ASSAYS:
+    for assay in app.config["CANVAS_ASSAYS"]:
         canvas_order_dir = os.path.join(data_dir, assay, "canvas_order")
         for order_filename in glob.glob(canvas_order_dir + "\*.json"):
             base = os.path.basename(order_filename)
