@@ -5,13 +5,13 @@ metrics based on estimating <span class="emphasis">growth rate inhibition (GR)</
 data
 Cell Counts
 download
-gr/raw/All-Centers_cellcounts_060216.tsv
+data/gr/raw/All-Centers_cellcounts_060216.tsv
 details
 gr#cellcounts
 data
 GR Metrics
 download
-gr/raw/All-Centers_GRmetrics_060116.tsv
+data/gr/raw/All-Centers_GRmetrics_060116.tsv
 details
 gr#grmetrics
 
@@ -33,7 +33,7 @@ a mass spectrometry-based targeted proteomics assay that detects and quantifies 
 data
 GCT
 download
-LINCS_P100_PRM_Plate35_annotated_minimized_2016-06-10_11-43-55.processed.gct
+data/p100/raw/LINCS_P100_PRM_Plate35_annotated_minimized_2016-06-10_11-43-55.processed.gct
 details
 p100
 
@@ -44,7 +44,7 @@ a targeted proteomic assay against ~60 probes that monitor combinations of post-
 data
 GCT
 download
-LINCS_GCP_Plate35_annotated_minimized_2016-06-09_13-14-47.processed.gct
+data/gcp/raw/LINCS_GCP_Plate35_annotated_minimized_2016-06-09_13-14-47.processed.gct
 details
 gcp
 

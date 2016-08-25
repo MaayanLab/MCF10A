@@ -6,9 +6,9 @@ BRD-K12343256
 data
 GR metrics
 download
-
+data/gr/metrics/MCF10A_trametinib_GR.tsv
 details
-
+trametinib#GR
 data
 L1000 - 3h
 download
