@@ -28,7 +28,7 @@
     </script>
 
     <div class="analysis">
-        <div class="row">
+        <div id="analysis-labels">
             <div class="col-xs-1" style="padding-right: 0px;">
                 <div class="drug-label">Drug</div>
                 <div class="time-toggle time-label">Time</div>
@@ -149,7 +149,7 @@
 
 <!-- <script src="d3-bootstrap.min.js"></script> -->
 
-
+<script src="{{ url_for('static', filename='js/customEvent.js')}}"></script>
 <script src="{{ url_for('static', filename='js/l1000.js')}}"></script>
 <script src="{{ url_for('static', filename='js/p100.js')}}"></script>
 <script src="{{ url_for('static', filename='js/gcp.js')}}"></script>

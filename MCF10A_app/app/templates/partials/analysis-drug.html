@@ -1,40 +1,42 @@
-<div class="drug-label overview-drug-dropdown">
-<select id="{{drug_num}}-dropdown">
-    <option {{'selected="selected"' if drug_selected == "trametinib" else "" }}>Trametinib</option>
-    <option {{'selected="selected"' if drug_selected == "alpelisib" else "" }}>Alpelisib</option>
-    <option {{'selected="selected"' if drug_selected == "vorinostat" else "" }}>Vorinostat</option>
-    <option {{'selected="selected"' if drug_selected == "palbociclib" else "" }}>Palbociclib</option>
-    <option {{'selected="selected"' if drug_selected == "neratinib" else "" }}>Neratinib</option>
-    <option {{'selected="selected"' if drug_selected == "paclitaxel" else "" }}>Paclitaxel</option>
-    <option {{'selected="selected"' if drug_selected == "etoposide" else "" }}>Etoposide</option>
-    <option {{'selected="selected"' if drug_selected == "dasatinib" else "" }}>Dasatinib</option>
-</select>
-</div>
-<div class="time-toggle">
-    <input type="radio" value="3h" name="{{drug_num}}" id="{{drug_num}}-time1"><label for="{{drug_num}}-time1">3h</label>
-    <input type="radio" value="24h" name="{{drug_num}}" id="{{drug_num}}-time2" checked="checked"><label for="{{drug_num}}-time2">24h</label>
-</div>
-<div class="gr-curve" id="{{drug_num}}-gr-curve-container"></div>
-<p class="concentration-val">Concentration (&#x3BC;M) = <br><span id="{{drug_num}}-concentration-val"><br></span></p>
-<div class="available-dose" id="{{drug_num}}-l1000-dose-container"></div>
-<div class="available-dose" id="{{drug_num}}-p100-dose-container"></div>
-<div class="available-dose" id="{{drug_num}}-gcp-dose-container"></div>
-<div class="gr-slider" id="{{drug_num}}-gr-slider-container"></div>
-<div class="l1000-container">
-    <p class="concentration-val" id="{{drug_num}}-l1000-val"></p>
-    <div class="l1000-up-container" id="{{drug_num}}-l1000-up-container">
-        <svg width="120" height="120" class="grid" id="{{drug_num}}-l1000-up"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
+<div id="{{drug_num}}">
+    <div class="drug-label overview-drug-dropdown">
+    <select id="{{drug_num}}-dropdown">
+        <option {{'selected="selected"' if drug_selected == "trametinib" else "" }}>Trametinib</option>
+        <option {{'selected="selected"' if drug_selected == "alpelisib" else "" }}>Alpelisib</option>
+        <option {{'selected="selected"' if drug_selected == "vorinostat" else "" }}>Vorinostat</option>
+        <option {{'selected="selected"' if drug_selected == "palbociclib" else "" }}>Palbociclib</option>
+        <option {{'selected="selected"' if drug_selected == "neratinib" else "" }}>Neratinib</option>
+        <option {{'selected="selected"' if drug_selected == "paclitaxel" else "" }}>Paclitaxel</option>
+        <option {{'selected="selected"' if drug_selected == "etoposide" else "" }}>Etoposide</option>
+        <option {{'selected="selected"' if drug_selected == "dasatinib" else "" }}>Dasatinib</option>
+    </select>
     </div>
-    <div class="l1000-down-container" id="{{drug_num}}-l1000-down-container">
-        <svg width="120" height="120" class="grid" id="{{drug_num}}-l1000-down"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
+    <div class="time-toggle">
+        <input type="radio" value="3h" name="{{drug_num}}" id="{{drug_num}}-time1"><label for="{{drug_num}}-time1">3h</label>
+        <input type="radio" value="24h" name="{{drug_num}}" id="{{drug_num}}-time2" checked="checked"><label for="{{drug_num}}-time2">24h</label>
     </div>
-</div>
+    <div class="gr-curve" id="{{drug_num}}-gr-curve-container"></div>
+    <p class="concentration-val">Concentration (&#x3BC;M) = <br><span id="{{drug_num}}-concentration-val"><br></span></p>
+    <div class="available-dose" id="{{drug_num}}-l1000-dose-container"></div>
+    <div class="available-dose" id="{{drug_num}}-p100-dose-container"></div>
+    <div class="available-dose" id="{{drug_num}}-gcp-dose-container"></div>
+    <div class="gr-slider" id="{{drug_num}}-gr-slider-container"></div>
+    <div class="l1000-container">
+        <p class="concentration-val" id="{{drug_num}}-l1000-val"></p>
+        <div class="l1000-up-container" id="{{drug_num}}-l1000-up-container">
+            <svg width="120" height="120" class="grid" id="{{drug_num}}-l1000-up"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
+        </div>
+        <div class="l1000-down-container" id="{{drug_num}}-l1000-down-container">
+            <svg width="120" height="120" class="grid" id="{{drug_num}}-l1000-down"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
+        </div>
+    </div>
 
-<div class="p100-container" id="{{drug_num}}-p100-container">
-    <p class="concentration-val" id="{{drug_num}}-p100-val"></p>
-    <svg width="120" height="120" class="grid" id="{{drug_num}}-p100"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
-</div>
-<div class="gcp-container" id="{{drug_num}}-gcp-container">
-    <p class="concentration-val" id="{{drug_num}}-gcp-val"></p>
-    <svg width="120" height="120" class="grid" id="{{drug_num}}-gcp"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
+    <div class="p100-container" id="{{drug_num}}-p100-container">
+        <p class="concentration-val" id="{{drug_num}}-p100-val"></p>
+        <svg width="120" height="120" class="grid" id="{{drug_num}}-p100"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
+    </div>
+    <div class="gcp-container" id="{{drug_num}}-gcp-container">
+        <p class="concentration-val" id="{{drug_num}}-gcp-val"></p>
+        <svg width="120" height="120" class="grid" id="{{drug_num}}-gcp"><rect class="rect-p100" x="0" y="0" width="120" height="120" style="fill: rgb(184, 184, 184);"></rect></svg>
+    </div>
 </div>

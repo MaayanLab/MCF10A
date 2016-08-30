@@ -1,4 +1,7 @@
 //GLOBAL VARIABLES
+// array of each drug col's id
+var drugNumArray = ["drug1", "drug2", "drug3", "drug4", "drug5", "drug6", "drug7", "drug8"];
+
 // Set the dimensions of the canvas / graph
 var widthRange = 120;
 var heightRange = 10;
@@ -358,7 +361,12 @@ function addGRCurve(initialPosition, curDrugSelected, curTimeSelected, curLibSel
   .call(d3.drag()
     .on("start.interrupt", function() { slider.interrupt(); })
     .on("start drag", function() { 
-                    updateConcentration(xFunction.invert(d3.event.x), drugNum, xFunction);
+                    //updateConcentration(xFunction.invert(d3.event.x), drugNum, xFunction);
+                    var c = xFunction.invert(d3.event.x);
+                    $("#" + drugNum + "-concentration-val").text(Number(c).toPrecision(6));
+  $("#" + drugNum + "-verticalline").attr("x1", xFunction(c))
+                                .attr("x2", xFunction(c));
+  $("#" + drugNum + "-gr-curve-handle").attr("x", xFunction(c));
                   }));
 
   var handle = slider.insert("rect", ".track-overlay")
@@ -653,8 +661,98 @@ function setOnChange(drugNum){
 
 }
 
+var drugColumnAttributes = function(aDrug, aTime, aPosition){
+      var drug = aDrug;
+      var time = aTime;
+      var position = aPosition;
+
+      this.getDrug = function(){
+        return drug;
+      };
+
+      this.setDrug = function(aDrug){
+        drug = aDrug;
+      };
+
+      this.getTime = function(){
+        return time;
+      }
+
+      this.setTime = function(aTime){
+        time = aTime;
+      }
+
+      this.getPosition = function(aPosition){
+        return position;
+      }
+
+      this.setPosition = function(aPosition){
+        position = aPosition;
+      }
+    };
+
+//change gene set library for L1000 canvases
+var changeEnrichmentLibrariesCanvas = function(library, drugId){
+  console.log("change to library: [" + library + "] for " + drugId);
+  var curTimeSelected = $("input[type=radio][name=" + drugId + "]:checked").val();
+  var curDrugSelected = $("#" +  drugId + "-dropdown option:selected").text().toLowerCase();
+  var curPosition = $("#" + drugId + "-verticalline").attr("x1");
+  updateL1000Concentration(grDatapoints[curDrugSelected]['x'].invert(curPosition), drugId, curDrugSelected, library.replace(/\s+/g, '_'), curTimeSelected);
+};
+
+var drugColumn = function(enrichmentLibrariesEvent, drugNum){
+  var drug = $("#"+ drugNum).find('select').val();
+  var time = $("input[name=" + drugNum + "]:checked").val();
+  var position = $("#" + drugNum + "-verticalline").attr("x1");
+
+  var colAttributes = new drugColumnAttributes(drug, time, position);
+
+  // create GR curve, concentration tracks, canvases
+
+
+
+  //setDrugColumnEvents(colAttributes, enrichmentLibrariesEvent, drugNum);
+
+};
+
+var setDrugColumnEvents = function (colAttributes, enrichmentLibrariesEvent, drugNum){
+  var $drugSelector = $("#"+ drugNum).find('select');
+
+  // update drug column (update GR curve, concentration tracks, canvas) when drug selected changes
+  $drugSelector.change(function(){
+    var drugName = $drugSelector.val();
+    colAttributes.setDrug(drugName);
+    alert(drugName);
+    //updateDrugColumn(drugName);
+  });
+
+  var $timeForm = $("#"+ drugNum).find('form');
+  $timeForm.change(function(){
+    var time = $("input[name=" + drugNum + "]:checked").val();
+    colAttributes.setTime(time);
+    //update concentration tracks, canvases
+    console.log("time= " + time);
+  });
+
+  // Listen for enrichment library change
+  enrichmentLibrariesEvent.addListener(drugNum);
+};
+
 // After all data has loaded, this function is called
 $(document).ajaxStop(function() {
+  // create event for triggering appropriate enrichment library canvas
+  var enrichmentLibrariesEvent = new customEvent(changeEnrichmentLibrariesCanvas);
+
+  // setup the event
+  var $librarySelector = $("#analysis-labels").find('select');
+  $librarySelector.change(function(){
+    enrichmentLibrariesEvent.dispatchEvent($librarySelector.val());
+  });
+  
+  enrichmentLibrariesEvent.addListener("drug1");
+  enrichmentLibrariesEvent.addListener("drug2");
+  enrichmentLibrariesEvent.addListener("drug3");
+
   for(var i = 0; i < drugNumArray.length; i++){
     var drugNum = drugNumArray[i];
     var curTimeSelected = $("input[type=radio][name=" + drugNum + "]:checked").val();

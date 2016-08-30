@@ -237,19 +237,3 @@ function createCanvas(dataArray, valueLabel, containerId, svgId, assay){
 	return;
 }
 
-
-//change gene set library for L1000
-$('#l1000-dropdown').on('change', function() {
-	
-	for(var i = 0; i < drugNumArray.length; i++){
-		var drugNum = drugNumArray[i];
-		var curTimeSelected = $("input[type=radio][name=" + drugNum + "]:checked").val();
-		var curLibSelected = $("#l1000-dropdown option:selected").text().replace(/\s+/g, '_');
-		var curDrugSelected = $("#" +  drugNum + "-dropdown option:selected").text().toLowerCase();
-		var curPosition = $("#" + drugNum + "-verticalline").attr("x1");
-		//var curConcentration = $("#" + drugNum + "-verticalline").attr("conc");
-
-		// TODO: need to update canvas for all 8 drugs
-		updateL1000Concentration(grDatapoints[curDrugSelected]['x'].invert(curPosition), drugNum, curDrugSelected, curLibSelected, curTimeSelected);
-	}
-});
