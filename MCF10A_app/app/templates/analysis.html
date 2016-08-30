@@ -22,7 +22,15 @@
         
     <script>
         window.all_layouts = {{canvas_order | tojson}};
+        /*{
+            'library': {'3h': [], '24h': []},
+            'library': {'3h': [], '24h': []}, 
+            ...
+        }*/
         window.all_values = {{canvas_values | tojson}};
+        /*{
+            'library': {'3h': {'drug': values}, '24h': {'drug': values}}
+        }*/
         window.p100GeneLookup = {{p100_gene_lookup | tojson}};
         window.gcpLookup = {{gcp_lookup | tojson}};
     </script>
@@ -149,13 +157,11 @@
 
 <!-- <script src="d3-bootstrap.min.js"></script> -->
 
-<script src="{{ url_for('static', filename='js/customEvent.js')}}"></script>
-<script src="{{ url_for('static', filename='js/attributes.js')}}"></script>
-<script src="{{ url_for('static', filename='js/l1000.js')}}"></script>
-<script src="{{ url_for('static', filename='js/p100.js')}}"></script>
-<script src="{{ url_for('static', filename='js/gcp.js')}}"></script>
+<script src="{{ url_for('static', filename='js/analysis/customEvent.js')}}"></script>
+<script src="{{ url_for('static', filename='js/analysis/attributes.js')}}"></script>
+<script src="{{ url_for('static', filename='js/analysis/canvas.js')}}"></script>
+<script src="{{ url_for('static', filename='js/analysis/main.js')}}"></script>
 <script src="{{ url_for('static', filename='js/gr_curve_overview.js')}}"></script>
-<script src="{{ url_for('static', filename='js/overview.js')}}"></script>
 <!-- <script>
     
 $(document).ready(function(){

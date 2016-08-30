@@ -1,5 +1,4 @@
 // Module for creating and triggering events
-// (JS Module pattern)
 
 var customEvent = function(callback){
   var listeners = [];

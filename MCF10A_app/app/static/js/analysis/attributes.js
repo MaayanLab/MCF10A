@@ -2,7 +2,7 @@ var drugColumnAttributes = function(drugNum){
   // defined in HTML 
   var drug = $("#"+ drugNum).find('select').val();
   var time = $("input[name=" + drugNum + "]:checked").val();
-  // initialize to 0
+  // initialize slider position (in px NOT concentration) to 0
   var position = 0;
 
   getDrug = function(){
@@ -44,7 +44,7 @@ var assayRowAttributes = function(){
   var l1000Library = $("#l1000-dropdown option:selected").text().replace(/\s+/g, '_');
 
   getLibrary = function(){
-    return l1000Library;
+    return l1000Library.replace(/\s+/g, '_');
   };
 
   setLibrary = function(aLibrary){
