@@ -13,7 +13,7 @@ var customEvent = function(callback){
   };
 
   // dispatch event to all listeners with callback function and new value
-  var dispatchEvent = function(newValue){
+  var dispatchNewValue = function(newValue){
     for(var i = 0; i < listeners.length; i++){
       callback(newValue, listeners[i]);
     }
@@ -21,6 +21,6 @@ var customEvent = function(callback){
 
   return{
     addListener: addListener,
-    dispatchEvent: dispatchEvent
+    dispatchNewValue: dispatchNewValue
   };
 };

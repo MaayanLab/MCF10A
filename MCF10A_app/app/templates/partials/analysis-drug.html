@@ -11,10 +11,10 @@
         <option {{'selected="selected"' if drug_selected == "dasatinib" else "" }}>Dasatinib</option>
     </select>
     </div>
-    <div class="time-toggle">
+    <form class="time-toggle">
         <input type="radio" value="3h" name="{{drug_num}}" id="{{drug_num}}-time1"><label for="{{drug_num}}-time1">3h</label>
         <input type="radio" value="24h" name="{{drug_num}}" id="{{drug_num}}-time2" checked="checked"><label for="{{drug_num}}-time2">24h</label>
-    </div>
+    </form>
     <div class="gr-curve" id="{{drug_num}}-gr-curve-container"></div>
     <p class="concentration-val">Concentration (&#x3BC;M) = <br><span id="{{drug_num}}-concentration-val"><br></span></p>
     <div class="available-dose" id="{{drug_num}}-l1000-dose-container"></div>

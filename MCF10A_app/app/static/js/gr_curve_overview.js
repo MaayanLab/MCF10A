@@ -1,6 +1,7 @@
 //GLOBAL VARIABLES
 // array of each drug col's id
 var drugNumArray = ["drug1", "drug2", "drug3", "drug4", "drug5", "drug6", "drug7", "drug8"];
+var allDrugColumns = {};
 
 // Set the dimensions of the canvas / graph
 var widthRange = 120;
@@ -14,8 +15,11 @@ var marginSlider = {top: 10, right: 10, bottom: 10, left: 10},
 widthSlider = widthRange - marginSlider.left - marginSlider.right,
 heightSlider = 20 - marginSlider.top - marginSlider.bottom;
 
-
 var grDatapoints = {};
+
+// ==== move to MAIN ====
+var globalAssayRowAttributes = new assayRowAttributes();
+// ======================
 
 function between(val, min, max){
   return val >= min && val <= max;
@@ -68,32 +72,11 @@ function drawBuckets(buckets, svgElem){
           .style("stroke", "white");
   }
 }
-/*function defineAddBuckets(doseArray, svgElem, xFunction){
-  var buckets = {};
-  var min = Math.min.apply(Math, doseArray);
-  var max = Math.max.apply(Math, doseArray);
-  var increment = (xFunction(max) - xFunction(min)) / doseArray.length;
-  var start = xFunction(min);
-  for(var i = 0; i < doseArray.length; i++){
-    buckets[[start, start + increment]] = doseArray[i];
-    start += increment;
-    // draw white line for bucket barriers
-    svgElem.append("line")
-          .attr("x1", start)
-          .attr("x2", start)
-          .attr("y1", 0)
-          .attr("y2", 5)
-          .style("stroke", "white");
-  }
-  return buckets;
-}*/
 
 // add bar to indicate where concentrations lie on x axis, also include divisions for each "bucket"
 // example of svgId = "drug1-l1000-dose"
 function addConcentrationTrack(svgId, doseArray, color, curDrugSelected, curLibSelected, curTimeSelected){
   var xFunction = grDatapoints[curDrugSelected]['x'];
-
-  //addConcentrationTrack(drugNum + "-l1000-dose", L1000dose, "red", grDatapoints[curDrugSelected]['x']);
 
   // remove previous track
   d3.select("#" + svgId).remove();
@@ -188,17 +171,7 @@ function getConcentrationArray(curLibSelected, curTimeSelected, curDrugSelected)
   }
   return concentrationArray;
 }
-  
 
-//function to update GR curve (redraw curve, tracks, slider)
-function defineGRCurve(){
-  // remove previous svg
-  d3.select("#" + svgId).remove();
-
-  // add GR curve with y-axis, concentration tracks, and slider
-  addGRCurve(curDrugSelected, curTimeSelected, curLibSelected, drugNum);
-
-}
 
 function playSlider(sliderSvg, drugNum, min, max, xFunction){
   // remove pause
@@ -262,13 +235,20 @@ function pauseSlider(sliderSvg, drugNum, min, max, xFunction){
                 });
 }
 
-//function to add GR curve with y-axis, concentration tracks, and slider. 
-//Also define buckets for concentrations of each assay in "concentration track"
-function addGRCurve(initialPosition, curDrugSelected, curTimeSelected, curLibSelected, drugNum){
-  var medianData = grDatapoints[curDrugSelected]['datapoints'];
-  var xFunction = grDatapoints[curDrugSelected]['x'];
-  var yFunction = grDatapoints[curDrugSelected]['y'];
-  var lineFunction = grDatapoints[curDrugSelected]['line'];
+// function to add GR curve with y-axis, concentration tracks, and slider. 
+// Also define buckets for concentrations of each assay in "concentration track"
+function addGRCurve(drugNum, colAttributes){
+  var drug = colAttributes.getDrug();
+  var time = colAttributes.getTime();
+  var position = colAttributes.getPosition();
+  var library = globalAssayRowAttributes.getLibrary();
+
+  var drugGRDatapoints = grDatapoints[drug];
+
+  var medianData = drugGRDatapoints.datapoints;
+  var xFunction = drugGRDatapoints.x;
+  var yFunction = drugGRDatapoints.y;
+  var lineFunction = drugGRDatapoints.line;
 
   var svgId = drugNum + "-gr-curve";
 
@@ -325,7 +305,7 @@ function addGRCurve(initialPosition, curDrugSelected, curTimeSelected, curLibSel
     curPosition -= increment
   }
 
-  // marker for 0
+  // horizontal line for 0
   svg.append("line")
           .attr("x1", -4)
           .attr("x2", 90)
@@ -334,17 +314,33 @@ function addGRCurve(initialPosition, curDrugSelected, curTimeSelected, curLibSel
           .style("stroke", "black")
           .style("opacity", 0.4);
 
-  // remove previous svg slider
-  d3.select("#" + svgId + "-slider").remove();
+  // helper dotted vertical line for guidance on GR curve
+    var verticalLine = svg.append("line")
+    .attr("x1", position)
+    .attr("x2", position)
+    .attr("y1", 0)
+    .attr("y2", width)
+    .attr("id", drugNum + "-verticalline")
+    .style("stroke", "black")
+    .style("stroke-dasharray", "3px");
 
-  // Adds slider
-  
+    addSlider(svgId, drugNum, position, xFunction, time, drug, colAttributes);
+
+    updateConcentration(xFunction.invert(position), drugNum, xFunction);
+}
+
+function addSlider(svgId, drugNum, initialPosition, xFunction, curTimeSelected, curDrugSelected, colAttributes){
+  // remove previous svg slider
+  var svgIdSlider = drugNum + "-slider";
+
+  d3.select("#" + svgIdSlider).remove();
+
+  // Add slider
   var slider = d3.select("#" + drugNum + "-gr-slider-container")
   .append("svg")
     .attr("width", widthSlider + marginSlider.left + marginSlider.right)
     .attr("height", heightSlider + marginSlider.top + marginSlider.bottom)
-    .attr("id", svgId + "-slider")
-    .attr("t", 0)
+    .attr("id", svgIdSlider)
   .append("g")
     .attr("class", "slider")
     .attr("transform", 
@@ -361,8 +357,10 @@ function addGRCurve(initialPosition, curDrugSelected, curTimeSelected, curLibSel
   .call(d3.drag()
     .on("start.interrupt", function() { slider.interrupt(); })
     .on("start drag", function() { 
-                    //updateConcentration(xFunction.invert(d3.event.x), drugNum, xFunction);
+                    colAttributes.setPosition(d3.event.x);
+                    
                     var c = xFunction.invert(d3.event.x);
+                    updateConcentration(c, drugNum, xFunction);
                     $("#" + drugNum + "-concentration-val").text(Number(c).toPrecision(6));
   $("#" + drugNum + "-verticalline").attr("x1", xFunction(c))
                                 .attr("x2", xFunction(c));
@@ -377,27 +375,23 @@ function addGRCurve(initialPosition, curDrugSelected, curTimeSelected, curLibSel
   .attr("height", 10)
   .attr("id", svgId + "-handle");
 
-  // helper dotted vertical line for guidance on GR curve
-    var verticalLine = svg.append("line")
-    .attr("x1", initialPosition)
-    .attr("x2", initialPosition)
-    .attr("y1", 0)
-    .attr("y2", width)
-    .attr("id", drugNum + "-verticalline")
-    .style("stroke", "black")
-    .style("stroke-dasharray", "3px");
+  // add concentration tracks
+  var minMax = addAllConcentrationTracks(drugNum, curLibSelected, curTimeSelected, curDrugSelected);
 
-    // remove previous svg concentration tracks
-    d3.select("#" + svgId + "-l1000-dose").remove();
-    d3.select("#" + svgId + "-p100-dose").remove();
-    d3.select("#" + svgId + "-gcp-dose").remove();
+  // playButton
+  playSlider(slider, drugNum, minMax.min, minMax.max, xFunction);
+}
 
-
+/* Add all concentration tracks (which concentrations measurements are taken)
+ * Returns minMax object for play button to determine when to start animation (min) and when to stop animation (max)
+ */
+function addAllConcentrationTracks(drugNum, library, time, drug){
   // array of concentrations available for each assay
-  var L1000dose = getConcentrationArray(curLibSelected, curTimeSelected, curDrugSelected);
-  var P100dose = getConcentrationArray("P100", curTimeSelected, curDrugSelected);
-  var GCPdose = getConcentrationArray("GCP", curTimeSelected, curDrugSelected);
+  var L1000dose = getConcentrationArray(library, time, drug);
+  var P100dose = getConcentrationArray("P100", time, drug);
+  var GCPdose = getConcentrationArray("GCP", time, drug);
 
+  // add all available concentrations to array
   var allConcentrations = [];
   if (L1000dose.length > 0){
     allConcentrations = allConcentrations.concat(L1000dose);
@@ -409,44 +403,27 @@ function addGRCurve(initialPosition, curDrugSelected, curTimeSelected, curLibSel
     allConcentrations = allConcentrations.concat(GCPdose);
   }
 
+  // find min and max array for play button functionality that will begin playing at the start of available concentration
   var max = d3.max(allConcentrations);
   var min = d3.min(allConcentrations);
 
-  playSlider(slider, drugNum, min, max, xFunction);
-
-  // if assay has concentration available, add track with color, otherwise make track "white"
+  // Add track for each assay
   // L1000
-  if(L1000dose.length > 0){
-    //addConcentrationTrack(svgId, doseArray, color, xFunction)
-    addConcentrationTrack(drugNum + "-l1000-dose", L1000dose, "red", curDrugSelected, curLibSelected, curTimeSelected);
-  } else {
-    addConcentrationTrack(drugNum + "-l1000-dose", L1000dose, "white", curDrugSelected, curLibSelected, curTimeSelected);
-  }
+  var trackColor = L1000dose.length > 0 ? "red" : "white";
+  addConcentrationTrack(drugNum + "-l1000-dose", L1000dose, trackColor, drug, library, time);
 
   // P100
-  if(P100dose.length > 0){
-    //addConcentrationTrack(svgId, doseArray, color, xFunction)
-    addConcentrationTrack(drugNum + "-p100-dose", P100dose, "blue", curDrugSelected, "P100", curTimeSelected);
-  } else {
-    addConcentrationTrack(drugNum + "-p100-dose", P100dose, "white", curDrugSelected, "P100", curTimeSelected);
-  }
+  var trackColor = P100dose.length > 0 ? "blue" : "white";
+  addConcentrationTrack(drugNum + "-p100-dose", P100dose, trackColor, drug, "P100", time);
 
   // GCPdose
-  if(GCPdose.length > 0){
-    //addConcentrationTrack(svgId, doseArray, color, xFunction)
-    addConcentrationTrack(drugNum + "-gcp-dose", GCPdose, "green", curDrugSelected, "GCP", curTimeSelected);
-  } else {
-    addConcentrationTrack(drugNum + "-gcp-dose", GCPdose, "white", curDrugSelected, "GCP", curTimeSelected);
-  }    
+  var trackColor = GCPdose.length > 0 ? "green" : "white";
+  addConcentrationTrack(drugNum + "-gcp-dose", GCPdose, trackColor, drug, "GCP", time);
 
-    /*updateConcentration(x(0));*/
-    updateConcentration(xFunction.invert(initialPosition), drugNum, xFunction);
-
-    function concentration(c, drugNum, xFunction){
-      handle.attr("x", xFunction(c));
-      updateConcentration(c, drugNum, xFunction);
-    }
-
+  return {
+    max: max,
+    min: min,
+  }
 }
 
 function updateL1000Concentration(c, drugNum, curDrugSelected, curLibSelected, curTimeSelected){
@@ -572,8 +549,6 @@ function updateConcentration(c, drugNum, xFunction){
 
 }
 
-
-
 $(document).ready(function() {
   // Load all data from server using AJAX requests
   // get file with file location of all tile orderings
@@ -630,108 +605,49 @@ $(document).ready(function() {
 
 });
 
-function setOnChange(drugNum){
-  $('#'+ drugNum +'-dropdown').on('change', function() {
-  var curDrugSelected = $("#" + drugNum + "-dropdown option:selected").text().toLowerCase();
-  var curTimeSelected = $("input[type=radio][name=" + drugNum + "]:checked").val();
-  var curLibSelected = $("#l1000-dropdown option:selected").text().replace(/\s+/g, '_');
-  var curPosition = $("#" + drugNum + "-verticalline").attr("x1");
-
-  addGRCurve(curPosition, curDrugSelected, curTimeSelected, curLibSelected, drugNum);
-  });
-
-  $('input[type=radio][name='+ drugNum + ']').on('change', function() {
-   switch($(this).val()) {
-     case '3h':
-      var curDrugSelected = $("#"+ drugNum +"-dropdown option:selected").text().toLowerCase();
-      var curTimeSelected = $("input[type=radio][name="+ drugNum +"]:checked").val();
-      var curLibSelected = $("#l1000-dropdown option:selected").text().replace(/\s+/g, '_');
-      var curPosition = $("#" + drugNum + "-verticalline").attr("x1");
-      addGRCurve(curPosition, curDrugSelected, curTimeSelected, curLibSelected, drugNum);
-     break;
-     case '24h':
-      var curDrugSelected = $("#"+ drugNum +"-dropdown option:selected").text().toLowerCase();
-      var curTimeSelected = $("input[type=radio][name="+ drugNum +"]:checked").val();
-      var curLibSelected = $("#l1000-dropdown option:selected").text().replace(/\s+/g, '_');
-      var curPosition = $("#" + drugNum + "-verticalline").attr("x1");
-      addGRCurve(curPosition, curDrugSelected, curTimeSelected, curLibSelected, drugNum);
-     break;
-   }
- });
-
-}
-
-var drugColumnAttributes = function(aDrug, aTime, aPosition){
-      var drug = aDrug;
-      var time = aTime;
-      var position = aPosition;
-
-      this.getDrug = function(){
-        return drug;
-      };
-
-      this.setDrug = function(aDrug){
-        drug = aDrug;
-      };
-
-      this.getTime = function(){
-        return time;
-      }
-
-      this.setTime = function(aTime){
-        time = aTime;
-      }
-
-      this.getPosition = function(aPosition){
-        return position;
-      }
-
-      this.setPosition = function(aPosition){
-        position = aPosition;
-      }
-    };
-
-//change gene set library for L1000 canvases
+// Change gene set library for L1000 canvases
 var changeEnrichmentLibrariesCanvas = function(library, drugId){
-  console.log("change to library: [" + library + "] for " + drugId);
-  var curTimeSelected = $("input[type=radio][name=" + drugId + "]:checked").val();
-  var curDrugSelected = $("#" +  drugId + "-dropdown option:selected").text().toLowerCase();
-  var curPosition = $("#" + drugId + "-verticalline").attr("x1");
-  updateL1000Concentration(grDatapoints[curDrugSelected]['x'].invert(curPosition), drugId, curDrugSelected, library.replace(/\s+/g, '_'), curTimeSelected);
+  var drugColumnObject = allDrugColumns[drugId];
+  var time = drugColumnObject.colAttributes.getTime();
+  var drug = drugColumnObject.colAttributes.getDrug();
+  var position = drugColumnObject.colAttributes.getPosition();
+  updateL1000Concentration(grDatapoints[drug]['x'].invert(position), drugId, drug, library.replace(/\s+/g, '_'), time);
 };
 
-var drugColumn = function(enrichmentLibrariesEvent, drugNum){
-  var drug = $("#"+ drugNum).find('select').val();
-  var time = $("input[name=" + drugNum + "]:checked").val();
-  var position = $("#" + drugNum + "-verticalline").attr("x1");
-
-  var colAttributes = new drugColumnAttributes(drug, time, position);
+var drugColumn = function(drugNum, enrichmentLibrariesEvent){
+  // define attributes specific to column (drug, time, position) in a drugColumnAttributes object
+  var colAttributes = new drugColumnAttributes(drugNum);
 
   // create GR curve, concentration tracks, canvases
+  addGRCurve(drugNum, colAttributes);
 
+  // setup event handlers
+  setDrugColumnEvents(drugNum, colAttributes, enrichmentLibrariesEvent);
 
-
-  //setDrugColumnEvents(colAttributes, enrichmentLibrariesEvent, drugNum);
+  return{
+    colAttributes: colAttributes
+  }
 
 };
 
-var setDrugColumnEvents = function (colAttributes, enrichmentLibrariesEvent, drugNum){
+var setDrugColumnEvents = function (drugNum, colAttributes, enrichmentLibrariesEvent){
+  // setup trigger for when drug selected changes
   var $drugSelector = $("#"+ drugNum).find('select');
-
-  // update drug column (update GR curve, concentration tracks, canvas) when drug selected changes
   $drugSelector.change(function(){
     var drugName = $drugSelector.val();
     colAttributes.setDrug(drugName);
-    alert(drugName);
-    //updateDrugColumn(drugName);
+
+    //update GR curve, concentration tracks, canvas
+    addGRCurve(drugNum, colAttributes);
   });
 
+  // setup trigger for when time selected changes
   var $timeForm = $("#"+ drugNum).find('form');
   $timeForm.change(function(){
     var time = $("input[name=" + drugNum + "]:checked").val();
     colAttributes.setTime(time);
     //update concentration tracks, canvases
-    console.log("time= " + time);
+    addGRCurve(drugNum, colAttributes);
   });
 
   // Listen for enrichment library change
@@ -740,28 +656,24 @@ var setDrugColumnEvents = function (colAttributes, enrichmentLibrariesEvent, dru
 
 // After all data has loaded, this function is called
 $(document).ajaxStop(function() {
-  // create event for triggering appropriate enrichment library canvas
+  // create event for triggering appropriate gene set library canvas
   var enrichmentLibrariesEvent = new customEvent(changeEnrichmentLibrariesCanvas);
 
-  // setup the event
+  // setup trigger for when gene set library changes
   var $librarySelector = $("#analysis-labels").find('select');
   $librarySelector.change(function(){
-    enrichmentLibrariesEvent.dispatchEvent($librarySelector.val());
+    var library = $librarySelector.val();
+    globalAssayRowAttributes.setLibrary(library);
+    enrichmentLibrariesEvent.dispatchNewValue(library);
   });
-  
-  enrichmentLibrariesEvent.addListener("drug1");
-  enrichmentLibrariesEvent.addListener("drug2");
-  enrichmentLibrariesEvent.addListener("drug3");
 
   for(var i = 0; i < drugNumArray.length; i++){
-    var drugNum = drugNumArray[i];
-    var curTimeSelected = $("input[type=radio][name=" + drugNum + "]:checked").val();
-    var curLibSelected = $("#l1000-dropdown option:selected").text().replace(/\s+/g, '_');
-    var curDrugSelected = $("#" +  drugNum + "-dropdown option:selected").text().toLowerCase();
-    //var curPosition = $("#" + drugNum + "-verticalline").attr("x1");
+    var drugId = drugNumArray[i];
 
-    addGRCurve(0, curDrugSelected, curTimeSelected, curLibSelected, drugNum);
-    setOnChange(drugNum);
+    // create a new drugColumn object that maintains drugColumnAttributes, creates GR curve, concentration tracks, canvases
+    // and listens for changes in drug, time, and gene set library
+    var eachDrugColumn = new drugColumn(drugId, enrichmentLibrariesEvent);
+    allDrugColumns[drugId] = eachDrugColumn;
   }
-
 });
+
