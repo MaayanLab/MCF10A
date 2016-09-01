@@ -1,0 +1,7 @@
+<form class="time-toggle" id="{{assay.lower()}}-time-toggle">
+	<b>Time:</b>
+	{% for t in time %}
+	    <input type="radio" id="{{assay.lower()}}-{{loop.index}}" name="{{assay.lower()}}-time" value="{{t}}" {{"checked" if t == default_time}}>
+	    <label for="{{assay.lower()}}-{{loop.index}}">{{t}}</label>
+	{% endfor %}
+</form>

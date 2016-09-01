@@ -32,7 +32,7 @@ var svg = d3.select(".gr-curve")
         .attr("transform", 
               "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("../static/data/gr/curve_datapoints/Dasatinib_curve_datapoints.csv", function(error, data) {
+d3.csv("../static/data/gr/curve_datapoints/Trametinib_curve_datapoints.csv", function(error, data) {
   if (error) throw error;
 
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "concentration"; }));
@@ -52,9 +52,13 @@ d3.csv("../static/data/gr/curve_datapoints/Dasatinib_curve_datapoints.csv", func
 
   x.domain(d3.extent(data, function(d) { return d.concentration; }));
 
-  y.domain([
+  /*y.domain([
     d3.min(GR_values, function(c) { return d3.min(c.values, function(v) { return v.GR; }); }),
     d3.max(GR_values, function(c) { return d3.max(c.values, function(v) { return v.GR; }); })
+  ]);*/
+  y.domain([
+    -1.0,
+    1.0
   ]);
 
   svg.append("g")

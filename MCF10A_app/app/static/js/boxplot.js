@@ -1,8 +1,6 @@
 //http://bl.ocks.org/mattbrehmer/12ea86353bc807df2187
 
 
-
-
 var gr_boxplot = function(filename){
   //initialize the dimensions
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
@@ -477,8 +475,6 @@ var data = [],
        }); 
 })
 
-
-
 }
 
 /*function init(){
@@ -490,14 +486,24 @@ var data = [],
 grmax_boxplot("MCF10A_paclitaxel_GR.tsv", "grmax-boxplot");*/
 
 //gr_boxplot("data/gr/metrics/MCF10A_dasatinib_GR.tsv");
-gr_boxplot("../static/data/gr/metrics/MCF10A_dasatinib_GR.tsv");
+gr_boxplot("../static/data/gr/metrics/MCF10A_trametinib_GR.tsv");
 
 //grmax_boxplot("MCF10A_neratinib_GR.tsv", ".gr50-boxplot");
 
-function random_jitter() {
+/*function random_jitter() {
   if (Math.round(Math.random() * 1) == 0)
     var seed = -5;
   else
     var seed = 5; 
   return midline + Math.floor((Math.random() * seed) + 1);
-}
+}*/
+
+/**
+     * Adds jitter to the  scatter point plot
+     * @param doJitter true or false, add jitter to the point
+     * @param width percent of the range band to cover with the jitter
+     * @returns {number}
+     */
+    function random_jitter() {
+            return midline + Math.floor(Math.random() * 20)-20/2;
+    }

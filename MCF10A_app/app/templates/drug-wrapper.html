@@ -17,7 +17,7 @@
 <body>
   {% include "partials/header.html"%}
   <script>
-        window.gr_curve_file = "{{gr_curve_file}}";
+        window.gr_curve_file = "{{gr_download}}";
     </script>
   <div class="container">{% block content %}{% endblock %}</div>
 
@@ -28,8 +28,11 @@
           <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
           <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
           <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+          <script src="{{ url_for('static', filename='js/customEvent.js')}}"></script>
           <script src="{{ url_for('static', filename='js/gr_curve.js')}}"></script>
           <script src="{{ url_for('static', filename='js/boxplot.js')}}"></script>
+          <script src="{{ url_for('static', filename='js/drug/main.js')}}"></script>
+          <script src="{{ url_for('static', filename='js/drug/assay.js')}}"></script>
 
           <!-- Required JS Libraries -->
           <script src="{{ url_for('static', filename='lib/js/d3.js')}}"></script>

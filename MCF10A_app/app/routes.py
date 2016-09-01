@@ -27,7 +27,5 @@ def analysis():
 
 @app.route(app.config["ENTRY_POINT"] + "drugs/<drug>", methods=['GET'])
 def drug_view(drug):
-    print drug
-    gr_curve_filename = app.static_folder + 'data/gr/metrics/MCF10A_dasatinib_GR.tsv'
-    print "gr_curve_filename=", gr_curve_filename
-    return render_template("pages/drug-view.html", menu_item="drugs", drug_selected=drug, gr_curve_file=gr_curve_filename)
+    gr_download_file = app.static_folder + '/data/gr/metrics/MCF10A_' + drug.lower() + '_GR.tsv'
+    return render_template("pages/drug-view.html", menu_item="drugs", drug_selected=drug, gr_download=gr_download_file)

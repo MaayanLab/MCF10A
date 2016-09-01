@@ -14,9 +14,9 @@ Drugbank
 http://www.drugbank.ca/drugs/DB08911b
 Chembl
 https://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL2103875
-Data
+DataTable
 GR Metrics
-Data
+DataTable
 L1000
 3h
 0.04
@@ -25,7 +25,7 @@ L1000
 1.11
 3.33
 10
-Data
+DataTable
 L1000
 24h
 0.04
@@ -34,13 +34,13 @@ L1000
 1.11
 3.33
 10
-Data
+DataTable
 P100
 3h
 0.001
 0.002162
 0.01
-Data
+DataTable
 GCP
 24h
 0.001
