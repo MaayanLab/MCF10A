@@ -4,56 +4,53 @@ Returns Python dict formatted as such:
 	{
 		'drug': 'Trametinib',
 		'kinase': '(MEK)',
-		'BRD': BRD-K12343256,
-		'description':
-		'links': {
-			'pubchem': 'https://pubchem.ncbi.nlm.nih.gov/compound/Trametinib',
-			'lincs': 'http://lincsportal.ccs.miami.edu/entities/#/view/LSM-1143',
-			'drugbank': 'http://www.drugbank.ca/drugs/DB08911b',
-			'chembl': 'https://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL2103875'
+		'BRD': 'BRD-K12343256',
+		'description': 'MEK Inhibitor Trametinib is an orally bioavailable inhibitor of mitogen-activated protein kinase kinase (MEK MAPK/ERK kinase) with potential antineoplastic activity. Trametinib specifically binds to and inhibits MEK 1 and 2, resulting in an inhibition of growth factor-mediated cell signaling and cellular proliferation in various cancers. MEK 1 and 2, dual specificity threonine/tyrosine kinases often upregulated in various cancer cell types, play a key role in the activation of the RAS/RAF/MEK/ERK signaling pathway that regulates cell growth.',
+		'pubchem': 'https://pubchem.ncbi.nlm.nih.gov/compound/Trametinib',
+		'lincs': 'http://lincsportal.ccs.miami.edu/entities/#/view/LSM-1143',
+		'drugbank': 'http://www.drugbank.ca/drugs/DB08911b',
+		'chembl': 'https://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL2103875',
+		'assays': {
+			'L1000': {
+				'3h': [0.01, 0.12, 0.37, 1.11, 3.33, 10],
+				'24h': [0.04, 0.12, 0.37, 1.11, 3.33, 10]
+			},
+			'P100': {
+				'3h': [0.001, 0.003162, 0.01]
+			},
+			'GCP': {
+				'24h': [0.001, 0.003162, 0.01]
+			}
 		}
-		'datatable':
-			[
-				[{'GR Metrics': }],
-				[{'L1000', 'gr/raw/All-Centers_GRmetrics_060116.tsv', 'gr#grmetrics'}]
-			]
 	}
 """
 import copy
 
 def parse_drug_file(filename):
-	all_tiles = []
-	tile_dict = {}
+	drug_dict = {}
 	with open(filename, 'rb') as f:
 		for line in f:
-			if line.lower().strip() == "title":
-				# finished adding tile text, add completed tile to list
-				if len(tile_dict) > 0:
-					all_tiles.append(copy.deepcopy(tile_dict))
-					tile_dict = {} # new tile
-				tile_dict["title"] = f.next().strip()
+			key = line.lower().strip()
+			if key == 'assay': # remaining content in file is assays
+				drug_dict['assays'] = {}
+				for assay_line in f:
+					assay = assay_line.strip()
+					time = next(f).strip()
+					all_concentrations = []
+					for concentration in f:
+						concentration = concentration.strip()
+						if concentration != "Assay":
+							all_concentrations.append(concentration)
+						else:
+							if assay not in drug_dict['assays']:
+								drug_dict['assays'][assay] = {}
+							drug_dict['assays'][assay][time] = all_concentrations
+							break
+			try:
+				drug_dict[key] = next(f).strip()
+			except StopIteration:
+				break		
 
-			if line.lower().strip() == "description":
-				line = f.next().strip()
-				description = ""
-				# iterate through all lines of description
-				while line != "data":
-					description += line
-					line = f.next().strip()
-				tile_dict["description"] = description
+	return drug_dict
 
-			if line.lower().strip() == "data":
-				if "data" not in tile_dict:
-					tile_dict["data"] = []
-				data = []
-				# data formated in 5 lines, iterate through 5 line chunks
-				for i in xrange(5):
-					line = f.next()
-					if i % 2 == 0:
-						data.append(line.strip())
-				tile_dict["data"].append(data)
-
-	# add final tile to list
-	if len(tile_dict) > 0:
-					all_tiles.append(copy.deepcopy(tile_dict))
-	return all_tiles
+# parse_drug_file('../static/data/drugs/trametinib.txt')
