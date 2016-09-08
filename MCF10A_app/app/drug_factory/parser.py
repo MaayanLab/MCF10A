@@ -35,13 +35,15 @@ def parse_drug_file(filename):
 				drug_dict['assays'] = {}
 				for assay_line in f:
 					assay = assay_line.strip()
+					print "assay=", assay
 					time = next(f).strip()
+					print "time=", time
 					all_concentrations = []
 					for concentration in f:
 						concentration = concentration.strip()
-						if concentration != "Assay":
+						if concentration != "Assay": 
 							all_concentrations.append(concentration)
-						else:
+						else: # moving on to the next assay
 							if assay not in drug_dict['assays']:
 								drug_dict['assays'][assay] = {}
 							drug_dict['assays'][assay][time] = all_concentrations
@@ -49,6 +51,10 @@ def parse_drug_file(filename):
 			try:
 				drug_dict[key] = next(f).strip()
 			except StopIteration:
+				# reached end of file, add previously parsed assay
+				if assay not in drug_dict['assays']:
+					drug_dict['assays'][assay] = {}
+				drug_dict['assays'][assay][time] = all_concentrations
 				break		
 
 	return drug_dict
