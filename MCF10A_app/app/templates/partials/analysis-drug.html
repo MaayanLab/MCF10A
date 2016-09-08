@@ -1,4 +1,4 @@
-<div id="{{drug_num}}">
+<div class="drug-col" id="{{drug_num}}">
     <div class="drug-label overview-drug-dropdown">
     <select id="{{drug_num}}-dropdown">
         <option {{'selected="selected"' if drug_selected == "trametinib" else "" }}>Trametinib</option>
@@ -11,7 +11,7 @@
         <option {{'selected="selected"' if drug_selected == "dasatinib" else "" }}>Dasatinib</option>
     </select>
     </div>
-    <form class="time-toggle">
+    <form class="time-toggle" id="{{drug_num}}-time-toggle">
         <input type="radio" value="3h" name="{{drug_num}}" id="{{drug_num}}-time1"><label for="{{drug_num}}-time1">3h</label>
         <input type="radio" value="24h" name="{{drug_num}}" id="{{drug_num}}-time2" checked="checked"><label for="{{drug_num}}-time2">24h</label>
     </form>

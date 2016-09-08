@@ -11,12 +11,10 @@ https://pubchem.ncbi.nlm.nih.gov/compound/Trametinib
 Lincs
 http://lincsportal.ccs.miami.edu/entities/#/view/LSM-1143
 Drugbank
-http://www.drugbank.ca/drugs/DB08911b
+http://www.drugbank.ca/drugs/DB08911
 Chembl
 https://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL2103875
-DataTable
-GR Metrics
-DataTable
+Assay
 L1000
 3h
 0.04
@@ -25,7 +23,7 @@ L1000
 1.11
 3.33
 10
-DataTable
+Assay
 L1000
 24h
 0.04
@@ -34,13 +32,13 @@ L1000
 1.11
 3.33
 10
-DataTable
+Assay
 P100
 3h
 0.001
 0.002162
 0.01
-DataTable
+Assay
 GCP
 24h
 0.001

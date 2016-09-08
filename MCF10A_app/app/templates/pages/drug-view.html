@@ -14,101 +14,74 @@
     </div>
 
     <div class="drug-subheading">
-      <p>(MEK)</p>
-      <p>BRD-K12343256</p>
+      <p>{{ drug_info['kinase'] }}</p>
+      <p>{{ drug_info['brd'] }}</p>
     </div>
 
     <div class="description">
-      MEK Inhibitor Trametinib is an orally bioavailable inhibitor of mitogen-activated protein kinase kinase (MEK MAPK/ERK kinase) with potential antineoplastic activity. Trametinib specifically binds to and inhibits MEK 1 and 2, resulting in an inhibition of growth factor-mediated cell signaling and cellular proliferation in various cancers. MEK 1 and 2, dual specificity threonine/tyrosine kinases often upregulated in various cancer cell types, play a key role in the activation of the RAS/RAF/MEK/ERK signaling pathway that regulates cell growth.
-
-      <div class="pubchem-link">Learn more on <a href="https://pubchem.ncbi.nlm.nih.gov/compound/Trametinib" target="_blank"><img class="pubchem-logo" src="{{ url_for('static', filename='image/pubchem-logo.svg') }}"></a></div>
+      {{drug_info['description']}}
+      <div class="pubchem-link">Learn more on <a href="{{ drug_info['pubchem'] }}" target="_blank"><img class="pubchem-logo" src="{{ url_for('static', filename='image/pubchem-logo.svg') }}"></a></div>
       <br>
       More drug information can be found on 
       <table style="width:60%;text-align:center; margin: 0 auto;">
         <tr>
-          <td><a class="lincs-logo" href="http://lincsportal.ccs.miami.edu/entities/#/view/LSM-1143" target="_blank">LINCS Data Portal</a></td>
-          <td><a href="http://www.drugbank.ca/drugs/DB08911b" target="_blank"><img class="pubchem-logo" src="{{ url_for('static', filename='image/drugbank-logo.png') }}"></a></td>
-          <td><a class="chembl-logo" href="https://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL2103875" target="_blank">ChEMBL</a></td>
+          <td><a class="lincs-logo" href="{{ drug_info['lincs'] }}" target="_blank">LINCS Data Portal</a></td>
+          <td><a href="{{ drug_info['drugbank'] }}" target="_blank"><img class="pubchem-logo" src="{{ url_for('static', filename='image/drugbank-logo.png') }}"></a></td>
+          <td><a class="chembl-logo" href="{{ drug_info['chembl_link'] }}" target="_blank">ChEMBL</a></td>
         </tr>
       </table>
     </div>
+
+    <script>
+      window.data_conc = {{data_conc | tojson}};
+      window.drug = "{{drug_selected}}";
+    </script>
+
     <div class="data-overview"> 
       <h2>Data Available</h2>
-      <table style="width:60%; text-align:center; margin: 0 auto; border: 1px solid black;">
+      <table style="width:60%; /*text-align:center;*/ margin: 0 auto; ">
         <tr>
-          <td class="data-box gr-metrics-box" onClick="window.location.href='#GR';"><div class="data-box-title">GR Metrics</div></td>
-          <td class="data-box l1k-box" onClick="window.location.href='#L1000';" style="vertical-align: top;">
-            <table style="width:100%">
-              <tr>
-                <td colspan=2 style="width:100%"><div class="data-box-title">L1000</div></td></tr>
-                <tr>
-                  <td>3h</td>
-                  <td>24h</td>
-                </tr>
-                <tr>
-                  <td>0.04 &mu;M</td>
-                  <td>0.04 &mu;M</td>
-                </tr>
-                <tr>
-                  <td>0.12 &mu;M</td>
-                  <td>0.12 &mu;M</td>
-                </tr>
-                <tr>
-                  <td>0.37 &mu;M</td>
-                  <td>0.37 &mu;M</td>
-                </tr>
-                <tr>
-                  <td>1.11 &mu;M</td>
-                  <td>1.11 &mu;M</td>
-                </tr>
-                <tr>
-                  <td>3.33 &mu;M</td>
-                  <td>3.33 &mu;M</td>
-                </tr>
-                <tr>
-                  <td>10 &mu;M</td>
-                  <td>10 &mu;M</td>
-                </tr>
-              </table>
-            </td>
-            <td class="data-box p100-box" onClick="window.location.href='#P100';"style="vertical-align: top;">
-              <table style="width:100%;">
-                <tr>
-                  <td colspan=2 style="width:100%"><div class="data-box-title">P100</div></td></tr>
-                  <tr>
-                    <td>3h</td>
-                  </tr>
-                  <tr>
-                    <td>0.001 &mu;M</td>
-                  </tr>
-                  <tr>
-                    <td>0.003162 &mu;M</td>
-                  </tr>
-                  <tr>
-                    <td>0.01 &mu;M</td>
-                  </tr>
-                </table>
+          <td style="vertical-align: top;" rowspan="{{ data_available.time|length * 2 + 1}}">
+            <div class="data-box-title" >
+              GR Metrics
+            </div>
+            <div id="gr-curve-container">
+              
+            </div>
+          </td>
+          <td class="data-box-title">
+            Time
+          </td>
+          <td class="data-box-title">
+            Assay
+          </td>
+          <td class="data-box-title">
+            Concentration (&mu;M)
+          </td>
+        </tr>
+
+        {% for i in range(data_available.time|length) %}
+          <tr class="data-available">
+            {% if data_available.time[i][0] != "" %}
+              <td rowspan="{{ data_available.time[i][1]}}" onmouseover="displayConcentrations('time', this);" style="text-align:center; padding: 20px 0px 20px 0px;">
+                {% set previousTime = data_available.time[i][0] %}
+                {{ data_available.time[i][0] }}
               </td>
-              <td class="data-box gcp-box" onClick="window.location.href='#GCP';"style="vertical-align: top;">
-                <table style="width:100%;">
-                  <tr>
-                    <td colspan=2 style="width:100%"><div class="data-box-title">GCP</div></td></tr>
-                    <tr>
-                      <td>24h</td>
-                    </tr>
-                    <tr>
-                      <td>0.001 &mu;M</td>
-                    </tr>
-                    <tr>
-                      <td>0.003162 &mu;M</td>
-                    </tr>
-                    <tr>
-                      <td>0.01 &mu;M</td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
+            {% endif %}
+
+            <td class="assay-{{ data_available.assay[i] }}" style="padding-left: 5px;" onmouseover="displayConcentrations('assay-{{ previousTime }}', this);">
+              {{ data_available.assay[i] }}
+            </td>
+            <td style="padding-left: 5px;" onmouseover="displayConcentrations('conc-{{ data_available.assay[i] }}', this);">
+              {% for conc in data_available.concentration[i]%}
+                {{ conc }} &emsp;
+              {% endfor %}
+            </td>
+
+          </tr>
+        {% endfor %}
+
+        </table>
 
           </div> <!-- data-overview -->
           <div class="assay-content">

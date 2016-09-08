@@ -2,11 +2,11 @@
 
 // Set the dimensions of the canvas / graph
 var widthRange = 120;
-var heightRange = 10;
+var heightRange = 100;
 
 var margin = {top: 10, right: 10, bottom: 10, left: 20},
 width = widthRange - margin.left - margin.right,
-height = 100 - margin.top - margin.bottom;
+height = heightRange - margin.top - margin.bottom;
 
 var marginSlider = {top: 10, right: 10, bottom: 10, left: 10},
 widthSlider = widthRange - marginSlider.left - marginSlider.right,

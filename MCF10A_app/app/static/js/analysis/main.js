@@ -11,5 +11,7 @@ $(document).ajaxStop(function() {
 
     $(".loading").remove();
     
+    //$('body').chardinJs();
+    //($('body').data('chardinJs')).toggle();
 });
 

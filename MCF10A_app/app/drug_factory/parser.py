@@ -53,4 +53,34 @@ def parse_drug_file(filename):
 
 	return drug_dict
 
-# parse_drug_file('../static/data/drugs/trametinib.txt')
+def drug_data_available(drug_dict):
+	"""
+	Takes a drug_dict and returns a dictionary with 
+		keys as "time", "assay", and "concentration"
+		values as lists for easy parsing when displaying the data available
+	"""
+	data_available = {'time': [], 'assay': [], 'concentration': []}
+	temp_dict = {}
+	for assay in drug_dict['assays']:
+		for time in drug_dict['assays'][assay]:
+			if time not in temp_dict:
+				temp_dict[time] = {}
+			temp_dict[time][assay] = drug_dict['assays'][assay][time]
+
+	for time in temp_dict:
+		num_assays = len(temp_dict[time].keys())			
+		i = 0
+		for assay in temp_dict[time]:
+			if i == 0:
+				data_available['time'].append([time, num_assays])
+			else:
+				data_available['time'].append(['',''])
+
+			data_available['assay'].append(assay)
+			data_available['concentration'].append(temp_dict[time][assay])
+			i += 1
+
+	return temp_dict, data_available
+
+# drug_dict = parse_drug_file('../static/data/drugs/trametinib.txt')
+# drug_data_available(drug_dict)

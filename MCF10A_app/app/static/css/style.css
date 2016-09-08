@@ -194,7 +194,9 @@ div.tooltip {
 .analysis{
   margin: 1em 3em 1em 3em;
 }
-
+.drug-col{
+  text-align: center;
+}
 /*drug dropdown styling*/
 .drug-dropdown{
 	text-align: center;
@@ -242,27 +244,33 @@ select{
 table, th, td {
     border: 1px solid black;
 }*/
+.data-available{
+  font-size:1.1em;
+}
 .data-box-title{
 	font-size:1.25em; 
 	font-weight:bold;
 }
-.gr-metrics-box{
-	border-right: 1px solid black;
+
+.background-hover{
+    background-color:#286090;
+    color:white;
 }
-.l1k-box{
-	border-right: 1px solid black;
+.assay-hover{
+    background-color:#7799bb;
+    color:white;
 }
-.p100-box{
-	border-right: 1px solid black;
+
+.assay-L1000{
+  color: red;
 }
-.data-box:hover{
-	background-color: #FAEBD7;
-	cursor:pointer;
-	-o-transition:color .2s ease-out, background 0.3s ease-in;
-  -ms-transition:color .2s ease-out, background 0.3s ease-in;
-  -moz-transition:color .2s ease-out, background 0.3s ease-in;
-  -webkit-transition:color .2s ease-out, background 0.3s ease-in;
+.assay-P100{
+  color: blue;
 }
+.assay-GCP{
+  color: green;
+}
+
 
 .description{
 	font-size:1.1em;
