@@ -11,7 +11,7 @@ from drug_factory import parser as drug_parser
 @app.route(app.config["ENTRY_POINT"] + "index.html", methods=['GET'])
 @app.route(app.config["ENTRY_POINT"] + "assays", methods=['GET'])
 def assays():
-    all_tiles =  parser.get_tile_list(app.static_folder + "/data/tiles/assay-tiles.txt")
+    all_tiles =  tile_parser.get_tile_list(app.static_folder + "/data/tiles/assay-tiles.txt")
     return render_template("all-tiles.html", menu_item="assays", tile_list=all_tiles)
 
 @app.route(app.config["ENTRY_POINT"] + "drugs", methods=['GET'])
@@ -28,10 +28,10 @@ def analysis():
 
 @app.route(app.config["ENTRY_POINT"] + "drugs/<drug>", methods=['GET'])
 def drug_view(drug):
-    
+    assay_color = {"L1000": "red", "P100": "blue", "GCP": "green"};
     drug_info_file = app.static_folder + '/data/drugs/' + drug.lower() + '.txt'
     drug_dict = drug_parser.parse_drug_file(drug_info_file)
     data_conc, data_available = drug_parser.drug_data_available(drug_dict)
     gr_download_file = app.static_folder + '/data/gr/metrics/MCF10A_' + drug.lower() + '_GR.tsv'
 
-    return render_template("pages/drug-view.html", menu_item="drugs", drug_selected=drug, drug_info=drug_dict, data_available=data_available, data_conc=data_conc, gr_download=gr_download_file)
+    return render_template("pages/drug-view.html", menu_item="drugs", drug_selected=drug, drug_info=drug_dict, data_available=data_available, data_conc=data_conc, gr_download=gr_download_file, assay_color=assay_color)

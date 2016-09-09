@@ -8,7 +8,7 @@ var marginMedian = {top: 10, right: 10, bottom: 10, left: 20},
  widthMedian = widthRangeMedian - marginMedian.left - marginMedian.right,
  heightMedian = heightRangeMedian - marginMedian.top - marginMedian.bottom;
 
-var assayColor = {"L1000": "red", "P100": "blue", "GCP": "green"};
+//var assayColor = {"L1000": "red", "P100": "blue", "GCP": "green"};
 
 
 /* Add GR curve with y-axis, concentration tracks, and slider. 
@@ -108,8 +108,7 @@ function displayConcentrations(dataDetail, obj){
 	// remove previous concentrations from GR curve
 	$(".verticalline").remove();
 	$(".background-hover").removeClass("background-hover");
-	$(".assay-hover").removeClass("assay-hover");
-	//console.log($(this).addClass("background-hover"););
+	$(".assay-hover").removeClass();
 
 	var unit = dataDetail.split("-")[0]
 	var text = obj.textContent;	
@@ -125,6 +124,9 @@ function displayConcentrations(dataDetail, obj){
 		var time = dataDetail.split("-")[1];
 		var assay = text.trim();
 		$(obj).addClass("assay-hover");
+		$(obj).closest('td').next().addClass("assay-hover");
+		$(obj).addClass("assay-" + assay);
+		$(obj).closest('td').next().addClass("assay-" + assay);
 		for(var i in data_conc[time][assay]){
 			addConcentration(data_conc[time][assay][i], assay);
 		}
@@ -133,6 +135,9 @@ function displayConcentrations(dataDetail, obj){
 		var assay = dataDetail.split("-")[1];
 		var conc = text.trim().split(/(\s+)/);
 		$(obj).addClass("assay-hover");
+		$(obj).closest('td').prev().addClass("assay-hover");
+		$(obj).addClass("assay-" + assay);
+		$(obj).closest('td').prev().addClass("assay-" + assay);
 		for(var i = 0; i < conc.length; i++){
 			var c = conc[i].trim();
 			if(c != ""){
@@ -147,7 +152,7 @@ function addConcentration(conc, assay){
     var xFunction = drugGRDatapoints.x;
 
 	var svgId = "gr-median";
-	var color = assayColor[assay];
+	var color = window.assayColor[assay];
 
 	d3.select("#" + svgId).append("line")
     .attr("x1", xFunction(conc))

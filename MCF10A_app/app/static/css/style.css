@@ -256,19 +256,18 @@ table, th, td {
     background-color:#286090;
     color:white;
 }
-.assay-hover{
-    background-color:#7799bb;
-    color:white;
-}
 
 .assay-L1000{
-  color: red;
+  background-color:red;
+  color: white !important;
 }
 .assay-P100{
-  color: blue;
+  background-color:blue;
+  color: white !important;
 }
 .assay-GCP{
-  color: green;
+  background-color:green;
+  color: white !important;
 }
 
 

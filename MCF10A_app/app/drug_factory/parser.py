@@ -31,6 +31,7 @@ def parse_drug_file(filename):
 	with open(filename, 'rb') as f:
 		for line in f:
 			key = line.lower().strip()
+			print "key=", key
 			if key == 'assay': # remaining content in file is assays
 				drug_dict['assays'] = {}
 				for assay_line in f:
@@ -49,7 +50,8 @@ def parse_drug_file(filename):
 							drug_dict['assays'][assay][time] = all_concentrations
 							break
 			try:
-				drug_dict[key] = next(f).strip()
+				val = next(f).strip()
+				drug_dict[key] = val
 			except StopIteration:
 				# reached end of file, add previously parsed assay
 				if assay not in drug_dict['assays']:
