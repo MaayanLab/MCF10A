@@ -2,7 +2,13 @@
 String.prototype.capitalize = function() {
     return this.charAt(0).toUpperCase() + this.slice(1);
 }
+//=========
 
+// UTILITY FUNCTION
+function random_jitter(midline) {
+        return midline + Math.floor(Math.random() * 20)-20/2;
+}
+//=======
 
 //"../static/data/gr/curve_datapoints/Trametinib_curve_datapoints.csv"
 var grScales = {
@@ -19,7 +25,7 @@ var grScales = {
       leftMidline = (margin.left - padding) / 2,
       bottomMidline = (margin.bottom - padding*4) / 2;
 
-  var boxplotWidth = 20;
+  var boxplotWidth = 15;
 
 //drawGRCurve("../static/data/gr/curve_datapoints/Trametinib_curve_datapoints.csv");
 drawGRCurve("../static/data/gr/curve_datapoints/" + window.drug.capitalize() + "_curve_datapoints.csv");
@@ -51,6 +57,17 @@ function drawGRCurve(datapointsFilename){
       .append("svg")
           .attr("width", width + margin.left + margin.right)
           .attr("height", height + margin.top + margin.bottom);
+
+  var grInfLabel = svgCanvas.append("g")
+                        .attr("transform", "translate(0," + margin.top + ")")
+                        .append("text").attr("x", "0").attr("y", "0");
+
+  grInfLabel.append("tspan").attr("dx", "1em").text("GR")
+    .append("tspan").attr("baseline-shift", "sub").text("Inf");
+  grInfLabel.append("tspan").attr("x", "0").attr("dy", "2.2em").style("font-size", "0.8em").text("effect of drug");
+  grInfLabel.append("tspan").attr("x", "0").attr("dy", "1.2em").style("font-size", "0.8em").text("at infinite");
+    grInfLabel.append("tspan").attr("x", "0").attr("dy", "1.2em").style("font-size", "0.8em").text("concentration");
+
   var svg = svgCanvas.append("g")
           .attr("transform", 
                 "translate(" + (margin.left + leftMidline * 2) + "," + margin.top + ")");
@@ -113,7 +130,7 @@ function drawGRCurve(datapointsFilename){
     //y axis label
     svg.append("text")
           .attr("transform", "rotate(-90)")
-          .attr("y", 0 - margin.left)
+          .attr("y", 0 - (margin.left - padding))
           .attr("x",0 - (height / 2))
           .attr("dy", "1em")
           .style("text-anchor", "middle")
