@@ -86,17 +86,6 @@ function addGRCurve(drug){
           .attr("y2", yFunction(0))
           .style("stroke", "black")
           .style("opacity", 0.4);
-
-  // helper dotted vertical line for guidance on GR curve
-/*  var verticalLine = svg.append("line")
-    .attr("x1", position)
-    .attr("x2", position)
-    .attr("y1", 0)
-    .attr("y2", widthMedian)
-    .attr("id", drugNum + "-verticalline")
-    .style("stroke", "black")
-    .style("stroke-dasharray", "3px");*/
-
 }
 
 
@@ -164,28 +153,34 @@ function addConcentration(conc, assay){
     .style("stroke-dasharray", "3px");
 }
 
-// setup trigger for when gene set library changes
-var $librarySelector = $("#library-dropdown")
-var prevLibrary = $librarySelector.val().replace(/\s+/g, '_');
-$("#library-dropdown").change(function(){
-  var newLibrary = this.value.replace(/\s+/g, '_');
+function setupTriggerLibrary(){
+  // setup trigger for when gene set library changes
+  var $librarySelector = $("#library-dropdown")
+  var prevLibrary = $librarySelector.val().replace(/\s+/g, '_');
+  $("#library-dropdown").change(function(){
+    var newLibrary = this.value.replace(/\s+/g, '_');
 
-  // update up/down genes terms
-  updateTerms("up", newLibrary);
-  updateTerms("down", newLibrary);
+    // update up/down genes terms
+    updateTerms("up", newLibrary);
+    updateTerms("down", newLibrary);
 
-  // update Clustergrammer
-  $("#" + prevLibrary).hide();
-  $("#" + newLibrary).show();
+    // update Clustergrammer
+    $("#" + prevLibrary).hide();
+    $("#" + newLibrary).show();
 
-  prevLibrary = newLibrary;
+    prevLibrary = newLibrary;
 
-});
+  });
+}
 
 // drug dropdown changes, redirect to appropriate drug page
 $("#drug-dropdown").change(function(){
   window.location = $(':selected',this).attr('href')
 });
+
+if (window.hasL1000 != "False"){
+  setupTriggerLibrary();
+}
 
 // === UTILITY function ===
 // parsing through GR file for median curve values

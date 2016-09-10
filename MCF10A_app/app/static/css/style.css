@@ -346,6 +346,11 @@ table, th, td {
 .gr-equation{
 	text-align:center;
 }
+.gr-equation ul{
+  display: inline-block;
+  text-align:left;
+}
+
 .gr-curve{
 	text-align:center;
 }

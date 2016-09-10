@@ -18,12 +18,14 @@ var grScales = {
 }
 
 // Set the dimensions of the graph
-  var margin = {top: 30, right: 20, bottom: 100, left: 60},
+  var margin = {top: 60, right: 20, bottom: 100, left: 60},
       width = 800 - margin.left - margin.right,
       height = 400 - margin.top - margin.bottom,
       padding = 10,
       leftMidline = (margin.left - padding) / 2,
       bottomMidline = (margin.bottom - padding*4) / 2;
+  var grInfOffset = 20;
+  var gec50Offset = 20;
 
   var boxplotWidth = 15;
 
@@ -59,24 +61,31 @@ function drawGRCurve(datapointsFilename){
           .attr("height", height + margin.top + margin.bottom);
 
   var grInfLabel = svgCanvas.append("g")
-                        .attr("transform", "translate(0," + margin.top + ")")
+                        .attr("transform", "translate(0," + margin.top/2 + ")")
                         .append("text").attr("x", "0").attr("y", "0");
 
   grInfLabel.append("tspan").attr("dx", "1em").text("GR")
-    .append("tspan").attr("baseline-shift", "sub").text("Inf");
-  grInfLabel.append("tspan").attr("x", "0").attr("dy", "2.2em").style("font-size", "0.8em").text("effect of drug");
+    .append("tspan").attr("baseline-shift", "sub").text("inf");
+/*  grInfLabel.append("tspan").attr("x", "0").attr("dy", "2.2em").style("font-size", "0.8em").text("effect of drug");
   grInfLabel.append("tspan").attr("x", "0").attr("dy", "1.2em").style("font-size", "0.8em").text("at infinite");
-    grInfLabel.append("tspan").attr("x", "0").attr("dy", "1.2em").style("font-size", "0.8em").text("concentration");
+  grInfLabel.append("tspan").attr("x", "0").attr("dy", "1.2em").style("font-size", "0.8em").text("concentration");
+*/
+  var gec50Label = svgCanvas.append("g")
+                        .attr("transform", "translate(720," + 350 + ")")
+                        .append("text").attr("x", "0").attr("y", "0");
+  gec50Label.append("tspan").attr("dx", "1em").text("GEC")
+    .append("tspan").attr("baseline-shift", "sub").text("50");
 
+  var xOffset = margin.left + leftMidline * 2 + grInfOffset;
   var svg = svgCanvas.append("g")
           .attr("transform", 
-                "translate(" + (margin.left + leftMidline * 2) + "," + margin.top + ")");
+                "translate(" + xOffset + "," + margin.top + ")");
   var svgGRInf = svgCanvas.append("g")
           .attr("transform",
-                "translate(10," + margin.top + ")");
+                "translate(" + grInfOffset + "," + margin.top + ")");
   var svgGEC50 = svgCanvas.append("g")
           .attr("transform",
-                "translate(110," + (height + margin.bottom- (boxplotWidth)) + ")");
+                "translate(" + xOffset + "," + (height + margin.bottom- (boxplotWidth)) + ")");
 
 /*  svg.append("text")
           .attr("transform", "translate(" + (width / 2) + " ," + (height + margin.bottom- (boxplotWidth*3.5)) + ")")
@@ -119,7 +128,7 @@ function drawGRCurve(datapointsFilename){
 
     //x axis label
     svg.append("text")
-          .attr("transform", "translate(" + (width / 2) + " ," + (height + margin.bottom- (boxplotWidth*3.5)) + ")")
+          .attr("transform", "translate(" + (width / 2) + " ," + (height + margin.bottom - gec50Offset - boxplotWidth * 3) + ")")
           .style("text-anchor", "middle")
           .text("Concentration");
 
@@ -151,8 +160,9 @@ function drawGRCurve(datapointsFilename){
          });
   });
 
-  drawVerticalBoxplot("../static/data/gr/metrics/MCF10A_" + window.drug + "_GR.tsv", 'GRinf', svgGRInf);
-  drawHorizontalBoxplot("../static/data/gr/metrics/MCF10A_" + window.drug + "_GR.tsv", 'GEC50', svgGEC50);
+  var grMetricsFilename = "../static/data/gr/metrics/MCF10A_" + window.drug + "_GR.tsv";
+  drawVerticalBoxplot(grMetricsFilename, 'GRinf', svgGRInf);
+  drawHorizontalBoxplot(grMetricsFilename, 'GEC50', svgGEC50);
 }
 
 
@@ -160,13 +170,6 @@ function drawGRCurve(datapointsFilename){
 
 //gr_boxplot("../static/data/gr/metrics/MCF10A_trametinib_GR.tsv");
 
-
-var gr_boxplot = function(filename){
-    drawBoxplot(filename, 'GEC50', 'gec50-boxplot')
-    drawBoxplot(filename, 'GRinf', 'grinf-boxplot')
-    drawBoxplot(filename, 'Hill', 'hill-boxplot')
-}
-//gr_boxplot("../static/data/gr/metrics/MCF10A_trametinib_GR.tsv");
 
 function drawVerticalBoxplot(filename, parameter, svg){
 /*  //initialize the dimensions
@@ -287,7 +290,7 @@ var margin = {top: 10, right: 10, bottom: 10, left: 10},
 
     //add label for median value
     svg.append("text")
-        .attr("x", -boxplotWidth)
+        .attr("x", -grInfOffset)
         .attr("y", grScales.yScale(medianVal) )
         .attr("dy", ".2em")
         .attr("style", "font-size:0.75em")
@@ -383,6 +386,7 @@ function drawHorizontalBoxplot(filename, parameter, svg){
                 .attr("height", height);*/
 
     //draw horizontal line for lowerWhisker
+
     svg.append("line")
        .attr("class", "whisker")
        .attr("x1", grScales.xScale(lowerWhisker))
@@ -434,7 +438,7 @@ function drawHorizontalBoxplot(filename, parameter, svg){
     //add label for median value
     svg.append("text")
         .attr("x", grScales.xScale(medianVal)-20 )
-        .attr("y", 0 )
+        .attr("y", 60 )
         .attr("dy", ".2em")
         .attr("style", "font-size:0.75em")
         .text(medianVal);
