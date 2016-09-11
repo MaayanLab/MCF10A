@@ -182,6 +182,7 @@ if (window.hasL1000 != "False"){
   setupTriggerLibrary();
 }
 
+
 // === UTILITY function ===
 // parsing through GR file for median curve values
 function getMedianCurve(data){

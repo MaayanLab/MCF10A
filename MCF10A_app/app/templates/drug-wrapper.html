@@ -18,6 +18,8 @@
   {% include "partials/header.html"%}
   <script>
         window.gr_curve_file = "{{gr_download}}";
+        window.hasL1000 = "{{'L1000' in drug_info['assays']}}";
+        window.l1000cds2_dict= {{l1000cds2_dict | safe}}["{{drug_selected}}"];
     </script>
   <div class="container">{% block content %}{% endblock %}</div>
 

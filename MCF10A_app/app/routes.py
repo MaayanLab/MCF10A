@@ -33,5 +33,9 @@ def drug_view(drug):
     drug_dict = drug_parser.parse_drug_file(drug_info_file)
     data_conc, data_available = drug_parser.drug_data_available(drug_dict)
     gr_download_file = app.static_folder + '/data/gr/metrics/MCF10A_' + drug.lower() + '_GR.tsv'
+    l1000cds2_dict_file = app.static_folder + '/data/l1000/l1000cds2/l1000cds2_dict'
 
-    return render_template("pages/drug-view.html", menu_item="drugs", drug_selected=drug, drug_info=drug_dict, data_available=data_available, data_conc=data_conc, gr_download=gr_download_file, assay_color=assay_color)
+    with open(l1000cds2_dict_file, 'rb+') as json_file:
+        l1000cds2_dict = json_file.read()
+
+    return render_template("pages/drug-view.html", menu_item="drugs", drug_selected=drug, drug_info=drug_dict, data_available=data_available, data_conc=data_conc, gr_download=gr_download_file, assay_color=assay_color, l1000cds2_dict=l1000cds2_dict)
