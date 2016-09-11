@@ -39,3 +39,8 @@ def drug_view(drug):
         l1000cds2_dict = json_file.read()
 
     return render_template("pages/drug-view.html", menu_item="drugs", drug_selected=drug, drug_info=drug_dict, data_available=data_available, data_conc=data_conc, gr_download=gr_download_file, assay_color=assay_color, l1000cds2_dict=l1000cds2_dict)
+
+@app.route(app.config["ENTRY_POINT"] + "assays/details", methods=['GET'])
+def assay_details():
+    return render_template("pages/alldetails.html", menu_item="assays")
+    # return render_template("assays.html", menu_item="assays", all_tiles=all_tiles)

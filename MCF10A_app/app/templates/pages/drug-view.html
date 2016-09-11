@@ -241,7 +241,9 @@
                 <div class="description">
                   <a href="http://amp.pharm.mssm.edu/L1000CDS2" target="_blank">L1000CDS2</a> is a web tool that queries the LINCS L1000 dataset to identify small molecules that can reverse or mimic the observed input expression pattern.
                 </div>
-                <iframe src="http://amp.pharm.mssm.edu/L1000CDS2/#/result/57c866574760621c0177c6c5" height="830" frameBorder="0"></iframe>
+                {% with assay="L1000CDS2", time=['3h', '24h'], default_time="3h" %}
+                  {% include "partials/drug-l1000cds2.html" %}
+                {% endwith %}
               </div> <!-- /.assay-content (L1000CDS2) -->
       {% endif %}
 
