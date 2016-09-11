@@ -1,0 +1,5 @@
+../output/MCF10A_L1000_all_experiment_data.tsv
+../output/MCF10A_L1000_all_experiment_metadata.tsv
+../output/MCF10A_L1000_all_control_data.tsv
+../output/MCF10A_L1000_all_control_metadata.tsv
+../output/MCF10A_L1000_all_gene_metadata.tsv
