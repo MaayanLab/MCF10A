@@ -39,7 +39,7 @@ def drug_view(drug):
     drug_dict = drug_parser.parse_drug_file(drug_info_file)
     data_conc, data_available = drug_parser.drug_data_available(drug_dict)
     gr_download_file = app.static_folder + '/data/gr/metrics/MCF10A_' + drug.lower() + '_GR.tsv'
-    l1000cds2_dict_file = app.static_folder + '/data/l1000/l1000cds2/l1000cds2_dict'
+    l1000cds2_dict_file = app.static_folder + '/data/l1000/l1000cds2/l1000cds2_dict.json'
 
     with open(l1000cds2_dict_file, 'rb+') as json_file:
         l1000cds2_dict = json_file.read()

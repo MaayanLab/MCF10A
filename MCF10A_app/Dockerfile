@@ -15,13 +15,6 @@ RUN pip install mod_wsgi
 
 RUN pip install -Iv Flask==0.10.1
 
-RUN mkdir -p /home/myuser/.ssh
-RUN chown -R myuser:myuser /home/myuser/.ssh
-ADD ./files/known_hosts /home/myuser/.ssh/known_hosts
-ADD ./files/id_rsa /home/myuser/.ssh/id_rsa
-RUN chmod 0600 /home/myuser/.ssh/*
-RUN chmod 0700 /home/myuser/.ssh
-
 EXPOSE 80
 
 ADD . /mcf10a
