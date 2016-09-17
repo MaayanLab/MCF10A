@@ -20,6 +20,8 @@
         window.gr_curve_file = "{{gr_download}}";
         window.hasL1000 = "{{'L1000' in drug_info['assays']}}";
         window.l1000cds2_dict= {{l1000cds2_dict | safe}}["{{drug_selected}}"];
+        window.all_layouts = {{canvas_order | tojson}};
+        window.all_values = {{canvas_values | tojson}};
     </script>
   <div class="container">{% block content %}{% endblock %}</div>
 
@@ -46,7 +48,7 @@
 
           <!-- Clustergrammer JS -->
           <script src="{{ url_for('static', filename='clustergrammer/clustergrammer.js')}}"></script>
-          <script src="{{ url_for('static', filename='clustergrammer/gene_info.js')}}"></script>
-          <script src="{{ url_for('static', filename='clustergrammer/load_clustergram.js')}}"></script>
+          <script src="{{ url_for('static', filename='clustergrammer/js/gene_info.js')}}"></script>
+          <script src="{{ url_for('static', filename='clustergrammer/js/load_clustergram.js')}}"></script>
         </body>
         </html>

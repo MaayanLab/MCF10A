@@ -1,0 +1,3102 @@
+{
+  "row_nodes": [
+    {
+      "group": [
+        11.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0
+      ], 
+      "name": "Lysosome_Homo sapiens_hsa04142", 
+      "clust": 0, 
+      "rank": 10, 
+      "ini": 11, 
+      "rankvar": 3
+    }, 
+    {
+      "group": [
+        8.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "Base excision repair_Homo sapiens_hsa03410", 
+      "clust": 9, 
+      "rank": 5, 
+      "ini": 10, 
+      "rankvar": 5
+    }, 
+    {
+      "group": [
+        3.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "Cell cycle_Homo sapiens_hsa04110", 
+      "clust": 4, 
+      "rank": 1, 
+      "ini": 9, 
+      "rankvar": 9
+    }, 
+    {
+      "group": [
+        4.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "Oocyte meiosis_Homo sapiens_hsa04114", 
+      "clust": 5, 
+      "rank": 7, 
+      "ini": 8, 
+      "rankvar": 4
+    }, 
+    {
+      "group": [
+        5.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "Purine metabolism_Homo sapiens_hsa00230", 
+      "clust": 7, 
+      "rank": 9, 
+      "ini": 7, 
+      "rankvar": 0
+    }, 
+    {
+      "group": [
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "Nucleotide excision repair_Homo sapiens_hsa03420", 
+      "clust": 2, 
+      "rank": 3, 
+      "ini": 6, 
+      "rankvar": 7
+    }, 
+    {
+      "group": [
+        6.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "DNA replication_Homo sapiens_hsa03030", 
+      "clust": 8, 
+      "rank": 0, 
+      "ini": 5, 
+      "rankvar": 10
+    }, 
+    {
+      "group": [
+        9.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "HTLV-I infection_Homo sapiens_hsa05166", 
+      "clust": 10, 
+      "rank": 8, 
+      "ini": 4, 
+      "rankvar": 1
+    }, 
+    {
+      "group": [
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "Mismatch repair_Homo sapiens_hsa03430", 
+      "clust": 3, 
+      "rank": 2, 
+      "ini": 3, 
+      "rankvar": 8
+    }, 
+    {
+      "group": [
+        7.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "Pyrimidine metabolism_Homo sapiens_hsa00240", 
+      "clust": 6, 
+      "rank": 4, 
+      "ini": 2, 
+      "rankvar": 6
+    }, 
+    {
+      "group": [
+        10.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "Progesterone-mediated oocyte maturation_Homo sapiens_hsa04914", 
+      "clust": 1, 
+      "rank": 6, 
+      "ini": 1, 
+      "rankvar": 2
+    }
+  ], 
+  "col_nodes": [
+    {
+      "group": [
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_0.04", 
+      "clust": 4, 
+      "rank": 6, 
+      "ini": 12, 
+      "rankvar": 0
+    }, 
+    {
+      "group": [
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_0.12", 
+      "clust": 5, 
+      "rank": 8, 
+      "ini": 11, 
+      "rankvar": 2
+    }, 
+    {
+      "group": [
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_0.37", 
+      "clust": 3, 
+      "rank": 11, 
+      "ini": 10, 
+      "rankvar": 5
+    }, 
+    {
+      "group": [
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_01.11", 
+      "clust": 2, 
+      "rank": 7, 
+      "ini": 9, 
+      "rankvar": 1
+    }, 
+    {
+      "group": [
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_03.33", 
+      "clust": 1, 
+      "rank": 10, 
+      "ini": 8, 
+      "rankvar": 4
+    }, 
+    {
+      "group": [
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_10.0", 
+      "clust": 0, 
+      "rank": 9, 
+      "ini": 7, 
+      "rankvar": 3
+    }, 
+    {
+      "group": [
+        7.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0
+      ], 
+      "name": "2_down_0.04", 
+      "clust": 7, 
+      "rank": 5, 
+      "ini": 6, 
+      "rankvar": 6
+    }, 
+    {
+      "group": [
+        6.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0
+      ], 
+      "name": "2_down_0.12", 
+      "clust": 8, 
+      "rank": 4, 
+      "ini": 5, 
+      "rankvar": 7
+    }, 
+    {
+      "group": [
+        3.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0
+      ], 
+      "name": "2_down_0.37", 
+      "clust": 10, 
+      "rank": 3, 
+      "ini": 4, 
+      "rankvar": 8
+    }, 
+    {
+      "group": [
+        5.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0
+      ], 
+      "name": "2_down_01.11", 
+      "clust": 9, 
+      "rank": 2, 
+      "ini": 3, 
+      "rankvar": 9
+    }, 
+    {
+      "group": [
+        4.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0
+      ], 
+      "name": "2_down_03.33", 
+      "clust": 11, 
+      "rank": 1, 
+      "ini": 2, 
+      "rankvar": 10
+    }, 
+    {
+      "group": [
+        8.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0
+      ], 
+      "name": "2_down_10.0", 
+      "clust": 6, 
+      "rank": 0, 
+      "ini": 1, 
+      "rankvar": 11
+    }
+  ], 
+  "links": [
+    {
+      "source": 0, 
+      "target": 0, 
+      "value": 1.953640721, 
+      "value_orig": 1.953640721
+    }, 
+    {
+      "source": 0, 
+      "target": 1, 
+      "value": 5.9696073892699992, 
+      "value_orig": 5.9696073892699992
+    }, 
+    {
+      "source": 0, 
+      "target": 2, 
+      "value": 19.712233557899999, 
+      "value_orig": 19.712233557899999
+    }, 
+    {
+      "source": 0, 
+      "target": 3, 
+      "value": 5.1127747925099998, 
+      "value_orig": 5.1127747925099998
+    }, 
+    {
+      "source": 0, 
+      "target": 4, 
+      "value": 10.313969181799999, 
+      "value_orig": 10.313969181799999
+    }, 
+    {
+      "source": 0, 
+      "target": 5, 
+      "value": 8.4501097587699991, 
+      "value_orig": 8.4501097587699991
+    }, 
+    {
+      "source": 0, 
+      "target": 6, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 0, 
+      "target": 7, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 0, 
+      "target": 8, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 0, 
+      "target": 9, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 0, 
+      "target": 10, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 0, 
+      "target": 11, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 1, 
+      "target": 0, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 1, 
+      "target": 1, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 1, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 1, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 1, 
+      "target": 4, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 1, 
+      "target": 5, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 1, 
+      "target": 6, 
+      "value": -4.1208274033399999, 
+      "value_orig": -4.1208274033399999
+    }, 
+    {
+      "source": 1, 
+      "target": 7, 
+      "value": -17.559080840699998, 
+      "value_orig": -17.559080840699998
+    }, 
+    {
+      "source": 1, 
+      "target": 8, 
+      "value": -20.925676846199998, 
+      "value_orig": -20.925676846199998
+    }, 
+    {
+      "source": 1, 
+      "target": 9, 
+      "value": -21.608045211900002, 
+      "value_orig": -21.608045211900002
+    }, 
+    {
+      "source": 1, 
+      "target": 10, 
+      "value": -21.575119463699998, 
+      "value_orig": -21.575119463699998
+    }, 
+    {
+      "source": 1, 
+      "target": 11, 
+      "value": -20.262329079600001, 
+      "value_orig": -20.262329079600001
+    }, 
+    {
+      "source": 2, 
+      "target": 0, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 2, 
+      "target": 1, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 2, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 2, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 2, 
+      "target": 4, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 2, 
+      "target": 5, 
+      "value": 0.67502055130600003, 
+      "value_orig": 0.67502055130600003
+    }, 
+    {
+      "source": 2, 
+      "target": 6, 
+      "value": -45.884875866000002, 
+      "value_orig": -45.884875866000002
+    }, 
+    {
+      "source": 2, 
+      "target": 7, 
+      "value": -71.395459408400001, 
+      "value_orig": -71.395459408400001
+    }, 
+    {
+      "source": 2, 
+      "target": 8, 
+      "value": -75.071378278799997, 
+      "value_orig": -75.071378278799997
+    }, 
+    {
+      "source": 2, 
+      "target": 9, 
+      "value": -81.61227232520001, 
+      "value_orig": -81.61227232520001
+    }, 
+    {
+      "source": 2, 
+      "target": 10, 
+      "value": -86.890084960300001, 
+      "value_orig": -86.890084960300001
+    }, 
+    {
+      "source": 2, 
+      "target": 11, 
+      "value": -73.081848105399999, 
+      "value_orig": -73.081848105399999
+    }, 
+    {
+      "source": 3, 
+      "target": 0, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 3, 
+      "target": 1, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 3, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 3, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 3, 
+      "target": 4, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 3, 
+      "target": 5, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 3, 
+      "target": 6, 
+      "value": -5.1805870614799998, 
+      "value_orig": -5.1805870614799998
+    }, 
+    {
+      "source": 3, 
+      "target": 7, 
+      "value": -11.400087503, 
+      "value_orig": -11.400087503
+    }, 
+    {
+      "source": 3, 
+      "target": 8, 
+      "value": -11.180207274600001, 
+      "value_orig": -11.180207274600001
+    }, 
+    {
+      "source": 3, 
+      "target": 9, 
+      "value": -11.906905186400001, 
+      "value_orig": -11.906905186400001
+    }, 
+    {
+      "source": 3, 
+      "target": 10, 
+      "value": -14.689589046300002, 
+      "value_orig": -14.689589046300002
+    }, 
+    {
+      "source": 3, 
+      "target": 11, 
+      "value": -11.8493565331, 
+      "value_orig": -11.8493565331
+    }, 
+    {
+      "source": 4, 
+      "target": 0, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 4, 
+      "target": 1, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 4, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 4, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 4, 
+      "target": 4, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 4, 
+      "target": 5, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 4, 
+      "target": 6, 
+      "value": -3.9878783246099996, 
+      "value_orig": -3.9878783246099996
+    }, 
+    {
+      "source": 4, 
+      "target": 7, 
+      "value": -8.6568204222199991, 
+      "value_orig": -8.6568204222199991
+    }, 
+    {
+      "source": 4, 
+      "target": 8, 
+      "value": -8.4633490765000001, 
+      "value_orig": -8.4633490765000001
+    }, 
+    {
+      "source": 4, 
+      "target": 9, 
+      "value": -9.1362464004799993, 
+      "value_orig": -9.1362464004799993
+    }, 
+    {
+      "source": 4, 
+      "target": 10, 
+      "value": -9.1154909127800003, 
+      "value_orig": -9.1154909127800003
+    }, 
+    {
+      "source": 4, 
+      "target": 11, 
+      "value": -11.408479198499998, 
+      "value_orig": -11.408479198499998
+    }, 
+    {
+      "source": 5, 
+      "target": 0, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 5, 
+      "target": 1, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 5, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 5, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 5, 
+      "target": 4, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 5, 
+      "target": 5, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 5, 
+      "target": 6, 
+      "value": -6.4168905341100002, 
+      "value_orig": -6.4168905341100002
+    }, 
+    {
+      "source": 5, 
+      "target": 7, 
+      "value": -15.935520334200001, 
+      "value_orig": -15.935520334200001
+    }, 
+    {
+      "source": 5, 
+      "target": 8, 
+      "value": -19.792367154800001, 
+      "value_orig": -19.792367154800001
+    }, 
+    {
+      "source": 5, 
+      "target": 9, 
+      "value": -24.685722768800002, 
+      "value_orig": -24.685722768800002
+    }, 
+    {
+      "source": 5, 
+      "target": 10, 
+      "value": -24.648107339599999, 
+      "value_orig": -24.648107339599999
+    }, 
+    {
+      "source": 5, 
+      "target": 11, 
+      "value": -29.4050036161, 
+      "value_orig": -29.4050036161
+    }, 
+    {
+      "source": 6, 
+      "target": 0, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 6, 
+      "target": 1, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 6, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 6, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 6, 
+      "target": 4, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 6, 
+      "target": 5, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 6, 
+      "target": 6, 
+      "value": -42.942182996699998, 
+      "value_orig": -42.942182996699998
+    }, 
+    {
+      "source": 6, 
+      "target": 7, 
+      "value": -74.883021411800001, 
+      "value_orig": -74.883021411800001
+    }, 
+    {
+      "source": 6, 
+      "target": 8, 
+      "value": -74.288921001800006, 
+      "value_orig": -74.288921001800006
+    }, 
+    {
+      "source": 6, 
+      "target": 9, 
+      "value": -88.130213694500014, 
+      "value_orig": -88.130213694500014
+    }, 
+    {
+      "source": 6, 
+      "target": 10, 
+      "value": -88.453854849699994, 
+      "value_orig": -88.453854849699994
+    }, 
+    {
+      "source": 6, 
+      "target": 11, 
+      "value": -103.25020053799999, 
+      "value_orig": -103.25020053799999
+    }, 
+    {
+      "source": 7, 
+      "target": 0, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 7, 
+      "target": 1, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 7, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 7, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 7, 
+      "target": 4, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 7, 
+      "target": 5, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 7, 
+      "target": 6, 
+      "value": -4.3109586258899997, 
+      "value_orig": -4.3109586258899997
+    }, 
+    {
+      "source": 7, 
+      "target": 7, 
+      "value": -8.2889558688000005, 
+      "value_orig": -8.2889558688000005
+    }, 
+    {
+      "source": 7, 
+      "target": 8, 
+      "value": -12.075952640300001, 
+      "value_orig": -12.075952640300001
+    }, 
+    {
+      "source": 7, 
+      "target": 9, 
+      "value": -8.83200637853, 
+      "value_orig": -8.83200637853
+    }, 
+    {
+      "source": 7, 
+      "target": 10, 
+      "value": -10.8827614279, 
+      "value_orig": -10.8827614279
+    }, 
+    {
+      "source": 7, 
+      "target": 11, 
+      "value": -10.907836657000001, 
+      "value_orig": -10.907836657000001
+    }, 
+    {
+      "source": 8, 
+      "target": 0, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 8, 
+      "target": 1, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 8, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 8, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 8, 
+      "target": 4, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 8, 
+      "target": 5, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 8, 
+      "target": 6, 
+      "value": -13.147338235099999, 
+      "value_orig": -13.147338235099999
+    }, 
+    {
+      "source": 8, 
+      "target": 7, 
+      "value": -15.760503433, 
+      "value_orig": -15.760503433
+    }, 
+    {
+      "source": 8, 
+      "target": 8, 
+      "value": -24.443811337, 
+      "value_orig": -24.443811337
+    }, 
+    {
+      "source": 8, 
+      "target": 9, 
+      "value": -29.5682517069, 
+      "value_orig": -29.5682517069
+    }, 
+    {
+      "source": 8, 
+      "target": 10, 
+      "value": -29.544430962500002, 
+      "value_orig": -29.544430962500002
+    }, 
+    {
+      "source": 8, 
+      "target": 11, 
+      "value": -34.120140046799996, 
+      "value_orig": -34.120140046799996
+    }, 
+    {
+      "source": 9, 
+      "target": 0, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 9, 
+      "target": 1, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 9, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 9, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 9, 
+      "target": 4, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 9, 
+      "target": 5, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 9, 
+      "target": 6, 
+      "value": -14.054905866199999, 
+      "value_orig": -14.054905866199999
+    }, 
+    {
+      "source": 9, 
+      "target": 7, 
+      "value": -18.741800888, 
+      "value_orig": -18.741800888
+    }, 
+    {
+      "source": 9, 
+      "target": 8, 
+      "value": -18.438602995899998, 
+      "value_orig": -18.438602995899998
+    }, 
+    {
+      "source": 9, 
+      "target": 9, 
+      "value": -19.296884543499999, 
+      "value_orig": -19.296884543499999
+    }, 
+    {
+      "source": 9, 
+      "target": 10, 
+      "value": -22.5806743146, 
+      "value_orig": -22.5806743146
+    }, 
+    {
+      "source": 9, 
+      "target": 11, 
+      "value": -26.110500022699998, 
+      "value_orig": -26.110500022699998
+    }, 
+    {
+      "source": 10, 
+      "target": 0, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 10, 
+      "target": 1, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 10, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 10, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 10, 
+      "target": 4, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 10, 
+      "target": 5, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 10, 
+      "target": 6, 
+      "value": -9.7813809979799995, 
+      "value_orig": -9.7813809979799995
+    }, 
+    {
+      "source": 10, 
+      "target": 7, 
+      "value": -11.8978436046, 
+      "value_orig": -11.8978436046
+    }, 
+    {
+      "source": 10, 
+      "target": 8, 
+      "value": -11.666165102999999, 
+      "value_orig": -11.666165102999999
+    }, 
+    {
+      "source": 10, 
+      "target": 9, 
+      "value": -12.4267902054, 
+      "value_orig": -12.4267902054
+    }, 
+    {
+      "source": 10, 
+      "target": 10, 
+      "value": -12.195070425000001, 
+      "value_orig": -12.195070425000001
+    }, 
+    {
+      "source": 10, 
+      "target": 11, 
+      "value": -9.3256767506300005, 
+      "value_orig": -9.3256767506300005
+    }
+  ], 
+  "views": [
+    {
+      "N_row_sum": "all", 
+      "dist": "cos", 
+      "nodes": {
+        "row_nodes": [
+          {
+            "group": [
+              11.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "Lysosome_Homo sapiens_hsa04142", 
+            "clust": 0, 
+            "rank": 10, 
+            "ini": 11, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              8.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Base excision repair_Homo sapiens_hsa03410", 
+            "clust": 9, 
+            "rank": 5, 
+            "ini": 10, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              3.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Cell cycle_Homo sapiens_hsa04110", 
+            "clust": 4, 
+            "rank": 1, 
+            "ini": 9, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              4.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Oocyte meiosis_Homo sapiens_hsa04114", 
+            "clust": 5, 
+            "rank": 7, 
+            "ini": 8, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              5.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Purine metabolism_Homo sapiens_hsa00230", 
+            "clust": 7, 
+            "rank": 9, 
+            "ini": 7, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Nucleotide excision repair_Homo sapiens_hsa03420", 
+            "clust": 2, 
+            "rank": 3, 
+            "ini": 6, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              6.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "DNA replication_Homo sapiens_hsa03030", 
+            "clust": 8, 
+            "rank": 0, 
+            "ini": 5, 
+            "rankvar": 10
+          }, 
+          {
+            "group": [
+              9.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "HTLV-I infection_Homo sapiens_hsa05166", 
+            "clust": 10, 
+            "rank": 8, 
+            "ini": 4, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Mismatch repair_Homo sapiens_hsa03430", 
+            "clust": 3, 
+            "rank": 2, 
+            "ini": 3, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              7.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Pyrimidine metabolism_Homo sapiens_hsa00240", 
+            "clust": 6, 
+            "rank": 4, 
+            "ini": 2, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              10.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Progesterone-mediated oocyte maturation_Homo sapiens_hsa04914", 
+            "clust": 1, 
+            "rank": 6, 
+            "ini": 1, 
+            "rankvar": 2
+          }
+        ], 
+        "col_nodes": [
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.04", 
+            "clust": 4, 
+            "rank": 6, 
+            "ini": 12, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.12", 
+            "clust": 5, 
+            "rank": 8, 
+            "ini": 11, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.37", 
+            "clust": 3, 
+            "rank": 11, 
+            "ini": 10, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_01.11", 
+            "clust": 2, 
+            "rank": 7, 
+            "ini": 9, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_03.33", 
+            "clust": 1, 
+            "rank": 10, 
+            "ini": 8, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_10.0", 
+            "clust": 0, 
+            "rank": 9, 
+            "ini": 7, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              7.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_0.04", 
+            "clust": 7, 
+            "rank": 5, 
+            "ini": 6, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              6.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_0.12", 
+            "clust": 8, 
+            "rank": 4, 
+            "ini": 5, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_0.37", 
+            "clust": 10, 
+            "rank": 3, 
+            "ini": 4, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              5.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_01.11", 
+            "clust": 9, 
+            "rank": 2, 
+            "ini": 3, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              4.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_03.33", 
+            "clust": 11, 
+            "rank": 1, 
+            "ini": 2, 
+            "rankvar": 10
+          }, 
+          {
+            "group": [
+              8.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_10.0", 
+            "clust": 6, 
+            "rank": 0, 
+            "ini": 1, 
+            "rankvar": 11
+          }
+        ]
+      }
+    }, 
+    {
+      "N_row_sum": 10, 
+      "dist": "cos", 
+      "nodes": {
+        "row_nodes": [
+          {
+            "group": [
+              3.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "DNA replication_Homo sapiens_hsa03030", 
+            "clust": 4, 
+            "rank": 0, 
+            "ini": 10, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              5.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Cell cycle_Homo sapiens_hsa04110", 
+            "clust": 6, 
+            "rank": 1, 
+            "ini": 9, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Mismatch repair_Homo sapiens_hsa03430", 
+            "clust": 2, 
+            "rank": 2, 
+            "ini": 8, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Nucleotide excision repair_Homo sapiens_hsa03420", 
+            "clust": 3, 
+            "rank": 3, 
+            "ini": 7, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              4.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Pyrimidine metabolism_Homo sapiens_hsa00240", 
+            "clust": 5, 
+            "rank": 4, 
+            "ini": 6, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              7.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Base excision repair_Homo sapiens_hsa03410", 
+            "clust": 8, 
+            "rank": 5, 
+            "ini": 5, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              9.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Progesterone-mediated oocyte maturation_Homo sapiens_hsa04914", 
+            "clust": 1, 
+            "rank": 6, 
+            "ini": 4, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              6.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Oocyte meiosis_Homo sapiens_hsa04114", 
+            "clust": 7, 
+            "rank": 7, 
+            "ini": 3, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              8.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "HTLV-I infection_Homo sapiens_hsa05166", 
+            "clust": 9, 
+            "rank": 8, 
+            "ini": 2, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              10.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "Lysosome_Homo sapiens_hsa04142", 
+            "clust": 0, 
+            "rank": 9, 
+            "ini": 1, 
+            "rankvar": 2
+          }
+        ], 
+        "col_nodes": [
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.04", 
+            "clust": 4, 
+            "rank": 6, 
+            "ini": 12, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.12", 
+            "clust": 5, 
+            "rank": 8, 
+            "ini": 11, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.37", 
+            "clust": 3, 
+            "rank": 11, 
+            "ini": 10, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_01.11", 
+            "clust": 2, 
+            "rank": 7, 
+            "ini": 9, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_03.33", 
+            "clust": 1, 
+            "rank": 10, 
+            "ini": 8, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_10.0", 
+            "clust": 0, 
+            "rank": 9, 
+            "ini": 7, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              7.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_0.04", 
+            "clust": 7, 
+            "rank": 5, 
+            "ini": 6, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              6.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_0.12", 
+            "clust": 8, 
+            "rank": 4, 
+            "ini": 5, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_0.37", 
+            "clust": 10, 
+            "rank": 3, 
+            "ini": 4, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              5.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_01.11", 
+            "clust": 9, 
+            "rank": 2, 
+            "ini": 3, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              4.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_03.33", 
+            "clust": 11, 
+            "rank": 1, 
+            "ini": 2, 
+            "rankvar": 10
+          }, 
+          {
+            "group": [
+              8.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_10.0", 
+            "clust": 6, 
+            "rank": 0, 
+            "ini": 1, 
+            "rankvar": 11
+          }
+        ]
+      }
+    }, 
+    {
+      "N_row_var": "all", 
+      "nodes": {
+        "row_nodes": [
+          {
+            "group": [
+              11.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "Lysosome_Homo sapiens_hsa04142", 
+            "clust": 0, 
+            "rank": 10, 
+            "ini": 11, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              8.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Base excision repair_Homo sapiens_hsa03410", 
+            "clust": 9, 
+            "rank": 5, 
+            "ini": 10, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              3.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Cell cycle_Homo sapiens_hsa04110", 
+            "clust": 4, 
+            "rank": 1, 
+            "ini": 9, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              4.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Oocyte meiosis_Homo sapiens_hsa04114", 
+            "clust": 5, 
+            "rank": 7, 
+            "ini": 8, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              5.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Purine metabolism_Homo sapiens_hsa00230", 
+            "clust": 7, 
+            "rank": 9, 
+            "ini": 7, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Nucleotide excision repair_Homo sapiens_hsa03420", 
+            "clust": 2, 
+            "rank": 3, 
+            "ini": 6, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              6.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "DNA replication_Homo sapiens_hsa03030", 
+            "clust": 8, 
+            "rank": 0, 
+            "ini": 5, 
+            "rankvar": 10
+          }, 
+          {
+            "group": [
+              9.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "HTLV-I infection_Homo sapiens_hsa05166", 
+            "clust": 10, 
+            "rank": 8, 
+            "ini": 4, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Mismatch repair_Homo sapiens_hsa03430", 
+            "clust": 3, 
+            "rank": 2, 
+            "ini": 3, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              7.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Pyrimidine metabolism_Homo sapiens_hsa00240", 
+            "clust": 6, 
+            "rank": 4, 
+            "ini": 2, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              10.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Progesterone-mediated oocyte maturation_Homo sapiens_hsa04914", 
+            "clust": 1, 
+            "rank": 6, 
+            "ini": 1, 
+            "rankvar": 2
+          }
+        ], 
+        "col_nodes": [
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.04", 
+            "clust": 4, 
+            "rank": 6, 
+            "ini": 12, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.12", 
+            "clust": 5, 
+            "rank": 8, 
+            "ini": 11, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.37", 
+            "clust": 3, 
+            "rank": 11, 
+            "ini": 10, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_01.11", 
+            "clust": 2, 
+            "rank": 7, 
+            "ini": 9, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_03.33", 
+            "clust": 1, 
+            "rank": 10, 
+            "ini": 8, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_10.0", 
+            "clust": 0, 
+            "rank": 9, 
+            "ini": 7, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              7.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_0.04", 
+            "clust": 7, 
+            "rank": 5, 
+            "ini": 6, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              6.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_0.12", 
+            "clust": 8, 
+            "rank": 4, 
+            "ini": 5, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_0.37", 
+            "clust": 10, 
+            "rank": 3, 
+            "ini": 4, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              5.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_01.11", 
+            "clust": 9, 
+            "rank": 2, 
+            "ini": 3, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              4.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_03.33", 
+            "clust": 11, 
+            "rank": 1, 
+            "ini": 2, 
+            "rankvar": 10
+          }, 
+          {
+            "group": [
+              8.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_10.0", 
+            "clust": 6, 
+            "rank": 0, 
+            "ini": 1, 
+            "rankvar": 11
+          }
+        ]
+      }, 
+      "dist": "cos"
+    }, 
+    {
+      "N_row_var": 10, 
+      "nodes": {
+        "row_nodes": [
+          {
+            "group": [
+              3.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "DNA replication_Homo sapiens_hsa03030", 
+            "clust": 4, 
+            "rank": 0, 
+            "ini": 10, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              5.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Cell cycle_Homo sapiens_hsa04110", 
+            "clust": 6, 
+            "rank": 1, 
+            "ini": 9, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Mismatch repair_Homo sapiens_hsa03430", 
+            "clust": 2, 
+            "rank": 2, 
+            "ini": 8, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Nucleotide excision repair_Homo sapiens_hsa03420", 
+            "clust": 3, 
+            "rank": 3, 
+            "ini": 7, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              4.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Pyrimidine metabolism_Homo sapiens_hsa00240", 
+            "clust": 5, 
+            "rank": 4, 
+            "ini": 6, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              7.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Base excision repair_Homo sapiens_hsa03410", 
+            "clust": 8, 
+            "rank": 5, 
+            "ini": 5, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              6.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Oocyte meiosis_Homo sapiens_hsa04114", 
+            "clust": 7, 
+            "rank": 7, 
+            "ini": 4, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              10.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "Lysosome_Homo sapiens_hsa04142", 
+            "clust": 0, 
+            "rank": 9, 
+            "ini": 3, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              9.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "Progesterone-mediated oocyte maturation_Homo sapiens_hsa04914", 
+            "clust": 1, 
+            "rank": 6, 
+            "ini": 2, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              8.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "HTLV-I infection_Homo sapiens_hsa05166", 
+            "clust": 9, 
+            "rank": 8, 
+            "ini": 1, 
+            "rankvar": 0
+          }
+        ], 
+        "col_nodes": [
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.04", 
+            "clust": 4, 
+            "rank": 6, 
+            "ini": 12, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.12", 
+            "clust": 5, 
+            "rank": 8, 
+            "ini": 11, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.37", 
+            "clust": 3, 
+            "rank": 11, 
+            "ini": 10, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_01.11", 
+            "clust": 2, 
+            "rank": 7, 
+            "ini": 9, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_03.33", 
+            "clust": 1, 
+            "rank": 10, 
+            "ini": 8, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_10.0", 
+            "clust": 0, 
+            "rank": 9, 
+            "ini": 7, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              7.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_0.04", 
+            "clust": 7, 
+            "rank": 5, 
+            "ini": 6, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              6.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_0.12", 
+            "clust": 8, 
+            "rank": 4, 
+            "ini": 5, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_0.37", 
+            "clust": 10, 
+            "rank": 3, 
+            "ini": 4, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              5.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_01.11", 
+            "clust": 9, 
+            "rank": 2, 
+            "ini": 3, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              4.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_03.33", 
+            "clust": 11, 
+            "rank": 1, 
+            "ini": 2, 
+            "rankvar": 10
+          }, 
+          {
+            "group": [
+              8.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0
+            ], 
+            "name": "2_down_10.0", 
+            "clust": 6, 
+            "rank": 0, 
+            "ini": 1, 
+            "rankvar": 11
+          }
+        ]
+      }, 
+      "dist": "cos"
+    }
+  ]
+}

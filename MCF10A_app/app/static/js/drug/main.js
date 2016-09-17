@@ -155,21 +155,60 @@ function addConcentration(conc, assay){
 
 function setupTriggerLibrary(){
   // setup trigger for when gene set library changes
+  var assay = "enrichr";
   var $librarySelector = $("#library-dropdown")
-  var prevLibrary = $librarySelector.val().replace(/\s+/g, '_');
+  //var prevLibrary = $librarySelector.val().replace(/\s+/g, '_');
   $("#library-dropdown").change(function(){
     var newLibrary = this.value.replace(/\s+/g, '_');
+    var time = $("input[name=" + assay + "-time]:checked").val();
 
     // update up/down genes terms
     updateTerms("up", newLibrary);
     updateTerms("down", newLibrary);
 
     // update Clustergrammer
-    $("#" + prevLibrary).hide();
-    $("#" + newLibrary).show();
+    // NOTE: don't have clustergrammers for: KEGG_2016_trametinib_3h_combined_score, KEGG_2016_alpelisib_24h_combined_score, KEGG_2016_alpelisib_3h_combined_score, KEGG_2016_neratinib_3h_combined_score, GO_Biological_Process_2015_alpelisib_3h_combined_score
+    console.log(newLibrary + time);
+    var unavailable = false;
+    if (newLibrary == 'KEGG_2016'){
+      if (time == '3h'){
+        if(window.drug in ['trametinib', 'alpelisib', 'neratinib']){
+          unavailable = true;
+        }
+      } else if(time == '24h'){
+        if(window.drug in ['alpelisib']){
+          unavailable = true;
+        }
+      }
+    }
+    if (newLibrary == 'GO_Biological_Process_2015'){
+      if(time == '3h'){
+        if(window.drug in ['alpelisib']){
+          unavailable = true;
+        }
+      }
+    }
+    if (unavailable){
+      $("#enrichr-clustergrammer-container").append("<div> Clustergrammer unavailable </div>");
+    } else{
+      make_clust(newLibrary + '_' + window.drug + '_' + time + '_combined_score.json', 'enrichr-clustergrammer', false);
+    }
+    
+    //update download file
+    $("#enrichr-clustergrammer-download").attr("href", "../data/l1000/values/" + newLibrary + "_" + window.drug + "_" + time + "_combined_score.tsv");
 
-    prevLibrary = newLibrary;
+    //prevLibrary = newLibrary;
+  });
 
+  // time change
+  $("#enrichr-time-toggle").change(function(){
+    var newTime = $("input[name=" + assay + "-time]:checked").val();
+    var library = $("#library-dropdown").val().replace(/\s+/g, '_');
+    // update Clustergrammer
+    console.log(library + newTime);
+    make_clust(library + '_' + window.drug + '_' + newTime + '_combined_score.json', 'enrichr-clustergrammer', false);
+    //update download file
+    $("#enrichr-clustergrammer-download").attr("href", "../data/l1000/values/" + library + "_" + window.drug + "_" + newTime + "_combined_score.tsv");
   });
 }
 

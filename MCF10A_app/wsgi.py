@@ -1,1 +1,1 @@
-from app.app import app as application
+from app.routes import app as application

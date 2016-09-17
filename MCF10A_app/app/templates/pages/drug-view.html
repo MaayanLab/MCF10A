@@ -181,49 +181,9 @@
                   <a href="http://amp.pharm.mssm.edu/Enrichr/" target="_blank">
                     Enrichr</a> is a web tool that performs gene set enrichment analysis. The value of each cell represents the <b>combined score</b>, a combination of the p-value and z-score. Use the dropdown to change Enrichr's enrichment library. 
                   </p>
-                  <p>
-                    Enriched terms from
-                    <select id="library-dropdown">
-                      <option>ChEA 2015</option>
-                      <option>ENCODE TF ChIP-seq 2015</option>
-                      <option>KEGG 2016</option>
-                      <option>MGI Mammalian Phenotype Level 4</option>
-                      <option>GO Biological Process 2015</option>
-                    </select>
-                  </p>
-  <!--                 <div class="row">
-                    <div class="col-md-6" id="up-genes">
-                      <p>Up Regulated Genes</p>
-                      
-                    </div>
-                    <div class="col-md-6" id="down-genes">
-                      <h4>Down Regulated Genes</h4>
-                      <p>Term</p>
-                      <p>Term</p>
-                      <p>Term</p>
-                      <p>Term</p>
-                      <p>Term</p>
-                      <p>Term</p>
-                      <p>Term</p>
-                      <p>Term</p>
-                      <p>Term</p>
-                      <p>Term</p>
-                    </div>
-                  </div> -->
-                  
-                </div>
-                <!-- <div class="l1000" style="overflow:hidden;"><iframe src="http://amp.pharm.mssm.edu/clustergrammer/viz/578e84c9b30ca205ff4655f5/KEGG_2016_trametinib_24h_combined_score.tsv" style="width:100%; height:800px; border:none;"></iframe></div> -->
-                <div id="enrichr-clustergrammer">
-
-                  <div id="ChEA_2015" style="display:block;"><span id="ChEA_2015-loading">Loading Clustergrammer</span></div>
-                  <div id="ENCODE_TF_ChIP-seq_2015" style="display:none;"><span id="ENCODE_TF_ChIP-seq_2015-loading">Loading Clustergrammer</span></div>
-                  <div id="KEGG_2016" style="display:none;"><span id="KEGG_2016-loading">Loading Clustergrammer</span></div>
-                  <div id="MGI_Mammalian_Phenotype_Level_4" style="display:none;"><span id="MGI_Mammalian_Phenotype_Level_4-loading">Loading Clustergrammer</span></div>
-                  <div id="GO_Biological_Process_2015" style="display:none;"><span id="GO_Biological_Process_2015-loading">Loading Clustergrammer</span></div>
-                </div>
-                <div class="download-table">
-                  <b>ADD DOWNLOAD TABLE</b>
-                </div>
+                  {% with assay="Enrichr", drug=drug_selected, time=['3h', '24h'], default_time="24h", default_library="ChEA_2015"%}
+                    {% include "partials/drug-enrichr.html" %}
+                  {% endwith %}
               </div> <!-- /.assay-content -->
 
               <div class="assay-content">
@@ -231,8 +191,8 @@
                 <div class="description">
                   <a href="http://www.lincscloud.org/l1000/" target="_blank">L1000</a> is a gene expression profiling assay based on the direct measurement of a reduced representation of the transcriptome and computational inference of the portion of the transcriptome not explicitly measured.
                 </div>
-                {% with assay="L1000", drug=drug_selected, time=['3h', '24h'], default_time="24h"%}
-                    {% include "partials/drugs-clustergrammer.html" %}
+                {% with assay="L1000", drug=drug_selected, time=['3h', '24h'], default_time="3h", default_regulation="down" %}
+                  {% include "partials/drug-l1000.html" %}
                 {% endwith %}
               </div> <!-- /.assay-content (L1000) -->
 

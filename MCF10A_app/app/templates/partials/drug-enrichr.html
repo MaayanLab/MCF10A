@@ -1,0 +1,41 @@
+<p>
+  Enriched terms from
+  <select id="library-dropdown">
+    <option>ChEA 2015</option>
+    <option>ENCODE TF ChIP-seq 2015</option>
+    <option>KEGG 2016</option>
+    <option>MGI Mammalian Phenotype Level 4</option>
+    <option>GO Biological Process 2015</option>
+  </select>
+</p>
+{% with assay="Enrichr", time=['3h', '24h'], default_time="24h"%}
+  {% include "partials/time-toggle.html" %}
+{% endwith %}
+<!--                 <div class="row">
+  <div class="col-md-6" id="up-genes">
+    <p>Up Regulated Genes</p>
+    
+  </div>
+  <div class="col-md-6" id="down-genes">
+    <h4>Down Regulated Genes</h4>
+    <p>Term</p>
+    <p>Term</p>
+    <p>Term</p>
+    <p>Term</p>
+    <p>Term</p>
+    <p>Term</p>
+    <p>Term</p>
+    <p>Term</p>
+    <p>Term</p>
+    <p>Term</p>
+  </div>
+</div> -->
+
+</div>
+<div id="enrichr-container">
+</div>
+<div id="enrichr-clustergrammer-container">
+</div>
+<div class="download-table">
+<a id="enrichr-clustergrammer-download" href="../data/l1000/values/{{default_library}}_{{drug}}_{{default_time}}_combined_score.tsv">download enriched terms</a>
+</div>

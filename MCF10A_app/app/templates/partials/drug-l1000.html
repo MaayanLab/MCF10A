@@ -1,0 +1,21 @@
+<div id="l1000-parameters" style="margin-bottom: 5px;">
+  {% with assay="L1000", time=['3h', '24h'], default_time="3h"%}
+    {% include "partials/time-toggle.html" %}
+  {% endwith %}
+  <form class="time-toggle" id="{{assay.lower()}}-regulation-toggle">
+  	<b>Regulation:</b>
+  	<input type="radio" id="{{assay.lower()}}-up" name="{{assay.lower()}}-regulation" value="up" {{"checked" if "up" == default_regulation}}>
+  	<label for="{{assay.lower()}}-up">up</label>
+  	<input type="radio" id="{{assay.lower()}}-down" name="{{assay.lower()}}-regulation" value="down" {{"checked" if "down" == default_regulation}}>
+  	<label for="{{assay.lower()}}-down">down</label>
+  </form>
+</div>
+
+<!-- {% for t in time %}
+  <div id="{{assay.lower()}}-{{t}}" style="display:{{"block" if t == default_time else "none"}};"><span id="{{assay.lower()}}-{{t}}-loading">Loading Clustergrammer</span></div>
+{% endfor %} -->
+<div id="l1000-clustergrammer-container"></div>
+
+<div class="download-table">
+  <a id="l1000-clustergrammer-download" href="../data/{{assay.lower()}}/values/L1000/{{assay}}_{{drug}}_{{default_time}}_{{default_regulation}}.tsv">download {{assay}} metrics</a>
+</div>

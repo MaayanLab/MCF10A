@@ -117,6 +117,7 @@ function createCanvas(dataArray, valueLabel, containerId, svgId, assay){
 				            div	.html(d.term + "<br>" + valueLabel + " = " + d.val.toPrecision(3))	
 				                .style("left", (d3.event.pageX + 5) + "px")		
 				                .style("top", (d3.event.pageY - 28) + "px");	
+				             
 				            })					
 				        .on("mouseout", function(d) {		
 				            /*div.transition()		

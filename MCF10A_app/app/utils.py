@@ -114,6 +114,7 @@ def get_l1000_combined_score(filename):
     return value
 
 def get_p100_z_score(filename):
+    print "in get_p100_zscore"
     value = {}
     with open(filename, 'rb') as tsvfile:
         tsvreader = csv.reader(tsvfile, delimiter="\t")

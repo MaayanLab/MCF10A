@@ -413,8 +413,6 @@ function drawHorizontalBoxplot(filename, parameter, svg){
        .attr("y1", bottomMidline)
        .attr("y2", bottomMidline);
 
-
-    console.log("q1Val=" + q1Val + " iqr=" + iqr);
     //draw rect for iqr
     //iqr = q3Val - q1Val,
     svg.append("rect")    

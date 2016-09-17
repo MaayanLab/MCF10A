@@ -1,0 +1,6910 @@
+{
+  "row_nodes": [
+    {
+      "group": [
+        12.0, 
+        9.0, 
+        6.0, 
+        4.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0002925_abnormal_cardiovascular_devel_", 
+      "clust": 11, 
+      "rank": 27, 
+      "ini": 30, 
+      "rankvar": 6
+    }, 
+    {
+      "group": [
+        13.0, 
+        10.0, 
+        6.0, 
+        4.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0002135_abnormal_kidney_morphology_", 
+      "clust": 12, 
+      "rank": 26, 
+      "ini": 29, 
+      "rankvar": 10
+    }, 
+    {
+      "group": [
+        8.0, 
+        7.0, 
+        5.0, 
+        3.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0005621_abnormal_cell_physiology_", 
+      "clust": 7, 
+      "rank": 24, 
+      "ini": 28, 
+      "rankvar": 26
+    }, 
+    {
+      "group": [
+        28.0, 
+        17.0, 
+        10.0, 
+        6.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0009642_abnormal_blood_homeostasis_", 
+      "clust": 18, 
+      "rank": 17, 
+      "ini": 27, 
+      "rankvar": 7
+    }, 
+    {
+      "group": [
+        9.0, 
+        7.0, 
+        5.0, 
+        3.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0005384_cellular_phenotype_", 
+      "clust": 8, 
+      "rank": 25, 
+      "ini": 26, 
+      "rankvar": 20
+    }, 
+    {
+      "group": [
+        19.0, 
+        13.0, 
+        8.0, 
+        6.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0010769_abnormal_survival_", 
+      "clust": 21, 
+      "rank": 20, 
+      "ini": 25, 
+      "rankvar": 24
+    }, 
+    {
+      "group": [
+        20.0, 
+        13.0, 
+        8.0, 
+        6.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0010768_mortality/aging_", 
+      "clust": 22, 
+      "rank": 22, 
+      "ini": 24, 
+      "rankvar": 25
+    }, 
+    {
+      "group": [
+        10.0, 
+        8.0, 
+        6.0, 
+        4.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0000266_abnormal_heart_morphology_", 
+      "clust": 9, 
+      "rank": 29, 
+      "ini": 23, 
+      "rankvar": 12
+    }, 
+    {
+      "group": [
+        3.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0001697_abnormal_embryo_size_", 
+      "clust": 1, 
+      "rank": 4, 
+      "ini": 22, 
+      "rankvar": 27
+    }, 
+    {
+      "group": [
+        16.0, 
+        12.0, 
+        7.0, 
+        5.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0000350_abnormal_cell_proliferation_", 
+      "clust": 15, 
+      "rank": 14, 
+      "ini": 21, 
+      "rankvar": 16
+    }, 
+    {
+      "group": [
+        24.0, 
+        15.0, 
+        9.0, 
+        6.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0001819_abnormal_immune_cell_", 
+      "clust": 28, 
+      "rank": 5, 
+      "ini": 20, 
+      "rankvar": 17
+    }, 
+    {
+      "group": [
+        25.0, 
+        15.0, 
+        9.0, 
+        6.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0002420_abnormal_adaptive_immunity_", 
+      "clust": 29, 
+      "rank": 8, 
+      "ini": 19, 
+      "rankvar": 18
+    }, 
+    {
+      "group": [
+        27.0, 
+        16.0, 
+        9.0, 
+        6.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0002429_abnormal_blood_cell_", 
+      "clust": 26, 
+      "rank": 13, 
+      "ini": 18, 
+      "rankvar": 15
+    }, 
+    {
+      "group": [
+        23.0, 
+        14.0, 
+        9.0, 
+        6.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0000703_abnormal_thymus_morphology_", 
+      "clust": 23, 
+      "rank": 16, 
+      "ini": 17, 
+      "rankvar": 28
+    }, 
+    {
+      "group": [
+        11.0, 
+        8.0, 
+        6.0, 
+        4.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0001784_abnormal_fluid_regulation_", 
+      "clust": 10, 
+      "rank": 23, 
+      "ini": 16, 
+      "rankvar": 2
+    }, 
+    {
+      "group": [
+        26.0, 
+        15.0, 
+        9.0, 
+        6.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0000716_abnormal_immune_system_", 
+      "clust": 27, 
+      "rank": 9, 
+      "ini": 15, 
+      "rankvar": 11
+    }, 
+    {
+      "group": [
+        21.0, 
+        14.0, 
+        9.0, 
+        6.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0002398_abnormal_bone_marrow_", 
+      "clust": 24, 
+      "rank": 12, 
+      "ini": 14, 
+      "rankvar": 13
+    }, 
+    {
+      "group": [
+        14.0, 
+        11.0, 
+        7.0, 
+        5.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0002169_no_abnormal_phenotype_", 
+      "clust": 16, 
+      "rank": 10, 
+      "ini": 13, 
+      "rankvar": 1
+    }, 
+    {
+      "group": [
+        15.0, 
+        11.0, 
+        7.0, 
+        5.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0002873_normal_phenotype_", 
+      "clust": 17, 
+      "rank": 11, 
+      "ini": 12, 
+      "rankvar": 0
+    }, 
+    {
+      "group": [
+        5.0, 
+        4.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0000001_mammalian_phenotype_", 
+      "clust": 5, 
+      "rank": 28, 
+      "ini": 11, 
+      "rankvar": 23
+    }, 
+    {
+      "group": [
+        29.0, 
+        18.0, 
+        11.0, 
+        7.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0002083_premature_death_", 
+      "clust": 14, 
+      "rank": 7, 
+      "ini": 10, 
+      "rankvar": 8
+    }, 
+    {
+      "group": [
+        4.0, 
+        3.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0002080_prenatal_lethality_", 
+      "clust": 0, 
+      "rank": 1, 
+      "ini": 9, 
+      "rankvar": 29
+    }, 
+    {
+      "group": [
+        17.0, 
+        13.0, 
+        8.0, 
+        6.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0010770_preweaning_lethality_", 
+      "clust": 19, 
+      "rank": 19, 
+      "ini": 8, 
+      "rankvar": 22
+    }, 
+    {
+      "group": [
+        18.0, 
+        13.0, 
+        8.0, 
+        6.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0002082_postnatal_lethality_", 
+      "clust": 20, 
+      "rank": 18, 
+      "ini": 7, 
+      "rankvar": 21
+    }, 
+    {
+      "group": [
+        7.0, 
+        6.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0004087_abnormal_muscle_fiber_", 
+      "clust": 4, 
+      "rank": 15, 
+      "ini": 6, 
+      "rankvar": 9
+    }, 
+    {
+      "group": [
+        6.0, 
+        5.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0010630_abnormal_cardiac_muscle_", 
+      "clust": 6, 
+      "rank": 21, 
+      "ini": 5, 
+      "rankvar": 5
+    }, 
+    {
+      "group": [
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0003077_abnormal_cell_cycle_", 
+      "clust": 2, 
+      "rank": 0, 
+      "ini": 4, 
+      "rankvar": 19
+    }, 
+    {
+      "group": [
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0001730_embryonic_growth_arrest_", 
+      "clust": 3, 
+      "rank": 2, 
+      "ini": 3, 
+      "rankvar": 4
+    }, 
+    {
+      "group": [
+        22.0, 
+        14.0, 
+        9.0, 
+        6.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0002722_abnormal_immune_system_", 
+      "clust": 25, 
+      "rank": 6, 
+      "ini": 2, 
+      "rankvar": 14
+    }, 
+    {
+      "group": [
+        30.0, 
+        19.0, 
+        12.0, 
+        8.0, 
+        5.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "MP0002723_abnormal_immune_serum_", 
+      "clust": 13, 
+      "rank": 3, 
+      "ini": 1, 
+      "rankvar": 3
+    }
+  ], 
+  "col_nodes": [
+    {
+      "group": [
+        5.0, 
+        4.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_0.04", 
+      "clust": 3, 
+      "rank": 8, 
+      "ini": 12, 
+      "rankvar": 3
+    }, 
+    {
+      "group": [
+        6.0, 
+        5.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_0.12", 
+      "clust": 0, 
+      "rank": 9, 
+      "ini": 11, 
+      "rankvar": 5
+    }, 
+    {
+      "group": [
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_0.37", 
+      "clust": 1, 
+      "rank": 7, 
+      "ini": 10, 
+      "rankvar": 7
+    }, 
+    {
+      "group": [
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_01.11", 
+      "clust": 2, 
+      "rank": 6, 
+      "ini": 9, 
+      "rankvar": 4
+    }, 
+    {
+      "group": [
+        3.0, 
+        3.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_03.33", 
+      "clust": 4, 
+      "rank": 10, 
+      "ini": 8, 
+      "rankvar": 2
+    }, 
+    {
+      "group": [
+        4.0, 
+        3.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_10.0", 
+      "clust": 5, 
+      "rank": 11, 
+      "ini": 7, 
+      "rankvar": 9
+    }, 
+    {
+      "group": [
+        10.0, 
+        9.0, 
+        4.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_0.04", 
+      "clust": 10, 
+      "rank": 0, 
+      "ini": 6, 
+      "rankvar": 11
+    }, 
+    {
+      "group": [
+        12.0, 
+        11.0, 
+        6.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_0.12", 
+      "clust": 9, 
+      "rank": 5, 
+      "ini": 5, 
+      "rankvar": 1
+    }, 
+    {
+      "group": [
+        11.0, 
+        10.0, 
+        5.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_0.37", 
+      "clust": 11, 
+      "rank": 4, 
+      "ini": 4, 
+      "rankvar": 0
+    }, 
+    {
+      "group": [
+        9.0, 
+        8.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_01.11", 
+      "clust": 6, 
+      "rank": 3, 
+      "ini": 3, 
+      "rankvar": 10
+    }, 
+    {
+      "group": [
+        7.0, 
+        6.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_03.33", 
+      "clust": 7, 
+      "rank": 2, 
+      "ini": 2, 
+      "rankvar": 6
+    }, 
+    {
+      "group": [
+        8.0, 
+        7.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_10.0", 
+      "clust": 8, 
+      "rank": 1, 
+      "ini": 1, 
+      "rankvar": 8
+    }
+  ], 
+  "links": [
+    {
+      "source": 0, 
+      "target": 0, 
+      "value": 1.2708481226999999, 
+      "value_orig": 1.2708481226999999
+    }, 
+    {
+      "source": 0, 
+      "target": 1, 
+      "value": 2.4523285757099997, 
+      "value_orig": 2.4523285757099997
+    }, 
+    {
+      "source": 0, 
+      "target": 2, 
+      "value": 7.4934769230299993, 
+      "value_orig": 7.4934769230299993
+    }, 
+    {
+      "source": 0, 
+      "target": 3, 
+      "value": 6.8431299107700001, 
+      "value_orig": 6.8431299107700001
+    }, 
+    {
+      "source": 0, 
+      "target": 4, 
+      "value": 8.8210598823400002, 
+      "value_orig": 8.8210598823400002
+    }, 
+    {
+      "source": 0, 
+      "target": 5, 
+      "value": 12.245725891500001, 
+      "value_orig": 12.245725891500001
+    }, 
+    {
+      "source": 0, 
+      "target": 6, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 0, 
+      "target": 7, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 0, 
+      "target": 8, 
+      "value": -1.7136084809200001, 
+      "value_orig": -1.7136084809200001
+    }, 
+    {
+      "source": 0, 
+      "target": 9, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 0, 
+      "target": 10, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 0, 
+      "target": 11, 
+      "value": -0.56096027136600002, 
+      "value_orig": -0.56096027136600002
+    }, 
+    {
+      "source": 1, 
+      "target": 0, 
+      "value": 0.70899788418500009, 
+      "value_orig": 0.70899788418500009
+    }, 
+    {
+      "source": 1, 
+      "target": 1, 
+      "value": 4.5737291522500003, 
+      "value_orig": 4.5737291522500003
+    }, 
+    {
+      "source": 1, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 1, 
+      "target": 3, 
+      "value": 8.1525686306899985, 
+      "value_orig": 8.1525686306899985
+    }, 
+    {
+      "source": 1, 
+      "target": 4, 
+      "value": 8.8555506713799996, 
+      "value_orig": 8.8555506713799996
+    }, 
+    {
+      "source": 1, 
+      "target": 5, 
+      "value": 12.6777175374, 
+      "value_orig": 12.6777175374
+    }, 
+    {
+      "source": 1, 
+      "target": 6, 
+      "value": -5.1305490154300006, 
+      "value_orig": -5.1305490154300006
+    }, 
+    {
+      "source": 1, 
+      "target": 7, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 1, 
+      "target": 8, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 1, 
+      "target": 9, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 1, 
+      "target": 10, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 1, 
+      "target": 11, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 2, 
+      "target": 0, 
+      "value": 7.4290494506899991, 
+      "value_orig": 7.4290494506899991
+    }, 
+    {
+      "source": 2, 
+      "target": 1, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 2, 
+      "target": 2, 
+      "value": 4.7339352905899998, 
+      "value_orig": 4.7339352905899998
+    }, 
+    {
+      "source": 2, 
+      "target": 3, 
+      "value": 2.1197769166799998, 
+      "value_orig": 2.1197769166799998
+    }, 
+    {
+      "source": 2, 
+      "target": 4, 
+      "value": 5.1969228379599999, 
+      "value_orig": 5.1969228379599999
+    }, 
+    {
+      "source": 2, 
+      "target": 5, 
+      "value": 21.697610164, 
+      "value_orig": 21.697610164
+    }, 
+    {
+      "source": 2, 
+      "target": 6, 
+      "value": -1.2549566919199999, 
+      "value_orig": -1.2549566919199999
+    }, 
+    {
+      "source": 2, 
+      "target": 7, 
+      "value": -2.0778592246700001, 
+      "value_orig": -2.0778592246700001
+    }, 
+    {
+      "source": 2, 
+      "target": 8, 
+      "value": -2.34537632853, 
+      "value_orig": -2.34537632853
+    }, 
+    {
+      "source": 2, 
+      "target": 9, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 2, 
+      "target": 10, 
+      "value": -4.8836987667500003, 
+      "value_orig": -4.8836987667500003
+    }, 
+    {
+      "source": 2, 
+      "target": 11, 
+      "value": -3.6520921220699996, 
+      "value_orig": -3.6520921220699996
+    }, 
+    {
+      "source": 3, 
+      "target": 0, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 3, 
+      "target": 1, 
+      "value": 5.2865399894999996, 
+      "value_orig": 5.2865399894999996
+    }, 
+    {
+      "source": 3, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 3, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 3, 
+      "target": 4, 
+      "value": 8.0192518284700007, 
+      "value_orig": 8.0192518284700007
+    }, 
+    {
+      "source": 3, 
+      "target": 5, 
+      "value": 9.6541973265299994, 
+      "value_orig": 9.6541973265299994
+    }, 
+    {
+      "source": 3, 
+      "target": 6, 
+      "value": -8.4547924050700001, 
+      "value_orig": -8.4547924050700001
+    }, 
+    {
+      "source": 3, 
+      "target": 7, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 3, 
+      "target": 8, 
+      "value": -0.31207297538000001, 
+      "value_orig": -0.31207297538000001
+    }, 
+    {
+      "source": 3, 
+      "target": 9, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 3, 
+      "target": 10, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 3, 
+      "target": 11, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 4, 
+      "target": 0, 
+      "value": 8.7375041146699992, 
+      "value_orig": 8.7375041146699992
+    }, 
+    {
+      "source": 4, 
+      "target": 1, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 4, 
+      "target": 2, 
+      "value": 6.9416721947300006, 
+      "value_orig": 6.9416721947300006
+    }, 
+    {
+      "source": 4, 
+      "target": 3, 
+      "value": 1.9711696951099997, 
+      "value_orig": 1.9711696951099997
+    }, 
+    {
+      "source": 4, 
+      "target": 4, 
+      "value": 8.5849899964900001, 
+      "value_orig": 8.5849899964900001
+    }, 
+    {
+      "source": 4, 
+      "target": 5, 
+      "value": 18.468263152700001, 
+      "value_orig": 18.468263152700001
+    }, 
+    {
+      "source": 4, 
+      "target": 6, 
+      "value": -0.53849526942100001, 
+      "value_orig": -0.53849526942100001
+    }, 
+    {
+      "source": 4, 
+      "target": 7, 
+      "value": -2.6003145444999998, 
+      "value_orig": -2.6003145444999998
+    }, 
+    {
+      "source": 4, 
+      "target": 8, 
+      "value": -2.7929903530799995, 
+      "value_orig": -2.7929903530799995
+    }, 
+    {
+      "source": 4, 
+      "target": 9, 
+      "value": -0.82957554788499999, 
+      "value_orig": -0.82957554788499999
+    }, 
+    {
+      "source": 4, 
+      "target": 10, 
+      "value": -5.9234118170500007, 
+      "value_orig": -5.9234118170500007
+    }, 
+    {
+      "source": 4, 
+      "target": 11, 
+      "value": -2.3418605825199998, 
+      "value_orig": -2.3418605825199998
+    }, 
+    {
+      "source": 5, 
+      "target": 0, 
+      "value": 4.5744588320300004, 
+      "value_orig": 4.5744588320300004
+    }, 
+    {
+      "source": 5, 
+      "target": 1, 
+      "value": 7.8474659345100006, 
+      "value_orig": 7.8474659345100006
+    }, 
+    {
+      "source": 5, 
+      "target": 2, 
+      "value": 8.1227543145500007, 
+      "value_orig": 8.1227543145500007
+    }, 
+    {
+      "source": 5, 
+      "target": 3, 
+      "value": 6.9583084749899999, 
+      "value_orig": 6.9583084749899999
+    }, 
+    {
+      "source": 5, 
+      "target": 4, 
+      "value": 9.1054107042299997, 
+      "value_orig": 9.1054107042299997
+    }, 
+    {
+      "source": 5, 
+      "target": 5, 
+      "value": 8.4863257642299992, 
+      "value_orig": 8.4863257642299992
+    }, 
+    {
+      "source": 5, 
+      "target": 6, 
+      "value": -15.2661883243, 
+      "value_orig": -15.2661883243
+    }, 
+    {
+      "source": 5, 
+      "target": 7, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 5, 
+      "target": 8, 
+      "value": -0.73993073826, 
+      "value_orig": -0.73993073826
+    }, 
+    {
+      "source": 5, 
+      "target": 9, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 5, 
+      "target": 10, 
+      "value": -3.9594632716300007, 
+      "value_orig": -3.9594632716300007
+    }, 
+    {
+      "source": 5, 
+      "target": 11, 
+      "value": -2.4344863500999998, 
+      "value_orig": -2.4344863500999998
+    }, 
+    {
+      "source": 6, 
+      "target": 0, 
+      "value": 4.07412907327, 
+      "value_orig": 4.07412907327
+    }, 
+    {
+      "source": 6, 
+      "target": 1, 
+      "value": 8.6506139401799995, 
+      "value_orig": 8.6506139401799995
+    }, 
+    {
+      "source": 6, 
+      "target": 2, 
+      "value": 7.7100528781899991, 
+      "value_orig": 7.7100528781899991
+    }, 
+    {
+      "source": 6, 
+      "target": 3, 
+      "value": 7.6841751625999999, 
+      "value_orig": 7.6841751625999999
+    }, 
+    {
+      "source": 6, 
+      "target": 4, 
+      "value": 9.5102080858499995, 
+      "value_orig": 9.5102080858499995
+    }, 
+    {
+      "source": 6, 
+      "target": 5, 
+      "value": 8.0134486377199998, 
+      "value_orig": 8.0134486377199998
+    }, 
+    {
+      "source": 6, 
+      "target": 6, 
+      "value": -14.870215315899999, 
+      "value_orig": -14.870215315899999
+    }, 
+    {
+      "source": 6, 
+      "target": 7, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 6, 
+      "target": 8, 
+      "value": -0.63457019032499995, 
+      "value_orig": -0.63457019032499995
+    }, 
+    {
+      "source": 6, 
+      "target": 9, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 6, 
+      "target": 10, 
+      "value": -3.6713002713899998, 
+      "value_orig": -3.6713002713899998
+    }, 
+    {
+      "source": 6, 
+      "target": 11, 
+      "value": -3.2484241213400002, 
+      "value_orig": -3.2484241213400002
+    }, 
+    {
+      "source": 7, 
+      "target": 0, 
+      "value": 1.36719136179, 
+      "value_orig": 1.36719136179
+    }, 
+    {
+      "source": 7, 
+      "target": 1, 
+      "value": 10.162449563099999, 
+      "value_orig": 10.162449563099999
+    }, 
+    {
+      "source": 7, 
+      "target": 2, 
+      "value": 5.8081727116199993, 
+      "value_orig": 5.8081727116199993
+    }, 
+    {
+      "source": 7, 
+      "target": 3, 
+      "value": 12.342551649400001, 
+      "value_orig": 12.342551649400001
+    }, 
+    {
+      "source": 7, 
+      "target": 4, 
+      "value": 12.877100778599999, 
+      "value_orig": 12.877100778599999
+    }, 
+    {
+      "source": 7, 
+      "target": 5, 
+      "value": 8.1206444018399981, 
+      "value_orig": 8.1206444018399981
+    }, 
+    {
+      "source": 7, 
+      "target": 6, 
+      "value": -0.28623980402800003, 
+      "value_orig": -0.28623980402800003
+    }, 
+    {
+      "source": 7, 
+      "target": 7, 
+      "value": -2.0034115852599998, 
+      "value_orig": -2.0034115852599998
+    }, 
+    {
+      "source": 7, 
+      "target": 8, 
+      "value": -0.046745897795400004, 
+      "value_orig": -0.046745897795400004
+    }, 
+    {
+      "source": 7, 
+      "target": 9, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 7, 
+      "target": 10, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 7, 
+      "target": 11, 
+      "value": -0.076419777682700002, 
+      "value_orig": -0.076419777682700002
+    }, 
+    {
+      "source": 8, 
+      "target": 0, 
+      "value": 8.3963841511300004, 
+      "value_orig": 8.3963841511300004
+    }, 
+    {
+      "source": 8, 
+      "target": 1, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 8, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 8, 
+      "target": 3, 
+      "value": 7.0096208761800005, 
+      "value_orig": 7.0096208761800005
+    }, 
+    {
+      "source": 8, 
+      "target": 4, 
+      "value": 11.024703421099998, 
+      "value_orig": 11.024703421099998
+    }, 
+    {
+      "source": 8, 
+      "target": 5, 
+      "value": 4.9706575104500006, 
+      "value_orig": 4.9706575104500006
+    }, 
+    {
+      "source": 8, 
+      "target": 6, 
+      "value": -1.5712535657700002, 
+      "value_orig": -1.5712535657700002
+    }, 
+    {
+      "source": 8, 
+      "target": 7, 
+      "value": -4.3385977025000004, 
+      "value_orig": -4.3385977025000004
+    }, 
+    {
+      "source": 8, 
+      "target": 8, 
+      "value": -0.054574592669900002, 
+      "value_orig": -0.054574592669900002
+    }, 
+    {
+      "source": 8, 
+      "target": 9, 
+      "value": -18.496789911300002, 
+      "value_orig": -18.496789911300002
+    }, 
+    {
+      "source": 8, 
+      "target": 10, 
+      "value": -5.15925772745, 
+      "value_orig": -5.15925772745
+    }, 
+    {
+      "source": 8, 
+      "target": 11, 
+      "value": -12.624814893800002, 
+      "value_orig": -12.624814893800002
+    }, 
+    {
+      "source": 9, 
+      "target": 0, 
+      "value": 9.3110044259699993, 
+      "value_orig": 9.3110044259699993
+    }, 
+    {
+      "source": 9, 
+      "target": 1, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 9, 
+      "target": 2, 
+      "value": 2.7868487302900005, 
+      "value_orig": 2.7868487302900005
+    }, 
+    {
+      "source": 9, 
+      "target": 3, 
+      "value": 3.4002656219599996, 
+      "value_orig": 3.4002656219599996
+    }, 
+    {
+      "source": 9, 
+      "target": 4, 
+      "value": 10.839654985299999, 
+      "value_orig": 10.839654985299999
+    }, 
+    {
+      "source": 9, 
+      "target": 5, 
+      "value": 5.3009725792699998, 
+      "value_orig": 5.3009725792699998
+    }, 
+    {
+      "source": 9, 
+      "target": 6, 
+      "value": -5.2115029595599998, 
+      "value_orig": -5.2115029595599998
+    }, 
+    {
+      "source": 9, 
+      "target": 7, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 9, 
+      "target": 8, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 9, 
+      "target": 9, 
+      "value": -1.8489390185699999, 
+      "value_orig": -1.8489390185699999
+    }, 
+    {
+      "source": 9, 
+      "target": 10, 
+      "value": -6.3808070753299999, 
+      "value_orig": -6.3808070753299999
+    }, 
+    {
+      "source": 9, 
+      "target": 11, 
+      "value": -9.2147199280700001, 
+      "value_orig": -9.2147199280700001
+    }, 
+    {
+      "source": 10, 
+      "target": 0, 
+      "value": 5.8587373019800006, 
+      "value_orig": 5.8587373019800006
+    }, 
+    {
+      "source": 10, 
+      "target": 1, 
+      "value": 5.4395216132200002, 
+      "value_orig": 5.4395216132200002
+    }, 
+    {
+      "source": 10, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 10, 
+      "target": 3, 
+      "value": 0.366899727856, 
+      "value_orig": 0.366899727856
+    }, 
+    {
+      "source": 10, 
+      "target": 4, 
+      "value": 6.2373086136800007, 
+      "value_orig": 6.2373086136800007
+    }, 
+    {
+      "source": 10, 
+      "target": 5, 
+      "value": 5.3885769280999991, 
+      "value_orig": 5.3885769280999991
+    }, 
+    {
+      "source": 10, 
+      "target": 6, 
+      "value": -14.431199348699998, 
+      "value_orig": -14.431199348699998
+    }, 
+    {
+      "source": 10, 
+      "target": 7, 
+      "value": -3.4925757364699996, 
+      "value_orig": -3.4925757364699996
+    }, 
+    {
+      "source": 10, 
+      "target": 8, 
+      "value": -6.7157666053099998, 
+      "value_orig": -6.7157666053099998
+    }, 
+    {
+      "source": 10, 
+      "target": 9, 
+      "value": -1.2108613605299998, 
+      "value_orig": -1.2108613605299998
+    }, 
+    {
+      "source": 10, 
+      "target": 10, 
+      "value": -3.6036324750300004, 
+      "value_orig": -3.6036324750300004
+    }, 
+    {
+      "source": 10, 
+      "target": 11, 
+      "value": -3.0850258922900005, 
+      "value_orig": -3.0850258922900005
+    }, 
+    {
+      "source": 11, 
+      "target": 0, 
+      "value": 5.9099352286300002, 
+      "value_orig": 5.9099352286300002
+    }, 
+    {
+      "source": 11, 
+      "target": 1, 
+      "value": 6.62021757665, 
+      "value_orig": 6.62021757665
+    }, 
+    {
+      "source": 11, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 11, 
+      "target": 3, 
+      "value": 1.0628586123799999, 
+      "value_orig": 1.0628586123799999
+    }, 
+    {
+      "source": 11, 
+      "target": 4, 
+      "value": 6.2912064030499995, 
+      "value_orig": 6.2912064030499995
+    }, 
+    {
+      "source": 11, 
+      "target": 5, 
+      "value": 5.5090599500800002, 
+      "value_orig": 5.5090599500800002
+    }, 
+    {
+      "source": 11, 
+      "target": 6, 
+      "value": -14.54461959, 
+      "value_orig": -14.54461959
+    }, 
+    {
+      "source": 11, 
+      "target": 7, 
+      "value": -3.5238034621900005, 
+      "value_orig": -3.5238034621900005
+    }, 
+    {
+      "source": 11, 
+      "target": 8, 
+      "value": -6.7670206097599994, 
+      "value_orig": -6.7670206097599994
+    }, 
+    {
+      "source": 11, 
+      "target": 9, 
+      "value": -1.24433976977, 
+      "value_orig": -1.24433976977
+    }, 
+    {
+      "source": 11, 
+      "target": 10, 
+      "value": -3.6503916846199997, 
+      "value_orig": -3.6503916846199997
+    }, 
+    {
+      "source": 11, 
+      "target": 11, 
+      "value": -3.1318400011799996, 
+      "value_orig": -3.1318400011799996
+    }, 
+    {
+      "source": 12, 
+      "target": 0, 
+      "value": 11.499458519899999, 
+      "value_orig": 11.499458519899999
+    }, 
+    {
+      "source": 12, 
+      "target": 1, 
+      "value": 5.4103598889900004, 
+      "value_orig": 5.4103598889900004
+    }, 
+    {
+      "source": 12, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 12, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 12, 
+      "target": 4, 
+      "value": 2.7045705950999999, 
+      "value_orig": 2.7045705950999999
+    }, 
+    {
+      "source": 12, 
+      "target": 5, 
+      "value": 9.4931035942199991, 
+      "value_orig": 9.4931035942199991
+    }, 
+    {
+      "source": 12, 
+      "target": 6, 
+      "value": -9.5579431342800003, 
+      "value_orig": -9.5579431342800003
+    }, 
+    {
+      "source": 12, 
+      "target": 7, 
+      "value": -2.8580931274400001, 
+      "value_orig": -2.8580931274400001
+    }, 
+    {
+      "source": 12, 
+      "target": 8, 
+      "value": -1.5146831674799999, 
+      "value_orig": -1.5146831674799999
+    }, 
+    {
+      "source": 12, 
+      "target": 9, 
+      "value": -0.367620281715, 
+      "value_orig": -0.367620281715
+    }, 
+    {
+      "source": 12, 
+      "target": 10, 
+      "value": -1.00256954441, 
+      "value_orig": -1.00256954441
+    }, 
+    {
+      "source": 12, 
+      "target": 11, 
+      "value": -6.2934367074699997, 
+      "value_orig": -6.2934367074699997
+    }, 
+    {
+      "source": 13, 
+      "target": 0, 
+      "value": 4.5335000237699994, 
+      "value_orig": 4.5335000237699994
+    }, 
+    {
+      "source": 13, 
+      "target": 1, 
+      "value": 17.299665319799999, 
+      "value_orig": 17.299665319799999
+    }, 
+    {
+      "source": 13, 
+      "target": 2, 
+      "value": 2.2420627416699999, 
+      "value_orig": 2.2420627416699999
+    }, 
+    {
+      "source": 13, 
+      "target": 3, 
+      "value": 0.356951445807, 
+      "value_orig": 0.356951445807
+    }, 
+    {
+      "source": 13, 
+      "target": 4, 
+      "value": 5.9477410299699995, 
+      "value_orig": 5.9477410299699995
+    }, 
+    {
+      "source": 13, 
+      "target": 5, 
+      "value": 9.8708488564000003, 
+      "value_orig": 9.8708488564000003
+    }, 
+    {
+      "source": 13, 
+      "target": 6, 
+      "value": -17.879695226300001, 
+      "value_orig": -17.879695226300001
+    }, 
+    {
+      "source": 13, 
+      "target": 7, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 13, 
+      "target": 8, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 13, 
+      "target": 9, 
+      "value": -0.26831214204999998, 
+      "value_orig": -0.26831214204999998
+    }, 
+    {
+      "source": 13, 
+      "target": 10, 
+      "value": -2.5496663211300001, 
+      "value_orig": -2.5496663211300001
+    }, 
+    {
+      "source": 13, 
+      "target": 11, 
+      "value": -6.4283240601800005, 
+      "value_orig": -6.4283240601800005
+    }, 
+    {
+      "source": 14, 
+      "target": 0, 
+      "value": 0.125098021069, 
+      "value_orig": 0.125098021069
+    }, 
+    {
+      "source": 14, 
+      "target": 1, 
+      "value": 6.7658937438100004, 
+      "value_orig": 6.7658937438100004
+    }, 
+    {
+      "source": 14, 
+      "target": 2, 
+      "value": 3.2522444352599997, 
+      "value_orig": 3.2522444352599997
+    }, 
+    {
+      "source": 14, 
+      "target": 3, 
+      "value": 8.7406436923000008, 
+      "value_orig": 8.7406436923000008
+    }, 
+    {
+      "source": 14, 
+      "target": 4, 
+      "value": 3.2879531808999998, 
+      "value_orig": 3.2879531808999998
+    }, 
+    {
+      "source": 14, 
+      "target": 5, 
+      "value": 3.5746313554600002, 
+      "value_orig": 3.5746313554600002
+    }, 
+    {
+      "source": 14, 
+      "target": 6, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 14, 
+      "target": 7, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 14, 
+      "target": 8, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 14, 
+      "target": 9, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 14, 
+      "target": 10, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 14, 
+      "target": 11, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 15, 
+      "target": 0, 
+      "value": 6.2372467807300005, 
+      "value_orig": 6.2372467807300005
+    }, 
+    {
+      "source": 15, 
+      "target": 1, 
+      "value": 5.0050953636199997, 
+      "value_orig": 5.0050953636199997
+    }, 
+    {
+      "source": 15, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 15, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 15, 
+      "target": 4, 
+      "value": 0.77832322181999991, 
+      "value_orig": 0.77832322181999991
+    }, 
+    {
+      "source": 15, 
+      "target": 5, 
+      "value": 4.7341833091699996, 
+      "value_orig": 4.7341833091699996
+    }, 
+    {
+      "source": 15, 
+      "target": 6, 
+      "value": -14.769011530999999, 
+      "value_orig": -14.769011530999999
+    }, 
+    {
+      "source": 15, 
+      "target": 7, 
+      "value": -2.0989211230900002, 
+      "value_orig": -2.0989211230900002
+    }, 
+    {
+      "source": 15, 
+      "target": 8, 
+      "value": -1.8764101691999999, 
+      "value_orig": -1.8764101691999999
+    }, 
+    {
+      "source": 15, 
+      "target": 9, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 15, 
+      "target": 10, 
+      "value": -0.20483295935100002, 
+      "value_orig": -0.20483295935100002
+    }, 
+    {
+      "source": 15, 
+      "target": 11, 
+      "value": -4.1417355990300004, 
+      "value_orig": -4.1417355990300004
+    }, 
+    {
+      "source": 16, 
+      "target": 0, 
+      "value": 6.4961392141300003, 
+      "value_orig": 6.4961392141300003
+    }, 
+    {
+      "source": 16, 
+      "target": 1, 
+      "value": 10.6280987804, 
+      "value_orig": 10.6280987804
+    }, 
+    {
+      "source": 16, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 16, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 16, 
+      "target": 4, 
+      "value": 6.90939989523, 
+      "value_orig": 6.90939989523
+    }, 
+    {
+      "source": 16, 
+      "target": 5, 
+      "value": 4.9357547641800004, 
+      "value_orig": 4.9357547641800004
+    }, 
+    {
+      "source": 16, 
+      "target": 6, 
+      "value": -7.8267357325800004, 
+      "value_orig": -7.8267357325800004
+    }, 
+    {
+      "source": 16, 
+      "target": 7, 
+      "value": -0.10041660893, 
+      "value_orig": -0.10041660893
+    }, 
+    {
+      "source": 16, 
+      "target": 8, 
+      "value": -2.2672943378200001, 
+      "value_orig": -2.2672943378200001
+    }, 
+    {
+      "source": 16, 
+      "target": 9, 
+      "value": -0.71010579308900001, 
+      "value_orig": -0.71010579308900001
+    }, 
+    {
+      "source": 16, 
+      "target": 10, 
+      "value": -1.76299579058, 
+      "value_orig": -1.76299579058
+    }, 
+    {
+      "source": 16, 
+      "target": 11, 
+      "value": -9.3223693182700007, 
+      "value_orig": -9.3223693182700007
+    }, 
+    {
+      "source": 17, 
+      "target": 0, 
+      "value": 5.3184912339099997, 
+      "value_orig": 5.3184912339099997
+    }, 
+    {
+      "source": 17, 
+      "target": 1, 
+      "value": 1.2012086999, 
+      "value_orig": 1.2012086999
+    }, 
+    {
+      "source": 17, 
+      "target": 2, 
+      "value": 0.59667933077699997, 
+      "value_orig": 0.59667933077699997
+    }, 
+    {
+      "source": 17, 
+      "target": 3, 
+      "value": 3.8338255035800004, 
+      "value_orig": 3.8338255035800004
+    }, 
+    {
+      "source": 17, 
+      "target": 4, 
+      "value": 2.85664380399, 
+      "value_orig": 2.85664380399
+    }, 
+    {
+      "source": 17, 
+      "target": 5, 
+      "value": 2.3540698821300001, 
+      "value_orig": 2.3540698821300001
+    }, 
+    {
+      "source": 17, 
+      "target": 6, 
+      "value": -2.4741110119400003, 
+      "value_orig": -2.4741110119400003
+    }, 
+    {
+      "source": 17, 
+      "target": 7, 
+      "value": -0.85312964185000006, 
+      "value_orig": -0.85312964185000006
+    }, 
+    {
+      "source": 17, 
+      "target": 8, 
+      "value": -0.56853228257799993, 
+      "value_orig": -0.56853228257799993
+    }, 
+    {
+      "source": 17, 
+      "target": 9, 
+      "value": -1.4016954424599999, 
+      "value_orig": -1.4016954424599999
+    }, 
+    {
+      "source": 17, 
+      "target": 10, 
+      "value": -0.033906587732199997, 
+      "value_orig": -0.033906587732199997
+    }, 
+    {
+      "source": 17, 
+      "target": 11, 
+      "value": -5.6237118040699992, 
+      "value_orig": -5.6237118040699992
+    }, 
+    {
+      "source": 18, 
+      "target": 0, 
+      "value": 5.2036254355600002, 
+      "value_orig": 5.2036254355600002
+    }, 
+    {
+      "source": 18, 
+      "target": 1, 
+      "value": 1.1410291396100001, 
+      "value_orig": 1.1410291396100001
+    }, 
+    {
+      "source": 18, 
+      "target": 2, 
+      "value": 1.4470308297100001, 
+      "value_orig": 1.4470308297100001
+    }, 
+    {
+      "source": 18, 
+      "target": 3, 
+      "value": 3.8086177028099995, 
+      "value_orig": 3.8086177028099995
+    }, 
+    {
+      "source": 18, 
+      "target": 4, 
+      "value": 2.8231773471099997, 
+      "value_orig": 2.8231773471099997
+    }, 
+    {
+      "source": 18, 
+      "target": 5, 
+      "value": 2.2158392987200002, 
+      "value_orig": 2.2158392987200002
+    }, 
+    {
+      "source": 18, 
+      "target": 6, 
+      "value": -2.4547411212700001, 
+      "value_orig": -2.4547411212700001
+    }, 
+    {
+      "source": 18, 
+      "target": 7, 
+      "value": -0.84245478974999999, 
+      "value_orig": -0.84245478974999999
+    }, 
+    {
+      "source": 18, 
+      "target": 8, 
+      "value": -0.52538392781999999, 
+      "value_orig": -0.52538392781999999
+    }, 
+    {
+      "source": 18, 
+      "target": 9, 
+      "value": -1.3926710043299999, 
+      "value_orig": -1.3926710043299999
+    }, 
+    {
+      "source": 18, 
+      "target": 10, 
+      "value": -0.021002414461900001, 
+      "value_orig": -0.021002414461900001
+    }, 
+    {
+      "source": 18, 
+      "target": 11, 
+      "value": -5.5919650174099997, 
+      "value_orig": -5.5919650174099997
+    }, 
+    {
+      "source": 19, 
+      "target": 0, 
+      "value": 9.5616886248800004, 
+      "value_orig": 9.5616886248800004
+    }, 
+    {
+      "source": 19, 
+      "target": 1, 
+      "value": 4.9002109420100002, 
+      "value_orig": 4.9002109420100002
+    }, 
+    {
+      "source": 19, 
+      "target": 2, 
+      "value": 17.489756955299999, 
+      "value_orig": 17.489756955299999
+    }, 
+    {
+      "source": 19, 
+      "target": 3, 
+      "value": 9.7134925170300015, 
+      "value_orig": 9.7134925170300015
+    }, 
+    {
+      "source": 19, 
+      "target": 4, 
+      "value": 10.3157876785, 
+      "value_orig": 10.3157876785
+    }, 
+    {
+      "source": 19, 
+      "target": 5, 
+      "value": 7.0599087272300007, 
+      "value_orig": 7.0599087272300007
+    }, 
+    {
+      "source": 19, 
+      "target": 6, 
+      "value": -3.6258223648900003, 
+      "value_orig": -3.6258223648900003
+    }, 
+    {
+      "source": 19, 
+      "target": 7, 
+      "value": -1.6569338019100002, 
+      "value_orig": -1.6569338019100002
+    }, 
+    {
+      "source": 19, 
+      "target": 8, 
+      "value": -1.6774669824899999, 
+      "value_orig": -1.6774669824899999
+    }, 
+    {
+      "source": 19, 
+      "target": 9, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 19, 
+      "target": 10, 
+      "value": -2.9817156918999999, 
+      "value_orig": -2.9817156918999999
+    }, 
+    {
+      "source": 19, 
+      "target": 11, 
+      "value": -3.2623660786299999, 
+      "value_orig": -3.2623660786299999
+    }, 
+    {
+      "source": 20, 
+      "target": 0, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 20, 
+      "target": 1, 
+      "value": 5.2127441127999994, 
+      "value_orig": 5.2127441127999994
+    }, 
+    {
+      "source": 20, 
+      "target": 2, 
+      "value": 1.4196317263799998, 
+      "value_orig": 1.4196317263799998
+    }, 
+    {
+      "source": 20, 
+      "target": 3, 
+      "value": 5.7222958785899998, 
+      "value_orig": 5.7222958785899998
+    }, 
+    {
+      "source": 20, 
+      "target": 4, 
+      "value": 4.0416059955400003, 
+      "value_orig": 4.0416059955400003
+    }, 
+    {
+      "source": 20, 
+      "target": 5, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 20, 
+      "target": 6, 
+      "value": -8.5695313356199989, 
+      "value_orig": -8.5695313356199989
+    }, 
+    {
+      "source": 20, 
+      "target": 7, 
+      "value": -9.3122607730699993, 
+      "value_orig": -9.3122607730699993
+    }, 
+    {
+      "source": 20, 
+      "target": 8, 
+      "value": -0.19066673607599999, 
+      "value_orig": -0.19066673607599999
+    }, 
+    {
+      "source": 20, 
+      "target": 9, 
+      "value": -1.9819466744900001, 
+      "value_orig": -1.9819466744900001
+    }, 
+    {
+      "source": 20, 
+      "target": 10, 
+      "value": -3.0501021969700002, 
+      "value_orig": -3.0501021969700002
+    }, 
+    {
+      "source": 20, 
+      "target": 11, 
+      "value": -1.67413777248, 
+      "value_orig": -1.67413777248
+    }, 
+    {
+      "source": 21, 
+      "target": 0, 
+      "value": 12.7382765699, 
+      "value_orig": 12.7382765699
+    }, 
+    {
+      "source": 21, 
+      "target": 1, 
+      "value": 1.7591560205200001, 
+      "value_orig": 1.7591560205200001
+    }, 
+    {
+      "source": 21, 
+      "target": 2, 
+      "value": 11.444139991199998, 
+      "value_orig": 11.444139991199998
+    }, 
+    {
+      "source": 21, 
+      "target": 3, 
+      "value": 10.280487196399999, 
+      "value_orig": 10.280487196399999
+    }, 
+    {
+      "source": 21, 
+      "target": 4, 
+      "value": 3.1928257153900002, 
+      "value_orig": 3.1928257153900002
+    }, 
+    {
+      "source": 21, 
+      "target": 5, 
+      "value": 6.0134525134699999, 
+      "value_orig": 6.0134525134699999
+    }, 
+    {
+      "source": 21, 
+      "target": 6, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 21, 
+      "target": 7, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 21, 
+      "target": 8, 
+      "value": -1.4617095148800001, 
+      "value_orig": -1.4617095148800001
+    }, 
+    {
+      "source": 21, 
+      "target": 9, 
+      "value": -18.470788426199999, 
+      "value_orig": -18.470788426199999
+    }, 
+    {
+      "source": 21, 
+      "target": 10, 
+      "value": -22.861857786199998, 
+      "value_orig": -22.861857786199998
+    }, 
+    {
+      "source": 21, 
+      "target": 11, 
+      "value": -22.338398838299998, 
+      "value_orig": -22.338398838299998
+    }, 
+    {
+      "source": 22, 
+      "target": 0, 
+      "value": 5.6006245533599994, 
+      "value_orig": 5.6006245533599994
+    }, 
+    {
+      "source": 22, 
+      "target": 1, 
+      "value": 8.6150553309400006, 
+      "value_orig": 8.6150553309400006
+    }, 
+    {
+      "source": 22, 
+      "target": 2, 
+      "value": 10.4294772509, 
+      "value_orig": 10.4294772509
+    }, 
+    {
+      "source": 22, 
+      "target": 3, 
+      "value": 5.6040835092400005, 
+      "value_orig": 5.6040835092400005
+    }, 
+    {
+      "source": 22, 
+      "target": 4, 
+      "value": 5.8763847881600002, 
+      "value_orig": 5.8763847881600002
+    }, 
+    {
+      "source": 22, 
+      "target": 5, 
+      "value": 6.0933491212400011, 
+      "value_orig": 6.0933491212400011
+    }, 
+    {
+      "source": 22, 
+      "target": 6, 
+      "value": -14.033791838800001, 
+      "value_orig": -14.033791838800001
+    }, 
+    {
+      "source": 22, 
+      "target": 7, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 22, 
+      "target": 8, 
+      "value": -1.0005954011799998, 
+      "value_orig": -1.0005954011799998
+    }, 
+    {
+      "source": 22, 
+      "target": 9, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 22, 
+      "target": 10, 
+      "value": -5.2486079938500003, 
+      "value_orig": -5.2486079938500003
+    }, 
+    {
+      "source": 22, 
+      "target": 11, 
+      "value": -3.8512828401699997, 
+      "value_orig": -3.8512828401699997
+    }, 
+    {
+      "source": 23, 
+      "target": 0, 
+      "value": 5.5922937843699989, 
+      "value_orig": 5.5922937843699989
+    }, 
+    {
+      "source": 23, 
+      "target": 1, 
+      "value": 8.6037865997700003, 
+      "value_orig": 8.6037865997700003
+    }, 
+    {
+      "source": 23, 
+      "target": 2, 
+      "value": 10.416372020299999, 
+      "value_orig": 10.416372020299999
+    }, 
+    {
+      "source": 23, 
+      "target": 3, 
+      "value": 5.5959916413699995, 
+      "value_orig": 5.5959916413699995
+    }, 
+    {
+      "source": 23, 
+      "target": 4, 
+      "value": 5.8677734913199995, 
+      "value_orig": 5.8677734913199995
+    }, 
+    {
+      "source": 23, 
+      "target": 5, 
+      "value": 6.0842854385300003, 
+      "value_orig": 6.0842854385300003
+    }, 
+    {
+      "source": 23, 
+      "target": 6, 
+      "value": -14.0156817585, 
+      "value_orig": -14.0156817585
+    }, 
+    {
+      "source": 23, 
+      "target": 7, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 23, 
+      "target": 8, 
+      "value": -0.99853511413599993, 
+      "value_orig": -0.99853511413599993
+    }, 
+    {
+      "source": 23, 
+      "target": 9, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 23, 
+      "target": 10, 
+      "value": -5.2417426691099998, 
+      "value_orig": -5.2417426691099998
+    }, 
+    {
+      "source": 23, 
+      "target": 11, 
+      "value": -3.8449918501699996, 
+      "value_orig": -3.8449918501699996
+    }, 
+    {
+      "source": 24, 
+      "target": 0, 
+      "value": 0.215427415387, 
+      "value_orig": 0.215427415387
+    }, 
+    {
+      "source": 24, 
+      "target": 1, 
+      "value": 10.877912000899999, 
+      "value_orig": 10.877912000899999
+    }, 
+    {
+      "source": 24, 
+      "target": 2, 
+      "value": 7.8378507853199997, 
+      "value_orig": 7.8378507853199997
+    }, 
+    {
+      "source": 24, 
+      "target": 3, 
+      "value": 2.6822160424599999, 
+      "value_orig": 2.6822160424599999
+    }, 
+    {
+      "source": 24, 
+      "target": 4, 
+      "value": 2.7841187572199999, 
+      "value_orig": 2.7841187572199999
+    }, 
+    {
+      "source": 24, 
+      "target": 5, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 24, 
+      "target": 6, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 24, 
+      "target": 7, 
+      "value": -7.1247464068899991, 
+      "value_orig": -7.1247464068899991
+    }, 
+    {
+      "source": 24, 
+      "target": 8, 
+      "value": -1.9223717605700001, 
+      "value_orig": -1.9223717605700001
+    }, 
+    {
+      "source": 24, 
+      "target": 9, 
+      "value": -2.3891024322300001, 
+      "value_orig": -2.3891024322300001
+    }, 
+    {
+      "source": 24, 
+      "target": 10, 
+      "value": -1.9780269619099999, 
+      "value_orig": -1.9780269619099999
+    }, 
+    {
+      "source": 24, 
+      "target": 11, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 25, 
+      "target": 0, 
+      "value": 2.6548952165999999, 
+      "value_orig": 2.6548952165999999
+    }, 
+    {
+      "source": 25, 
+      "target": 1, 
+      "value": 5.6206741950400003, 
+      "value_orig": 5.6206741950400003
+    }, 
+    {
+      "source": 25, 
+      "target": 2, 
+      "value": 9.6280723172399991, 
+      "value_orig": 9.6280723172399991
+    }, 
+    {
+      "source": 25, 
+      "target": 3, 
+      "value": 8.0334421228299995, 
+      "value_orig": 8.0334421228299995
+    }, 
+    {
+      "source": 25, 
+      "target": 4, 
+      "value": 2.2583616574500001, 
+      "value_orig": 2.2583616574500001
+    }, 
+    {
+      "source": 25, 
+      "target": 5, 
+      "value": 0.92990473632000015, 
+      "value_orig": 0.92990473632000015
+    }, 
+    {
+      "source": 25, 
+      "target": 6, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 25, 
+      "target": 7, 
+      "value": -2.7934458643299998, 
+      "value_orig": -2.7934458643299998
+    }, 
+    {
+      "source": 25, 
+      "target": 8, 
+      "value": -1.6074146546000001, 
+      "value_orig": -1.6074146546000001
+    }, 
+    {
+      "source": 25, 
+      "target": 9, 
+      "value": -0.83701609013900002, 
+      "value_orig": -0.83701609013900002
+    }, 
+    {
+      "source": 25, 
+      "target": 10, 
+      "value": -1.18018584, 
+      "value_orig": -1.18018584
+    }, 
+    {
+      "source": 25, 
+      "target": 11, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 26, 
+      "target": 0, 
+      "value": 7.1853145673300007, 
+      "value_orig": 7.1853145673300007
+    }, 
+    {
+      "source": 26, 
+      "target": 1, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 26, 
+      "target": 2, 
+      "value": 3.1448166138999998, 
+      "value_orig": 3.1448166138999998
+    }, 
+    {
+      "source": 26, 
+      "target": 3, 
+      "value": 0.0827352497844, 
+      "value_orig": 0.0827352497844
+    }, 
+    {
+      "source": 26, 
+      "target": 4, 
+      "value": 0.48226060035599999, 
+      "value_orig": 0.48226060035599999
+    }, 
+    {
+      "source": 26, 
+      "target": 5, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 26, 
+      "target": 6, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 26, 
+      "target": 7, 
+      "value": -0.38098933341300001, 
+      "value_orig": -0.38098933341300001
+    }, 
+    {
+      "source": 26, 
+      "target": 8, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 26, 
+      "target": 9, 
+      "value": -16.473009795399999, 
+      "value_orig": -16.473009795399999
+    }, 
+    {
+      "source": 26, 
+      "target": 10, 
+      "value": -2.4626044258099995, 
+      "value_orig": -2.4626044258099995
+    }, 
+    {
+      "source": 26, 
+      "target": 11, 
+      "value": -12.857043368800001, 
+      "value_orig": -12.857043368800001
+    }, 
+    {
+      "source": 27, 
+      "target": 0, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 27, 
+      "target": 1, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 27, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 27, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 27, 
+      "target": 4, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 27, 
+      "target": 5, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 27, 
+      "target": 6, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 27, 
+      "target": 7, 
+      "value": -0.0425401121208, 
+      "value_orig": -0.0425401121208
+    }, 
+    {
+      "source": 27, 
+      "target": 8, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 27, 
+      "target": 9, 
+      "value": -10.408490647799999, 
+      "value_orig": -10.408490647799999
+    }, 
+    {
+      "source": 27, 
+      "target": 10, 
+      "value": -0.116671687846, 
+      "value_orig": -0.116671687846
+    }, 
+    {
+      "source": 27, 
+      "target": 11, 
+      "value": -8.3714570942099993, 
+      "value_orig": -8.3714570942099993
+    }, 
+    {
+      "source": 28, 
+      "target": 0, 
+      "value": 2.1972021794300001, 
+      "value_orig": 2.1972021794300001
+    }, 
+    {
+      "source": 28, 
+      "target": 1, 
+      "value": 9.2333341879600006, 
+      "value_orig": 9.2333341879600006
+    }, 
+    {
+      "source": 28, 
+      "target": 2, 
+      "value": 0.18875278727000003, 
+      "value_orig": 0.18875278727000003
+    }, 
+    {
+      "source": 28, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 28, 
+      "target": 4, 
+      "value": 2.7541091969, 
+      "value_orig": 2.7541091969
+    }, 
+    {
+      "source": 28, 
+      "target": 5, 
+      "value": 4.2520044906100001, 
+      "value_orig": 4.2520044906100001
+    }, 
+    {
+      "source": 28, 
+      "target": 6, 
+      "value": -11.78779117, 
+      "value_orig": -11.78779117
+    }, 
+    {
+      "source": 28, 
+      "target": 7, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 28, 
+      "target": 8, 
+      "value": -1.66331025961, 
+      "value_orig": -1.66331025961
+    }, 
+    {
+      "source": 28, 
+      "target": 9, 
+      "value": -0.029775827521900004, 
+      "value_orig": -0.029775827521900004
+    }, 
+    {
+      "source": 28, 
+      "target": 10, 
+      "value": -3.1009564028700001, 
+      "value_orig": -3.1009564028700001
+    }, 
+    {
+      "source": 28, 
+      "target": 11, 
+      "value": -11.0758879855, 
+      "value_orig": -11.0758879855
+    }, 
+    {
+      "source": 29, 
+      "target": 0, 
+      "value": 0.22390819901700001, 
+      "value_orig": 0.22390819901700001
+    }, 
+    {
+      "source": 29, 
+      "target": 1, 
+      "value": 1.41857338027, 
+      "value_orig": 1.41857338027
+    }, 
+    {
+      "source": 29, 
+      "target": 2, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 29, 
+      "target": 3, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 29, 
+      "target": 4, 
+      "value": 0.0, 
+      "value_orig": 0.0
+    }, 
+    {
+      "source": 29, 
+      "target": 5, 
+      "value": 0.25178941204599997, 
+      "value_orig": 0.25178941204599997
+    }, 
+    {
+      "source": 29, 
+      "target": 6, 
+      "value": -9.639415411629999, 
+      "value_orig": -9.639415411629999
+    }, 
+    {
+      "source": 29, 
+      "target": 7, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 29, 
+      "target": 8, 
+      "value": -7.2948476009499998, 
+      "value_orig": -7.2948476009499998
+    }, 
+    {
+      "source": 29, 
+      "target": 9, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 29, 
+      "target": 10, 
+      "value": -0.0, 
+      "value_orig": -0.0
+    }, 
+    {
+      "source": 29, 
+      "target": 11, 
+      "value": -2.6088962279199999, 
+      "value_orig": -2.6088962279199999
+    }
+  ], 
+  "views": [
+    {
+      "N_row_sum": "all", 
+      "dist": "cos", 
+      "nodes": {
+        "row_nodes": [
+          {
+            "group": [
+              12.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002925_abnormal_cardiovascular_devel_", 
+            "clust": 11, 
+            "rank": 27, 
+            "ini": 30, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              13.0, 
+              10.0, 
+              6.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002135_abnormal_kidney_morphology_", 
+            "clust": 12, 
+            "rank": 26, 
+            "ini": 29, 
+            "rankvar": 10
+          }, 
+          {
+            "group": [
+              8.0, 
+              7.0, 
+              5.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0005621_abnormal_cell_physiology_", 
+            "clust": 7, 
+            "rank": 24, 
+            "ini": 28, 
+            "rankvar": 26
+          }, 
+          {
+            "group": [
+              28.0, 
+              17.0, 
+              10.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0009642_abnormal_blood_homeostasis_", 
+            "clust": 18, 
+            "rank": 17, 
+            "ini": 27, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              9.0, 
+              7.0, 
+              5.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0005384_cellular_phenotype_", 
+            "clust": 8, 
+            "rank": 25, 
+            "ini": 26, 
+            "rankvar": 20
+          }, 
+          {
+            "group": [
+              19.0, 
+              13.0, 
+              8.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010769_abnormal_survival_", 
+            "clust": 21, 
+            "rank": 20, 
+            "ini": 25, 
+            "rankvar": 24
+          }, 
+          {
+            "group": [
+              20.0, 
+              13.0, 
+              8.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010768_mortality/aging_", 
+            "clust": 22, 
+            "rank": 22, 
+            "ini": 24, 
+            "rankvar": 25
+          }, 
+          {
+            "group": [
+              10.0, 
+              8.0, 
+              6.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000266_abnormal_heart_morphology_", 
+            "clust": 9, 
+            "rank": 29, 
+            "ini": 23, 
+            "rankvar": 12
+          }, 
+          {
+            "group": [
+              3.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0001697_abnormal_embryo_size_", 
+            "clust": 1, 
+            "rank": 4, 
+            "ini": 22, 
+            "rankvar": 27
+          }, 
+          {
+            "group": [
+              16.0, 
+              12.0, 
+              7.0, 
+              5.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000350_abnormal_cell_proliferation_", 
+            "clust": 15, 
+            "rank": 14, 
+            "ini": 21, 
+            "rankvar": 16
+          }, 
+          {
+            "group": [
+              24.0, 
+              15.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0001819_abnormal_immune_cell_", 
+            "clust": 28, 
+            "rank": 5, 
+            "ini": 20, 
+            "rankvar": 17
+          }, 
+          {
+            "group": [
+              25.0, 
+              15.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002420_abnormal_adaptive_immunity_", 
+            "clust": 29, 
+            "rank": 8, 
+            "ini": 19, 
+            "rankvar": 18
+          }, 
+          {
+            "group": [
+              27.0, 
+              16.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002429_abnormal_blood_cell_", 
+            "clust": 26, 
+            "rank": 13, 
+            "ini": 18, 
+            "rankvar": 15
+          }, 
+          {
+            "group": [
+              23.0, 
+              14.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000703_abnormal_thymus_morphology_", 
+            "clust": 23, 
+            "rank": 16, 
+            "ini": 17, 
+            "rankvar": 28
+          }, 
+          {
+            "group": [
+              11.0, 
+              8.0, 
+              6.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0001784_abnormal_fluid_regulation_", 
+            "clust": 10, 
+            "rank": 23, 
+            "ini": 16, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              26.0, 
+              15.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000716_abnormal_immune_system_", 
+            "clust": 27, 
+            "rank": 9, 
+            "ini": 15, 
+            "rankvar": 11
+          }, 
+          {
+            "group": [
+              21.0, 
+              14.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002398_abnormal_bone_marrow_", 
+            "clust": 24, 
+            "rank": 12, 
+            "ini": 14, 
+            "rankvar": 13
+          }, 
+          {
+            "group": [
+              14.0, 
+              11.0, 
+              7.0, 
+              5.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002169_no_abnormal_phenotype_", 
+            "clust": 16, 
+            "rank": 10, 
+            "ini": 13, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              15.0, 
+              11.0, 
+              7.0, 
+              5.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002873_normal_phenotype_", 
+            "clust": 17, 
+            "rank": 11, 
+            "ini": 12, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              5.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000001_mammalian_phenotype_", 
+            "clust": 5, 
+            "rank": 28, 
+            "ini": 11, 
+            "rankvar": 23
+          }, 
+          {
+            "group": [
+              29.0, 
+              18.0, 
+              11.0, 
+              7.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002083_premature_death_", 
+            "clust": 14, 
+            "rank": 7, 
+            "ini": 10, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              4.0, 
+              3.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002080_prenatal_lethality_", 
+            "clust": 0, 
+            "rank": 1, 
+            "ini": 9, 
+            "rankvar": 29
+          }, 
+          {
+            "group": [
+              17.0, 
+              13.0, 
+              8.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010770_preweaning_lethality_", 
+            "clust": 19, 
+            "rank": 19, 
+            "ini": 8, 
+            "rankvar": 22
+          }, 
+          {
+            "group": [
+              18.0, 
+              13.0, 
+              8.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002082_postnatal_lethality_", 
+            "clust": 20, 
+            "rank": 18, 
+            "ini": 7, 
+            "rankvar": 21
+          }, 
+          {
+            "group": [
+              7.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0004087_abnormal_muscle_fiber_", 
+            "clust": 4, 
+            "rank": 15, 
+            "ini": 6, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              6.0, 
+              5.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010630_abnormal_cardiac_muscle_", 
+            "clust": 6, 
+            "rank": 21, 
+            "ini": 5, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0003077_abnormal_cell_cycle_", 
+            "clust": 2, 
+            "rank": 0, 
+            "ini": 4, 
+            "rankvar": 19
+          }, 
+          {
+            "group": [
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0001730_embryonic_growth_arrest_", 
+            "clust": 3, 
+            "rank": 2, 
+            "ini": 3, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              22.0, 
+              14.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002722_abnormal_immune_system_", 
+            "clust": 25, 
+            "rank": 6, 
+            "ini": 2, 
+            "rankvar": 14
+          }, 
+          {
+            "group": [
+              30.0, 
+              19.0, 
+              12.0, 
+              8.0, 
+              5.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002723_abnormal_immune_serum_", 
+            "clust": 13, 
+            "rank": 3, 
+            "ini": 1, 
+            "rankvar": 3
+          }
+        ], 
+        "col_nodes": [
+          {
+            "group": [
+              5.0, 
+              4.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.04", 
+            "clust": 3, 
+            "rank": 8, 
+            "ini": 12, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              6.0, 
+              5.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.12", 
+            "clust": 0, 
+            "rank": 9, 
+            "ini": 11, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.37", 
+            "clust": 1, 
+            "rank": 7, 
+            "ini": 10, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_01.11", 
+            "clust": 2, 
+            "rank": 6, 
+            "ini": 9, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              3.0, 
+              3.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_03.33", 
+            "clust": 4, 
+            "rank": 10, 
+            "ini": 8, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              4.0, 
+              3.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_10.0", 
+            "clust": 5, 
+            "rank": 11, 
+            "ini": 7, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              10.0, 
+              9.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.04", 
+            "clust": 10, 
+            "rank": 0, 
+            "ini": 6, 
+            "rankvar": 11
+          }, 
+          {
+            "group": [
+              12.0, 
+              11.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.12", 
+            "clust": 9, 
+            "rank": 5, 
+            "ini": 5, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              11.0, 
+              10.0, 
+              5.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.37", 
+            "clust": 11, 
+            "rank": 4, 
+            "ini": 4, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              9.0, 
+              8.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_01.11", 
+            "clust": 6, 
+            "rank": 3, 
+            "ini": 3, 
+            "rankvar": 10
+          }, 
+          {
+            "group": [
+              7.0, 
+              6.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_03.33", 
+            "clust": 7, 
+            "rank": 2, 
+            "ini": 2, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              8.0, 
+              7.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_10.0", 
+            "clust": 8, 
+            "rank": 1, 
+            "ini": 1, 
+            "rankvar": 8
+          }
+        ]
+      }
+    }, 
+    {
+      "N_row_sum": 20, 
+      "dist": "cos", 
+      "nodes": {
+        "row_nodes": [
+          {
+            "group": [
+              10.0, 
+              8.0, 
+              6.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000266_abnormal_heart_morphology_", 
+            "clust": 10, 
+            "rank": 19, 
+            "ini": 20, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              7.0, 
+              5.0, 
+              4.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000001_mammalian_phenotype_", 
+            "clust": 8, 
+            "rank": 18, 
+            "ini": 19, 
+            "rankvar": 13
+          }, 
+          {
+            "group": [
+              12.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002925_abnormal_cardiovascular_devel_", 
+            "clust": 12, 
+            "rank": 17, 
+            "ini": 18, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              13.0, 
+              10.0, 
+              6.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002135_abnormal_kidney_morphology_", 
+            "clust": 13, 
+            "rank": 16, 
+            "ini": 17, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              5.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0005384_cellular_phenotype_", 
+            "clust": 5, 
+            "rank": 15, 
+            "ini": 16, 
+            "rankvar": 10
+          }, 
+          {
+            "group": [
+              6.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0005621_abnormal_cell_physiology_", 
+            "clust": 6, 
+            "rank": 14, 
+            "ini": 15, 
+            "rankvar": 16
+          }, 
+          {
+            "group": [
+              11.0, 
+              8.0, 
+              6.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0001784_abnormal_fluid_regulation_", 
+            "clust": 11, 
+            "rank": 13, 
+            "ini": 14, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              16.0, 
+              11.0, 
+              7.0, 
+              5.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010768_mortality/aging_", 
+            "clust": 18, 
+            "rank": 12, 
+            "ini": 13, 
+            "rankvar": 15
+          }, 
+          {
+            "group": [
+              8.0, 
+              6.0, 
+              4.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010630_abnormal_cardiac_muscle_", 
+            "clust": 9, 
+            "rank": 11, 
+            "ini": 12, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              17.0, 
+              11.0, 
+              7.0, 
+              5.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010769_abnormal_survival_", 
+            "clust": 19, 
+            "rank": 10, 
+            "ini": 11, 
+            "rankvar": 14
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0003077_abnormal_cell_cycle_", 
+            "clust": 2, 
+            "rank": 0, 
+            "ini": 10, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              4.0, 
+              3.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002080_prenatal_lethality_", 
+            "clust": 0, 
+            "rank": 1, 
+            "ini": 9, 
+            "rankvar": 19
+          }, 
+          {
+            "group": [
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0001730_embryonic_growth_arrest_", 
+            "clust": 3, 
+            "rank": 2, 
+            "ini": 8, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              14.0, 
+              11.0, 
+              7.0, 
+              5.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010770_preweaning_lethality_", 
+            "clust": 16, 
+            "rank": 9, 
+            "ini": 7, 
+            "rankvar": 12
+          }, 
+          {
+            "group": [
+              15.0, 
+              11.0, 
+              7.0, 
+              5.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002082_postnatal_lethality_", 
+            "clust": 17, 
+            "rank": 8, 
+            "ini": 6, 
+            "rankvar": 11
+          }, 
+          {
+            "group": [
+              20.0, 
+              14.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002723_abnormal_immune_serum_", 
+            "clust": 4, 
+            "rank": 3, 
+            "ini": 5, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              19.0, 
+              13.0, 
+              8.0, 
+              5.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0009642_abnormal_blood_homeostasis_", 
+            "clust": 14, 
+            "rank": 7, 
+            "ini": 4, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              18.0, 
+              12.0, 
+              7.0, 
+              5.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000703_abnormal_thymus_morphology_", 
+            "clust": 15, 
+            "rank": 6, 
+            "ini": 3, 
+            "rankvar": 18
+          }, 
+          {
+            "group": [
+              9.0, 
+              7.0, 
+              5.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0004087_abnormal_muscle_fiber_", 
+            "clust": 7, 
+            "rank": 5, 
+            "ini": 2, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              3.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0001697_abnormal_embryo_size_", 
+            "clust": 1, 
+            "rank": 4, 
+            "ini": 1, 
+            "rankvar": 17
+          }
+        ], 
+        "col_nodes": [
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.04", 
+            "clust": 1, 
+            "rank": 6, 
+            "ini": 12, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              6.0, 
+              5.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.12", 
+            "clust": 0, 
+            "rank": 8, 
+            "ini": 11, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.37", 
+            "clust": 2, 
+            "rank": 9, 
+            "ini": 10, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              3.0, 
+              3.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_01.11", 
+            "clust": 4, 
+            "rank": 7, 
+            "ini": 9, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              4.0, 
+              3.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_03.33", 
+            "clust": 5, 
+            "rank": 10, 
+            "ini": 8, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              5.0, 
+              4.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_10.0", 
+            "clust": 3, 
+            "rank": 11, 
+            "ini": 7, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              7.0, 
+              6.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.04", 
+            "clust": 6, 
+            "rank": 0, 
+            "ini": 6, 
+            "rankvar": 10
+          }, 
+          {
+            "group": [
+              12.0, 
+              10.0, 
+              6.0, 
+              5.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.12", 
+            "clust": 8, 
+            "rank": 5, 
+            "ini": 5, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              8.0, 
+              7.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.37", 
+            "clust": 7, 
+            "rank": 4, 
+            "ini": 4, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              9.0, 
+              8.0, 
+              5.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_01.11", 
+            "clust": 10, 
+            "rank": 3, 
+            "ini": 3, 
+            "rankvar": 11
+          }, 
+          {
+            "group": [
+              11.0, 
+              9.0, 
+              5.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_03.33", 
+            "clust": 9, 
+            "rank": 2, 
+            "ini": 2, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              10.0, 
+              8.0, 
+              5.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_10.0", 
+            "clust": 11, 
+            "rank": 1, 
+            "ini": 1, 
+            "rankvar": 8
+          }
+        ]
+      }
+    }, 
+    {
+      "N_row_sum": 10, 
+      "dist": "cos", 
+      "nodes": {
+        "row_nodes": [
+          {
+            "group": [
+              7.0, 
+              5.0, 
+              4.0, 
+              4.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000266_abnormal_heart_morphology_", 
+            "clust": 6, 
+            "rank": 9, 
+            "ini": 10, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000001_mammalian_phenotype_", 
+            "clust": 2, 
+            "rank": 8, 
+            "ini": 9, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              9.0, 
+              7.0, 
+              5.0, 
+              5.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002925_abnormal_cardiovascular_devel_", 
+            "clust": 8, 
+            "rank": 7, 
+            "ini": 8, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              10.0, 
+              8.0, 
+              6.0, 
+              5.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002135_abnormal_kidney_morphology_", 
+            "clust": 9, 
+            "rank": 6, 
+            "ini": 7, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0005384_cellular_phenotype_", 
+            "clust": 0, 
+            "rank": 5, 
+            "ini": 6, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0005621_abnormal_cell_physiology_", 
+            "clust": 1, 
+            "rank": 4, 
+            "ini": 5, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              8.0, 
+              6.0, 
+              4.0, 
+              4.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0001784_abnormal_fluid_regulation_", 
+            "clust": 7, 
+            "rank": 3, 
+            "ini": 4, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              5.0, 
+              4.0, 
+              3.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010768_mortality/aging_", 
+            "clust": 4, 
+            "rank": 2, 
+            "ini": 3, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010630_abnormal_cardiac_muscle_", 
+            "clust": 3, 
+            "rank": 1, 
+            "ini": 2, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              6.0, 
+              4.0, 
+              3.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010769_abnormal_survival_", 
+            "clust": 5, 
+            "rank": 0, 
+            "ini": 1, 
+            "rankvar": 7
+          }
+        ], 
+        "col_nodes": [
+          {
+            "group": [
+              4.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.04", 
+            "clust": 4, 
+            "rank": 6, 
+            "ini": 12, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.12", 
+            "clust": 1, 
+            "rank": 7, 
+            "ini": 11, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              5.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.37", 
+            "clust": 5, 
+            "rank": 8, 
+            "ini": 10, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_01.11", 
+            "clust": 2, 
+            "rank": 9, 
+            "ini": 9, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              3.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_03.33", 
+            "clust": 0, 
+            "rank": 10, 
+            "ini": 8, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              6.0, 
+              3.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_10.0", 
+            "clust": 3, 
+            "rank": 11, 
+            "ini": 7, 
+            "rankvar": 11
+          }, 
+          {
+            "group": [
+              12.0, 
+              7.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.04", 
+            "clust": 6, 
+            "rank": 0, 
+            "ini": 6, 
+            "rankvar": 10
+          }, 
+          {
+            "group": [
+              10.0, 
+              5.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.12", 
+            "clust": 10, 
+            "rank": 4, 
+            "ini": 5, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              9.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.37", 
+            "clust": 7, 
+            "rank": 3, 
+            "ini": 4, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              11.0, 
+              6.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_01.11", 
+            "clust": 11, 
+            "rank": 5, 
+            "ini": 3, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              7.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_03.33", 
+            "clust": 8, 
+            "rank": 1, 
+            "ini": 2, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              8.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_10.0", 
+            "clust": 9, 
+            "rank": 2, 
+            "ini": 1, 
+            "rankvar": 3
+          }
+        ]
+      }
+    }, 
+    {
+      "N_row_var": "all", 
+      "nodes": {
+        "row_nodes": [
+          {
+            "group": [
+              12.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002925_abnormal_cardiovascular_devel_", 
+            "clust": 11, 
+            "rank": 27, 
+            "ini": 30, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              13.0, 
+              10.0, 
+              6.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002135_abnormal_kidney_morphology_", 
+            "clust": 12, 
+            "rank": 26, 
+            "ini": 29, 
+            "rankvar": 10
+          }, 
+          {
+            "group": [
+              8.0, 
+              7.0, 
+              5.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0005621_abnormal_cell_physiology_", 
+            "clust": 7, 
+            "rank": 24, 
+            "ini": 28, 
+            "rankvar": 26
+          }, 
+          {
+            "group": [
+              28.0, 
+              17.0, 
+              10.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0009642_abnormal_blood_homeostasis_", 
+            "clust": 18, 
+            "rank": 17, 
+            "ini": 27, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              9.0, 
+              7.0, 
+              5.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0005384_cellular_phenotype_", 
+            "clust": 8, 
+            "rank": 25, 
+            "ini": 26, 
+            "rankvar": 20
+          }, 
+          {
+            "group": [
+              19.0, 
+              13.0, 
+              8.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010769_abnormal_survival_", 
+            "clust": 21, 
+            "rank": 20, 
+            "ini": 25, 
+            "rankvar": 24
+          }, 
+          {
+            "group": [
+              20.0, 
+              13.0, 
+              8.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010768_mortality/aging_", 
+            "clust": 22, 
+            "rank": 22, 
+            "ini": 24, 
+            "rankvar": 25
+          }, 
+          {
+            "group": [
+              10.0, 
+              8.0, 
+              6.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000266_abnormal_heart_morphology_", 
+            "clust": 9, 
+            "rank": 29, 
+            "ini": 23, 
+            "rankvar": 12
+          }, 
+          {
+            "group": [
+              3.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0001697_abnormal_embryo_size_", 
+            "clust": 1, 
+            "rank": 4, 
+            "ini": 22, 
+            "rankvar": 27
+          }, 
+          {
+            "group": [
+              16.0, 
+              12.0, 
+              7.0, 
+              5.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000350_abnormal_cell_proliferation_", 
+            "clust": 15, 
+            "rank": 14, 
+            "ini": 21, 
+            "rankvar": 16
+          }, 
+          {
+            "group": [
+              24.0, 
+              15.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0001819_abnormal_immune_cell_", 
+            "clust": 28, 
+            "rank": 5, 
+            "ini": 20, 
+            "rankvar": 17
+          }, 
+          {
+            "group": [
+              25.0, 
+              15.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002420_abnormal_adaptive_immunity_", 
+            "clust": 29, 
+            "rank": 8, 
+            "ini": 19, 
+            "rankvar": 18
+          }, 
+          {
+            "group": [
+              27.0, 
+              16.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002429_abnormal_blood_cell_", 
+            "clust": 26, 
+            "rank": 13, 
+            "ini": 18, 
+            "rankvar": 15
+          }, 
+          {
+            "group": [
+              23.0, 
+              14.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000703_abnormal_thymus_morphology_", 
+            "clust": 23, 
+            "rank": 16, 
+            "ini": 17, 
+            "rankvar": 28
+          }, 
+          {
+            "group": [
+              11.0, 
+              8.0, 
+              6.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0001784_abnormal_fluid_regulation_", 
+            "clust": 10, 
+            "rank": 23, 
+            "ini": 16, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              26.0, 
+              15.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000716_abnormal_immune_system_", 
+            "clust": 27, 
+            "rank": 9, 
+            "ini": 15, 
+            "rankvar": 11
+          }, 
+          {
+            "group": [
+              21.0, 
+              14.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002398_abnormal_bone_marrow_", 
+            "clust": 24, 
+            "rank": 12, 
+            "ini": 14, 
+            "rankvar": 13
+          }, 
+          {
+            "group": [
+              14.0, 
+              11.0, 
+              7.0, 
+              5.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002169_no_abnormal_phenotype_", 
+            "clust": 16, 
+            "rank": 10, 
+            "ini": 13, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              15.0, 
+              11.0, 
+              7.0, 
+              5.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002873_normal_phenotype_", 
+            "clust": 17, 
+            "rank": 11, 
+            "ini": 12, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              5.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000001_mammalian_phenotype_", 
+            "clust": 5, 
+            "rank": 28, 
+            "ini": 11, 
+            "rankvar": 23
+          }, 
+          {
+            "group": [
+              29.0, 
+              18.0, 
+              11.0, 
+              7.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002083_premature_death_", 
+            "clust": 14, 
+            "rank": 7, 
+            "ini": 10, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              4.0, 
+              3.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002080_prenatal_lethality_", 
+            "clust": 0, 
+            "rank": 1, 
+            "ini": 9, 
+            "rankvar": 29
+          }, 
+          {
+            "group": [
+              17.0, 
+              13.0, 
+              8.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010770_preweaning_lethality_", 
+            "clust": 19, 
+            "rank": 19, 
+            "ini": 8, 
+            "rankvar": 22
+          }, 
+          {
+            "group": [
+              18.0, 
+              13.0, 
+              8.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002082_postnatal_lethality_", 
+            "clust": 20, 
+            "rank": 18, 
+            "ini": 7, 
+            "rankvar": 21
+          }, 
+          {
+            "group": [
+              7.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0004087_abnormal_muscle_fiber_", 
+            "clust": 4, 
+            "rank": 15, 
+            "ini": 6, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              6.0, 
+              5.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010630_abnormal_cardiac_muscle_", 
+            "clust": 6, 
+            "rank": 21, 
+            "ini": 5, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0003077_abnormal_cell_cycle_", 
+            "clust": 2, 
+            "rank": 0, 
+            "ini": 4, 
+            "rankvar": 19
+          }, 
+          {
+            "group": [
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0001730_embryonic_growth_arrest_", 
+            "clust": 3, 
+            "rank": 2, 
+            "ini": 3, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              22.0, 
+              14.0, 
+              9.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002722_abnormal_immune_system_", 
+            "clust": 25, 
+            "rank": 6, 
+            "ini": 2, 
+            "rankvar": 14
+          }, 
+          {
+            "group": [
+              30.0, 
+              19.0, 
+              12.0, 
+              8.0, 
+              5.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002723_abnormal_immune_serum_", 
+            "clust": 13, 
+            "rank": 3, 
+            "ini": 1, 
+            "rankvar": 3
+          }
+        ], 
+        "col_nodes": [
+          {
+            "group": [
+              5.0, 
+              4.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.04", 
+            "clust": 3, 
+            "rank": 8, 
+            "ini": 12, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              6.0, 
+              5.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.12", 
+            "clust": 0, 
+            "rank": 9, 
+            "ini": 11, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.37", 
+            "clust": 1, 
+            "rank": 7, 
+            "ini": 10, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_01.11", 
+            "clust": 2, 
+            "rank": 6, 
+            "ini": 9, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              3.0, 
+              3.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_03.33", 
+            "clust": 4, 
+            "rank": 10, 
+            "ini": 8, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              4.0, 
+              3.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_10.0", 
+            "clust": 5, 
+            "rank": 11, 
+            "ini": 7, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              10.0, 
+              9.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.04", 
+            "clust": 10, 
+            "rank": 0, 
+            "ini": 6, 
+            "rankvar": 11
+          }, 
+          {
+            "group": [
+              12.0, 
+              11.0, 
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.12", 
+            "clust": 9, 
+            "rank": 5, 
+            "ini": 5, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              11.0, 
+              10.0, 
+              5.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.37", 
+            "clust": 11, 
+            "rank": 4, 
+            "ini": 4, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              9.0, 
+              8.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_01.11", 
+            "clust": 6, 
+            "rank": 3, 
+            "ini": 3, 
+            "rankvar": 10
+          }, 
+          {
+            "group": [
+              7.0, 
+              6.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_03.33", 
+            "clust": 7, 
+            "rank": 2, 
+            "ini": 2, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              8.0, 
+              7.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_10.0", 
+            "clust": 8, 
+            "rank": 1, 
+            "ini": 1, 
+            "rankvar": 8
+          }
+        ]
+      }, 
+      "dist": "cos"
+    }, 
+    {
+      "N_row_var": 20, 
+      "nodes": {
+        "row_nodes": [
+          {
+            "group": [
+              3.0, 
+              3.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002080_prenatal_lethality_", 
+            "clust": 0, 
+            "rank": 1, 
+            "ini": 20, 
+            "rankvar": 19
+          }, 
+          {
+            "group": [
+              6.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000703_abnormal_thymus_morphology_", 
+            "clust": 3, 
+            "rank": 10, 
+            "ini": 19, 
+            "rankvar": 18
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0001697_abnormal_embryo_size_", 
+            "clust": 1, 
+            "rank": 2, 
+            "ini": 18, 
+            "rankvar": 17
+          }, 
+          {
+            "group": [
+              18.0, 
+              11.0, 
+              5.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0005621_abnormal_cell_physiology_", 
+            "clust": 18, 
+            "rank": 15, 
+            "ini": 17, 
+            "rankvar": 16
+          }, 
+          {
+            "group": [
+              13.0, 
+              7.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010768_mortality/aging_", 
+            "clust": 13, 
+            "rank": 14, 
+            "ini": 16, 
+            "rankvar": 15
+          }, 
+          {
+            "group": [
+              14.0, 
+              7.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010769_abnormal_survival_", 
+            "clust": 14, 
+            "rank": 13, 
+            "ini": 15, 
+            "rankvar": 14
+          }, 
+          {
+            "group": [
+              15.0, 
+              8.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000001_mammalian_phenotype_", 
+            "clust": 10, 
+            "rank": 18, 
+            "ini": 14, 
+            "rankvar": 13
+          }, 
+          {
+            "group": [
+              11.0, 
+              7.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010770_preweaning_lethality_", 
+            "clust": 11, 
+            "rank": 12, 
+            "ini": 13, 
+            "rankvar": 12
+          }, 
+          {
+            "group": [
+              12.0, 
+              7.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002082_postnatal_lethality_", 
+            "clust": 12, 
+            "rank": 11, 
+            "ini": 12, 
+            "rankvar": 11
+          }, 
+          {
+            "group": [
+              19.0, 
+              11.0, 
+              5.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0005384_cellular_phenotype_", 
+            "clust": 19, 
+            "rank": 16, 
+            "ini": 11, 
+            "rankvar": 10
+          }, 
+          {
+            "group": [
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0003077_abnormal_cell_cycle_", 
+            "clust": 2, 
+            "rank": 0, 
+            "ini": 10, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              7.0, 
+              5.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002420_abnormal_adaptive_immunity_", 
+            "clust": 8, 
+            "rank": 5, 
+            "ini": 9, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              8.0, 
+              5.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0001819_abnormal_immune_cell_", 
+            "clust": 9, 
+            "rank": 3, 
+            "ini": 8, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              20.0, 
+              12.0, 
+              6.0, 
+              5.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000350_abnormal_cell_proliferation_", 
+            "clust": 17, 
+            "rank": 9, 
+            "ini": 7, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              10.0, 
+              6.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002429_abnormal_blood_cell_", 
+            "clust": 6, 
+            "rank": 8, 
+            "ini": 6, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              4.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002722_abnormal_immune_system_", 
+            "clust": 4, 
+            "rank": 4, 
+            "ini": 5, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              5.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002398_abnormal_bone_marrow_", 
+            "clust": 5, 
+            "rank": 7, 
+            "ini": 4, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              16.0, 
+              9.0, 
+              4.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000266_abnormal_heart_morphology_", 
+            "clust": 15, 
+            "rank": 19, 
+            "ini": 3, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              9.0, 
+              5.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000716_abnormal_immune_system_", 
+            "clust": 7, 
+            "rank": 6, 
+            "ini": 2, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              17.0, 
+              10.0, 
+              4.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002135_abnormal_kidney_morphology_", 
+            "clust": 16, 
+            "rank": 17, 
+            "ini": 1, 
+            "rankvar": 0
+          }
+        ], 
+        "col_nodes": [
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.04", 
+            "clust": 1, 
+            "rank": 9, 
+            "ini": 12, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              6.0, 
+              5.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.12", 
+            "clust": 0, 
+            "rank": 8, 
+            "ini": 11, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              5.0, 
+              4.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.37", 
+            "clust": 3, 
+            "rank": 7, 
+            "ini": 10, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              3.0, 
+              3.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_01.11", 
+            "clust": 4, 
+            "rank": 6, 
+            "ini": 9, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              4.0, 
+              3.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_03.33", 
+            "clust": 5, 
+            "rank": 10, 
+            "ini": 8, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_10.0", 
+            "clust": 2, 
+            "rank": 11, 
+            "ini": 7, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              12.0, 
+              10.0, 
+              5.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.04", 
+            "clust": 9, 
+            "rank": 0, 
+            "ini": 6, 
+            "rankvar": 10
+          }, 
+          {
+            "group": [
+              10.0, 
+              8.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.12", 
+            "clust": 10, 
+            "rank": 5, 
+            "ini": 5, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              11.0, 
+              9.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.37", 
+            "clust": 11, 
+            "rank": 4, 
+            "ini": 4, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              9.0, 
+              7.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_01.11", 
+            "clust": 6, 
+            "rank": 3, 
+            "ini": 3, 
+            "rankvar": 11
+          }, 
+          {
+            "group": [
+              7.0, 
+              6.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_03.33", 
+            "clust": 7, 
+            "rank": 2, 
+            "ini": 2, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              8.0, 
+              6.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_10.0", 
+            "clust": 8, 
+            "rank": 1, 
+            "ini": 1, 
+            "rankvar": 9
+          }
+        ]
+      }, 
+      "dist": "cos"
+    }, 
+    {
+      "N_row_var": 10, 
+      "nodes": {
+        "row_nodes": [
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002080_prenatal_lethality_", 
+            "clust": 0, 
+            "rank": 0, 
+            "ini": 10, 
+            "rankvar": 9
+          }, 
+          {
+            "group": [
+              9.0, 
+              5.0, 
+              5.0, 
+              3.0, 
+              3.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000703_abnormal_thymus_morphology_", 
+            "clust": 5, 
+            "rank": 2, 
+            "ini": 9, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0001697_abnormal_embryo_size_", 
+            "clust": 1, 
+            "rank": 1, 
+            "ini": 8, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              3.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0005621_abnormal_cell_physiology_", 
+            "clust": 2, 
+            "rank": 7, 
+            "ini": 7, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              7.0, 
+              4.0, 
+              4.0, 
+              3.0, 
+              3.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010768_mortality/aging_", 
+            "clust": 8, 
+            "rank": 6, 
+            "ini": 6, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              8.0, 
+              4.0, 
+              4.0, 
+              3.0, 
+              3.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010769_abnormal_survival_", 
+            "clust": 9, 
+            "rank": 5, 
+            "ini": 5, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              10.0, 
+              6.0, 
+              6.0, 
+              4.0, 
+              3.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0000001_mammalian_phenotype_", 
+            "clust": 4, 
+            "rank": 9, 
+            "ini": 4, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              5.0, 
+              4.0, 
+              4.0, 
+              3.0, 
+              3.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0010770_preweaning_lethality_", 
+            "clust": 6, 
+            "rank": 4, 
+            "ini": 3, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              6.0, 
+              4.0, 
+              4.0, 
+              3.0, 
+              3.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0002082_postnatal_lethality_", 
+            "clust": 7, 
+            "rank": 3, 
+            "ini": 2, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              4.0, 
+              3.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "MP0005384_cellular_phenotype_", 
+            "clust": 3, 
+            "rank": 8, 
+            "ini": 1, 
+            "rankvar": 0
+          }
+        ], 
+        "col_nodes": [
+          {
+            "group": [
+              3.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.04", 
+            "clust": 3, 
+            "rank": 8, 
+            "ini": 12, 
+            "rankvar": 3
+          }, 
+          {
+            "group": [
+              6.0, 
+              3.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.12", 
+            "clust": 0, 
+            "rank": 7, 
+            "ini": 11, 
+            "rankvar": 6
+          }, 
+          {
+            "group": [
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_0.37", 
+            "clust": 4, 
+            "rank": 10, 
+            "ini": 10, 
+            "rankvar": 5
+          }, 
+          {
+            "group": [
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_01.11", 
+            "clust": 5, 
+            "rank": 6, 
+            "ini": 9, 
+            "rankvar": 4
+          }, 
+          {
+            "group": [
+              4.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_03.33", 
+            "clust": 2, 
+            "rank": 9, 
+            "ini": 8, 
+            "rankvar": 2
+          }, 
+          {
+            "group": [
+              5.0, 
+              2.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "1_up_10.0", 
+            "clust": 1, 
+            "rank": 11, 
+            "ini": 7, 
+            "rankvar": 7
+          }, 
+          {
+            "group": [
+              12.0, 
+              7.0, 
+              6.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.04", 
+            "clust": 6, 
+            "rank": 0, 
+            "ini": 6, 
+            "rankvar": 10
+          }, 
+          {
+            "group": [
+              10.0, 
+              5.0, 
+              4.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.12", 
+            "clust": 10, 
+            "rank": 5, 
+            "ini": 5, 
+            "rankvar": 1
+          }, 
+          {
+            "group": [
+              11.0, 
+              6.0, 
+              5.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_0.37", 
+            "clust": 11, 
+            "rank": 4, 
+            "ini": 4, 
+            "rankvar": 0
+          }, 
+          {
+            "group": [
+              9.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_01.11", 
+            "clust": 7, 
+            "rank": 3, 
+            "ini": 3, 
+            "rankvar": 11
+          }, 
+          {
+            "group": [
+              7.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_03.33", 
+            "clust": 8, 
+            "rank": 2, 
+            "ini": 2, 
+            "rankvar": 8
+          }, 
+          {
+            "group": [
+              8.0, 
+              4.0, 
+              3.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              2.0, 
+              1.0, 
+              1.0
+            ], 
+            "name": "2_down_10.0", 
+            "clust": 9, 
+            "rank": 1, 
+            "ini": 1, 
+            "rankvar": 9
+          }
+        ]
+      }, 
+      "dist": "cos"
+    }
+  ]
+}
