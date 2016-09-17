@@ -169,13 +169,13 @@
 
             <!-- <div class="gr50-boxplot"></div> -->
             <div class="download-table">
-              <a href={{gr_download}}>download GR metrics</a>
+              <a href="../static/data/gr/metrics/MCF10A_{{drug_selected}}_GR.tsv">download GR metrics</a>
             </div>
           </div> <!-- /.assay-content -->
 
           {% if 'L1000' in drug_info['assays'] %}
             <div class="assay-content">
-              <h2>GR + L1000 (Enrichr)</h2>
+              <h2 id="Enrichr">GR + L1000 (Enrichr)</h2>
               <div class="description">
                 <p>
                   <a href="http://amp.pharm.mssm.edu/Enrichr/" target="_blank">
@@ -189,7 +189,7 @@
               <div class="assay-content">
                 <h2 id="L1000">L1000</h2>
                 <div class="description">
-                  <a href="http://www.lincscloud.org/l1000/" target="_blank">L1000</a> is a gene expression profiling assay based on the direct measurement of a reduced representation of the transcriptome and computational inference of the portion of the transcriptome not explicitly measured.
+                  <a href="http://www.lincscloud.org/l1000/" target="_blank">L1000</a> is a gene expression profiling assay based on the direct measurement of a reduced representation of the transcriptome and computational inference of the portion of the transcriptome not explicitly measured. The value of each cell represents the <b>differential expression</b> of each gene determined by the Characteristic Direction method. 
                 </div>
                 {% with assay="L1000", drug=drug_selected, time=['3h', '24h'], default_time="3h", default_regulation="down" %}
                   {% include "partials/drug-l1000.html" %}
@@ -197,7 +197,7 @@
               </div> <!-- /.assay-content (L1000) -->
 
               <div class="assay-content">
-                <h2>L1000CDS2</h2>
+                <h2 id="L1000CDS2">L1000CDS2</h2>
                 <div class="description">
                   <a href="http://amp.pharm.mssm.edu/L1000CDS2" target="_blank">L1000CDS2</a> is a web tool that queries the LINCS L1000 dataset to identify small molecules that can reverse or mimic the observed input expression pattern.
                 </div>
@@ -211,7 +211,7 @@
     <div class="assay-content">
       <h2 id="P100">P100</h2>
       <div class="description">
-        <a href="http://www.broadinstitute.org/~jjaffe/p100.php" target="_blank">P100</a> assay consists of a set of 96 phosphopeptide probes that are easily observable and quantifiable in diverse cell types ranging from embryonic stem cells to human leukemia cells, and that they behave in interesting and orthogonal ways in response to varied chemical and genetic pertrubations. 
+        <a href="http://www.broadinstitute.org/~jjaffe/p100.php" target="_blank">P100</a> assay consists of a set of 96 phosphopeptide probes that are easily observable and quantifiable in diverse cell types ranging from embryonic stem cells to human leukemia cells, and that they behave in interesting and orthogonal ways in response to varied chemical and genetic pertrubations. The value of each cell represents the <b>z score</b>.
       </div>
 
       {% with assay="P100", drug=drug_selected, time=['3h'], default_time="3h"%}
@@ -224,7 +224,8 @@
     <div class="assay-content">
       <h2 id="GCP">GCP</h2>
       <div class="description">
-        <a href="http://www.broadinstitute.org/~jjaffe/p100.php" target="_blank">Global chromatin profiling (GCP)</a> technology is a mass spectrometry-based assay to identify and quantify post-translational modifications on histone proteins from bulk chromatin.
+        <a href="http://www.broadinstitute.org/~jjaffe/p100.php" target="_blank">Global chromatin profiling (GCP)</a> technology is a mass spectrometry-based assay to identify and quantify post-translational modifications on histone proteins from bulk chromatin. The value of each cell represents the <b>z score</b>.
+      </div>
       </div>
       {% with assay="GCP", drug=drug_selected, time=['24h'], default_time="24h"%}
           {% include "partials/drugs-clustergrammer.html" %}

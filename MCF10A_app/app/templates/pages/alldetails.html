@@ -17,17 +17,125 @@
 <body>
   {% include "partials/header.html"%}
   <div class="container">{% block content %}{% endblock %}
-  <h1 style="margin-top: 0px;">File Format</h1>
+  <h1 style="margin-top: 0px;font-family: monospace;">File Format</h1>
   <h2>GR</h2>
-  <h3>Cell Counts</h3>
-  <p>Add description about what file contains, column names, who generated the data, etc...</p>
-  <h3>GR Metrics</h3>
-  <h2>L1000</h2>
+  <p><a href="http://eh3.uc.edu/apps/grtutorial/Home.html" target="_blank">GR metrics</a> are derived from normalized growth rate inhibition (GR) values which are based on the ratio of growth rates in the presence and absence of perturbagen. Largely independent of cell division rate and assay duration, GR metrics are more robust than IC<sub>50</sub> and E<sub>max</sub> for assessing cellular response to drugs, RNAi, and other perturbations in which control cells divide over the course of the assay.</p>
+  <h3 id="cellcounts">Cell Counts</h3>
+  <p>Columns of the file include:
+      <ul>
+        <li>cell_line</li>
+        <li>agent</li>
+        <li>concentration</li>
+        <li>GRvalue</li>
+        <li>cell_count</li>
+        <li>cell_count__ctrl</li>
+        <li>cell_count__time0</li>
+        <li>Replicate</li>
+      </ul>
+  </p>
+  <h3 id="grmetrics">GR Metrics</h3>
+  <p>Columns of the file include:
+      <ul>
+        <li>cell_line</li>
+        <li>agent</li>
+        <li>time</li>
+        <li>GR50</li>
+        <li>GRmax</li>
+        <li>GR_AOC</li>
+        <li>GEC50</li>
+        <li>GRinf</li>
+        <li>Hill</li>
+        <li>Replicate</li>
+      </ul>
+  </p>
+  <h2 id="l1000">L1000</h2>
+  <p><a href="http://www.lincscloud.org/l1000/" target="_blank">L1000</a> is a gene expression profiling assay based on the direct measurement of a reduced representation of the transcriptome and computational inference of the portion of the transcriptome not explicitly measured.</p>
   <h3>GCT</h3>
-  <h2>P100</h2>
+  <p>GCT is a matrix tab delimited file format. In addition to a matrix of numerical data a gct file contains row and column ids and annotations. <a href="http://support.lincscloud.org/hc/en-us/articles/202105453-GCT-Gene-Cluster-Text-Format-" target="_blank">Learn more</a></p>
+  <h2 id="p100">P100</h2>
+  <p><a href="http://www.broadinstitute.org/~jjaffe/p100.php" target="_blank">P100</a> assay consists of a set of 96 phosphopeptide probes that are easily observable and quantifiable in diverse cell types ranging from embryonic stem cells to human leukemia cells, and that they behave in interesting and orthogonal ways in response to varied chemical and genetic pertrubations. </p>
   <h3>GCT</h3>
-  <h2>GCP</h2>
+  <p>GCT is a matrix tab delimited file format. In addition to a matrix of numerical data a gct file contains row and column ids and annotations. <a href="http://support.lincscloud.org/hc/en-us/articles/202105453-GCT-Gene-Cluster-Text-Format-" target="_blank">Learn more</a></p>     
+  <p>Row headers include:
+      <ul>
+        <li>pr_gene_id</li>
+        <li>pr_gene_symbol</li>
+        <li>pr_p100_base_peptide</li>
+        <li>pr_p100_cluster</li>
+        <li>pr_p100_gene_cluster_code</li>
+        <li>pr_p100_modified_peptide_code</li>
+        <li>pr_p100_original_probe_id</li>
+        <li>pr_p100_phosphosite</li>
+        <li>pr_probe_normalization_group</li>
+        <li>pr_probe_suitability_manual</li>
+        <li>pr_uniprot_id</li>
+      </ul>
+  </p>
+  <p>Column headers include:
+      <ul>
+        <li>cell_id</li>
+        <li>det_filename</li>
+        <li>det_normalization_group_vector</li>
+        <li>det_plate</li>
+        <li>det_well</li>
+        <li>isomeric_smiles</li>
+        <li>lsm_id</li>
+        <li>pert_batch_internal_compound_enumerator</li>
+        <li>pert_batch_internal_replicate</li>
+        <li>pert_dose</li>
+        <li>pert_dose_unit</li>
+        <li>pert_id</li>
+        <li>pert_iname</li>
+        <li>pert_time</li>
+        <li>pert_time_unit</li>
+        <li>pert_type</li>
+        <li>pert_vehicle</li>
+        <li>provenance_code</li>
+        <li>pubchem_cid</li>
+      </ul>
+  </p>
+
+  <h2 id="gcp">Global Chromatin Profiling (GCP)</h2>
+  <p><a href="http://www.broadinstitute.org/~jjaffe/p100.php" target="_blank">Global chromatin profiling (GCP)</a> technology is a mass spectrometry-based assay to identify and quantify post-translational modifications on histone proteins from bulk chromatin.</p>
   <h3>GCT</h3>
+  <p>GCT is a matrix tab delimited file format. In addition to a matrix of numerical data a gct file contains row and column ids and annotations. <a href="http://support.lincscloud.org/hc/en-us/articles/202105453-GCT-Gene-Cluster-Text-Format-" target="_blank">Learn more</a></p>
+  <p>Row headers include:
+      <ul>
+        <li>pr_gcp_base_peptide</li>
+        <li>pr_gcp_BI_number</li>
+        <li>pr_gcp_histone_mark</li>
+        <li>pr_gcp_modified_peptide_code</li>
+        <li>pr_gene_id</li>
+        <li>pr_gene_symbol</li>
+        <li>pr_probe_normalization_group</li>
+        <li>pr_probe_suitability_manual</li>
+        <li>pr_uniprot_id</li>
+      </ul>
+  </p>
+  <p>Column headers include:
+      <ul>
+        <li>cell_id</li>
+        <li>cell_reprogrammed</li>
+        <li>det_filename</li>
+        <li>det_normalization_group_vector</li>
+        <li>det_plate</li>
+        <li>det_well</li>
+        <li>isomeric_smiles</li>
+        <li>lsm_id</li>
+        <li>pert_batch_internal_compound_enumerator</li>
+        <li>pert_batch_internal_replicate</li>
+        <li>pert_dose</li>
+        <li>pert_dose_unit</li>
+        <li>pert_id</li>
+        <li>pert_iname</li>
+        <li>pert_time</li>
+        <li>pert_time_unit</li>
+        <li>pert_type</li>
+        <li>pert_vehicle</li>
+        <li>provenance_code</li>
+        <li>pubchem_cid</li>
+      </ul>
+  </p>
   </div>
 
 

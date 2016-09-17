@@ -1,9 +1,9 @@
 // setup trigger for when time selected changes
 var assay = "l1000";
 var time = $("input[name=" + assay + "-time]:checked").val();
-console.log($("#" + assay + "-time-toggle"));
+// console.log($("#" + assay + "-time-toggle"));
 $("#" + assay + "-time-toggle").change(function(){
-  console.log("testing change");
+  // console.log("testing change");
   var newTime = $("input[name=" + assay + "-time]:checked").val();
   $("#" + assay + "-" + time).hide();
   $("#" + assay + "-" + newTime).show();

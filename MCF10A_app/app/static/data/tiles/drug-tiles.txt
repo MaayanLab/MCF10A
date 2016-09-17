@@ -10,29 +10,41 @@ data/gr/metrics/MCF10A_trametinib_GR.tsv
 details
 trametinib#GR
 data
-L1000 - 3h
+L1000 - 3h (down)
 download
-
+data/l1000/values/L1000/L1000_trametinib_3h_down.tsv
 details
-
+trametinib#L1000
 data
-L1000 - 24h
+L1000 - 3h (up)
 download
-
+data/l1000/values/L1000/L1000_trametinib_3h_up.tsv
 details
-
+trametinib#L1000
+data
+L1000 - 24h (down)
+download
+data/l1000/values/L1000/L1000_trametinib_24h_down.tsv
+details
+trametinib#L1000
+data
+L1000 - 24h (up)
+download
+data/l1000/values/L1000/L1000_trametinib_24h_up.tsv
+details
+trametinib#L1000
 data
 P100 - 3h
 download
-
+data/p100/values/P100_trametinib_3h.tsv
 details
-
+trametinib#P100
 data
 GCP - 24h
 download
-
+data/gcp/values/GCP_trametinib_24h.tsv
 details
-
+trametinib#GCP
 
 title
 Alpelisib
@@ -42,33 +54,45 @@ BRD-K54997624
 data
 GR metrics
 download
-
+data/gr/metrics/MCF10A_alpelisib_GR.tsv
 details
-
+alpelisib#GR
 data
-L1000 - 3h
+L1000 - 3h (down)
 download
-
+data/l1000/values/L1000/L1000_alpelisib_3h_down.tsv
 details
-
+alpelisib#L1000
 data
-L1000 - 24h
+L1000 - 3h (up)
 download
-
+data/l1000/values/L1000/L1000_alpelisib_3h_up.tsv
 details
-
+alpelisib#L1000
+data
+L1000 - 24h (down)
+download
+data/l1000/values/L1000/L1000_alpelisib_24h_down.tsv
+details
+alpelisib#L1000
+data
+L1000 - 24h (up)
+download
+data/l1000/values/L1000/L1000_alpelisib_24h_up.tsv
+details
+alpelisib#L1000
 data
 P100 - 3h
 download
-
+data/p100/values/P100_alpelisib_3h.tsv
 details
-
+alpelisib#P100
 data
 GCP - 24h
 download
-
+data/gcp/values/GCP_alpelisib_24h.tsv
 details
-
+alpelisib#GCP
 
 title
 Vorinostat
@@ -78,21 +102,21 @@ BRD-K81418486
 data
 GR metrics
 download
-
+data/gr/metrics/MCF10A_vorinostat_GR.tsv
 details
-
+vorinostat#GR
 data
 P100 - 3h
 download
-
+data/p100/values/P100_vorinostat_3h.tsv
 details
-
+vorinostat#P100
 data
 GCP - 24h
 download
-
+data/gcp/values/GCP_vorinostat_24h.tsv
 details
-
+vorinostat#GCP
 
 title
 Palbociclib
@@ -102,33 +126,45 @@ BRD-K51313569
 data
 GR metrics
 download
-
+data/gr/metrics/MCF10A_palbociclib_GR.tsv
 details
-
+palbociclib#GR
 data
-L1000 - 3h
+L1000 - 3h (down)
 download
-
+data/l1000/values/L1000/L1000_palbociclib_3h_down.tsv
 details
-
+palbociclib#L1000
 data
-L1000 - 24h
+L1000 - 3h (up)
 download
-
+data/l1000/values/L1000/L1000_palbociclib_3h_up.tsv
 details
-
+palbociclib#L1000
+data
+L1000 - 24h (down)
+download
+data/l1000/values/L1000/L1000_palbociclib_24h_down.tsv
+details
+palbociclib#L1000
+data
+L1000 - 24h (up)
+download
+data/l1000/values/L1000/L1000_palbociclib_24h_up.tsv
+details
+palbociclib#L1000
 data
 P100 - 3h
 download
-
+data/p100/values/P100_palbociclib_3h.tsv
 details
-
+palbociclib#P100
 data
 GCP - 24h
 download
-
+data/gcp/values/GCP_palbociclib_24h.tsv
 details
-
+palbociclib#GCP
 
 title
 Neratinib
@@ -138,33 +174,45 @@ BRD-K85606544
 data
 GR metrics
 download
-
+data/gr/metrics/MCF10A_neratinib_GR.tsv
 details
-
+neratinib#GR
 data
-L1000 - 3h
+L1000 - 3h (down)
 download
-
+data/l1000/values/L1000/L1000_neratinib_3h_down.tsv
 details
-
+neratinib#L1000
 data
-L1000 - 24h
+L1000 - 3h (up)
 download
-
+data/l1000/values/L1000/L1000_neratinib_3h_up.tsv
 details
-
+neratinib#L1000
+data
+L1000 - 24h (down)
+download
+data/l1000/values/L1000/L1000_neratinib_24h_down.tsv
+details
+neratinib#L1000
+data
+L1000 - 24h (up)
+download
+data/l1000/values/L1000/L1000_neratinib_24h_up.tsv
+details
+neratinib#L1000
 data
 P100 - 3h
 download
-
+data/p100/values/P100_neratinib_3h.tsv
 details
-
+neratinib#P100
 data
 GCP - 24h
 download
-
+data/gcp/values/GCP_neratinib_24h.tsv
 details
-
+neratinib#GCP
 
 title
 Paclitaxel
@@ -174,21 +222,21 @@ BRD-A99265323
 data
 GR metrics
 download
-
+data/gr/metrics/MCF10A_paclitaxel_GR.tsv
 details
-
+paclitaxel#GR
 data
 P100 - 3h
 download
-
+data/p100/values/P100_paclitaxel_3h.tsv
 details
-
+paclitaxel#P100
 data
 GCP - 24h
 download
-
+data/gcp/values/GCP_paclitaxel_24h.tsv
 details
-
+paclitaxel#GCP
 
 title
 Etoposide
@@ -198,21 +246,21 @@ BRD-K37798499
 data
 GR metrics
 download
-
+data/gr/metrics/MCF10A_etoposide_GR.tsv
 details
-
+etoposide#GR
 data
 P100 - 3h
 download
-
+data/p100/values/P100_etoposide_3h.tsv
 details
-
+etoposide#P100
 data
 GCP - 24h
 download
-
+data/gcp/values/GCP_etoposide_24h.tsv
 details
-
+etoposide#GCP
 
 title
 Dasatinib
@@ -222,30 +270,42 @@ BRD-K49328571
 data
 GR metrics
 download
-
+data/gr/metrics/MCF10A_dasatinib_GR.tsv
 details
-
+dasatinib#GR
 data
-L1000 - 3h
+L1000 - 3h (down)
 download
-
+data/l1000/values/L1000/L1000_dasatinib_3h_down.tsv
 details
-
+dasatinib#L1000
 data
-L1000 - 24h
+L1000 - 3h (up)
 download
-
+data/l1000/values/L1000/L1000_dasatinib_3h_up.tsv
 details
-
+dasatinib#L1000
+data
+L1000 - 24h (down)
+download
+data/l1000/values/L1000/L1000_dasatinib_24h_down.tsv
+details
+dasatinib#L1000
+data
+L1000 - 24h (up)
+download
+data/l1000/values/L1000/L1000_dasatinib_24h_up.tsv
+details
+dasatinib#L1000
 data
 P100 - 3h
 download
-
+data/p100/values/P100_dasatinib_3h.tsv
 details
-
+dasatinib#P100
 data
 GCP - 24h
 download
-
+data/gcp/values/GCP_dasatinib_24h.tsv
 details
-
+dasatinib#GCP

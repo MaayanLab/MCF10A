@@ -7,13 +7,13 @@ Cell Counts
 download
 data/gr/raw/All-Centers_cellcounts_060216.tsv
 details
-gr#cellcounts
+details#cellcounts
 data
 GR Metrics
 download
 data/gr/raw/All-Centers_GRmetrics_060116.tsv
 details
-gr#grmetrics
+details#grmetrics
 
 title
 L1000
@@ -22,9 +22,9 @@ measures transcriptome of <span class="emphasis">1,000 (landmark) genes</span> t
 data
 GCT
 download
-
+http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138
 details
-
+http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138
 
 title
 P100
@@ -35,7 +35,7 @@ GCT
 download
 data/p100/raw/LINCS_P100_PRM_Plate35_annotated_minimized_2016-06-10_11-43-55.processed.gct
 details
-p100
+details#p100
 
 title
 Global Chromatin Profiling (GCP)
@@ -46,32 +46,5 @@ GCT
 download
 data/gcp/raw/LINCS_GCP_Plate35_annotated_minimized_2016-06-09_13-14-47.processed.gct
 details
-gcp
-
-title
-MEP
-description
-<b>Staining Set 1 (SS1)</b>: Morphology and Metabolism <br>
-(DAPI, phalloidin, CellMask, mitoTracker) <br>
-<b>Staining Set 2 (SS2)</b>: Cell Cycle and Nuclear State <br>
-(DAPI, none, FBL, EdU) <br>
-<b>Staining Set 3 (SS3)</b>: Lineage Status <br>
-(DAPI, KRT5, KRT19, CellMask)
-data
-SS1
-download
-
-details
-
-data
-SS2
-download
-
-details
-
-data
-SS3
-download
-
-details
+details#gcp
 

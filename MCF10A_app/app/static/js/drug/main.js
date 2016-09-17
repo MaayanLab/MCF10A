@@ -153,6 +153,30 @@ function addConcentration(conc, assay){
     .style("stroke-dasharray", "3px");
 }
 
+function hasClustergrammer(library, time){
+  console.log(library + time);
+    var unavailable = false;
+    if (library == 'KEGG_2016'){
+      if (time == '3h'){
+        if( $.inArray(window.drug, ['trametinib', 'alpelisib', 'neratinib']) > -1){
+          unavailable = true;
+        }
+      } else if(time == '24h'){
+        if( $.inArray(window.drug, ['alpelisib']) > -1 ){
+          unavailable = true;
+        }
+      }
+    }
+    if (library == 'GO_Biological_Process_2015'){
+      if(time == '3h'){
+        if($.inArray(window.drug, ['alpelisib']) > -1 ){
+          unavailable = true;
+        }
+      }
+    }
+    return unavailable;
+}
+
 function setupTriggerLibrary(){
   // setup trigger for when gene set library changes
   var assay = "enrichr";
@@ -169,27 +193,11 @@ function setupTriggerLibrary(){
     // update Clustergrammer
     // NOTE: don't have clustergrammers for: KEGG_2016_trametinib_3h_combined_score, KEGG_2016_alpelisib_24h_combined_score, KEGG_2016_alpelisib_3h_combined_score, KEGG_2016_neratinib_3h_combined_score, GO_Biological_Process_2015_alpelisib_3h_combined_score
     console.log(newLibrary + time);
-    var unavailable = false;
-    if (newLibrary == 'KEGG_2016'){
-      if (time == '3h'){
-        if(window.drug in ['trametinib', 'alpelisib', 'neratinib']){
-          unavailable = true;
-        }
-      } else if(time == '24h'){
-        if(window.drug in ['alpelisib']){
-          unavailable = true;
-        }
-      }
-    }
-    if (newLibrary == 'GO_Biological_Process_2015'){
-      if(time == '3h'){
-        if(window.drug in ['alpelisib']){
-          unavailable = true;
-        }
-      }
-    }
+    var unavailable = hasClustergrammer(newLibrary, time);
+
     if (unavailable){
-      $("#enrichr-clustergrammer-container").append("<div> Clustergrammer unavailable </div>");
+      $("#enrichr-clustergrammer-container").empty();
+      $("#enrichr-clustergrammer-container").append("<div style='text-align: center;'> Clustergrammer unavailable </div>");
     } else{
       make_clust(newLibrary + '_' + window.drug + '_' + time + '_combined_score.json', 'enrichr-clustergrammer', false);
     }
@@ -206,7 +214,13 @@ function setupTriggerLibrary(){
     var library = $("#library-dropdown").val().replace(/\s+/g, '_');
     // update Clustergrammer
     console.log(library + newTime);
-    make_clust(library + '_' + window.drug + '_' + newTime + '_combined_score.json', 'enrichr-clustergrammer', false);
+    var unavailable = hasClustergrammer(library, newTime);
+    if (unavailable){
+      $("#enrichr-clustergrammer-container").empty();
+      $("#enrichr-clustergrammer-container").append("<div style='text-align: center;'> Clustergrammer unavailable </div>");
+    } else{
+      make_clust(library + '_' + window.drug + '_' + newTime + '_combined_score.json', 'enrichr-clustergrammer', false);
+    }
     //update download file
     $("#enrichr-clustergrammer-download").attr("href", "../data/l1000/values/" + library + "_" + window.drug + "_" + newTime + "_combined_score.tsv");
   });

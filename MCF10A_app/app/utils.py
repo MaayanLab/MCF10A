@@ -9,7 +9,7 @@ from . import flask_app as app
 
 # get JSON for layouts
 def get_canvas_layouts():
-    print "static folder=", app.static_folder
+    # print "static folder=", app.static_folder
     data_dir = app.static_folder + "/data"
     all_canvas_layouts = {}
 
@@ -114,7 +114,6 @@ def get_l1000_combined_score(filename):
     return value
 
 def get_p100_z_score(filename):
-    print "in get_p100_zscore"
     value = {}
     with open(filename, 'rb') as tsvfile:
         tsvreader = csv.reader(tsvfile, delimiter="\t")
@@ -137,7 +136,6 @@ def get_p100_z_score(filename):
                 val = row[i]
                 conc = float(col_lookup[i])
                 try:
-                    print "conc=", conc
                     value[conc][id] = float(val)
                 except ValueError:
                     value[conc][id] = 0

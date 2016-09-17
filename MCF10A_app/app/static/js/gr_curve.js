@@ -33,7 +33,7 @@ var grScales = {
 drawGRCurve("../static/data/gr/curve_datapoints/" + window.drug.capitalize() + "_curve_datapoints.csv");
 
 function drawGRCurve(datapointsFilename){
-  console.log("drawing drawGRCurve()");
+  // console.log("drawing drawGRCurve()");
 
   // Set the ranges
   grScales.xScale = d3.scale.log().range([0, width]);
