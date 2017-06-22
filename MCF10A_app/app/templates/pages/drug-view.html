@@ -236,17 +236,18 @@
     </div> <!-- /.assay-content (GCP) -->
   {% endif %}
 
-  {% if 'CycIF' in drug_info['assays'] %}
+  {% if 'GCP' in drug_info['assays'] %}
     <div class="assay-content">
-      <h2 id="CycIF">CycIF</h2>
+      <h2 id="GCP">GCP</h2>
       <div class="description">
-        <a href="http://lincs.hms.harvard.edu/db/datasets/20303/main" target="_blank">Cyclic Immunofluorescence (CycIF)</a> is a fluorescence imaging assay that measures protein levels and phosphorylation states in cells. The value of each cell represents the <b>mean z score</b>.
+        <a href="http://www.broadinstitute.org/~jjaffe/p100.php" target="_blank">Global chromatin profiling (GCP)</a> technology is a mass spectrometry-based assay to identify and quantify post-translational modifications on histone proteins from bulk chromatin. The value of each cell represents the <b>z score</b>.
       </div>
       </div>
-      {% with assay="CycIF", drug=drug_selected, time=['24h'], default_time="24h"%}
+      {% with assay="GCP", drug=drug_selected, time=['48h'], default_time="48h"%}
           {% include "partials/drugs-clustergrammer.html" %}
       {% endwith %}
-    </div> <!-- /.assay-content (CycIF) -->
+    </div> <!-- /.assay-content (GCP) -->
   {% endif %}
+
 
 {% endblock %}

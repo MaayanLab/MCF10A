@@ -3,6 +3,7 @@ make_clust('ChEA_2015_' + window.drug + '_24h_combined_score.json', 'enrichr-clu
 make_clust('L1000_' + window.drug + '_3h_down.json', 'l1000-clustergrammer', false);
 make_clust('P100_' + window.drug + '_3h.json', 'p100-3h', true);
 make_clust('GCP_' + window.drug + '_24h.json', 'gcp-24h', false);
+make_clust('GCP_' + window.drug + '_24h.json', 'gcp-48h', false);
 //make_clust('CycIF_' + window.drug + '_24h.json', 'cyc-24h', false);
 
 function make_clust(inst_network, divId, hasGeneInfo){
