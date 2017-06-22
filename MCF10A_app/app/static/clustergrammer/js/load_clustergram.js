@@ -18,9 +18,9 @@ function make_clust(inst_network, divId, hasGeneInfo){
       var args = {
         root: '#' + divId,
         'network_data': network_data,
-        'about':'Zoom, scroll, and click buttons to interact with the clustergram.',
+        //'about':'Zoom, scroll, and click buttons to interact with the clustergram.',
         'row_tip_callback':gene_info,
-        'order': 'alpha'
+        //'order': 'alpha'
       };
 
       resize_container(args);
