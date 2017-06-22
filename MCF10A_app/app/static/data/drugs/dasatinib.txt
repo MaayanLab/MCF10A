@@ -9,7 +9,7 @@ Dasatinib Anhydrous is an orally bioavailable synthetic small molecule-inhibitor
 Pubchem
 http://pubchem.ncbi.nlm.nih.gov/compound/3062316
 Lincs
-http://lincsportal.ccs.miami.edu/entities/#/view/LSM-1020
+http://lincsportal.ccs.miami.edu/SmallMolecules/view/LSM-1020
 Drugbank
 http://www.drugbank.ca/drugs/DB01254
 Chembl

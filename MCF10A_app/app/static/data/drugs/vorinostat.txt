@@ -9,7 +9,7 @@ Suberoylanilide Hydroxamic Acid is a synthetic hydroxamic acid derivative with a
 Pubchem
 https://pubchem.ncbi.nlm.nih.gov/compound/5311
 Lincs
-http://lincsportal.ccs.miami.edu/entities/#/view/LSM-3828
+http://lincsportal.ccs.miami.edu/SmallMolecules/view/LSM-3828
 Drugbank
 http://www.drugbank.ca/drugs/DB02546
 Chembl

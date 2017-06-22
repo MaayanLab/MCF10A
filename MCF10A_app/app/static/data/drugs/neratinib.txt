@@ -9,7 +9,7 @@ KI-272 is an orally available, 6,7-disubstituted-4-anilinoquinoline-3-carbonitri
 Pubchem
 https://pubchem.ncbi.nlm.nih.gov/compound/9915743
 Lincs
-http://lincsportal.ccs.miami.edu/entities/#/view/LSM-42778
+http://lincsportal.ccs.miami.edu/SmallMolecules/view/LSM-42778
 Drugbank
 
 Chembl

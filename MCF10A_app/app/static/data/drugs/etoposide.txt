@@ -9,7 +9,7 @@ Etoposide is a semisynthetic derivative of podophyllotoxin, a substance extracte
 Pubchem
 https://pubchem.ncbi.nlm.nih.gov/compound/36462
 Lincs
-http://lincsportal.ccs.miami.edu/entities/#/view/LSM-6348
+http://lincsportal.ccs.miami.edu/SmallMolecules/view/LSM-6348
 Drugbank
 http://www.drugbank.ca/drugs/DB00773
 Chembl

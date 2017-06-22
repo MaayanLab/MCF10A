@@ -9,7 +9,7 @@ PD-0332991 is an orally available cyclin-dependent kinase (CDK) inhibitor with p
 Pubchem
 https://pubchem.ncbi.nlm.nih.gov/compound/5330286
 Lincs
-http://lincsportal.ccs.miami.edu/entities/#/view/LSM-1071
+http://lincsportal.ccs.miami.edu/SmallMolecules/view/LSM-1071
 Drugbank
 http://www.drugbank.ca/drugs/DB09073
 Chembl

@@ -9,7 +9,7 @@ Alpelisib is an orally bioavailable phosphatidylinositol 3-kinase (PI3K) inhibit
 Pubchem
 https://pubchem.ncbi.nlm.nih.gov/compound/56649450
 Lincs
-http://lincsportal.ccs.miami.edu/entities/#/view/LSM-4256
+http://lincsportal.ccs.miami.edu/SmallMolecules/view/LSM-4256
 Drugbank
 
 Chembl

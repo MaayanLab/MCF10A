@@ -9,7 +9,7 @@ MEK Inhibitor Trametinib is an orally bioavailable inhibitor of mitogen-activate
 Pubchem
 https://pubchem.ncbi.nlm.nih.gov/compound/Trametinib
 Lincs
-http://lincsportal.ccs.miami.edu/entities/#/view/LSM-1143
+http://lincsportal.ccs.miami.edu/SmallMolecules/view/LSM-1143
 Drugbank
 http://www.drugbank.ca/drugs/DB08911
 Chembl
