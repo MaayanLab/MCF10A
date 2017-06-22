@@ -1,0 +1,4 @@
+ratio	agent	concentration(UM)	time(hr)	B1	B2	B3	Ave	S.D.
+phospho Akt/ alpha Tubulin	Palbociclib	0	0	0.046	0.054	0.049	0.049	0.004
+phospho Erk/ alpha Tubulin	Palbociclib	0	0	0.679	0.762	0.943	0.781	0.135
+cyclin D/ alpha Tubulin	Palbociclib	0	0	0.031	0.031	0.035	0.032	0.002

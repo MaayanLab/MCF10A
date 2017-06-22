@@ -48,3 +48,30 @@ data/gcp/raw/LINCS_GCP_Plate35_annotated_minimized_2016-06-09_13-14-47.processed
 details
 details#gcp
 
+title
+Cyclic Immunofluorescence (CycIF)
+description
+an immunofluorescence imaging assay that measures protein levels and phosphorylation states in cells
+data
+CycIF Mean ZScores
+download
+static/data/cycif/raw/CycIF_allmeanzscores.tsv
+details
+details#cycif
+data
+CycIF Raw
+download
+http://lincs.hms.harvard.edu/db/datasets/20303/results
+details
+details#cycif
+
+title
+Microwestern Array (MWA)
+description
+a high-throughput variation of the Western blot, which uses electrophoresis to determine protein levels and modifications by measuring fluorescence intensity
+data
+MWA Measurements
+download
+data/mwa/raw/dtoxs_mwadata.tsv
+details
+details#mwa

@@ -30,6 +30,9 @@
       {% if 'GCP' in drug_info['assays'] %}
         |<a href="#GCP">GCP</a>
       {% endif %}
+      {% if 'CycIF' in drug_info['assays'] %}
+        |<a href="#CycIF">CycIF</a>
+      {% endif %}
     </div>
 
     <div class="description">
@@ -231,6 +234,19 @@
           {% include "partials/drugs-clustergrammer.html" %}
       {% endwith %}
     </div> <!-- /.assay-content (GCP) -->
+  {% endif %}
+
+  {% if 'CycIF' in drug_info['assays'] %}
+    <div class="assay-content">
+      <h2 id="CycIF">CycIF</h2>
+      <div class="description">
+        <a href="http://lincs.hms.harvard.edu/db/datasets/20303/main" target="_blank">Cyclic Immunofluorescence (CycIF)</a> is a fluorescence imaging assay that measures protein levels and phosphorylation states in cells. The value of each cell represents the <b>mean z score</b>.
+      </div>
+      </div>
+      {% with assay="CycIF", drug=drug_selected, time=['24h'], default_time="24h"%}
+          {% include "partials/drugs-clustergrammer.html" %}
+      {% endwith %}
+    </div> <!-- /.assay-content (CycIF) -->
   {% endif %}
 
 {% endblock %}

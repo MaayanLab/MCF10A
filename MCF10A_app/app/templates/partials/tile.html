@@ -17,7 +17,7 @@
           <tr>
             <td class="file-name" width="50%">{{d[0]}}</td>
             <td width="25%">
-              {% if tile.title == "L1000" %}
+              {% if tile.title == "L1000" or tile.title == "Cyclic Immunofluorescence (CycIF)" %}
                 <a href="{{d[1]}}">download</a>
               {% elif d[1] %}
                 <a href="{{url_for('static', filename=d[1])}}">download</a>

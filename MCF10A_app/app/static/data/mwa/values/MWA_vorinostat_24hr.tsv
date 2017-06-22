@@ -1,0 +1,13 @@
+ratio	agent	concentration(UM)	time(hr)	D1	D2	D3	Ave	S.D.
+phospho Akt/ alpha Tubulin	Vorinostat	0	24	0.034	0.045	0.038	0.038	0.006
+phospho Akt/ alpha Tubulin	Vorinostat	1	24	0.058	0.056	0.058	0.057	0.001
+phospho Akt/ alpha Tubulin	Vorinostat	3.2	24	0.054	0.053	0.055	0.054	0.001
+phospho Akt/ alpha Tubulin	Vorinostat	10	24	0.063	0.063	0.049	0.06	0.008
+phospho Erk/ alpha Tubulin	Vorinostat	0	24	0.418	0.257	0.258	0.291	0.093
+phospho Erk/ alpha Tubulin	Vorinostat	1	24	0.595	0.499	0.54	0.53	0.048
+phospho Erk/ alpha Tubulin	Vorinostat	3.2	24	0.503	0.415	0.339	0.397	0.082
+phospho Erk/ alpha Tubulin	Vorinostat	10	24	0.247	0.17	0.18	0.186	0.042
+cyclin D/ alpha Tubulin	Vorinostat	0	24	0.014	0.015	0.018	0.015	0.002
+cyclin D/ alpha Tubulin	Vorinostat	1	24	0.026	0.024	0.026	0.026	0.001
+cyclin D/ alpha Tubulin	Vorinostat	3.2	24	0.014	0.016	0.015	0.015	0.001
+cyclin D/ alpha Tubulin	Vorinostat	10	24	0.005	0.007	0.004	0.005	0.002

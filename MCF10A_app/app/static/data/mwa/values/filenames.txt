@@ -1,0 +1,16 @@
+MWA_alpelisib_0hr.tsv
+MWA_alpelisib_1hr.tsv
+MWA_alpelisib_24hr.tsv
+MWA_alpelisib_6hr.tsv
+MWA_palbociclib_0hr.tsv
+MWA_palbociclib_1hr.tsv
+MWA_palbociclib_24hr.tsv
+MWA_palbociclib_6hr.tsv
+MWA_trametinib_0hr.tsv
+MWA_trametinib_1hr.tsv
+MWA_trametinib_24hr.tsv
+MWA_trametinib_6hr.tsv
+MWA_vorinostat_0hr.tsv
+MWA_vorinostat_1hr.tsv
+MWA_vorinostat_24hr.tsv
+MWA_vorinostat_6hr.tsv

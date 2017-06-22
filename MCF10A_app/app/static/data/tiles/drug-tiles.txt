@@ -45,6 +45,48 @@ download
 data/gcp/values/GCP_trametinib_24h.tsv
 details
 trametinib#GCP
+data
+CycIF - 24h
+download
+data/cycif/values/CycIF_trametinib_24h_meanzscore.tsv
+details
+trametinib#CycIF
+data
+CycIF - 48h
+download
+data/cycif/values/CycIF_trametinib_48h_meanzscore.tsv
+details
+trametinib#CycIF
+data
+CycIF - 72h
+download
+data/cycif/values/CycIF_trametinib_72h_meanzscore.tsv
+details
+trametinib#CycIF
+data
+MWA - 0h
+download
+data/mwa/values/MWA_trametinib_0hr.tsv
+details
+trametinib#MWA
+data
+MWA - 1h
+download
+data/mwa/values/MWA_trametinib_1hr.tsv
+details
+trametinib#MWA
+data
+MWA - 6h
+download
+data/mwa/values/MWA_trametinib_6hr.tsv
+details
+trametinib#MWA
+data
+MWA - 24h
+download
+data/mwa/values/MWA_trametinib_24hr.tsv
+details
+trametinib#MWA
 
 title
 Alpelisib
@@ -93,6 +135,48 @@ download
 data/gcp/values/GCP_alpelisib_24h.tsv
 details
 alpelisib#GCP
+data
+CycIF - 24h
+download
+data/cycif/values/CycIF_alpelisib_24h_meanzscore.tsv
+details
+alpelisib#CycIF
+data
+CycIF - 48h
+download
+data/cycif/values/CycIF_alpelisib_48h_meanzscore.tsv
+details
+alpelisib#CycIF
+data
+CycIF - 72h
+download
+data/cycif/values/CycIF_alpelisib_72h_meanzscore.tsv
+details
+alpelisib#CycIF
+data
+MWA - 0h
+download
+data/mwa/values/MWA_alpelisib_0hr.tsv
+details
+alpelisib#MWA
+data
+MWA - 1h
+download
+data/mwa/values/MWA_alpelisib_1hr.tsv
+details
+alpelisib#MWA
+data
+MWA - 6h
+download
+data/mwa/values/MWA_alpelisib_6hr.tsv
+details
+alpelisib#MWA
+data
+MWA - 24h
+download
+data/mwa/values/MWA_alpelisib_24hr.tsv
+details
+alpelisib#MWA
 
 title
 Vorinostat
@@ -117,6 +201,49 @@ download
 data/gcp/values/GCP_vorinostat_24h.tsv
 details
 vorinostat#GCP
+data
+CycIF - 24h
+download
+data/cycif/values/CycIF_vorinostat_24h_meanzscore.tsv
+details
+vorinostat#CycIF
+data
+CycIF - 48h
+download
+data/cycif/values/CycIF_vorinostat_48h_meanzscore.tsv
+details
+vorinostat#CycIF
+data
+CycIF - 72h
+download
+data/cycif/values/CycIF_vorinostat_72h_meanzscore.tsv
+details
+vorinostat#CycIF
+data
+MWA - 0h
+download
+data/mwa/values/MWA_vorinostat_0hr.tsv
+details
+vorinostat#MWA
+data
+MWA - 1h
+download
+data/mwa/values/MWA_vorinostat_1hr.tsv
+details
+vorinostat#MWA
+data
+MWA - 6h
+download
+data/mwa/values/MWA_vorinostat_6hr.tsv
+details
+vorinostat#MWA
+data
+MWA - 24h
+download
+data/mwa/values/MWA_vorinostat_24hr.tsv
+details
+vorinostat#MWA
+
 
 title
 Palbociclib
@@ -165,6 +292,48 @@ download
 data/gcp/values/GCP_palbociclib_24h.tsv
 details
 palbociclib#GCP
+data
+CycIF - 24h
+download
+data/cycif/values/CycIF_palbociclib_24h_meanzscore.tsv
+details
+palbociclib#CycIF
+data
+CycIF - 48h
+download
+data/cycif/values/CycIF_palbociclib_48h_meanzscore.tsv
+details
+palbociclib#CycIF
+data
+CycIF - 72h
+download
+data/cycif/values/CycIF_palbociclib_72h_meanzscore.tsv
+details
+palbociclib#CycIF
+data
+MWA - 0h
+download
+data/mwa/values/MWA_palbociclib_0hr.tsv
+details
+palbociclib#MWA
+data
+MWA - 1h
+download
+data/mwa/values/MWA_palbociclib_1hr.tsv
+details
+palbociclib#MWA
+data
+MWA - 6h
+download
+data/mwa/values/MWA_palbociclib_6hr.tsv
+details
+palbociclib#MWA
+data
+MWA - 24h
+download
+data/mwa/values/MWA_palbociclib_24hr.tsv
+details
+palbociclib#MWA
 
 title
 Neratinib
@@ -213,6 +382,24 @@ download
 data/gcp/values/GCP_neratinib_24h.tsv
 details
 neratinib#GCP
+data
+CycIF - 24h
+download
+data/cycif/values/CycIF_neratinib_24h_meanzscore.tsv
+details
+neratinib#CycIF
+data
+CycIF - 48h
+download
+data/cycif/values/CycIF_neratinib_48h_meanzscore.tsv
+details
+neratinib#CycIF
+data
+CycIF - 72h
+download
+data/cycif/values/CycIF_neratinib_72h_meanzscore.tsv
+details
+neratinib#CycIF
 
 title
 Paclitaxel
@@ -237,6 +424,24 @@ download
 data/gcp/values/GCP_paclitaxel_24h.tsv
 details
 paclitaxel#GCP
+data
+CycIF - 24h
+download
+data/cycif/values/CycIF_paclitaxel_24h_meanzscore.tsv
+details
+paclitaxel#CycIF
+data
+CycIF - 48h
+download
+data/cycif/values/CycIF_paclitaxel_48h_meanzscore.tsv
+details
+paclitaxel#CycIF
+data
+CycIF - 72h
+download
+data/cycif/values/CycIF_paclitaxel_72h_meanzscore.tsv
+details
+paclitaxel#CycIF
 
 title
 Etoposide
@@ -261,6 +466,24 @@ download
 data/gcp/values/GCP_etoposide_24h.tsv
 details
 etoposide#GCP
+data
+CycIF - 24h
+download
+data/cycif/values/CycIF_etoposide_24h_meanzscore.tsv
+details
+etoposide#CycIF
+data
+CycIF - 48h
+download
+data/cycif/values/CycIF_etoposide_48h_meanzscore.tsv
+details
+etoposide#CycIF
+data
+CycIF - 72h
+download
+data/cycif/values/CycIF_etoposide_72h_meanzscore.tsv
+details
+etoposide#CycIF
 
 title
 Dasatinib
@@ -309,3 +532,21 @@ download
 data/gcp/values/GCP_dasatinib_24h.tsv
 details
 dasatinib#GCP
+data
+CycIF - 24h
+download
+data/cycif/values/CycIF_dasatinib_24h_meanzscore.tsv
+details
+dasatinib#CycIF
+data
+CycIF - 48h
+download
+data/cycif/values/CycIF_dasatinib_48h_meanzscore.tsv
+details
+dasatinib#CycIF
+data
+CycIF - 72h
+download
+data/cycif/values/CycIF_dasatinib_72h_meanzscore.tsv
+details
+dasatinib#CycIF

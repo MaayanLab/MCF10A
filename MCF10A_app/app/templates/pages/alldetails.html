@@ -136,7 +136,35 @@
         <li>pubchem_cid</li>
       </ul>
   </p>
-  </div>
+
+  <h2 id="cycif">Cyclic Immunofluorescence (CycIF)</h2>
+  <p><a href="http://lincs.hms.harvard.edu/db/datasets/20303/main" target="_blank">Cyclic immunofluorescence (CycIF)</a> is a fluorescence imaging assay that measures protein levels and phosphorylation states in cells.</p>
+  <h3>CycIF Mean ZScores</h3>
+  <p>File contains matrix of mean zscores of immunofluorescent intensity measurements for each combination of agent, concentration, time, and compartment (cytosol or nucleus). Zscoring implemented for each combination using the mean and standard deviation of that combination's compartment.</p>
+  <p>Columns of the file include:
+    <ul>
+      <li>agent</li>
+      <li>concentration</li>
+      <li>time</li>
+      <li>compartment</li>
+    </ul>
+  </p>
+  <h3>CycIF Raw</h3>
+  <p>Data file contains matrix of immunofluorescent intensity measurements for cells treated with different doses of a perturbagen. See datacolumn_LUT Excel file in downloaded dataset results directory from <a href="http://lincs.hms.harvard.edu/db/datasets/20303/results" target="_blank">HMS LINCS</a> for additional column header details.</p>
+
+    <h2 id="mwa">Microwestern Arrays (MWA)</h2>
+  <p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2881471/" target="_blank">Microwestern Arrays (MWA)</a> is a high-throughput variation of the Western blot, which uses electrophoresis to determine protein levels and modifications by measuring fluorescence intensity.</p>
+  <h3>MWA Measurements</h3>
+  <p>File contains matrices of fluorescence intensity measurements of a target protein and alpha tubulin for cells treated with different doses of a perturbagen, as well as the ratios between target protein and alpha tubulin for each perturbation.</p>
+  <p>Columns of the file include:
+    <ul>
+      <li>Ave</li>
+      <li>S.D.</li>
+      <li>C.V.</li>
+      <li>ss</li>
+    </ul>
+  </p>
+</div>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
