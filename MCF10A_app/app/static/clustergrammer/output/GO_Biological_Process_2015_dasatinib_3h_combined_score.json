@@ -1,1538 +1,203 @@
 {
-  "row_nodes": [
-    {
-      "group": [
-        10.0, 
-        5.0, 
-        4.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "positive regulation of defense response (GO:0031349)", 
-      "clust": 7, 
-      "rank": 7, 
-      "ini": 14, 
-      "rankvar": 3
-    }, 
-    {
-      "group": [
-        13.0, 
-        7.0, 
-        6.0, 
-        4.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "regulation of protein serine/threonine kinase activity (GO:0071900)", 
-      "clust": 11, 
-      "rank": 10, 
-      "ini": 13, 
-      "rankvar": 2
-    }, 
-    {
-      "group": [
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "cellular response to external stimulus (GO:0071496)", 
-      "clust": 1, 
-      "rank": 1, 
-      "ini": 12, 
-      "rankvar": 13
-    }, 
-    {
-      "group": [
-        8.0, 
-        4.0, 
-        4.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "regulation of interleukin-6 production (GO:0032675)", 
-      "clust": 8, 
-      "rank": 9, 
-      "ini": 11, 
-      "rankvar": 6
-    }, 
-    {
-      "group": [
-        4.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "regulation of response to wounding (GO:1903034)", 
-      "clust": 3, 
-      "rank": 4, 
-      "ini": 10, 
-      "rankvar": 9
-    }, 
-    {
-      "group": [
-        6.0, 
-        3.0, 
-        3.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "positive regulation of chemokine production (GO:0032722)", 
-      "clust": 5, 
-      "rank": 12, 
-      "ini": 9, 
-      "rankvar": 1
-    }, 
-    {
-      "group": [
-        7.0, 
-        3.0, 
-        3.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "regulation of chemokine biosynthetic process (GO:0045073)", 
-      "clust": 6, 
-      "rank": 13, 
-      "ini": 8, 
-      "rankvar": 5
-    }, 
-    {
-      "group": [
-        3.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "cellular response to abiotic stimulus (GO:0071214)", 
-      "clust": 0, 
-      "rank": 3, 
-      "ini": 7, 
-      "rankvar": 12
-    }, 
-    {
-      "group": [
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "cellular response to mechanical stimulus (GO:0071260)", 
-      "clust": 2, 
-      "rank": 2, 
-      "ini": 6, 
-      "rankvar": 11
-    }, 
-    {
-      "group": [
-        9.0, 
-        4.0, 
-        4.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "positive regulation of interleukin-6 production (GO:0032755)", 
-      "clust": 9, 
-      "rank": 8, 
-      "ini": 5, 
-      "rankvar": 8
-    }, 
-    {
-      "group": [
-        5.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "positive regulation of sequence-specific DNA binding transcription factor activity (GO:0051091)", 
-      "clust": 4, 
-      "rank": 11, 
-      "ini": 4, 
-      "rankvar": 0
-    }, 
-    {
-      "group": [
-        11.0, 
-        6.0, 
-        5.0, 
-        3.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "positive regulation of cell activation (GO:0050867)", 
-      "clust": 12, 
-      "rank": 5, 
-      "ini": 3, 
-      "rankvar": 7
-    }, 
-    {
-      "group": [
-        12.0, 
-        6.0, 
-        5.0, 
-        3.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "positive regulation of leukocyte activation (GO:0002696)", 
-      "clust": 13, 
-      "rank": 6, 
-      "ini": 2, 
-      "rankvar": 4
-    }, 
-    {
-      "group": [
-        14.0, 
-        8.0, 
-        7.0, 
-        5.0, 
-        3.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "response to mechanical stimulus (GO:0009612)", 
-      "clust": 10, 
-      "rank": 0, 
-      "ini": 1, 
-      "rankvar": 10
-    }
+  "mat": [
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -0.357284063543, 
+      -1.7700735673599997, 
+      -2.82840000001, 
+      -3.9964166805000003, 
+      -14.9076359014, 
+      -13.477024213800002
+    ], 
+    [
+      0.059967847297099995, 
+      3.1081907153799997, 
+      2.00609857949, 
+      0.0696072114608, 
+      1.6594181320200003, 
+      1.05295415077, 
+      -3.3094269846599995, 
+      -5.11451796066, 
+      -2.75600456898, 
+      -7.00371178612, 
+      -12.0725174711, 
+      -11.445473180499999
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0511017433808, 
+      0.334582106571, 
+      0.0, 
+      0.0, 
+      -4.16022042185, 
+      -1.43372524301, 
+      -3.5971794676899997, 
+      -5.3797489378, 
+      -16.279421036800002, 
+      -27.4824163144
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -1.963846912, 
+      -1.63737728152, 
+      -0.0, 
+      -3.3845023089499997, 
+      -15.6357090443, 
+      -13.9089808571
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -3.72059918012, 
+      -2.3261290028, 
+      -6.523068748559999, 
+      -3.4449993300800004, 
+      -17.1437328773, 
+      -15.5733809621
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -2.15118418194, 
+      -0.0, 
+      -0.0, 
+      -1.8185795568, 
+      -11.392038038399999, 
+      -14.464458585
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -0.9591380377969999, 
+      -0.113577319707, 
+      -0.0, 
+      -0.0, 
+      -11.217680250799999, 
+      -16.8853317411
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      2.45121176179, 
+      0.0, 
+      0.0, 
+      -4.16732560436, 
+      -2.68900766017, 
+      -2.6628675624300002, 
+      -6.6281624701199995, 
+      -12.1409979727, 
+      -27.988745890700002
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -4.30961561541, 
+      -4.37370333156, 
+      -5.753007427969999, 
+      -4.15008688001, 
+      -12.9192631085, 
+      -24.627049124699997
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -1.54172988757, 
+      -3.3238201472, 
+      -0.0, 
+      -1.2272843748, 
+      -15.3637694197, 
+      -15.5741259422
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      1.15980804456, 
+      0.5872558904590001, 
+      0.120526299557, 
+      -4.36311097754, 
+      -0.0, 
+      -3.8394150935400004, 
+      -1.8256528185799998, 
+      -12.3690353104, 
+      -11.795807073299999
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.6410158053930001, 
+      0.0, 
+      1.5754386996, 
+      1.60714116208, 
+      -1.18110490096, 
+      -8.649971154400001, 
+      -5.111769106190001, 
+      -2.90224807798, 
+      -13.9025917219, 
+      -13.512300751600002
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.754011340617, 
+      0.0, 
+      1.82103123384, 
+      1.7801258399900002, 
+      -0.48387079635700003, 
+      -9.02692591552, 
+      -3.92684299685, 
+      -3.16825593263, 
+      -14.3554433247, 
+      -11.8445977162
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      0.801540700784, 
+      -11.1459732616, 
+      -5.9620123435000005, 
+      -6.09196356783, 
+      -5.6808096605400005, 
+      -15.8624141077, 
+      -17.4051721217
+    ]
   ], 
-  "col_nodes": [
-    {
-      "group": [
-        9.0, 
-        5.0, 
-        3.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "1_up_0.04", 
-      "clust": 10, 
-      "rank": 6, 
-      "ini": 12, 
-      "rankvar": 0
-    }, 
-    {
-      "group": [
-        9.0, 
-        5.0, 
-        3.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "1_up_0.12", 
-      "clust": 11, 
-      "rank": 7, 
-      "ini": 11, 
-      "rankvar": 5
-    }, 
-    {
-      "group": [
-        10.0, 
-        5.0, 
-        3.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "1_up_0.37", 
-      "clust": 9, 
-      "rank": 8, 
-      "ini": 10, 
-      "rankvar": 1
-    }, 
-    {
-      "group": [
-        11.0, 
-        6.0, 
-        4.0, 
-        3.0, 
-        3.0, 
-        3.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "1_up_01.11", 
-      "clust": 6, 
-      "rank": 9, 
-      "ini": 9, 
-      "rankvar": 3
-    }, 
-    {
-      "group": [
-        7.0, 
-        4.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "1_up_03.33", 
-      "clust": 7, 
-      "rank": 11, 
-      "ini": 8, 
-      "rankvar": 4
-    }, 
-    {
-      "group": [
-        8.0, 
-        4.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "1_up_10.0", 
-      "clust": 8, 
-      "rank": 10, 
-      "ini": 7, 
-      "rankvar": 2
-    }, 
-    {
-      "group": [
-        5.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "2_down_0.04", 
-      "clust": 1, 
-      "rank": 4, 
-      "ini": 6, 
-      "rankvar": 9
-    }, 
-    {
-      "group": [
-        6.0, 
-        3.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "2_down_0.12", 
-      "clust": 0, 
-      "rank": 3, 
-      "ini": 5, 
-      "rankvar": 10
-    }, 
-    {
-      "group": [
-        4.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "2_down_0.37", 
-      "clust": 2, 
-      "rank": 5, 
-      "ini": 4, 
-      "rankvar": 8
-    }, 
-    {
-      "group": [
-        3.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "2_down_01.11", 
-      "clust": 3, 
-      "rank": 2, 
-      "ini": 3, 
-      "rankvar": 7
-    }, 
-    {
-      "group": [
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "2_down_03.33", 
-      "clust": 4, 
-      "rank": 1, 
-      "ini": 2, 
-      "rankvar": 6
-    }, 
-    {
-      "group": [
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "2_down_10.0", 
-      "clust": 5, 
-      "rank": 0, 
-      "ini": 1, 
-      "rankvar": 11
-    }
-  ], 
-  "links": [
-    {
-      "source": 0, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 0, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 0, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 0, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 0, 
-      "target": 4, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 0, 
-      "target": 5, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 0, 
-      "target": 6, 
-      "value": -0.35728406354300002, 
-      "value_orig": -0.35728406354300002
-    }, 
-    {
-      "source": 0, 
-      "target": 7, 
-      "value": -1.7700735673599997, 
-      "value_orig": -1.7700735673599997
-    }, 
-    {
-      "source": 0, 
-      "target": 8, 
-      "value": -2.8284000000099998, 
-      "value_orig": -2.8284000000099998
-    }, 
-    {
-      "source": 0, 
-      "target": 9, 
-      "value": -3.9964166805000003, 
-      "value_orig": -3.9964166805000003
-    }, 
-    {
-      "source": 0, 
-      "target": 10, 
-      "value": -14.907635901400001, 
-      "value_orig": -14.907635901400001
-    }, 
-    {
-      "source": 0, 
-      "target": 11, 
-      "value": -13.477024213800002, 
-      "value_orig": -13.477024213800002
-    }, 
-    {
-      "source": 1, 
-      "target": 0, 
-      "value": 0.059967847297099995, 
-      "value_orig": 0.059967847297099995
-    }, 
-    {
-      "source": 1, 
-      "target": 1, 
-      "value": 3.1081907153799997, 
-      "value_orig": 3.1081907153799997
-    }, 
-    {
-      "source": 1, 
-      "target": 2, 
-      "value": 2.0060985794900001, 
-      "value_orig": 2.0060985794900001
-    }, 
-    {
-      "source": 1, 
-      "target": 3, 
-      "value": 0.069607211460799998, 
-      "value_orig": 0.069607211460799998
-    }, 
-    {
-      "source": 1, 
-      "target": 4, 
-      "value": 1.6594181320200003, 
-      "value_orig": 1.6594181320200003
-    }, 
-    {
-      "source": 1, 
-      "target": 5, 
-      "value": 1.05295415077, 
-      "value_orig": 1.05295415077
-    }, 
-    {
-      "source": 1, 
-      "target": 6, 
-      "value": -3.3094269846599995, 
-      "value_orig": -3.3094269846599995
-    }, 
-    {
-      "source": 1, 
-      "target": 7, 
-      "value": -5.1145179606599998, 
-      "value_orig": -5.1145179606599998
-    }, 
-    {
-      "source": 1, 
-      "target": 8, 
-      "value": -2.7560045689799999, 
-      "value_orig": -2.7560045689799999
-    }, 
-    {
-      "source": 1, 
-      "target": 9, 
-      "value": -7.0037117861200002, 
-      "value_orig": -7.0037117861200002
-    }, 
-    {
-      "source": 1, 
-      "target": 10, 
-      "value": -12.072517471099999, 
-      "value_orig": -12.072517471099999
-    }, 
-    {
-      "source": 1, 
-      "target": 11, 
-      "value": -11.445473180499999, 
-      "value_orig": -11.445473180499999
-    }, 
-    {
-      "source": 2, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 2, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 2, 
-      "target": 2, 
-      "value": 0.051101743380800001, 
-      "value_orig": 0.051101743380800001
-    }, 
-    {
-      "source": 2, 
-      "target": 3, 
-      "value": 0.33458210657100002, 
-      "value_orig": 0.33458210657100002
-    }, 
-    {
-      "source": 2, 
-      "target": 4, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 2, 
-      "target": 5, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 2, 
-      "target": 6, 
-      "value": -4.1602204218500001, 
-      "value_orig": -4.1602204218500001
-    }, 
-    {
-      "source": 2, 
-      "target": 7, 
-      "value": -1.43372524301, 
-      "value_orig": -1.43372524301
-    }, 
-    {
-      "source": 2, 
-      "target": 8, 
-      "value": -3.5971794676899997, 
-      "value_orig": -3.5971794676899997
-    }, 
-    {
-      "source": 2, 
-      "target": 9, 
-      "value": -5.3797489377999996, 
-      "value_orig": -5.3797489377999996
-    }, 
-    {
-      "source": 2, 
-      "target": 10, 
-      "value": -16.279421036800002, 
-      "value_orig": -16.279421036800002
-    }, 
-    {
-      "source": 2, 
-      "target": 11, 
-      "value": -27.482416314400002, 
-      "value_orig": -27.482416314400002
-    }, 
-    {
-      "source": 3, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 3, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 3, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 3, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 3, 
-      "target": 4, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 3, 
-      "target": 5, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 3, 
-      "target": 6, 
-      "value": -1.9638469119999999, 
-      "value_orig": -1.9638469119999999
-    }, 
-    {
-      "source": 3, 
-      "target": 7, 
-      "value": -1.6373772815200001, 
-      "value_orig": -1.6373772815200001
-    }, 
-    {
-      "source": 3, 
-      "target": 8, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 3, 
-      "target": 9, 
-      "value": -3.3845023089499997, 
-      "value_orig": -3.3845023089499997
-    }, 
-    {
-      "source": 3, 
-      "target": 10, 
-      "value": -15.6357090443, 
-      "value_orig": -15.6357090443
-    }, 
-    {
-      "source": 3, 
-      "target": 11, 
-      "value": -13.9089808571, 
-      "value_orig": -13.9089808571
-    }, 
-    {
-      "source": 4, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 4, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 4, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 4, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 4, 
-      "target": 4, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 4, 
-      "target": 5, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 4, 
-      "target": 6, 
-      "value": -3.7205991801199998, 
-      "value_orig": -3.7205991801199998
-    }, 
-    {
-      "source": 4, 
-      "target": 7, 
-      "value": -2.3261290028000001, 
-      "value_orig": -2.3261290028000001
-    }, 
-    {
-      "source": 4, 
-      "target": 8, 
-      "value": -6.5230687485599992, 
-      "value_orig": -6.5230687485599992
-    }, 
-    {
-      "source": 4, 
-      "target": 9, 
-      "value": -3.4449993300800004, 
-      "value_orig": -3.4449993300800004
-    }, 
-    {
-      "source": 4, 
-      "target": 10, 
-      "value": -17.1437328773, 
-      "value_orig": -17.1437328773
-    }, 
-    {
-      "source": 4, 
-      "target": 11, 
-      "value": -15.5733809621, 
-      "value_orig": -15.5733809621
-    }, 
-    {
-      "source": 5, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 5, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 5, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 5, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 5, 
-      "target": 4, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 5, 
-      "target": 5, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 5, 
-      "target": 6, 
-      "value": -2.1511841819400002, 
-      "value_orig": -2.1511841819400002
-    }, 
-    {
-      "source": 5, 
-      "target": 7, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 5, 
-      "target": 8, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 5, 
-      "target": 9, 
-      "value": -1.8185795568000001, 
-      "value_orig": -1.8185795568000001
-    }, 
-    {
-      "source": 5, 
-      "target": 10, 
-      "value": -11.392038038399999, 
-      "value_orig": -11.392038038399999
-    }, 
-    {
-      "source": 5, 
-      "target": 11, 
-      "value": -14.464458584999999, 
-      "value_orig": -14.464458584999999
-    }, 
-    {
-      "source": 6, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 6, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 6, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 6, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 6, 
-      "target": 4, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 6, 
-      "target": 5, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 6, 
-      "target": 6, 
-      "value": -0.95913803779699991, 
-      "value_orig": -0.95913803779699991
-    }, 
-    {
-      "source": 6, 
-      "target": 7, 
-      "value": -0.113577319707, 
-      "value_orig": -0.113577319707
-    }, 
-    {
-      "source": 6, 
-      "target": 8, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 6, 
-      "target": 9, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 6, 
-      "target": 10, 
-      "value": -11.217680250799999, 
-      "value_orig": -11.217680250799999
-    }, 
-    {
-      "source": 6, 
-      "target": 11, 
-      "value": -16.8853317411, 
-      "value_orig": -16.8853317411
-    }, 
-    {
-      "source": 7, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 7, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 7, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 7, 
-      "target": 3, 
-      "value": 2.4512117617900002, 
-      "value_orig": 2.4512117617900002
-    }, 
-    {
-      "source": 7, 
-      "target": 4, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 7, 
-      "target": 5, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 7, 
-      "target": 6, 
-      "value": -4.1673256043600002, 
-      "value_orig": -4.1673256043600002
-    }, 
-    {
-      "source": 7, 
-      "target": 7, 
-      "value": -2.6890076601700001, 
-      "value_orig": -2.6890076601700001
-    }, 
-    {
-      "source": 7, 
-      "target": 8, 
-      "value": -2.6628675624300002, 
-      "value_orig": -2.6628675624300002
-    }, 
-    {
-      "source": 7, 
-      "target": 9, 
-      "value": -6.6281624701199995, 
-      "value_orig": -6.6281624701199995
-    }, 
-    {
-      "source": 7, 
-      "target": 10, 
-      "value": -12.140997972699999, 
-      "value_orig": -12.140997972699999
-    }, 
-    {
-      "source": 7, 
-      "target": 11, 
-      "value": -27.988745890700002, 
-      "value_orig": -27.988745890700002
-    }, 
-    {
-      "source": 8, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 8, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 8, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 8, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 8, 
-      "target": 4, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 8, 
-      "target": 5, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 8, 
-      "target": 6, 
-      "value": -4.3096156154100003, 
-      "value_orig": -4.3096156154100003
-    }, 
-    {
-      "source": 8, 
-      "target": 7, 
-      "value": -4.3737033315599998, 
-      "value_orig": -4.3737033315599998
-    }, 
-    {
-      "source": 8, 
-      "target": 8, 
-      "value": -5.7530074279699992, 
-      "value_orig": -5.7530074279699992
-    }, 
-    {
-      "source": 8, 
-      "target": 9, 
-      "value": -4.1500868800099999, 
-      "value_orig": -4.1500868800099999
-    }, 
-    {
-      "source": 8, 
-      "target": 10, 
-      "value": -12.919263108499999, 
-      "value_orig": -12.919263108499999
-    }, 
-    {
-      "source": 8, 
-      "target": 11, 
-      "value": -24.627049124699997, 
-      "value_orig": -24.627049124699997
-    }, 
-    {
-      "source": 9, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 9, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 9, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 9, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 9, 
-      "target": 4, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 9, 
-      "target": 5, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 9, 
-      "target": 6, 
-      "value": -1.5417298875700001, 
-      "value_orig": -1.5417298875700001
-    }, 
-    {
-      "source": 9, 
-      "target": 7, 
-      "value": -3.3238201472000002, 
-      "value_orig": -3.3238201472000002
-    }, 
-    {
-      "source": 9, 
-      "target": 8, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 9, 
-      "target": 9, 
-      "value": -1.2272843748, 
-      "value_orig": -1.2272843748
-    }, 
-    {
-      "source": 9, 
-      "target": 10, 
-      "value": -15.363769419700001, 
-      "value_orig": -15.363769419700001
-    }, 
-    {
-      "source": 9, 
-      "target": 11, 
-      "value": -15.5741259422, 
-      "value_orig": -15.5741259422
-    }, 
-    {
-      "source": 10, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 10, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 10, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 10, 
-      "target": 3, 
-      "value": 1.1598080445600001, 
-      "value_orig": 1.1598080445600001
-    }, 
-    {
-      "source": 10, 
-      "target": 4, 
-      "value": 0.58725589045900006, 
-      "value_orig": 0.58725589045900006
-    }, 
-    {
-      "source": 10, 
-      "target": 5, 
-      "value": 0.12052629955700001, 
-      "value_orig": 0.12052629955700001
-    }, 
-    {
-      "source": 10, 
-      "target": 6, 
-      "value": -4.3631109775399999, 
-      "value_orig": -4.3631109775399999
-    }, 
-    {
-      "source": 10, 
-      "target": 7, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 10, 
-      "target": 8, 
-      "value": -3.8394150935400004, 
-      "value_orig": -3.8394150935400004
-    }, 
-    {
-      "source": 10, 
-      "target": 9, 
-      "value": -1.8256528185799998, 
-      "value_orig": -1.8256528185799998
-    }, 
-    {
-      "source": 10, 
-      "target": 10, 
-      "value": -12.369035310399999, 
-      "value_orig": -12.369035310399999
-    }, 
-    {
-      "source": 10, 
-      "target": 11, 
-      "value": -11.795807073299999, 
-      "value_orig": -11.795807073299999
-    }, 
-    {
-      "source": 11, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 11, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 11, 
-      "target": 2, 
-      "value": 0.64101580539300007, 
-      "value_orig": 0.64101580539300007
-    }, 
-    {
-      "source": 11, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 11, 
-      "target": 4, 
-      "value": 1.5754386996, 
-      "value_orig": 1.5754386996
-    }, 
-    {
-      "source": 11, 
-      "target": 5, 
-      "value": 1.60714116208, 
-      "value_orig": 1.60714116208
-    }, 
-    {
-      "source": 11, 
-      "target": 6, 
-      "value": -1.1811049009600001, 
-      "value_orig": -1.1811049009600001
-    }, 
-    {
-      "source": 11, 
-      "target": 7, 
-      "value": -8.6499711544000011, 
-      "value_orig": -8.6499711544000011
-    }, 
-    {
-      "source": 11, 
-      "target": 8, 
-      "value": -5.1117691061900006, 
-      "value_orig": -5.1117691061900006
-    }, 
-    {
-      "source": 11, 
-      "target": 9, 
-      "value": -2.90224807798, 
-      "value_orig": -2.90224807798
-    }, 
-    {
-      "source": 11, 
-      "target": 10, 
-      "value": -13.9025917219, 
-      "value_orig": -13.9025917219
-    }, 
-    {
-      "source": 11, 
-      "target": 11, 
-      "value": -13.512300751600002, 
-      "value_orig": -13.512300751600002
-    }, 
-    {
-      "source": 12, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 12, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 12, 
-      "target": 2, 
-      "value": 0.75401134061700004, 
-      "value_orig": 0.75401134061700004
-    }, 
-    {
-      "source": 12, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 12, 
-      "target": 4, 
-      "value": 1.8210312338400001, 
-      "value_orig": 1.8210312338400001
-    }, 
-    {
-      "source": 12, 
-      "target": 5, 
-      "value": 1.7801258399900002, 
-      "value_orig": 1.7801258399900002
-    }, 
-    {
-      "source": 12, 
-      "target": 6, 
-      "value": -0.48387079635700003, 
-      "value_orig": -0.48387079635700003
-    }, 
-    {
-      "source": 12, 
-      "target": 7, 
-      "value": -9.0269259155199997, 
-      "value_orig": -9.0269259155199997
-    }, 
-    {
-      "source": 12, 
-      "target": 8, 
-      "value": -3.92684299685, 
-      "value_orig": -3.92684299685
-    }, 
-    {
-      "source": 12, 
-      "target": 9, 
-      "value": -3.1682559326300002, 
-      "value_orig": -3.1682559326300002
-    }, 
-    {
-      "source": 12, 
-      "target": 10, 
-      "value": -14.3554433247, 
-      "value_orig": -14.3554433247
-    }, 
-    {
-      "source": 12, 
-      "target": 11, 
-      "value": -11.844597716199999, 
-      "value_orig": -11.844597716199999
-    }, 
-    {
-      "source": 13, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 13, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 13, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 13, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 13, 
-      "target": 4, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 13, 
-      "target": 5, 
-      "value": 0.80154070078399997, 
-      "value_orig": 0.80154070078399997
-    }, 
-    {
-      "source": 13, 
-      "target": 6, 
-      "value": -11.1459732616, 
-      "value_orig": -11.1459732616
-    }, 
-    {
-      "source": 13, 
-      "target": 7, 
-      "value": -5.9620123435000005, 
-      "value_orig": -5.9620123435000005
-    }, 
-    {
-      "source": 13, 
-      "target": 8, 
-      "value": -6.0919635678299997, 
-      "value_orig": -6.0919635678299997
-    }, 
-    {
-      "source": 13, 
-      "target": 9, 
-      "value": -5.6808096605400005, 
-      "value_orig": -5.6808096605400005
-    }, 
-    {
-      "source": 13, 
-      "target": 10, 
-      "value": -15.862414107699999, 
-      "value_orig": -15.862414107699999
-    }, 
-    {
-      "source": 13, 
-      "target": 11, 
-      "value": -17.405172121700001, 
-      "value_orig": -17.405172121700001
-    }
-  ], 
+  "links": [], 
   "views": [
     {
       "N_row_sum": "all", 
@@ -3413,6 +2078,534 @@
         ]
       }, 
       "dist": "cos"
+    }
+  ], 
+  "cat_colors": {
+    "col": {}, 
+    "row": {}
+  }, 
+  "row_nodes": [
+    {
+      "group": [
+        10.0, 
+        5.0, 
+        4.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "positive regulation of defense response (GO:0031349)", 
+      "clust": 7, 
+      "rank": 7, 
+      "ini": 14, 
+      "rankvar": 3
+    }, 
+    {
+      "group": [
+        13.0, 
+        7.0, 
+        6.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "regulation of protein serine/threonine kinase activity (GO:0071900)", 
+      "clust": 11, 
+      "rank": 10, 
+      "ini": 13, 
+      "rankvar": 2
+    }, 
+    {
+      "group": [
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "cellular response to external stimulus (GO:0071496)", 
+      "clust": 1, 
+      "rank": 1, 
+      "ini": 12, 
+      "rankvar": 13
+    }, 
+    {
+      "group": [
+        8.0, 
+        4.0, 
+        4.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "regulation of interleukin-6 production (GO:0032675)", 
+      "clust": 8, 
+      "rank": 9, 
+      "ini": 11, 
+      "rankvar": 6
+    }, 
+    {
+      "group": [
+        4.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "regulation of response to wounding (GO:1903034)", 
+      "clust": 3, 
+      "rank": 4, 
+      "ini": 10, 
+      "rankvar": 9
+    }, 
+    {
+      "group": [
+        6.0, 
+        3.0, 
+        3.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "positive regulation of chemokine production (GO:0032722)", 
+      "clust": 5, 
+      "rank": 12, 
+      "ini": 9, 
+      "rankvar": 1
+    }, 
+    {
+      "group": [
+        7.0, 
+        3.0, 
+        3.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "regulation of chemokine biosynthetic process (GO:0045073)", 
+      "clust": 6, 
+      "rank": 13, 
+      "ini": 8, 
+      "rankvar": 5
+    }, 
+    {
+      "group": [
+        3.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "cellular response to abiotic stimulus (GO:0071214)", 
+      "clust": 0, 
+      "rank": 3, 
+      "ini": 7, 
+      "rankvar": 12
+    }, 
+    {
+      "group": [
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "cellular response to mechanical stimulus (GO:0071260)", 
+      "clust": 2, 
+      "rank": 2, 
+      "ini": 6, 
+      "rankvar": 11
+    }, 
+    {
+      "group": [
+        9.0, 
+        4.0, 
+        4.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "positive regulation of interleukin-6 production (GO:0032755)", 
+      "clust": 9, 
+      "rank": 8, 
+      "ini": 5, 
+      "rankvar": 8
+    }, 
+    {
+      "group": [
+        5.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "positive regulation of sequence-specific DNA binding transcription factor activity (GO:0051091)", 
+      "clust": 4, 
+      "rank": 11, 
+      "ini": 4, 
+      "rankvar": 0
+    }, 
+    {
+      "group": [
+        11.0, 
+        6.0, 
+        5.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "positive regulation of cell activation (GO:0050867)", 
+      "clust": 12, 
+      "rank": 5, 
+      "ini": 3, 
+      "rankvar": 7
+    }, 
+    {
+      "group": [
+        12.0, 
+        6.0, 
+        5.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "positive regulation of leukocyte activation (GO:0002696)", 
+      "clust": 13, 
+      "rank": 6, 
+      "ini": 2, 
+      "rankvar": 4
+    }, 
+    {
+      "group": [
+        14.0, 
+        8.0, 
+        7.0, 
+        5.0, 
+        3.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "response to mechanical stimulus (GO:0009612)", 
+      "clust": 10, 
+      "rank": 0, 
+      "ini": 1, 
+      "rankvar": 10
+    }
+  ], 
+  "col_nodes": [
+    {
+      "group": [
+        9.0, 
+        5.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_0.04", 
+      "clust": 10, 
+      "rank": 6, 
+      "ini": 12, 
+      "rankvar": 0
+    }, 
+    {
+      "group": [
+        9.0, 
+        5.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_0.12", 
+      "clust": 11, 
+      "rank": 7, 
+      "ini": 11, 
+      "rankvar": 5
+    }, 
+    {
+      "group": [
+        10.0, 
+        5.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_0.37", 
+      "clust": 9, 
+      "rank": 8, 
+      "ini": 10, 
+      "rankvar": 1
+    }, 
+    {
+      "group": [
+        11.0, 
+        6.0, 
+        4.0, 
+        3.0, 
+        3.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_01.11", 
+      "clust": 6, 
+      "rank": 9, 
+      "ini": 9, 
+      "rankvar": 3
+    }, 
+    {
+      "group": [
+        7.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_03.33", 
+      "clust": 7, 
+      "rank": 11, 
+      "ini": 8, 
+      "rankvar": 4
+    }, 
+    {
+      "group": [
+        8.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_10.0", 
+      "clust": 8, 
+      "rank": 10, 
+      "ini": 7, 
+      "rankvar": 2
+    }, 
+    {
+      "group": [
+        5.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_0.04", 
+      "clust": 1, 
+      "rank": 4, 
+      "ini": 6, 
+      "rankvar": 9
+    }, 
+    {
+      "group": [
+        6.0, 
+        3.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_0.12", 
+      "clust": 0, 
+      "rank": 3, 
+      "ini": 5, 
+      "rankvar": 10
+    }, 
+    {
+      "group": [
+        4.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_0.37", 
+      "clust": 2, 
+      "rank": 5, 
+      "ini": 4, 
+      "rankvar": 8
+    }, 
+    {
+      "group": [
+        3.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_01.11", 
+      "clust": 3, 
+      "rank": 2, 
+      "ini": 3, 
+      "rankvar": 7
+    }, 
+    {
+      "group": [
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_03.33", 
+      "clust": 4, 
+      "rank": 1, 
+      "ini": 2, 
+      "rankvar": 6
+    }, 
+    {
+      "group": [
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_10.0", 
+      "clust": 5, 
+      "rank": 0, 
+      "ini": 1, 
+      "rankvar": 11
     }
   ]
 }

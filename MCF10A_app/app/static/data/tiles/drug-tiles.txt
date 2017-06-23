@@ -48,19 +48,19 @@ trametinib#GCP
 data
 CycIF - 24h
 download
-data/cycif/values/CycIF_trametinib_24h_meanzscore.tsv
+data/cycif/values/CycIF_trametinib_24h.tsv
 details
 trametinib#CycIF
 data
 CycIF - 48h
 download
-data/cycif/values/CycIF_trametinib_48h_meanzscore.tsv
+data/cycif/values/CycIF_trametinib_48h.tsv
 details
 trametinib#CycIF
 data
 CycIF - 72h
 download
-data/cycif/values/CycIF_trametinib_72h_meanzscore.tsv
+data/cycif/values/CycIF_trametinib_72h.tsv
 details
 trametinib#CycIF
 data
@@ -138,19 +138,19 @@ alpelisib#GCP
 data
 CycIF - 24h
 download
-data/cycif/values/CycIF_alpelisib_24h_meanzscore.tsv
+data/cycif/values/CycIF_alpelisib_24h.tsv
 details
 alpelisib#CycIF
 data
 CycIF - 48h
 download
-data/cycif/values/CycIF_alpelisib_48h_meanzscore.tsv
+data/cycif/values/CycIF_alpelisib_48h.tsv
 details
 alpelisib#CycIF
 data
 CycIF - 72h
 download
-data/cycif/values/CycIF_alpelisib_72h_meanzscore.tsv
+data/cycif/values/CycIF_alpelisib_72h.tsv
 details
 alpelisib#CycIF
 data
@@ -204,19 +204,19 @@ vorinostat#GCP
 data
 CycIF - 24h
 download
-data/cycif/values/CycIF_vorinostat_24h_meanzscore.tsv
+data/cycif/values/CycIF_vorinostat_24h.tsv
 details
 vorinostat#CycIF
 data
 CycIF - 48h
 download
-data/cycif/values/CycIF_vorinostat_48h_meanzscore.tsv
+data/cycif/values/CycIF_vorinostat_48h.tsv
 details
 vorinostat#CycIF
 data
 CycIF - 72h
 download
-data/cycif/values/CycIF_vorinostat_72h_meanzscore.tsv
+data/cycif/values/CycIF_vorinostat_72h.tsv
 details
 vorinostat#CycIF
 data
@@ -295,19 +295,19 @@ palbociclib#GCP
 data
 CycIF - 24h
 download
-data/cycif/values/CycIF_palbociclib_24h_meanzscore.tsv
+data/cycif/values/CycIF_palbociclib_24h.tsv
 details
 palbociclib#CycIF
 data
 CycIF - 48h
 download
-data/cycif/values/CycIF_palbociclib_48h_meanzscore.tsv
+data/cycif/values/CycIF_palbociclib_48h.tsv
 details
 palbociclib#CycIF
 data
 CycIF - 72h
 download
-data/cycif/values/CycIF_palbociclib_72h_meanzscore.tsv
+data/cycif/values/CycIF_palbociclib_72h.tsv
 details
 palbociclib#CycIF
 data
@@ -385,19 +385,19 @@ neratinib#GCP
 data
 CycIF - 24h
 download
-data/cycif/values/CycIF_neratinib_24h_meanzscore.tsv
+data/cycif/values/CycIF_neratinib_24h.tsv
 details
 neratinib#CycIF
 data
 CycIF - 48h
 download
-data/cycif/values/CycIF_neratinib_48h_meanzscore.tsv
+data/cycif/values/CycIF_neratinib_48h.tsv
 details
 neratinib#CycIF
 data
 CycIF - 72h
 download
-data/cycif/values/CycIF_neratinib_72h_meanzscore.tsv
+data/cycif/values/CycIF_neratinib_72h.tsv
 details
 neratinib#CycIF
 
@@ -427,19 +427,19 @@ paclitaxel#GCP
 data
 CycIF - 24h
 download
-data/cycif/values/CycIF_paclitaxel_24h_meanzscore.tsv
+data/cycif/values/CycIF_paclitaxel_24h.tsv
 details
 paclitaxel#CycIF
 data
 CycIF - 48h
 download
-data/cycif/values/CycIF_paclitaxel_48h_meanzscore.tsv
+data/cycif/values/CycIF_paclitaxel_48h.tsv
 details
 paclitaxel#CycIF
 data
 CycIF - 72h
 download
-data/cycif/values/CycIF_paclitaxel_72h_meanzscore.tsv
+data/cycif/values/CycIF_paclitaxel_72h.tsv
 details
 paclitaxel#CycIF
 
@@ -469,19 +469,19 @@ etoposide#GCP
 data
 CycIF - 24h
 download
-data/cycif/values/CycIF_etoposide_24h_meanzscore.tsv
+data/cycif/values/CycIF_etoposide_24h.tsv
 details
 etoposide#CycIF
 data
 CycIF - 48h
 download
-data/cycif/values/CycIF_etoposide_48h_meanzscore.tsv
+data/cycif/values/CycIF_etoposide_48h.tsv
 details
 etoposide#CycIF
 data
 CycIF - 72h
 download
-data/cycif/values/CycIF_etoposide_72h_meanzscore.tsv
+data/cycif/values/CycIF_etoposide_72h.tsv
 details
 etoposide#CycIF
 
@@ -535,18 +535,18 @@ dasatinib#GCP
 data
 CycIF - 24h
 download
-data/cycif/values/CycIF_dasatinib_24h_meanzscore.tsv
+data/cycif/values/CycIF_dasatinib_24h.tsv
 details
 dasatinib#CycIF
 data
 CycIF - 48h
 download
-data/cycif/values/CycIF_dasatinib_48h_meanzscore.tsv
+data/cycif/values/CycIF_dasatinib_48h.tsv
 details
 dasatinib#CycIF
 data
 CycIF - 72h
 download
-data/cycif/values/CycIF_dasatinib_72h_meanzscore.tsv
+data/cycif/values/CycIF_dasatinib_72h.tsv
 details
 dasatinib#CycIF
