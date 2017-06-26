@@ -15,9 +15,21 @@ for filename in os.listdir("tsv"):
     # load matrix tsv file
     print name
     net.load_file('tsv/' + name + '.tsv')
+    if (name.split("_")[0] == "CycIF"):
+        df_data = net.export_df()
+        cols = df_data.columns.tolist()
+        new_cols = []
+        for inst_col in cols:
+            inst_dose = 'dose: ' + inst_col.split('_')[1]
+            inst_comp = 'compartment: ' + inst_col.split('_')[3] 
+            inst_col = (inst_col, inst_dose, inst_comp)
+            new_cols.append(inst_col)
+    
+        df_data.columns = new_cols
+        net.load_df(df_data)
 
-    # optional filtering and normalization
-    ##########################################
+    #optional filtering and normalization
+    #########################################
     net.swap_nan_for_zero()
 
     net.make_clust(dist_type='cos',views=['N_row_sum', 'N_row_var'] , dendro=True,

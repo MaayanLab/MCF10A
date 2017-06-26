@@ -24,11 +24,6 @@ def get_canvas_layouts():
                 all_canvas_layouts[canvas] = {}
             with open(order_filename) as data_file:
                 all_canvas_layouts[canvas][time] = json.load(data_file)["texts"]
-    print('HERE!')
-    print('HERE!')
-    print('HERE!')
-    print('HERE!')
-    print('HERE!')
     # return all_canvas_layouts
 
 # get JSON for values

@@ -34,7 +34,6 @@ def analysis():
 
 @app.route(app.config["ENTRY_POINT"] + "drugs/<drug>", methods=['GET'])
 def drug_view(drug):
-    print(drug)
     assay_color = {"L1000": "red", "P100": "blue", "GCP": "green", "CycIF": "purple"};
     drug_info_file = app.static_folder + '/data/drugs/' + drug.lower() + '.txt'
     drug_dict = drug_parser.parse_drug_file(drug_info_file)

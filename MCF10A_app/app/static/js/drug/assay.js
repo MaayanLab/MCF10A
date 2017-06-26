@@ -14,6 +14,7 @@ $("#" + assay + "-time-toggle").change(function(){
 // setup trigger for L1000CDS2
 setupL1000CDS2();
 setupL1000();
+setupCycIF();
 
 function setupL1000CDS2(){
   var assay = "l1000cds2";
@@ -83,6 +84,19 @@ function setupL1000(){
     make_clust('L1000_' + window.drug + '_' + time + '_' + newRegulation + '.json', 'l1000-clustergrammer', false);
     //update download file
     $("#l1000-clustergrammer-download").attr("href", "../data/l1000/values/L1000/L1000_" + window.drug + "_" + time + "_" + newRegulation + ".tsv");
+  });
+}
+
+function setupCycIF(){
+  var assay = "cycif";
+  var time = $("input[name=" + assay + "-time]:checked").val();
+
+  $("#cycif-time-toggle").change(function(){
+    var newTime = $("input[name=" + assay + "-time]:checked").val();
+    console.log('CycIF_' + window.drug + '_' + newTime + '.json');
+    make_clust('CycIF_' + window.drug + '_' + newTime + '.json', 'cycif-clustergrammer', false);
+    //update download file
+    $("#cycif-clustergrammer-download").attr("href", "../data/cycif/values/CycIF_" + window.drug + "_" + newTime + ".tsv");
   });
 }
 

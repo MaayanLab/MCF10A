@@ -243,8 +243,8 @@
         <a href="http://lincs.hms.harvard.edu/db/datasets/20303/main" target="_blank">Cyclic Immunofluorescence (CycIF)</a> is a fluorescence imaging assay that measures protein levels and phosphorylation states in cells. The value of each cell represents the <b>mean z score</b>.
       </div>
       
-      {% with assay="CycIF", drug=drug_selected, time=['24h'], default_time="24h"%}
-          {% include "partials/drugs-clustergrammer.html" %}
+      {% with assay="CycIF", drug=drug_selected, time=['24h','48h','72h'], default_time="24h"%}
+          {% include "partials/drug-cycif.html" %}
       {% endwith %}
     </div> <!-- /.assay-content (CycIF) -->
   {% endif %}
