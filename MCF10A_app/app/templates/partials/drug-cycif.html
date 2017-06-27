@@ -1,8 +1,7 @@
-<div id="cycif-parameters" style="margin-bottom: 5px;">
+<div id="cycif-parameters">
   {% with assay="CycIF", time=['24h', '48h', '72h'], default_time="24h"%}
     {% include "partials/time-toggle.html" %}
   {% endwith %}
-  <form class="time-toggle" id="{{assay.lower()}}-regulation-toggle">
 </div>
 
 <!-- {% for t in time %}

@@ -12,9 +12,9 @@ $("#" + assay + "-time-toggle").change(function(){
 
 
 // setup trigger for L1000CDS2
+setupCycIF();
 setupL1000CDS2();
 setupL1000();
-setupCycIF();
 
 function setupL1000CDS2(){
   var assay = "l1000cds2";
