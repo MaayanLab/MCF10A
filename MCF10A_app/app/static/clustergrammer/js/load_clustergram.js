@@ -1,3 +1,5 @@
+var hzome = ini_hzome();
+
 make_clust('ChEA_2015_' + window.drug + '_24h_combined_score.json', 'enrichr-clustergrammer', false);
 make_clust('L1000_' + window.drug + '_3h_down.json', 'l1000-clustergrammer', false);
 make_clust('P100_' + window.drug + '_3h.json', 'p100-3h', true);
@@ -18,7 +20,7 @@ function make_clust(inst_network, divId, hasGeneInfo){
 
       // define arguments object (exclude cycif from gene_info)
       var args;
-      args = hasGeneInfo ? { root: '#' + divId, 'network_data': network_data, 'row_tip_callback':gene_info }  
+      args = hasGeneInfo ? { root: '#' + divId, 'network_data': network_data, 'row_tip_callback': hzome.gene_info }  
       : {root: '#' + divId, 'network_data': network_data}
 
 //args = ('' + divId).split('-')[0]=='cycif'

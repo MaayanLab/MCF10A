@@ -12,15 +12,22 @@ $("#" + assay + "-time-toggle").change(function(){
 
 
 // setup trigger for L1000CDS2
-setupCycIF();
+console.log('on top of commands to run')
 setupL1000CDS2();
 setupL1000();
+console.log('trying to setup cycif')
+setupCycIF();
+
 
 function setupL1000CDS2(){
   var assay = "l1000cds2";
   var time = $("input[name=" + assay + "-time]:checked").val();
   var defaultDose = 0.04;
   
+  /////////////////////////////
+  // the problem is happening below
+  /////////////////////////////
+
   updateDose(window.l1000cds2_dict[time], defaultDose, 'dose-dropdown');
   updateiFrame(time, defaultDose);
 
@@ -90,9 +97,11 @@ function setupL1000(){
 function setupCycIF(){
   var assay = "cycif";
   var time = $("input[name=" + assay + "-time]:checked").val();
-
+  console.log("###########################\nHERE\n###########################");
   $("#cycif-time-toggle").change(function(){
+    console.log(this);
     var newTime = $("input[name=" + assay + "-time]:checked").val();
+    console.log("CLICKING");
     make_clust('CycIF_' + window.drug + '_' + newTime + '.json', 'cycif-clustergrammer', false);
     //update download file
     $("#cycif-clustergrammer-download").attr("href", "..static/data/cycif/values/CycIF_" + window.drug + "_" + newTime + ".tsv");
