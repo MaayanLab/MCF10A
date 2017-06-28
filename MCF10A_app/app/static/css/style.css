@@ -269,7 +269,10 @@ table, th, td {
   background-color:green;
   color: white !important;
 }
-
+.assay-CycIF{
+  background-color:purple;
+  color: white !important;
+}
 
 .description{
 	font-size:1.1em;
@@ -419,6 +422,9 @@ table, th, td {
 }
 .gcp-container{
 	height:140px;
+}
+.cycif-container{
+  height:140px;
 }
 /*END overview page*/
 
@@ -610,3 +616,7 @@ nav ul ul li a:hover {
 }
 
 iframe { position: relative; width: 100% }
+
+/*.assay-content{
+  height: 800px;
+}*/

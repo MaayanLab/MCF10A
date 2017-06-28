@@ -1,0 +1,13 @@
+ratio	agent	concentration(UM)	time(hr)	C1	C2	C3	Ave	S.D.
+phospho Akt/ alpha Tubulin	Trametinib	0	6	0.041	0.051	0.045	0.045	0.005
+phospho Akt/ alpha Tubulin	Trametinib	0.001	6	0.038	0.042	0.04	0.039	0.002
+phospho Akt/ alpha Tubulin	Trametinib	0.003	6	0.038	0.034	0.044	0.038	0.005
+phospho Akt/ alpha Tubulin	Trametinib	0.01	6	0.036	0.067	0.054	0.048	0.015
+phospho Erk/ alpha Tubulin	Trametinib	0	6	0.592	0.561	0.465	0.539	0.066
+phospho Erk/ alpha Tubulin	Trametinib	0.001	6	0.006	0.011	0.01	0.009	0.003
+phospho Erk/ alpha Tubulin	Trametinib	0.003	6	0.007	0.007	0.004	0.006	0.002
+phospho Erk/ alpha Tubulin	Trametinib	0.01	6	0.005	0.006	0.005	0.005	0
+cyclin D/ alpha Tubulin	Trametinib	0	6	0.017	0.013	0.02	0.016	0.004
+cyclin D/ alpha Tubulin	Trametinib	0.001	6	0.004	0.004	0.005	0.004	0.001
+cyclin D/ alpha Tubulin	Trametinib	0.003	6	0.003	0.003	0.005	0.003	0.001
+cyclin D/ alpha Tubulin	Trametinib	0.01	6	0.004	0.004	0.005	0.004	0.001

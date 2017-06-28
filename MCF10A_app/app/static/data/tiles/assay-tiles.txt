@@ -33,7 +33,7 @@ a mass spectrometry-based targeted proteomics assay that detects and quantifies 
 data
 GCT
 download
-data/p100/raw/LINCS_P100_PRM_Plate35_annotated_minimized_2016-06-10_11-43-55.processed.gct
+data/p100/raw/LINCS_P100_DIA_Plate43_annotated_minimized_2017-02-15_11-53-50.processed.gct
 details
 details#p100
 
@@ -48,3 +48,59 @@ data/gcp/raw/LINCS_GCP_Plate35_annotated_minimized_2016-06-09_13-14-47.processed
 details
 details#gcp
 
+title
+Cyclic Immunofluorescence (CycIF)
+description
+an immunofluorescence imaging assay that measures protein levels and phosphorylation states in cells
+data
+CycIF Mean ZScores
+download
+static/data/cycif/raw/CycIF_allmeanzscores.tsv
+details
+details#cycif
+data
+CycIF Raw
+download
+http://lincs.hms.harvard.edu/db/datasets/20303/results
+details
+details#cycif
+
+title
+Microwestern Array (MWA)
+description
+a high-throughput variation of the Western blot, which uses electrophoresis to determine protein levels and modifications by measuring fluorescence intensity
+data
+MWA Measurements
+download
+data/mwa/raw/dtoxs_mwadata.tsv
+details
+details#mwa
+
+title
+Microenvironment Microarray (MEMA)
+description
+measures cellular response to almost 3000 different microenvironment perturbagens (MEPs)
+data
+SS1 Level4
+download
+data/mema/raw/MCF10A_SS1_Level4.tsv
+details
+details#mema
+data
+SS2 Level4
+download
+data/mema/raw/MCF10A_SS2_Level4.tsv
+details
+details#mema
+data
+SS3 Level4
+download
+data/mema/raw/MCF10A_SS3_Level4.tsv
+details
+details#mema
+data
+SSC Level4
+download
+data/mema/raw/mcf10a_ssc_Level4.tsv
+details
+details#mema

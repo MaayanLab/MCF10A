@@ -12,14 +12,22 @@ $("#" + assay + "-time-toggle").change(function(){
 
 
 // setup trigger for L1000CDS2
+console.log('on top of commands to run')
 setupL1000CDS2();
 setupL1000();
+console.log('trying to setup cycif')
+setupCycIF();
+
 
 function setupL1000CDS2(){
   var assay = "l1000cds2";
   var time = $("input[name=" + assay + "-time]:checked").val();
   var defaultDose = 0.04;
   
+  /////////////////////////////
+  // the problem is happening below
+  /////////////////////////////
+
   updateDose(window.l1000cds2_dict[time], defaultDose, 'dose-dropdown');
   updateiFrame(time, defaultDose);
 
@@ -73,7 +81,7 @@ function setupL1000(){
     var regulation = $("input[name=" + assay + "-regulation]:checked").val();
     make_clust('L1000_' + window.drug + '_' + newTime + '_' + regulation + '.json', 'l1000-clustergrammer', false);
     //update download file
-    $("#l1000-clustergrammer-download").attr("href", "../data/l1000/values/L1000/L1000_" + window.drug + "_" + newTime + "_" + regulation + ".tsv");
+    $("#l1000-clustergrammer-download").attr("href", "../static/data/l1000/values/L1000/L1000_" + window.drug + "_" + newTime + "_" + regulation + ".tsv");
   });
 
   // regulation change
@@ -82,7 +90,18 @@ function setupL1000(){
     var newRegulation = $("input[name=" + assay + "-regulation]:checked").val();
     make_clust('L1000_' + window.drug + '_' + time + '_' + newRegulation + '.json', 'l1000-clustergrammer', false);
     //update download file
-    $("#l1000-clustergrammer-download").attr("href", "../data/l1000/values/L1000/L1000_" + window.drug + "_" + time + "_" + newRegulation + ".tsv");
+    $("#l1000-clustergrammer-download").attr("href", "../static/data/l1000/values/L1000/L1000_" + window.drug + "_" + time + "_" + newRegulation + ".tsv");
+  });
+}
+
+function setupCycIF(){
+  var assay = "cycif";
+  var time = $("input[name=" + assay + "-time]:checked").val();
+  $("#cycif-time-toggle").change(function(){
+    var newTime = $("input[name=" + assay + "-time]:checked").val();
+    make_clust('CycIF_' + window.drug + '_' + newTime + '.json', 'cycif-clustergrammer', false);
+    //update download file
+    $("#cycif-clustergrammer-download").attr("href", "../static/data/cycif/values/CycIF_" + window.drug + "_" + newTime + ".tsv");
   });
 }
 

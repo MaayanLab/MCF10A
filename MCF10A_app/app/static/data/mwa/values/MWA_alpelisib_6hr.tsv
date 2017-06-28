@@ -1,0 +1,13 @@
+ratio	agent	concentration(UM)	time(hr)	A1	A2	A3	Ave	S.D.
+phospho Akt/ alpha Tubulin	Alpelisib	0	6	0.022	0.018	0.016	0.019	0.003
+phospho Akt/ alpha Tubulin	Alpelisib	1	6	0.007	0.005	0.005	0.006	0.001
+phospho Akt/ alpha Tubulin	Alpelisib	3.2	6	0.006	0.004	0.005	0.005	0.001
+phospho Akt/ alpha Tubulin	Alpelisib	10	6	0	0	0.001	0	0
+phospho Erk/ alpha Tubulin	Alpelisib	0	6	0.195	0.235	0.257	0.228	0.031
+phospho Erk/ alpha Tubulin	Alpelisib	1	6	0.116	0.121	0.252	0.169	0.077
+phospho Erk/ alpha Tubulin	Alpelisib	3.2	6	0.105	0.09	0.147	0.119	0.03
+phospho Erk/ alpha Tubulin	Alpelisib	10	6	0.064	0.077	0.063	0.092	0.008
+cyclin D/ alpha Tubulin	Alpelisib	0	6	0.013	0.017	0.02	0.016	0.004
+cyclin D/ alpha Tubulin	Alpelisib	1	6	0.009	0.009	0.009	0.009	0
+cyclin D/ alpha Tubulin	Alpelisib	3.2	6	0.006	0.009	0.008	0.007	0.002
+cyclin D/ alpha Tubulin	Alpelisib	10	6	0.005	0.006	0.004	0.005	0.001

@@ -1,2450 +1,343 @@
 {
-  "row_nodes": [
-    {
-      "group": [
-        28.0, 
-        4.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "mitotic cell cycle (GO:0000278)", 
-      "clust": 0, 
-      "rank": 0, 
-      "ini": 28, 
-      "rankvar": 27
-    }, 
-    {
-      "group": [
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "mitotic cell cycle phase transition (GO:0044772)", 
-      "clust": 1, 
-      "rank": 2, 
-      "ini": 27, 
-      "rankvar": 22
-    }, 
-    {
-      "group": [
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "cell cycle phase transition (GO:0044770)", 
-      "clust": 2, 
-      "rank": 1, 
-      "ini": 26, 
-      "rankvar": 24
-    }, 
-    {
-      "group": [
-        6.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "positive regulation of protein modification by small protein conjugation or removal (GO:1903322)", 
-      "clust": 6, 
-      "rank": 3, 
-      "ini": 25, 
-      "rankvar": 17
-    }, 
-    {
-      "group": [
-        3.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "negative regulation of mitotic cell cycle (GO:0045930)", 
-      "clust": 4, 
-      "rank": 11, 
-      "ini": 24, 
-      "rankvar": 23
-    }, 
-    {
-      "group": [
-        7.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "positive regulation of protein ubiquitination (GO:0031398)", 
-      "clust": 7, 
-      "rank": 4, 
-      "ini": 23, 
-      "rankvar": 16
-    }, 
-    {
-      "group": [
-        4.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "negative regulation of mitotic cell cycle phase transition (GO:1901991)", 
-      "clust": 5, 
-      "rank": 9, 
-      "ini": 22, 
-      "rankvar": 25
-    }, 
-    {
-      "group": [
-        13.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "regulation of protein modification by small protein conjugation or removal (GO:1903320)", 
-      "clust": 13, 
-      "rank": 14, 
-      "ini": 21, 
-      "rankvar": 6
-    }, 
-    {
-      "group": [
-        5.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "negative regulation of cell cycle phase transition (GO:1901988)", 
-      "clust": 3, 
-      "rank": 10, 
-      "ini": 20, 
-      "rankvar": 26
-    }, 
-    {
-      "group": [
-        12.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "positive regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle (GO:0051437)", 
-      "clust": 8, 
-      "rank": 5, 
-      "ini": 19, 
-      "rankvar": 21
-    }, 
-    {
-      "group": [
-        8.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle (GO:0051439)", 
-      "clust": 9, 
-      "rank": 6, 
-      "ini": 18, 
-      "rankvar": 20
-    }, 
-    {
-      "group": [
-        14.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "regulation of protein ubiquitination (GO:0031396)", 
-      "clust": 14, 
-      "rank": 13, 
-      "ini": 17, 
-      "rankvar": 9
-    }, 
-    {
-      "group": [
-        9.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "anaphase-promoting complex-dependent proteasomal ubiquitin-dependent protein catabolic process (GO:0031145)", 
-      "clust": 10, 
-      "rank": 8, 
-      "ini": 16, 
-      "rankvar": 19
-    }, 
-    {
-      "group": [
-        10.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "positive regulation of ubiquitin-protein transferase activity (GO:0051443)", 
-      "clust": 11, 
-      "rank": 7, 
-      "ini": 15, 
-      "rankvar": 18
-    }, 
-    {
-      "group": [
-        11.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "positive regulation of ligase activity (GO:0051351)", 
-      "clust": 12, 
-      "rank": 12, 
-      "ini": 14, 
-      "rankvar": 14
-    }, 
-    {
-      "group": [
-        25.0, 
-        3.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "protein catabolic process (GO:0030163)", 
-      "clust": 26, 
-      "rank": 27, 
-      "ini": 13, 
-      "rankvar": 0
-    }, 
-    {
-      "group": [
-        22.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "regulation of ubiquitin-protein transferase activity (GO:0051438)", 
-      "clust": 23, 
-      "rank": 15, 
-      "ini": 12, 
-      "rankvar": 11
-    }, 
-    {
-      "group": [
-        23.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "regulation of ligase activity (GO:0051340)", 
-      "clust": 24, 
-      "rank": 19, 
-      "ini": 11, 
-      "rankvar": 8
-    }, 
-    {
-      "group": [
-        20.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "proteasomal protein catabolic process (GO:0010498)", 
-      "clust": 21, 
-      "rank": 25, 
-      "ini": 10, 
-      "rankvar": 1
-    }, 
-    {
-      "group": [
-        21.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "proteasome-mediated ubiquitin-dependent protein catabolic process (GO:0043161)", 
-      "clust": 22, 
-      "rank": 23, 
-      "ini": 9, 
-      "rankvar": 2
-    }, 
-    {
-      "group": [
-        19.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "negative regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle (GO:0051436)", 
-      "clust": 18, 
-      "rank": 16, 
-      "ini": 8, 
-      "rankvar": 15
-    }, 
-    {
-      "group": [
-        26.0, 
-        3.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "proteolysis involved in cellular protein catabolic process (GO:0051603)", 
-      "clust": 27, 
-      "rank": 24, 
-      "ini": 7, 
-      "rankvar": 4
-    }, 
-    {
-      "group": [
-        17.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "negative regulation of ligase activity (GO:0051352)", 
-      "clust": 19, 
-      "rank": 17, 
-      "ini": 6, 
-      "rankvar": 13
-    }, 
-    {
-      "group": [
-        18.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "negative regulation of ubiquitin-protein transferase activity (GO:0051444)", 
-      "clust": 20, 
-      "rank": 18, 
-      "ini": 5, 
-      "rankvar": 12
-    }, 
-    {
-      "group": [
-        15.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "negative regulation of protein ubiquitination (GO:0031397)", 
-      "clust": 16, 
-      "rank": 20, 
-      "ini": 4, 
-      "rankvar": 7
-    }, 
-    {
-      "group": [
-        16.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "negative regulation of protein modification by small protein conjugation or removal (GO:1903321)", 
-      "clust": 17, 
-      "rank": 21, 
-      "ini": 3, 
-      "rankvar": 5
-    }, 
-    {
-      "group": [
-        24.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "gene expression (GO:0010467)", 
-      "clust": 15, 
-      "rank": 22, 
-      "ini": 2, 
-      "rankvar": 10
-    }, 
-    {
-      "group": [
-        27.0, 
-        3.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "modification-dependent macromolecule catabolic process (GO:0043632)", 
-      "clust": 25, 
-      "rank": 26, 
-      "ini": 1, 
-      "rankvar": 3
-    }
+  "mat": [
+    [
+      0.227911539117, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -0.200647770179, 
+      -1.1144444394, 
+      -0.0, 
+      -5.74978830834, 
+      -28.7787995056, 
+      -25.697607748899998
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -0.298267648686, 
+      -0.669875397823, 
+      -0.0, 
+      -9.97727266709, 
+      -26.7084391645, 
+      -13.220087311099999
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -0.25440759258900003, 
+      -0.615864787614, 
+      -0.0, 
+      -11.87714277, 
+      -28.984416037600003, 
+      -13.7013369504
+    ], 
+    [
+      0.0, 
+      0.058114460495699995, 
+      0.0, 
+      0.0, 
+      -2.38556181414, 
+      -0.0, 
+      -0.0, 
+      -13.449386690499999, 
+      -24.692719145500003, 
+      -8.13614761917
+    ], 
+    [
+      1.66796238883, 
+      0.958569224004, 
+      0.0, 
+      1.49856657537, 
+      -0.0, 
+      -0.034986941477900005, 
+      -0.0, 
+      -11.4744520827, 
+      -29.3935759455, 
+      -6.83372034255
+    ], 
+    [
+      0.0, 
+      0.37021429752499996, 
+      0.0, 
+      0.0, 
+      -2.6698509935900003, 
+      -0.0, 
+      -0.0, 
+      -11.4342984741, 
+      -25.4712673029, 
+      -6.827119693539999
+    ], 
+    [
+      2.39349394958, 
+      1.14057522365, 
+      0.0, 
+      0.133166434882, 
+      -0.0, 
+      -0.0, 
+      -0.0, 
+      -10.9381991797, 
+      -31.0847638653, 
+      -6.34307512021
+    ], 
+    [
+      0.425291857333, 
+      0.8475283346729999, 
+      0.0, 
+      0.0, 
+      -1.8700882045400002, 
+      -0.0, 
+      -0.0, 
+      -15.135773423599998, 
+      -20.1762736544, 
+      -6.2646085961199995
+    ], 
+    [
+      3.44496605215, 
+      1.0859219706799998, 
+      0.0, 
+      0.8985577185160001, 
+      -0.0, 
+      -0.0, 
+      -0.0, 
+      -12.6071933626, 
+      -30.888520773899998, 
+      -6.044280937540001
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -0.712676590587, 
+      -0.0, 
+      -0.0, 
+      -13.398636433399998, 
+      -26.102098045, 
+      -5.77601269184
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -0.657440525362, 
+      -0.0, 
+      -0.0, 
+      -14.6328553728, 
+      -24.686579107300002, 
+      -5.20322080974
+    ], 
+    [
+      0.0, 
+      0.981061884332, 
+      0.0, 
+      0.0, 
+      -2.05828285658, 
+      -0.0, 
+      -0.0, 
+      -14.1576622327, 
+      -21.737039943699997, 
+      -5.36902896285
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -0.63651443165, 
+      -0.0, 
+      -0.0, 
+      -14.698990673199999, 
+      -24.6391516796, 
+      -4.99708401274
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -1.1699857902, 
+      -0.0, 
+      -0.0, 
+      -14.7734302474, 
+      -24.443961900999998, 
+      -4.60770540415
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -1.0803660324200002, 
+      -0.0, 
+      -0.0, 
+      -14.029138998599999, 
+      -23.620017879099997, 
+      -4.30205526664
+    ], 
+    [
+      0.0, 
+      0.17329880002099998, 
+      0.458324401939, 
+      0.0, 
+      -1.27849758996, 
+      -0.0, 
+      -0.337730104956, 
+      -10.6565236651, 
+      -11.0009543431, 
+      -3.057879633
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -0.8834861487369999, 
+      -0.0, 
+      -0.0, 
+      -15.262226822, 
+      -21.8785997625, 
+      -3.52593731732
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -0.871463474693, 
+      -0.0, 
+      -0.0, 
+      -14.8888643125, 
+      -21.1081718741, 
+      -3.19945043066
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -1.29714800803, 
+      -0.08512086293860001, 
+      -0.0, 
+      -11.5351903243, 
+      -15.279075842100001, 
+      -2.37911932212
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -1.4212288730899998, 
+      -0.13018825876499998, 
+      -0.0, 
+      -12.000988993800002, 
+      -16.0037717593, 
+      -2.45577841442
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -0.7554787347409999, 
+      -0.0, 
+      -0.0, 
+      -15.1860283797, 
+      -23.427773356, 
+      -1.9627633423299997
+    ], 
+    [
+      2.37498023058, 
+      1.2633034220000001, 
+      0.49428814432999996, 
+      0.0, 
+      -0.895077237526, 
+      -0.304664588695, 
+      -0.0, 
+      -15.2962094106, 
+      -16.398741739600002, 
+      -2.54760862278
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -0.72136468443, 
+      -0.0, 
+      -0.0, 
+      -15.373052741099999, 
+      -22.6530018154, 
+      -1.7550329335599997
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -0.719701308819, 
+      -0.0, 
+      -0.0, 
+      -15.393593906700001, 
+      -22.6180746373, 
+      -1.75158260293
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -0.8350645301809999, 
+      -0.0, 
+      -0.0, 
+      -15.7160210341, 
+      -20.0717622569, 
+      -1.7653326645299998
+    ], 
+    [
+      0.0, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -0.791485472711, 
+      -0.0, 
+      -0.0, 
+      -15.6051897827, 
+      -19.0607800517, 
+      -1.5874461096599999
+    ], 
+    [
+      3.5162380865199996, 
+      0.0, 
+      0.0, 
+      0.0, 
+      -0.0, 
+      -0.0, 
+      -0.0, 
+      -14.497247740299999, 
+      -20.3484997135, 
+      -0.8443417059139999
+    ], 
+    [
+      1.80282828825, 
+      1.36082189055, 
+      0.0, 
+      0.0, 
+      -0.609245158908, 
+      -0.470798211949, 
+      -0.0, 
+      -16.1811368652, 
+      -12.5589140121, 
+      -2.19041778334
+    ]
   ], 
-  "col_nodes": [
-    {
-      "group": [
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "1_up_0.04", 
-      "clust": 2, 
-      "rank": 9, 
-      "ini": 10, 
-      "rankvar": 6
-    }, 
-    {
-      "group": [
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "1_up_0.37", 
-      "clust": 3, 
-      "rank": 8, 
-      "ini": 9, 
-      "rankvar": 4
-    }, 
-    {
-      "group": [
-        4.0, 
-        4.0, 
-        3.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "1_up_01.11", 
-      "clust": 0, 
-      "rank": 6, 
-      "ini": 8, 
-      "rankvar": 1
-    }, 
-    {
-      "group": [
-        3.0, 
-        3.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "1_up_03.33", 
-      "clust": 1, 
-      "rank": 7, 
-      "ini": 7, 
-      "rankvar": 3
-    }, 
-    {
-      "group": [
-        9.0, 
-        8.0, 
-        5.0, 
-        4.0, 
-        3.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "2_down_0.04", 
-      "clust": 7, 
-      "rank": 3, 
-      "ini": 6, 
-      "rankvar": 5
-    }, 
-    {
-      "group": [
-        5.0, 
-        5.0, 
-        4.0, 
-        3.0, 
-        3.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "2_down_0.12", 
-      "clust": 5, 
-      "rank": 4, 
-      "ini": 5, 
-      "rankvar": 2
-    }, 
-    {
-      "group": [
-        10.0, 
-        9.0, 
-        6.0, 
-        5.0, 
-        4.0, 
-        3.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "2_down_0.37", 
-      "clust": 4, 
-      "rank": 5, 
-      "ini": 4, 
-      "rankvar": 0
-    }, 
-    {
-      "group": [
-        7.0, 
-        7.0, 
-        5.0, 
-        4.0, 
-        3.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "2_down_01.11", 
-      "clust": 8, 
-      "rank": 1, 
-      "ini": 3, 
-      "rankvar": 7
-    }, 
-    {
-      "group": [
-        8.0, 
-        7.0, 
-        5.0, 
-        4.0, 
-        3.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "2_down_03.33", 
-      "clust": 9, 
-      "rank": 0, 
-      "ini": 2, 
-      "rankvar": 9
-    }, 
-    {
-      "group": [
-        6.0, 
-        6.0, 
-        4.0, 
-        3.0, 
-        3.0, 
-        2.0, 
-        2.0, 
-        2.0, 
-        1.0, 
-        1.0, 
-        1.0
-      ], 
-      "name": "2_down_10.0", 
-      "clust": 6, 
-      "rank": 2, 
-      "ini": 1, 
-      "rankvar": 8
-    }
-  ], 
-  "links": [
-    {
-      "source": 0, 
-      "target": 0, 
-      "value": 0.22791153911699999, 
-      "value_orig": 0.22791153911699999
-    }, 
-    {
-      "source": 0, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 0, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 0, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 0, 
-      "target": 4, 
-      "value": -0.20064777017900001, 
-      "value_orig": -0.20064777017900001
-    }, 
-    {
-      "source": 0, 
-      "target": 5, 
-      "value": -1.1144444393999999, 
-      "value_orig": -1.1144444393999999
-    }, 
-    {
-      "source": 0, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 0, 
-      "target": 7, 
-      "value": -5.7497883083400003, 
-      "value_orig": -5.7497883083400003
-    }, 
-    {
-      "source": 0, 
-      "target": 8, 
-      "value": -28.778799505599999, 
-      "value_orig": -28.778799505599999
-    }, 
-    {
-      "source": 0, 
-      "target": 9, 
-      "value": -25.697607748899998, 
-      "value_orig": -25.697607748899998
-    }, 
-    {
-      "source": 1, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 1, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 1, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 1, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 1, 
-      "target": 4, 
-      "value": -0.29826764868599998, 
-      "value_orig": -0.29826764868599998
-    }, 
-    {
-      "source": 1, 
-      "target": 5, 
-      "value": -0.66987539782299999, 
-      "value_orig": -0.66987539782299999
-    }, 
-    {
-      "source": 1, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 1, 
-      "target": 7, 
-      "value": -9.9772726670900003, 
-      "value_orig": -9.9772726670900003
-    }, 
-    {
-      "source": 1, 
-      "target": 8, 
-      "value": -26.7084391645, 
-      "value_orig": -26.7084391645
-    }, 
-    {
-      "source": 1, 
-      "target": 9, 
-      "value": -13.220087311099999, 
-      "value_orig": -13.220087311099999
-    }, 
-    {
-      "source": 2, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 2, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 2, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 2, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 2, 
-      "target": 4, 
-      "value": -0.25440759258900003, 
-      "value_orig": -0.25440759258900003
-    }, 
-    {
-      "source": 2, 
-      "target": 5, 
-      "value": -0.61586478761399999, 
-      "value_orig": -0.61586478761399999
-    }, 
-    {
-      "source": 2, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 2, 
-      "target": 7, 
-      "value": -11.877142770000001, 
-      "value_orig": -11.877142770000001
-    }, 
-    {
-      "source": 2, 
-      "target": 8, 
-      "value": -28.984416037600003, 
-      "value_orig": -28.984416037600003
-    }, 
-    {
-      "source": 2, 
-      "target": 9, 
-      "value": -13.7013369504, 
-      "value_orig": -13.7013369504
-    }, 
-    {
-      "source": 3, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 3, 
-      "target": 1, 
-      "value": 0.058114460495699995, 
-      "value_orig": 0.058114460495699995
-    }, 
-    {
-      "source": 3, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 3, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 3, 
-      "target": 4, 
-      "value": -2.3855618141399999, 
-      "value_orig": -2.3855618141399999
-    }, 
-    {
-      "source": 3, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 3, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 3, 
-      "target": 7, 
-      "value": -13.449386690499999, 
-      "value_orig": -13.449386690499999
-    }, 
-    {
-      "source": 3, 
-      "target": 8, 
-      "value": -24.692719145500003, 
-      "value_orig": -24.692719145500003
-    }, 
-    {
-      "source": 3, 
-      "target": 9, 
-      "value": -8.13614761917, 
-      "value_orig": -8.13614761917
-    }, 
-    {
-      "source": 4, 
-      "target": 0, 
-      "value": 1.6679623888299999, 
-      "value_orig": 1.6679623888299999
-    }, 
-    {
-      "source": 4, 
-      "target": 1, 
-      "value": 0.95856922400400002, 
-      "value_orig": 0.95856922400400002
-    }, 
-    {
-      "source": 4, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 4, 
-      "target": 3, 
-      "value": 1.4985665753699999, 
-      "value_orig": 1.4985665753699999
-    }, 
-    {
-      "source": 4, 
-      "target": 4, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 4, 
-      "target": 5, 
-      "value": -0.034986941477900005, 
-      "value_orig": -0.034986941477900005
-    }, 
-    {
-      "source": 4, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 4, 
-      "target": 7, 
-      "value": -11.474452082699999, 
-      "value_orig": -11.474452082699999
-    }, 
-    {
-      "source": 4, 
-      "target": 8, 
-      "value": -29.3935759455, 
-      "value_orig": -29.3935759455
-    }, 
-    {
-      "source": 4, 
-      "target": 9, 
-      "value": -6.8337203425500004, 
-      "value_orig": -6.8337203425500004
-    }, 
-    {
-      "source": 5, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 5, 
-      "target": 1, 
-      "value": 0.37021429752499996, 
-      "value_orig": 0.37021429752499996
-    }, 
-    {
-      "source": 5, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 5, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 5, 
-      "target": 4, 
-      "value": -2.6698509935900003, 
-      "value_orig": -2.6698509935900003
-    }, 
-    {
-      "source": 5, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 5, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 5, 
-      "target": 7, 
-      "value": -11.4342984741, 
-      "value_orig": -11.4342984741
-    }, 
-    {
-      "source": 5, 
-      "target": 8, 
-      "value": -25.471267302899999, 
-      "value_orig": -25.471267302899999
-    }, 
-    {
-      "source": 5, 
-      "target": 9, 
-      "value": -6.8271196935399994, 
-      "value_orig": -6.8271196935399994
-    }, 
-    {
-      "source": 6, 
-      "target": 0, 
-      "value": 2.3934939495799998, 
-      "value_orig": 2.3934939495799998
-    }, 
-    {
-      "source": 6, 
-      "target": 1, 
-      "value": 1.14057522365, 
-      "value_orig": 1.14057522365
-    }, 
-    {
-      "source": 6, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 6, 
-      "target": 3, 
-      "value": 0.133166434882, 
-      "value_orig": 0.133166434882
-    }, 
-    {
-      "source": 6, 
-      "target": 4, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 6, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 6, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 6, 
-      "target": 7, 
-      "value": -10.9381991797, 
-      "value_orig": -10.9381991797
-    }, 
-    {
-      "source": 6, 
-      "target": 8, 
-      "value": -31.084763865300001, 
-      "value_orig": -31.084763865300001
-    }, 
-    {
-      "source": 6, 
-      "target": 9, 
-      "value": -6.34307512021, 
-      "value_orig": -6.34307512021
-    }, 
-    {
-      "source": 7, 
-      "target": 0, 
-      "value": 0.42529185733300001, 
-      "value_orig": 0.42529185733300001
-    }, 
-    {
-      "source": 7, 
-      "target": 1, 
-      "value": 0.84752833467299993, 
-      "value_orig": 0.84752833467299993
-    }, 
-    {
-      "source": 7, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 7, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 7, 
-      "target": 4, 
-      "value": -1.8700882045400002, 
-      "value_orig": -1.8700882045400002
-    }, 
-    {
-      "source": 7, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 7, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 7, 
-      "target": 7, 
-      "value": -15.135773423599998, 
-      "value_orig": -15.135773423599998
-    }, 
-    {
-      "source": 7, 
-      "target": 8, 
-      "value": -20.176273654399999, 
-      "value_orig": -20.176273654399999
-    }, 
-    {
-      "source": 7, 
-      "target": 9, 
-      "value": -6.2646085961199995, 
-      "value_orig": -6.2646085961199995
-    }, 
-    {
-      "source": 8, 
-      "target": 0, 
-      "value": 3.4449660521499998, 
-      "value_orig": 3.4449660521499998
-    }, 
-    {
-      "source": 8, 
-      "target": 1, 
-      "value": 1.0859219706799998, 
-      "value_orig": 1.0859219706799998
-    }, 
-    {
-      "source": 8, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 8, 
-      "target": 3, 
-      "value": 0.89855771851600008, 
-      "value_orig": 0.89855771851600008
-    }, 
-    {
-      "source": 8, 
-      "target": 4, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 8, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 8, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 8, 
-      "target": 7, 
-      "value": -12.6071933626, 
-      "value_orig": -12.6071933626
-    }, 
-    {
-      "source": 8, 
-      "target": 8, 
-      "value": -30.888520773899998, 
-      "value_orig": -30.888520773899998
-    }, 
-    {
-      "source": 8, 
-      "target": 9, 
-      "value": -6.0442809375400008, 
-      "value_orig": -6.0442809375400008
-    }, 
-    {
-      "source": 9, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 9, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 9, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 9, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 9, 
-      "target": 4, 
-      "value": -0.71267659058699995, 
-      "value_orig": -0.71267659058699995
-    }, 
-    {
-      "source": 9, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 9, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 9, 
-      "target": 7, 
-      "value": -13.398636433399998, 
-      "value_orig": -13.398636433399998
-    }, 
-    {
-      "source": 9, 
-      "target": 8, 
-      "value": -26.102098045000002, 
-      "value_orig": -26.102098045000002
-    }, 
-    {
-      "source": 9, 
-      "target": 9, 
-      "value": -5.7760126918400001, 
-      "value_orig": -5.7760126918400001
-    }, 
-    {
-      "source": 10, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 10, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 10, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 10, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 10, 
-      "target": 4, 
-      "value": -0.65744052536200004, 
-      "value_orig": -0.65744052536200004
-    }, 
-    {
-      "source": 10, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 10, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 10, 
-      "target": 7, 
-      "value": -14.6328553728, 
-      "value_orig": -14.6328553728
-    }, 
-    {
-      "source": 10, 
-      "target": 8, 
-      "value": -24.686579107300002, 
-      "value_orig": -24.686579107300002
-    }, 
-    {
-      "source": 10, 
-      "target": 9, 
-      "value": -5.2032208097400003, 
-      "value_orig": -5.2032208097400003
-    }, 
-    {
-      "source": 11, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 11, 
-      "target": 1, 
-      "value": 0.98106188433200003, 
-      "value_orig": 0.98106188433200003
-    }, 
-    {
-      "source": 11, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 11, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 11, 
-      "target": 4, 
-      "value": -2.05828285658, 
-      "value_orig": -2.05828285658
-    }, 
-    {
-      "source": 11, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 11, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 11, 
-      "target": 7, 
-      "value": -14.1576622327, 
-      "value_orig": -14.1576622327
-    }, 
-    {
-      "source": 11, 
-      "target": 8, 
-      "value": -21.737039943699997, 
-      "value_orig": -21.737039943699997
-    }, 
-    {
-      "source": 11, 
-      "target": 9, 
-      "value": -5.3690289628499999, 
-      "value_orig": -5.3690289628499999
-    }, 
-    {
-      "source": 12, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 12, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 12, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 12, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 12, 
-      "target": 4, 
-      "value": -0.63651443164999999, 
-      "value_orig": -0.63651443164999999
-    }, 
-    {
-      "source": 12, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 12, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 12, 
-      "target": 7, 
-      "value": -14.698990673199999, 
-      "value_orig": -14.698990673199999
-    }, 
-    {
-      "source": 12, 
-      "target": 8, 
-      "value": -24.639151679600001, 
-      "value_orig": -24.639151679600001
-    }, 
-    {
-      "source": 12, 
-      "target": 9, 
-      "value": -4.9970840127400002, 
-      "value_orig": -4.9970840127400002
-    }, 
-    {
-      "source": 13, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 13, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 13, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 13, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 13, 
-      "target": 4, 
-      "value": -1.1699857901999999, 
-      "value_orig": -1.1699857901999999
-    }, 
-    {
-      "source": 13, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 13, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 13, 
-      "target": 7, 
-      "value": -14.7734302474, 
-      "value_orig": -14.7734302474
-    }, 
-    {
-      "source": 13, 
-      "target": 8, 
-      "value": -24.443961900999998, 
-      "value_orig": -24.443961900999998
-    }, 
-    {
-      "source": 13, 
-      "target": 9, 
-      "value": -4.6077054041499999, 
-      "value_orig": -4.6077054041499999
-    }, 
-    {
-      "source": 14, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 14, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 14, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 14, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 14, 
-      "target": 4, 
-      "value": -1.0803660324200002, 
-      "value_orig": -1.0803660324200002
-    }, 
-    {
-      "source": 14, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 14, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 14, 
-      "target": 7, 
-      "value": -14.029138998599999, 
-      "value_orig": -14.029138998599999
-    }, 
-    {
-      "source": 14, 
-      "target": 8, 
-      "value": -23.620017879099997, 
-      "value_orig": -23.620017879099997
-    }, 
-    {
-      "source": 14, 
-      "target": 9, 
-      "value": -4.30205526664, 
-      "value_orig": -4.30205526664
-    }, 
-    {
-      "source": 15, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 15, 
-      "target": 1, 
-      "value": 0.17329880002099998, 
-      "value_orig": 0.17329880002099998
-    }, 
-    {
-      "source": 15, 
-      "target": 2, 
-      "value": 0.45832440193899998, 
-      "value_orig": 0.45832440193899998
-    }, 
-    {
-      "source": 15, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 15, 
-      "target": 4, 
-      "value": -1.27849758996, 
-      "value_orig": -1.27849758996
-    }, 
-    {
-      "source": 15, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 15, 
-      "target": 6, 
-      "value": -0.33773010495599998, 
-      "value_orig": -0.33773010495599998
-    }, 
-    {
-      "source": 15, 
-      "target": 7, 
-      "value": -10.6565236651, 
-      "value_orig": -10.6565236651
-    }, 
-    {
-      "source": 15, 
-      "target": 8, 
-      "value": -11.0009543431, 
-      "value_orig": -11.0009543431
-    }, 
-    {
-      "source": 15, 
-      "target": 9, 
-      "value": -3.0578796330000002, 
-      "value_orig": -3.0578796330000002
-    }, 
-    {
-      "source": 16, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 16, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 16, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 16, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 16, 
-      "target": 4, 
-      "value": -0.88348614873699993, 
-      "value_orig": -0.88348614873699993
-    }, 
-    {
-      "source": 16, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 16, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 16, 
-      "target": 7, 
-      "value": -15.262226822000001, 
-      "value_orig": -15.262226822000001
-    }, 
-    {
-      "source": 16, 
-      "target": 8, 
-      "value": -21.878599762499999, 
-      "value_orig": -21.878599762499999
-    }, 
-    {
-      "source": 16, 
-      "target": 9, 
-      "value": -3.5259373173199999, 
-      "value_orig": -3.5259373173199999
-    }, 
-    {
-      "source": 17, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 17, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 17, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 17, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 17, 
-      "target": 4, 
-      "value": -0.87146347469300001, 
-      "value_orig": -0.87146347469300001
-    }, 
-    {
-      "source": 17, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 17, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 17, 
-      "target": 7, 
-      "value": -14.888864312500001, 
-      "value_orig": -14.888864312500001
-    }, 
-    {
-      "source": 17, 
-      "target": 8, 
-      "value": -21.108171874100002, 
-      "value_orig": -21.108171874100002
-    }, 
-    {
-      "source": 17, 
-      "target": 9, 
-      "value": -3.1994504306599998, 
-      "value_orig": -3.1994504306599998
-    }, 
-    {
-      "source": 18, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 18, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 18, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 18, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 18, 
-      "target": 4, 
-      "value": -1.29714800803, 
-      "value_orig": -1.29714800803
-    }, 
-    {
-      "source": 18, 
-      "target": 5, 
-      "value": -0.085120862938600009, 
-      "value_orig": -0.085120862938600009
-    }, 
-    {
-      "source": 18, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 18, 
-      "target": 7, 
-      "value": -11.5351903243, 
-      "value_orig": -11.5351903243
-    }, 
-    {
-      "source": 18, 
-      "target": 8, 
-      "value": -15.279075842100001, 
-      "value_orig": -15.279075842100001
-    }, 
-    {
-      "source": 18, 
-      "target": 9, 
-      "value": -2.3791193221200002, 
-      "value_orig": -2.3791193221200002
-    }, 
-    {
-      "source": 19, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 19, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 19, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 19, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 19, 
-      "target": 4, 
-      "value": -1.4212288730899998, 
-      "value_orig": -1.4212288730899998
-    }, 
-    {
-      "source": 19, 
-      "target": 5, 
-      "value": -0.13018825876499998, 
-      "value_orig": -0.13018825876499998
-    }, 
-    {
-      "source": 19, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 19, 
-      "target": 7, 
-      "value": -12.000988993800002, 
-      "value_orig": -12.000988993800002
-    }, 
-    {
-      "source": 19, 
-      "target": 8, 
-      "value": -16.003771759300001, 
-      "value_orig": -16.003771759300001
-    }, 
-    {
-      "source": 19, 
-      "target": 9, 
-      "value": -2.4557784144200001, 
-      "value_orig": -2.4557784144200001
-    }, 
-    {
-      "source": 20, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 20, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 20, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 20, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 20, 
-      "target": 4, 
-      "value": -0.75547873474099991, 
-      "value_orig": -0.75547873474099991
-    }, 
-    {
-      "source": 20, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 20, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 20, 
-      "target": 7, 
-      "value": -15.1860283797, 
-      "value_orig": -15.1860283797
-    }, 
-    {
-      "source": 20, 
-      "target": 8, 
-      "value": -23.427773355999999, 
-      "value_orig": -23.427773355999999
-    }, 
-    {
-      "source": 20, 
-      "target": 9, 
-      "value": -1.9627633423299997, 
-      "value_orig": -1.9627633423299997
-    }, 
-    {
-      "source": 21, 
-      "target": 0, 
-      "value": 2.3749802305799999, 
-      "value_orig": 2.3749802305799999
-    }, 
-    {
-      "source": 21, 
-      "target": 1, 
-      "value": 1.2633034220000001, 
-      "value_orig": 1.2633034220000001
-    }, 
-    {
-      "source": 21, 
-      "target": 2, 
-      "value": 0.49428814432999996, 
-      "value_orig": 0.49428814432999996
-    }, 
-    {
-      "source": 21, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 21, 
-      "target": 4, 
-      "value": -0.89507723752599999, 
-      "value_orig": -0.89507723752599999
-    }, 
-    {
-      "source": 21, 
-      "target": 5, 
-      "value": -0.30466458869500002, 
-      "value_orig": -0.30466458869500002
-    }, 
-    {
-      "source": 21, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 21, 
-      "target": 7, 
-      "value": -15.2962094106, 
-      "value_orig": -15.2962094106
-    }, 
-    {
-      "source": 21, 
-      "target": 8, 
-      "value": -16.398741739600002, 
-      "value_orig": -16.398741739600002
-    }, 
-    {
-      "source": 21, 
-      "target": 9, 
-      "value": -2.5476086227799999, 
-      "value_orig": -2.5476086227799999
-    }, 
-    {
-      "source": 22, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 22, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 22, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 22, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 22, 
-      "target": 4, 
-      "value": -0.72136468443000001, 
-      "value_orig": -0.72136468443000001
-    }, 
-    {
-      "source": 22, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 22, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 22, 
-      "target": 7, 
-      "value": -15.373052741099999, 
-      "value_orig": -15.373052741099999
-    }, 
-    {
-      "source": 22, 
-      "target": 8, 
-      "value": -22.6530018154, 
-      "value_orig": -22.6530018154
-    }, 
-    {
-      "source": 22, 
-      "target": 9, 
-      "value": -1.7550329335599997, 
-      "value_orig": -1.7550329335599997
-    }, 
-    {
-      "source": 23, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 23, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 23, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 23, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 23, 
-      "target": 4, 
-      "value": -0.71970130881899996, 
-      "value_orig": -0.71970130881899996
-    }, 
-    {
-      "source": 23, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 23, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 23, 
-      "target": 7, 
-      "value": -15.393593906700001, 
-      "value_orig": -15.393593906700001
-    }, 
-    {
-      "source": 23, 
-      "target": 8, 
-      "value": -22.618074637300001, 
-      "value_orig": -22.618074637300001
-    }, 
-    {
-      "source": 23, 
-      "target": 9, 
-      "value": -1.7515826029299999, 
-      "value_orig": -1.7515826029299999
-    }, 
-    {
-      "source": 24, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 24, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 24, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 24, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 24, 
-      "target": 4, 
-      "value": -0.83506453018099991, 
-      "value_orig": -0.83506453018099991
-    }, 
-    {
-      "source": 24, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 24, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 24, 
-      "target": 7, 
-      "value": -15.716021034100001, 
-      "value_orig": -15.716021034100001
-    }, 
-    {
-      "source": 24, 
-      "target": 8, 
-      "value": -20.071762256900001, 
-      "value_orig": -20.071762256900001
-    }, 
-    {
-      "source": 24, 
-      "target": 9, 
-      "value": -1.7653326645299998, 
-      "value_orig": -1.7653326645299998
-    }, 
-    {
-      "source": 25, 
-      "target": 0, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 25, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 25, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 25, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 25, 
-      "target": 4, 
-      "value": -0.791485472711, 
-      "value_orig": -0.791485472711
-    }, 
-    {
-      "source": 25, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 25, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 25, 
-      "target": 7, 
-      "value": -15.6051897827, 
-      "value_orig": -15.6051897827
-    }, 
-    {
-      "source": 25, 
-      "target": 8, 
-      "value": -19.0607800517, 
-      "value_orig": -19.0607800517
-    }, 
-    {
-      "source": 25, 
-      "target": 9, 
-      "value": -1.5874461096599999, 
-      "value_orig": -1.5874461096599999
-    }, 
-    {
-      "source": 26, 
-      "target": 0, 
-      "value": 3.5162380865199996, 
-      "value_orig": 3.5162380865199996
-    }, 
-    {
-      "source": 26, 
-      "target": 1, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 26, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 26, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 26, 
-      "target": 4, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 26, 
-      "target": 5, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 26, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 26, 
-      "target": 7, 
-      "value": -14.497247740299999, 
-      "value_orig": -14.497247740299999
-    }, 
-    {
-      "source": 26, 
-      "target": 8, 
-      "value": -20.348499713500001, 
-      "value_orig": -20.348499713500001
-    }, 
-    {
-      "source": 26, 
-      "target": 9, 
-      "value": -0.84434170591399993, 
-      "value_orig": -0.84434170591399993
-    }, 
-    {
-      "source": 27, 
-      "target": 0, 
-      "value": 1.80282828825, 
-      "value_orig": 1.80282828825
-    }, 
-    {
-      "source": 27, 
-      "target": 1, 
-      "value": 1.36082189055, 
-      "value_orig": 1.36082189055
-    }, 
-    {
-      "source": 27, 
-      "target": 2, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 27, 
-      "target": 3, 
-      "value": 0.0, 
-      "value_orig": 0.0
-    }, 
-    {
-      "source": 27, 
-      "target": 4, 
-      "value": -0.60924515890800002, 
-      "value_orig": -0.60924515890800002
-    }, 
-    {
-      "source": 27, 
-      "target": 5, 
-      "value": -0.47079821194900001, 
-      "value_orig": -0.47079821194900001
-    }, 
-    {
-      "source": 27, 
-      "target": 6, 
-      "value": -0.0, 
-      "value_orig": -0.0
-    }, 
-    {
-      "source": 27, 
-      "target": 7, 
-      "value": -16.181136865199999, 
-      "value_orig": -16.181136865199999
-    }, 
-    {
-      "source": 27, 
-      "target": 8, 
-      "value": -12.558914012100001, 
-      "value_orig": -12.558914012100001
-    }, 
-    {
-      "source": 27, 
-      "target": 9, 
-      "value": -2.19041778334, 
-      "value_orig": -2.19041778334
-    }
-  ], 
+  "links": [], 
   "views": [
     {
       "N_row_sum": "all", 
@@ -5865,6 +3758,774 @@
         ]
       }, 
       "dist": "cos"
+    }
+  ], 
+  "cat_colors": {
+    "col": {}, 
+    "row": {}
+  }, 
+  "row_nodes": [
+    {
+      "group": [
+        28.0, 
+        4.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "mitotic cell cycle (GO:0000278)", 
+      "clust": 0, 
+      "rank": 0, 
+      "ini": 28, 
+      "rankvar": 27
+    }, 
+    {
+      "group": [
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "mitotic cell cycle phase transition (GO:0044772)", 
+      "clust": 1, 
+      "rank": 2, 
+      "ini": 27, 
+      "rankvar": 22
+    }, 
+    {
+      "group": [
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "cell cycle phase transition (GO:0044770)", 
+      "clust": 2, 
+      "rank": 1, 
+      "ini": 26, 
+      "rankvar": 24
+    }, 
+    {
+      "group": [
+        6.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "positive regulation of protein modification by small protein conjugation or removal (GO:1903322)", 
+      "clust": 6, 
+      "rank": 3, 
+      "ini": 25, 
+      "rankvar": 17
+    }, 
+    {
+      "group": [
+        3.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "negative regulation of mitotic cell cycle (GO:0045930)", 
+      "clust": 4, 
+      "rank": 11, 
+      "ini": 24, 
+      "rankvar": 23
+    }, 
+    {
+      "group": [
+        7.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "positive regulation of protein ubiquitination (GO:0031398)", 
+      "clust": 7, 
+      "rank": 4, 
+      "ini": 23, 
+      "rankvar": 16
+    }, 
+    {
+      "group": [
+        4.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "negative regulation of mitotic cell cycle phase transition (GO:1901991)", 
+      "clust": 5, 
+      "rank": 9, 
+      "ini": 22, 
+      "rankvar": 25
+    }, 
+    {
+      "group": [
+        13.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "regulation of protein modification by small protein conjugation or removal (GO:1903320)", 
+      "clust": 13, 
+      "rank": 14, 
+      "ini": 21, 
+      "rankvar": 6
+    }, 
+    {
+      "group": [
+        5.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "negative regulation of cell cycle phase transition (GO:1901988)", 
+      "clust": 3, 
+      "rank": 10, 
+      "ini": 20, 
+      "rankvar": 26
+    }, 
+    {
+      "group": [
+        12.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "positive regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle (GO:0051437)", 
+      "clust": 8, 
+      "rank": 5, 
+      "ini": 19, 
+      "rankvar": 21
+    }, 
+    {
+      "group": [
+        8.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle (GO:0051439)", 
+      "clust": 9, 
+      "rank": 6, 
+      "ini": 18, 
+      "rankvar": 20
+    }, 
+    {
+      "group": [
+        14.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "regulation of protein ubiquitination (GO:0031396)", 
+      "clust": 14, 
+      "rank": 13, 
+      "ini": 17, 
+      "rankvar": 9
+    }, 
+    {
+      "group": [
+        9.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "anaphase-promoting complex-dependent proteasomal ubiquitin-dependent protein catabolic process (GO:0031145)", 
+      "clust": 10, 
+      "rank": 8, 
+      "ini": 16, 
+      "rankvar": 19
+    }, 
+    {
+      "group": [
+        10.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "positive regulation of ubiquitin-protein transferase activity (GO:0051443)", 
+      "clust": 11, 
+      "rank": 7, 
+      "ini": 15, 
+      "rankvar": 18
+    }, 
+    {
+      "group": [
+        11.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "positive regulation of ligase activity (GO:0051351)", 
+      "clust": 12, 
+      "rank": 12, 
+      "ini": 14, 
+      "rankvar": 14
+    }, 
+    {
+      "group": [
+        25.0, 
+        3.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "protein catabolic process (GO:0030163)", 
+      "clust": 26, 
+      "rank": 27, 
+      "ini": 13, 
+      "rankvar": 0
+    }, 
+    {
+      "group": [
+        22.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "regulation of ubiquitin-protein transferase activity (GO:0051438)", 
+      "clust": 23, 
+      "rank": 15, 
+      "ini": 12, 
+      "rankvar": 11
+    }, 
+    {
+      "group": [
+        23.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "regulation of ligase activity (GO:0051340)", 
+      "clust": 24, 
+      "rank": 19, 
+      "ini": 11, 
+      "rankvar": 8
+    }, 
+    {
+      "group": [
+        20.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "proteasomal protein catabolic process (GO:0010498)", 
+      "clust": 21, 
+      "rank": 25, 
+      "ini": 10, 
+      "rankvar": 1
+    }, 
+    {
+      "group": [
+        21.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "proteasome-mediated ubiquitin-dependent protein catabolic process (GO:0043161)", 
+      "clust": 22, 
+      "rank": 23, 
+      "ini": 9, 
+      "rankvar": 2
+    }, 
+    {
+      "group": [
+        19.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "negative regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle (GO:0051436)", 
+      "clust": 18, 
+      "rank": 16, 
+      "ini": 8, 
+      "rankvar": 15
+    }, 
+    {
+      "group": [
+        26.0, 
+        3.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "proteolysis involved in cellular protein catabolic process (GO:0051603)", 
+      "clust": 27, 
+      "rank": 24, 
+      "ini": 7, 
+      "rankvar": 4
+    }, 
+    {
+      "group": [
+        17.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "negative regulation of ligase activity (GO:0051352)", 
+      "clust": 19, 
+      "rank": 17, 
+      "ini": 6, 
+      "rankvar": 13
+    }, 
+    {
+      "group": [
+        18.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "negative regulation of ubiquitin-protein transferase activity (GO:0051444)", 
+      "clust": 20, 
+      "rank": 18, 
+      "ini": 5, 
+      "rankvar": 12
+    }, 
+    {
+      "group": [
+        15.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "negative regulation of protein ubiquitination (GO:0031397)", 
+      "clust": 16, 
+      "rank": 20, 
+      "ini": 4, 
+      "rankvar": 7
+    }, 
+    {
+      "group": [
+        16.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "negative regulation of protein modification by small protein conjugation or removal (GO:1903321)", 
+      "clust": 17, 
+      "rank": 21, 
+      "ini": 3, 
+      "rankvar": 5
+    }, 
+    {
+      "group": [
+        24.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "gene expression (GO:0010467)", 
+      "clust": 15, 
+      "rank": 22, 
+      "ini": 2, 
+      "rankvar": 10
+    }, 
+    {
+      "group": [
+        27.0, 
+        3.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "modification-dependent macromolecule catabolic process (GO:0043632)", 
+      "clust": 25, 
+      "rank": 26, 
+      "ini": 1, 
+      "rankvar": 3
+    }
+  ], 
+  "col_nodes": [
+    {
+      "group": [
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_0.04", 
+      "clust": 2, 
+      "rank": 9, 
+      "ini": 10, 
+      "rankvar": 6
+    }, 
+    {
+      "group": [
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_0.37", 
+      "clust": 3, 
+      "rank": 8, 
+      "ini": 9, 
+      "rankvar": 4
+    }, 
+    {
+      "group": [
+        4.0, 
+        4.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_01.11", 
+      "clust": 0, 
+      "rank": 6, 
+      "ini": 8, 
+      "rankvar": 1
+    }, 
+    {
+      "group": [
+        3.0, 
+        3.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "1_up_03.33", 
+      "clust": 1, 
+      "rank": 7, 
+      "ini": 7, 
+      "rankvar": 3
+    }, 
+    {
+      "group": [
+        9.0, 
+        8.0, 
+        5.0, 
+        4.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_0.04", 
+      "clust": 7, 
+      "rank": 3, 
+      "ini": 6, 
+      "rankvar": 5
+    }, 
+    {
+      "group": [
+        5.0, 
+        5.0, 
+        4.0, 
+        3.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_0.12", 
+      "clust": 5, 
+      "rank": 4, 
+      "ini": 5, 
+      "rankvar": 2
+    }, 
+    {
+      "group": [
+        10.0, 
+        9.0, 
+        6.0, 
+        5.0, 
+        4.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_0.37", 
+      "clust": 4, 
+      "rank": 5, 
+      "ini": 4, 
+      "rankvar": 0
+    }, 
+    {
+      "group": [
+        7.0, 
+        7.0, 
+        5.0, 
+        4.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_01.11", 
+      "clust": 8, 
+      "rank": 1, 
+      "ini": 3, 
+      "rankvar": 7
+    }, 
+    {
+      "group": [
+        8.0, 
+        7.0, 
+        5.0, 
+        4.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_03.33", 
+      "clust": 9, 
+      "rank": 0, 
+      "ini": 2, 
+      "rankvar": 9
+    }, 
+    {
+      "group": [
+        6.0, 
+        6.0, 
+        4.0, 
+        3.0, 
+        3.0, 
+        2.0, 
+        2.0, 
+        2.0, 
+        1.0, 
+        1.0, 
+        1.0
+      ], 
+      "name": "2_down_10.0", 
+      "clust": 6, 
+      "rank": 2, 
+      "ini": 1, 
+      "rankvar": 8
     }
   ]
 }

@@ -1,27 +1,36 @@
+var hzome = ini_hzome();
 
 make_clust('ChEA_2015_' + window.drug + '_24h_combined_score.json', 'enrichr-clustergrammer', false);
 make_clust('L1000_' + window.drug + '_3h_down.json', 'l1000-clustergrammer', false);
 make_clust('P100_' + window.drug + '_3h.json', 'p100-3h', true);
-make_clust('GCP_' + window.drug + '_24h.json', 'gcp-24h', false);
+make_clust('GCP_' + window.drug + '_24h.json', 'gcp-24h', true);
+make_clust('CycIF_' + window.drug + '_24h.json', 'cycif-clustergrammer', false);
 
 function make_clust(inst_network, divId, hasGeneInfo){
-  if (divId == "l1000-clustergrammer" || divId == "enrichr-clustergrammer"){
+  if (divId == "l1000-clustergrammer" || divId == "enrichr-clustergrammer" || divId == "cycif-clustergrammer"){
     $("#" + divId + "-container").empty();
     $("#" + divId + "-container").append("<div id='" + divId + "-loading'>Loading Clustergrammer...</div>");
     $("#" + divId + "-container").append("<div id='" + divId + "'></div>");
   }
 
+  console.log(divId);
+
     d3.json('../static/clustergrammer/output/'+inst_network, function(network_data){
 
-      // define arguments object
-      var args = {
+      // define arguments object (exclude cycif from gene_info)
+      var args;
+      args = hasGeneInfo ? { root: '#' + divId, 'network_data': network_data, 'row_tip_callback': hzome.gene_info }  
+      : {root: '#' + divId, 'network_data': network_data}
+
+//args = ('' + divId).split('-')[0]=='cycif'
+/*      var args = {
         root: '#' + divId,
         'network_data': network_data,
-        'about':'Zoom, scroll, and click buttons to interact with the clustergram.',
-        'row_tip_callback':gene_info,
-        'order': 'alpha'
+        //'about':'Zoom, scroll, and click buttons to interact with the clustergram.',
+        'row_tip_callback':gene_info
+        //'order': 'alpha'
       };
-
+*/
       resize_container(args);
 
       d3.select(window).on('resize',function(){

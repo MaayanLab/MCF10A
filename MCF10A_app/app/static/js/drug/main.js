@@ -154,7 +154,7 @@ function addConcentration(conc, assay){
 }
 
 function hasClustergrammer(library, time){
-  console.log(library + time);
+  console.log("HERE");
     var unavailable = false;
     if (library == 'KEGG_2016'){
       if (time == '3h'){
@@ -193,6 +193,7 @@ function setupTriggerLibrary(){
     // update Clustergrammer
     // NOTE: don't have clustergrammers for: KEGG_2016_trametinib_3h_combined_score, KEGG_2016_alpelisib_24h_combined_score, KEGG_2016_alpelisib_3h_combined_score, KEGG_2016_neratinib_3h_combined_score, GO_Biological_Process_2015_alpelisib_3h_combined_score
     console.log(newLibrary + time);
+    
     var unavailable = hasClustergrammer(newLibrary, time);
 
     if (unavailable){

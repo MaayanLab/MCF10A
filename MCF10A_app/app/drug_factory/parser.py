@@ -7,7 +7,7 @@ Returns Python dict formatted as such:
 		'BRD': 'BRD-K12343256',
 		'description': 'MEK Inhibitor Trametinib is an orally bioavailable inhibitor of mitogen-activated protein kinase kinase (MEK MAPK/ERK kinase) with potential antineoplastic activity. Trametinib specifically binds to and inhibits MEK 1 and 2, resulting in an inhibition of growth factor-mediated cell signaling and cellular proliferation in various cancers. MEK 1 and 2, dual specificity threonine/tyrosine kinases often upregulated in various cancer cell types, play a key role in the activation of the RAS/RAF/MEK/ERK signaling pathway that regulates cell growth.',
 		'pubchem': 'https://pubchem.ncbi.nlm.nih.gov/compound/Trametinib',
-		'lincs': 'http://lincsportal.ccs.miami.edu/entities/#/view/LSM-1143',
+		'lincs': 'http://lincsportal.ccs.miami.edu/SmallMolecules/view/LSM-1143',
 		'drugbank': 'http://www.drugbank.ca/drugs/DB08911b',
 		'chembl': 'https://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL2103875',
 		'assays': {

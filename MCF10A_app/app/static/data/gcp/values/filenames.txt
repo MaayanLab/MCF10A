@@ -1,4 +1,3 @@
-filenames.txt
 GCP_alpelisib_24h.tsv
 GCP_dasatinib_24h.tsv
 GCP_etoposide_24h.tsv
