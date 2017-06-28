@@ -24,7 +24,8 @@ def get_canvas_layouts():
                 all_canvas_layouts[canvas] = {}
             with open(order_filename) as data_file:
                 all_canvas_layouts[canvas][time] = json.load(data_file)["texts"]
-    # return all_canvas_layouts
+
+    return all_canvas_layouts
 
 # get JSON for values
 def get_canvas_values():
@@ -75,21 +76,6 @@ def get_canvas_values():
         if time not in all_values[assay]:
             all_values[assay][time] = {}
         all_values[assay][time][drug], gcp_lookup = get_gcp_z_score(values_filename)
-
-    #get CycIF values
-    values_dir = os.path.join(data_dir, "cycif", "values")
-    for values_filename in glob.glob(values_dir + "\*.tsv"):
-        # print "values_filename=", values_filename
-        base = os.path.basename(values_filename)
-        filename = os.path.splitext(base)[0]
-        assay = filename.split("_")[0]
-        drug = filename.split("_")[1]
-        time = filename.split("_")[2]
-        if assay not in all_values:
-            all_values[assay] = {}
-        if time not in all_values[assay]:
-            all_values[assay][time] = {}
-        all_values[assay][time][drug] = get_cycif_score(values_filename)
 
     return all_values, p100_lookup, gcp_lookup
 
@@ -183,61 +169,3 @@ def get_gcp_z_score(filename):
                     value[conc][id] = 0
 
     return value, gcp_lookup
-
-def get_cycif_score(filename):
-    value = {}
-    with open(filename, 'rb') as tsvfile:
-        tsvreader = csv.reader(tsvfile, delimiter="\t")
-        header = next(tsvreader) 
-        # get header info
-        col_lookup = ['term']
-        for col in header[1:]: # ex: col = "2_down_0.04"
-            print(col)
-            concentration = float(col.split("_")[1])
-            time = float(col.split("_")[2])
-            if concentration not in value:
-                value[concentration] = {}
-            value[concentration][time] = {}
-            col_lookup.append({'conc': concentration, 'time': time})
-
-        for row in tsvreader:
-            term = row[0]
-            for i in xrange(1, len(row)):
-                conc = col_lookup[i]['conc']
-                time = col_lookup[i]['time']
-                val = row[i]
-                value[conc][time][term] = float(val)
-
-    return value
-    #     cycif_lookup = {}
-    #     for row in tsvreader:
-    #         id = row[0]
-    #         cycif_lookup[id] = row[1] # gene symbol
-    #         for i in xrange(2, len(row)):
-    #             val = row[i]
-    #             conc = float(col_lookup[i])
-    #             try:
-    #                 value[conc][id] = float(val)
-    #             except ValueError:
-    #                 value[conc][id] = 0
-
-    # return value
-
-#     rows = df_nuc.index.tolist()
-#     new_rows = []
-#     for inst_row in rows:
-#         inst_drug = 'drug: ' + inst_row.split('_')[0]
-#         inst_dosage = 'dosage: ' + inst_row.split('_')[1]
-#         inst_time = 'time: ' + inst_row.split('_')[2].replace('hr','')    
-#         new_row = (inst_row, inst_drug, inst_time, inst_dosage)
-#         new_rows.append(new_row)
-
-#     df_nuc.index = new_rows
-
-#     # Add categories to cols
-#     cols = df_nuc.columns.tolist()
-#     new_cols = []
-#     for inst_col in cols:
-#         new_cols.append((inst_col.strip(), 'protein: ' + inst_col.strip(), 'location: nuc'))
-    
-#     df_nuc.columns = new_cols

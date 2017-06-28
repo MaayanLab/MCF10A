@@ -93,10 +93,9 @@ function setupCycIF(){
 
   $("#cycif-time-toggle").change(function(){
     var newTime = $("input[name=" + assay + "-time]:checked").val();
-    console.log('CycIF_' + window.drug + '_' + newTime + '.json');
     make_clust('CycIF_' + window.drug + '_' + newTime + '.json', 'cycif-clustergrammer', false);
     //update download file
-    $("#cycif-clustergrammer-download").attr("href", "../data/cycif/values/CycIF_" + window.drug + "_" + newTime + ".tsv");
+    $("#cycif-clustergrammer-download").attr("href", "..static/data/cycif/values/CycIF_" + window.drug + "_" + newTime + ".tsv");
   });
 }
 
