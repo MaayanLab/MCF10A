@@ -81,7 +81,7 @@ function setupL1000(){
     var regulation = $("input[name=" + assay + "-regulation]:checked").val();
     make_clust('L1000_' + window.drug + '_' + newTime + '_' + regulation + '.json', 'l1000-clustergrammer', false);
     //update download file
-    $("#l1000-clustergrammer-download").attr("href", "../data/l1000/values/L1000/L1000_" + window.drug + "_" + newTime + "_" + regulation + ".tsv");
+    $("#l1000-clustergrammer-download").attr("href", "../static/data/l1000/values/L1000/L1000_" + window.drug + "_" + newTime + "_" + regulation + ".tsv");
   });
 
   // regulation change
@@ -90,21 +90,18 @@ function setupL1000(){
     var newRegulation = $("input[name=" + assay + "-regulation]:checked").val();
     make_clust('L1000_' + window.drug + '_' + time + '_' + newRegulation + '.json', 'l1000-clustergrammer', false);
     //update download file
-    $("#l1000-clustergrammer-download").attr("href", "../data/l1000/values/L1000/L1000_" + window.drug + "_" + time + "_" + newRegulation + ".tsv");
+    $("#l1000-clustergrammer-download").attr("href", "../static/data/l1000/values/L1000/L1000_" + window.drug + "_" + time + "_" + newRegulation + ".tsv");
   });
 }
 
 function setupCycIF(){
   var assay = "cycif";
   var time = $("input[name=" + assay + "-time]:checked").val();
-  console.log("###########################\nHERE\n###########################");
   $("#cycif-time-toggle").change(function(){
-    console.log(this);
     var newTime = $("input[name=" + assay + "-time]:checked").val();
-    console.log("CLICKING");
     make_clust('CycIF_' + window.drug + '_' + newTime + '.json', 'cycif-clustergrammer', false);
     //update download file
-    $("#cycif-clustergrammer-download").attr("href", "..static/data/cycif/values/CycIF_" + window.drug + "_" + newTime + ".tsv");
+    $("#cycif-clustergrammer-download").attr("href", "../static/data/cycif/values/CycIF_" + window.drug + "_" + newTime + ".tsv");
   });
 }
 
