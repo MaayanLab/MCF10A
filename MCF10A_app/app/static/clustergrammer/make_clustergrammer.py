@@ -28,6 +28,19 @@ for filename in os.listdir("tsv"):
         df_data.columns = new_cols
         net.load_df(df_data)
 
+    if (name.split("_")[0] == "P100"):
+        df_data = net.export_df()
+        cols = df_data.columns.tolist()
+        new_cols = []
+        for inst_col in cols:
+            inst_dose = 'dose (uM): ' + inst_col.split('_')[0]
+            inst_time = 'time (hr): ' + inst_col.split('_')[1] 
+            inst_col = (inst_col, inst_dose, inst_time)
+            new_cols.append(inst_col)
+    
+        df_data.columns = new_cols
+        net.load_df(df_data)
+
     #optional filtering and normalization
     #########################################
     net.swap_nan_for_zero()

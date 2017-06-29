@@ -782,12 +782,8 @@
             ], 
             "name": "alpelisib_1_48_cytosol", 
             "clust": 9, 
-            "cat_1_index": 0, 
-            "cat_0_index": 8, 
             "rank": 13, 
-            "cat-1": "compartment: cytosol", 
             "ini": 14, 
-            "cat-0": "dose: 1", 
             "rankvar": 13
           }, 
           {
@@ -806,12 +802,8 @@
             ], 
             "name": "alpelisib_3.1623_48_cytosol", 
             "clust": 8, 
-            "cat_1_index": 1, 
-            "cat_0_index": 10, 
             "rank": 8, 
-            "cat-1": "compartment: cytosol", 
             "ini": 13, 
-            "cat-0": "dose: 3.1623", 
             "rankvar": 10
           }, 
           {
@@ -830,12 +822,8 @@
             ], 
             "name": "alpelisib_0.31623_48_cytosol", 
             "clust": 12, 
-            "cat_1_index": 2, 
-            "cat_0_index": 6, 
             "rank": 11, 
-            "cat-1": "compartment: cytosol", 
             "ini": 12, 
-            "cat-0": "dose: 0.31623", 
             "rankvar": 11
           }, 
           {
@@ -854,12 +842,8 @@
             ], 
             "name": "alpelisib_0.031623_48_cytosol", 
             "clust": 13, 
-            "cat_1_index": 3, 
-            "cat_0_index": 2, 
             "rank": 12, 
-            "cat-1": "compartment: cytosol", 
             "ini": 11, 
-            "cat-0": "dose: 0.031623", 
             "rankvar": 12
           }, 
           {
@@ -878,12 +862,8 @@
             ], 
             "name": "alpelisib_0.01_48_cytosol", 
             "clust": 11, 
-            "cat_1_index": 4, 
-            "cat_0_index": 0, 
             "rank": 10, 
-            "cat-1": "compartment: cytosol", 
             "ini": 10, 
-            "cat-0": "dose: 0.01", 
             "rankvar": 5
           }, 
           {
@@ -902,12 +882,8 @@
             ], 
             "name": "alpelisib_10_48_cytosol", 
             "clust": 7, 
-            "cat_1_index": 5, 
-            "cat_0_index": 12, 
             "rank": 7, 
-            "cat-1": "compartment: cytosol", 
             "ini": 9, 
-            "cat-0": "dose: 10", 
             "rankvar": 8
           }, 
           {
@@ -926,12 +902,8 @@
             ], 
             "name": "alpelisib_0.1_48_cytosol", 
             "clust": 10, 
-            "cat_1_index": 6, 
-            "cat_0_index": 4, 
             "rank": 9, 
-            "cat-1": "compartment: cytosol", 
             "ini": 8, 
-            "cat-0": "dose: 0.1", 
             "rankvar": 9
           }, 
           {
@@ -950,12 +922,8 @@
             ], 
             "name": "alpelisib_1_48_nucleus", 
             "clust": 5, 
-            "cat_1_index": 7, 
-            "cat_0_index": 9, 
             "rank": 3, 
-            "cat-1": "compartment: nucleus", 
             "ini": 7, 
-            "cat-0": "dose: 1", 
             "rankvar": 1
           }, 
           {
@@ -974,12 +942,8 @@
             ], 
             "name": "alpelisib_3.1623_48_nucleus", 
             "clust": 6, 
-            "cat_1_index": 8, 
-            "cat_0_index": 11, 
             "rank": 2, 
-            "cat-1": "compartment: nucleus", 
             "ini": 6, 
-            "cat-0": "dose: 3.1623", 
             "rankvar": 3
           }, 
           {
@@ -998,12 +962,8 @@
             ], 
             "name": "alpelisib_0.31623_48_nucleus", 
             "clust": 3, 
-            "cat_1_index": 9, 
-            "cat_0_index": 7, 
             "rank": 1, 
-            "cat-1": "compartment: nucleus", 
             "ini": 5, 
-            "cat-0": "dose: 0.31623", 
             "rankvar": 2
           }, 
           {
@@ -1022,12 +982,8 @@
             ], 
             "name": "alpelisib_0.031623_48_nucleus", 
             "clust": 0, 
-            "cat_1_index": 10, 
-            "cat_0_index": 3, 
             "rank": 6, 
-            "cat-1": "compartment: nucleus", 
             "ini": 4, 
-            "cat-0": "dose: 0.031623", 
             "rankvar": 7
           }, 
           {
@@ -1046,12 +1002,8 @@
             ], 
             "name": "alpelisib_0.01_48_nucleus", 
             "clust": 1, 
-            "cat_1_index": 11, 
-            "cat_0_index": 1, 
             "rank": 4, 
-            "cat-1": "compartment: nucleus", 
             "ini": 3, 
-            "cat-0": "dose: 0.01", 
             "rankvar": 4
           }, 
           {
@@ -1070,12 +1022,8 @@
             ], 
             "name": "alpelisib_10_48_nucleus", 
             "clust": 2, 
-            "cat_1_index": 12, 
-            "cat_0_index": 13, 
             "rank": 5, 
-            "cat-1": "compartment: nucleus", 
             "ini": 2, 
-            "cat-0": "dose: 10", 
             "rankvar": 6
           }, 
           {
@@ -1094,12 +1042,8 @@
             ], 
             "name": "alpelisib_0.1_48_nucleus", 
             "clust": 4, 
-            "cat_1_index": 13, 
-            "cat_0_index": 5, 
             "rank": 0, 
-            "cat-1": "compartment: nucleus", 
             "ini": 1, 
-            "cat-0": "dose: 0.1", 
             "rankvar": 0
           }
         ]
@@ -1528,12 +1472,8 @@
             ], 
             "name": "alpelisib_1_48_cytosol", 
             "clust": 12, 
-            "cat_1_index": 0, 
-            "cat_0_index": 8, 
             "rank": 13, 
-            "cat-1": "compartment: cytosol", 
             "ini": 14, 
-            "cat-0": "dose: 1", 
             "rankvar": 13
           }, 
           {
@@ -1552,12 +1492,8 @@
             ], 
             "name": "alpelisib_3.1623_48_cytosol", 
             "clust": 13, 
-            "cat_1_index": 1, 
-            "cat_0_index": 10, 
             "rank": 8, 
-            "cat-1": "compartment: cytosol", 
             "ini": 13, 
-            "cat-0": "dose: 3.1623", 
             "rankvar": 10
           }, 
           {
@@ -1576,12 +1512,8 @@
             ], 
             "name": "alpelisib_0.31623_48_cytosol", 
             "clust": 10, 
-            "cat_1_index": 2, 
-            "cat_0_index": 6, 
             "rank": 11, 
-            "cat-1": "compartment: cytosol", 
             "ini": 12, 
-            "cat-0": "dose: 0.31623", 
             "rankvar": 11
           }, 
           {
@@ -1600,12 +1532,8 @@
             ], 
             "name": "alpelisib_0.031623_48_cytosol", 
             "clust": 11, 
-            "cat_1_index": 3, 
-            "cat_0_index": 2, 
             "rank": 12, 
-            "cat-1": "compartment: cytosol", 
             "ini": 11, 
-            "cat-0": "dose: 0.031623", 
             "rankvar": 12
           }, 
           {
@@ -1624,12 +1552,8 @@
             ], 
             "name": "alpelisib_0.01_48_cytosol", 
             "clust": 9, 
-            "cat_1_index": 4, 
-            "cat_0_index": 0, 
             "rank": 10, 
-            "cat-1": "compartment: cytosol", 
             "ini": 10, 
-            "cat-0": "dose: 0.01", 
             "rankvar": 5
           }, 
           {
@@ -1648,12 +1572,8 @@
             ], 
             "name": "alpelisib_10_48_cytosol", 
             "clust": 7, 
-            "cat_1_index": 5, 
-            "cat_0_index": 12, 
             "rank": 7, 
-            "cat-1": "compartment: cytosol", 
             "ini": 9, 
-            "cat-0": "dose: 10", 
             "rankvar": 8
           }, 
           {
@@ -1672,12 +1592,8 @@
             ], 
             "name": "alpelisib_0.1_48_cytosol", 
             "clust": 8, 
-            "cat_1_index": 6, 
-            "cat_0_index": 4, 
             "rank": 9, 
-            "cat-1": "compartment: cytosol", 
             "ini": 8, 
-            "cat-0": "dose: 0.1", 
             "rankvar": 9
           }, 
           {
@@ -1696,12 +1612,8 @@
             ], 
             "name": "alpelisib_1_48_nucleus", 
             "clust": 5, 
-            "cat_1_index": 7, 
-            "cat_0_index": 9, 
             "rank": 3, 
-            "cat-1": "compartment: nucleus", 
             "ini": 7, 
-            "cat-0": "dose: 1", 
             "rankvar": 1
           }, 
           {
@@ -1720,12 +1632,8 @@
             ], 
             "name": "alpelisib_3.1623_48_nucleus", 
             "clust": 6, 
-            "cat_1_index": 8, 
-            "cat_0_index": 11, 
             "rank": 2, 
-            "cat-1": "compartment: nucleus", 
             "ini": 6, 
-            "cat-0": "dose: 3.1623", 
             "rankvar": 3
           }, 
           {
@@ -1744,12 +1652,8 @@
             ], 
             "name": "alpelisib_0.31623_48_nucleus", 
             "clust": 3, 
-            "cat_1_index": 9, 
-            "cat_0_index": 7, 
             "rank": 1, 
-            "cat-1": "compartment: nucleus", 
             "ini": 5, 
-            "cat-0": "dose: 0.31623", 
             "rankvar": 2
           }, 
           {
@@ -1768,12 +1672,8 @@
             ], 
             "name": "alpelisib_0.031623_48_nucleus", 
             "clust": 0, 
-            "cat_1_index": 10, 
-            "cat_0_index": 3, 
             "rank": 6, 
-            "cat-1": "compartment: nucleus", 
             "ini": 4, 
-            "cat-0": "dose: 0.031623", 
             "rankvar": 7
           }, 
           {
@@ -1792,12 +1692,8 @@
             ], 
             "name": "alpelisib_0.01_48_nucleus", 
             "clust": 1, 
-            "cat_1_index": 11, 
-            "cat_0_index": 1, 
             "rank": 4, 
-            "cat-1": "compartment: nucleus", 
             "ini": 3, 
-            "cat-0": "dose: 0.01", 
             "rankvar": 4
           }, 
           {
@@ -1816,12 +1712,8 @@
             ], 
             "name": "alpelisib_10_48_nucleus", 
             "clust": 2, 
-            "cat_1_index": 12, 
-            "cat_0_index": 13, 
             "rank": 5, 
-            "cat-1": "compartment: nucleus", 
             "ini": 2, 
-            "cat-0": "dose: 10", 
             "rankvar": 6
           }, 
           {
@@ -1840,12 +1732,8 @@
             ], 
             "name": "alpelisib_0.1_48_nucleus", 
             "clust": 4, 
-            "cat_1_index": 13, 
-            "cat_0_index": 5, 
             "rank": 0, 
-            "cat-1": "compartment: nucleus", 
             "ini": 1, 
-            "cat-0": "dose: 0.1", 
             "rankvar": 0
           }
         ]
@@ -2074,12 +1962,8 @@
             ], 
             "name": "alpelisib_1_48_cytosol", 
             "clust": 10, 
-            "cat_1_index": 0, 
-            "cat_0_index": 8, 
             "rank": 13, 
-            "cat-1": "compartment: cytosol", 
             "ini": 14, 
-            "cat-0": "dose: 1", 
             "rankvar": 11
           }, 
           {
@@ -2098,12 +1982,8 @@
             ], 
             "name": "alpelisib_3.1623_48_cytosol", 
             "clust": 8, 
-            "cat_1_index": 1, 
-            "cat_0_index": 10, 
             "rank": 10, 
-            "cat-1": "compartment: cytosol", 
             "ini": 13, 
-            "cat-0": "dose: 3.1623", 
             "rankvar": 9
           }, 
           {
@@ -2122,12 +2002,8 @@
             ], 
             "name": "alpelisib_0.31623_48_cytosol", 
             "clust": 12, 
-            "cat_1_index": 2, 
-            "cat_0_index": 6, 
             "rank": 11, 
-            "cat-1": "compartment: cytosol", 
             "ini": 12, 
-            "cat-0": "dose: 0.31623", 
             "rankvar": 12
           }, 
           {
@@ -2146,12 +2022,8 @@
             ], 
             "name": "alpelisib_0.031623_48_cytosol", 
             "clust": 13, 
-            "cat_1_index": 3, 
-            "cat_0_index": 2, 
             "rank": 12, 
-            "cat-1": "compartment: cytosol", 
             "ini": 11, 
-            "cat-0": "dose: 0.031623", 
             "rankvar": 13
           }, 
           {
@@ -2170,12 +2042,8 @@
             ], 
             "name": "alpelisib_0.01_48_cytosol", 
             "clust": 11, 
-            "cat_1_index": 4, 
-            "cat_0_index": 0, 
             "rank": 8, 
-            "cat-1": "compartment: cytosol", 
             "ini": 10, 
-            "cat-0": "dose: 0.01", 
             "rankvar": 6
           }, 
           {
@@ -2194,12 +2062,8 @@
             ], 
             "name": "alpelisib_10_48_cytosol", 
             "clust": 7, 
-            "cat_1_index": 5, 
-            "cat_0_index": 12, 
             "rank": 7, 
-            "cat-1": "compartment: cytosol", 
             "ini": 9, 
-            "cat-0": "dose: 10", 
             "rankvar": 7
           }, 
           {
@@ -2218,12 +2082,8 @@
             ], 
             "name": "alpelisib_0.1_48_cytosol", 
             "clust": 9, 
-            "cat_1_index": 6, 
-            "cat_0_index": 4, 
             "rank": 9, 
-            "cat-1": "compartment: cytosol", 
             "ini": 8, 
-            "cat-0": "dose: 0.1", 
             "rankvar": 10
           }, 
           {
@@ -2242,12 +2102,8 @@
             ], 
             "name": "alpelisib_1_48_nucleus", 
             "clust": 3, 
-            "cat_1_index": 7, 
-            "cat_0_index": 9, 
             "rank": 3, 
-            "cat-1": "compartment: nucleus", 
             "ini": 7, 
-            "cat-0": "dose: 1", 
             "rankvar": 2
           }, 
           {
@@ -2266,12 +2122,8 @@
             ], 
             "name": "alpelisib_3.1623_48_nucleus", 
             "clust": 4, 
-            "cat_1_index": 8, 
-            "cat_0_index": 11, 
             "rank": 2, 
-            "cat-1": "compartment: nucleus", 
             "ini": 6, 
-            "cat-0": "dose: 3.1623", 
             "rankvar": 3
           }, 
           {
@@ -2290,12 +2142,8 @@
             ], 
             "name": "alpelisib_0.31623_48_nucleus", 
             "clust": 5, 
-            "cat_1_index": 9, 
-            "cat_0_index": 7, 
             "rank": 1, 
-            "cat-1": "compartment: nucleus", 
             "ini": 5, 
-            "cat-0": "dose: 0.31623", 
             "rankvar": 1
           }, 
           {
@@ -2314,12 +2162,8 @@
             ], 
             "name": "alpelisib_0.031623_48_nucleus", 
             "clust": 0, 
-            "cat_1_index": 10, 
-            "cat_0_index": 3, 
             "rank": 6, 
-            "cat-1": "compartment: nucleus", 
             "ini": 4, 
-            "cat-0": "dose: 0.031623", 
             "rankvar": 5
           }, 
           {
@@ -2338,12 +2182,8 @@
             ], 
             "name": "alpelisib_0.01_48_nucleus", 
             "clust": 1, 
-            "cat_1_index": 11, 
-            "cat_0_index": 1, 
             "rank": 4, 
-            "cat-1": "compartment: nucleus", 
             "ini": 3, 
-            "cat-0": "dose: 0.01", 
             "rankvar": 4
           }, 
           {
@@ -2362,12 +2202,8 @@
             ], 
             "name": "alpelisib_10_48_nucleus", 
             "clust": 2, 
-            "cat_1_index": 12, 
-            "cat_0_index": 13, 
             "rank": 5, 
-            "cat-1": "compartment: nucleus", 
             "ini": 2, 
-            "cat-0": "dose: 10", 
             "rankvar": 8
           }, 
           {
@@ -2386,12 +2222,8 @@
             ], 
             "name": "alpelisib_0.1_48_nucleus", 
             "clust": 6, 
-            "cat_1_index": 13, 
-            "cat_0_index": 5, 
             "rank": 0, 
-            "cat-1": "compartment: nucleus", 
             "ini": 1, 
-            "cat-0": "dose: 0.1", 
             "rankvar": 0
           }
         ]
@@ -2839,12 +2671,8 @@
             ], 
             "name": "alpelisib_1_48_cytosol", 
             "clust": 9, 
-            "cat_1_index": 0, 
-            "cat_0_index": 8, 
             "rank": 13, 
-            "cat-1": "compartment: cytosol", 
             "ini": 14, 
-            "cat-0": "dose: 1", 
             "rankvar": 13
           }, 
           {
@@ -2863,12 +2691,8 @@
             ], 
             "name": "alpelisib_3.1623_48_cytosol", 
             "clust": 8, 
-            "cat_1_index": 1, 
-            "cat_0_index": 10, 
             "rank": 8, 
-            "cat-1": "compartment: cytosol", 
             "ini": 13, 
-            "cat-0": "dose: 3.1623", 
             "rankvar": 10
           }, 
           {
@@ -2887,12 +2711,8 @@
             ], 
             "name": "alpelisib_0.31623_48_cytosol", 
             "clust": 12, 
-            "cat_1_index": 2, 
-            "cat_0_index": 6, 
             "rank": 11, 
-            "cat-1": "compartment: cytosol", 
             "ini": 12, 
-            "cat-0": "dose: 0.31623", 
             "rankvar": 11
           }, 
           {
@@ -2911,12 +2731,8 @@
             ], 
             "name": "alpelisib_0.031623_48_cytosol", 
             "clust": 13, 
-            "cat_1_index": 3, 
-            "cat_0_index": 2, 
             "rank": 12, 
-            "cat-1": "compartment: cytosol", 
             "ini": 11, 
-            "cat-0": "dose: 0.031623", 
             "rankvar": 12
           }, 
           {
@@ -2935,12 +2751,8 @@
             ], 
             "name": "alpelisib_0.01_48_cytosol", 
             "clust": 11, 
-            "cat_1_index": 4, 
-            "cat_0_index": 0, 
             "rank": 10, 
-            "cat-1": "compartment: cytosol", 
             "ini": 10, 
-            "cat-0": "dose: 0.01", 
             "rankvar": 5
           }, 
           {
@@ -2959,12 +2771,8 @@
             ], 
             "name": "alpelisib_10_48_cytosol", 
             "clust": 7, 
-            "cat_1_index": 5, 
-            "cat_0_index": 12, 
             "rank": 7, 
-            "cat-1": "compartment: cytosol", 
             "ini": 9, 
-            "cat-0": "dose: 10", 
             "rankvar": 8
           }, 
           {
@@ -2983,12 +2791,8 @@
             ], 
             "name": "alpelisib_0.1_48_cytosol", 
             "clust": 10, 
-            "cat_1_index": 6, 
-            "cat_0_index": 4, 
             "rank": 9, 
-            "cat-1": "compartment: cytosol", 
             "ini": 8, 
-            "cat-0": "dose: 0.1", 
             "rankvar": 9
           }, 
           {
@@ -3007,12 +2811,8 @@
             ], 
             "name": "alpelisib_1_48_nucleus", 
             "clust": 5, 
-            "cat_1_index": 7, 
-            "cat_0_index": 9, 
             "rank": 3, 
-            "cat-1": "compartment: nucleus", 
             "ini": 7, 
-            "cat-0": "dose: 1", 
             "rankvar": 1
           }, 
           {
@@ -3031,12 +2831,8 @@
             ], 
             "name": "alpelisib_3.1623_48_nucleus", 
             "clust": 6, 
-            "cat_1_index": 8, 
-            "cat_0_index": 11, 
             "rank": 2, 
-            "cat-1": "compartment: nucleus", 
             "ini": 6, 
-            "cat-0": "dose: 3.1623", 
             "rankvar": 3
           }, 
           {
@@ -3055,12 +2851,8 @@
             ], 
             "name": "alpelisib_0.31623_48_nucleus", 
             "clust": 3, 
-            "cat_1_index": 9, 
-            "cat_0_index": 7, 
             "rank": 1, 
-            "cat-1": "compartment: nucleus", 
             "ini": 5, 
-            "cat-0": "dose: 0.31623", 
             "rankvar": 2
           }, 
           {
@@ -3079,12 +2871,8 @@
             ], 
             "name": "alpelisib_0.031623_48_nucleus", 
             "clust": 0, 
-            "cat_1_index": 10, 
-            "cat_0_index": 3, 
             "rank": 6, 
-            "cat-1": "compartment: nucleus", 
             "ini": 4, 
-            "cat-0": "dose: 0.031623", 
             "rankvar": 7
           }, 
           {
@@ -3103,12 +2891,8 @@
             ], 
             "name": "alpelisib_0.01_48_nucleus", 
             "clust": 1, 
-            "cat_1_index": 11, 
-            "cat_0_index": 1, 
             "rank": 4, 
-            "cat-1": "compartment: nucleus", 
             "ini": 3, 
-            "cat-0": "dose: 0.01", 
             "rankvar": 4
           }, 
           {
@@ -3127,12 +2911,8 @@
             ], 
             "name": "alpelisib_10_48_nucleus", 
             "clust": 2, 
-            "cat_1_index": 12, 
-            "cat_0_index": 13, 
             "rank": 5, 
-            "cat-1": "compartment: nucleus", 
             "ini": 2, 
-            "cat-0": "dose: 10", 
             "rankvar": 6
           }, 
           {
@@ -3151,12 +2931,8 @@
             ], 
             "name": "alpelisib_0.1_48_nucleus", 
             "clust": 4, 
-            "cat_1_index": 13, 
-            "cat_0_index": 5, 
             "rank": 0, 
-            "cat-1": "compartment: nucleus", 
             "ini": 1, 
-            "cat-0": "dose: 0.1", 
             "rankvar": 0
           }
         ]
@@ -3585,12 +3361,8 @@
             ], 
             "name": "alpelisib_1_48_cytosol", 
             "clust": 9, 
-            "cat_1_index": 0, 
-            "cat_0_index": 8, 
             "rank": 13, 
-            "cat-1": "compartment: cytosol", 
             "ini": 14, 
-            "cat-0": "dose: 1", 
             "rankvar": 13
           }, 
           {
@@ -3609,12 +3381,8 @@
             ], 
             "name": "alpelisib_3.1623_48_cytosol", 
             "clust": 8, 
-            "cat_1_index": 1, 
-            "cat_0_index": 10, 
             "rank": 8, 
-            "cat-1": "compartment: cytosol", 
             "ini": 13, 
-            "cat-0": "dose: 3.1623", 
             "rankvar": 10
           }, 
           {
@@ -3633,12 +3401,8 @@
             ], 
             "name": "alpelisib_0.31623_48_cytosol", 
             "clust": 12, 
-            "cat_1_index": 2, 
-            "cat_0_index": 6, 
             "rank": 11, 
-            "cat-1": "compartment: cytosol", 
             "ini": 12, 
-            "cat-0": "dose: 0.31623", 
             "rankvar": 11
           }, 
           {
@@ -3657,12 +3421,8 @@
             ], 
             "name": "alpelisib_0.031623_48_cytosol", 
             "clust": 13, 
-            "cat_1_index": 3, 
-            "cat_0_index": 2, 
             "rank": 12, 
-            "cat-1": "compartment: cytosol", 
             "ini": 11, 
-            "cat-0": "dose: 0.031623", 
             "rankvar": 12
           }, 
           {
@@ -3681,12 +3441,8 @@
             ], 
             "name": "alpelisib_0.01_48_cytosol", 
             "clust": 11, 
-            "cat_1_index": 4, 
-            "cat_0_index": 0, 
             "rank": 10, 
-            "cat-1": "compartment: cytosol", 
             "ini": 10, 
-            "cat-0": "dose: 0.01", 
             "rankvar": 5
           }, 
           {
@@ -3705,12 +3461,8 @@
             ], 
             "name": "alpelisib_10_48_cytosol", 
             "clust": 7, 
-            "cat_1_index": 5, 
-            "cat_0_index": 12, 
             "rank": 7, 
-            "cat-1": "compartment: cytosol", 
             "ini": 9, 
-            "cat-0": "dose: 10", 
             "rankvar": 8
           }, 
           {
@@ -3729,12 +3481,8 @@
             ], 
             "name": "alpelisib_0.1_48_cytosol", 
             "clust": 10, 
-            "cat_1_index": 6, 
-            "cat_0_index": 4, 
             "rank": 9, 
-            "cat-1": "compartment: cytosol", 
             "ini": 8, 
-            "cat-0": "dose: 0.1", 
             "rankvar": 9
           }, 
           {
@@ -3753,12 +3501,8 @@
             ], 
             "name": "alpelisib_1_48_nucleus", 
             "clust": 5, 
-            "cat_1_index": 7, 
-            "cat_0_index": 9, 
             "rank": 3, 
-            "cat-1": "compartment: nucleus", 
             "ini": 7, 
-            "cat-0": "dose: 1", 
             "rankvar": 1
           }, 
           {
@@ -3777,12 +3521,8 @@
             ], 
             "name": "alpelisib_3.1623_48_nucleus", 
             "clust": 6, 
-            "cat_1_index": 8, 
-            "cat_0_index": 11, 
             "rank": 2, 
-            "cat-1": "compartment: nucleus", 
             "ini": 6, 
-            "cat-0": "dose: 3.1623", 
             "rankvar": 3
           }, 
           {
@@ -3801,12 +3541,8 @@
             ], 
             "name": "alpelisib_0.31623_48_nucleus", 
             "clust": 3, 
-            "cat_1_index": 9, 
-            "cat_0_index": 7, 
             "rank": 1, 
-            "cat-1": "compartment: nucleus", 
             "ini": 5, 
-            "cat-0": "dose: 0.31623", 
             "rankvar": 2
           }, 
           {
@@ -3825,12 +3561,8 @@
             ], 
             "name": "alpelisib_0.031623_48_nucleus", 
             "clust": 0, 
-            "cat_1_index": 10, 
-            "cat_0_index": 3, 
             "rank": 6, 
-            "cat-1": "compartment: nucleus", 
             "ini": 4, 
-            "cat-0": "dose: 0.031623", 
             "rankvar": 7
           }, 
           {
@@ -3849,12 +3581,8 @@
             ], 
             "name": "alpelisib_0.01_48_nucleus", 
             "clust": 1, 
-            "cat_1_index": 11, 
-            "cat_0_index": 1, 
             "rank": 4, 
-            "cat-1": "compartment: nucleus", 
             "ini": 3, 
-            "cat-0": "dose: 0.01", 
             "rankvar": 4
           }, 
           {
@@ -3873,12 +3601,8 @@
             ], 
             "name": "alpelisib_10_48_nucleus", 
             "clust": 2, 
-            "cat_1_index": 12, 
-            "cat_0_index": 13, 
             "rank": 5, 
-            "cat-1": "compartment: nucleus", 
             "ini": 2, 
-            "cat-0": "dose: 10", 
             "rankvar": 6
           }, 
           {
@@ -3897,12 +3621,8 @@
             ], 
             "name": "alpelisib_0.1_48_nucleus", 
             "clust": 4, 
-            "cat_1_index": 13, 
-            "cat_0_index": 5, 
             "rank": 0, 
-            "cat-1": "compartment: nucleus", 
             "ini": 1, 
-            "cat-0": "dose: 0.1", 
             "rankvar": 0
           }
         ]
@@ -4131,12 +3851,8 @@
             ], 
             "name": "alpelisib_1_48_cytosol", 
             "clust": 10, 
-            "cat_1_index": 0, 
-            "cat_0_index": 8, 
             "rank": 13, 
-            "cat-1": "compartment: cytosol", 
             "ini": 14, 
-            "cat-0": "dose: 1", 
             "rankvar": 10
           }, 
           {
@@ -4155,12 +3871,8 @@
             ], 
             "name": "alpelisib_3.1623_48_cytosol", 
             "clust": 8, 
-            "cat_1_index": 1, 
-            "cat_0_index": 10, 
             "rank": 8, 
-            "cat-1": "compartment: cytosol", 
             "ini": 13, 
-            "cat-0": "dose: 3.1623", 
             "rankvar": 12
           }, 
           {
@@ -4179,12 +3891,8 @@
             ], 
             "name": "alpelisib_0.31623_48_cytosol", 
             "clust": 12, 
-            "cat_1_index": 2, 
-            "cat_0_index": 6, 
             "rank": 11, 
-            "cat-1": "compartment: cytosol", 
             "ini": 12, 
-            "cat-0": "dose: 0.31623", 
             "rankvar": 11
           }, 
           {
@@ -4203,12 +3911,8 @@
             ], 
             "name": "alpelisib_0.031623_48_cytosol", 
             "clust": 13, 
-            "cat_1_index": 3, 
-            "cat_0_index": 2, 
             "rank": 12, 
-            "cat-1": "compartment: cytosol", 
             "ini": 11, 
-            "cat-0": "dose: 0.031623", 
             "rankvar": 13
           }, 
           {
@@ -4227,12 +3931,8 @@
             ], 
             "name": "alpelisib_0.01_48_cytosol", 
             "clust": 11, 
-            "cat_1_index": 4, 
-            "cat_0_index": 0, 
             "rank": 10, 
-            "cat-1": "compartment: cytosol", 
             "ini": 10, 
-            "cat-0": "dose: 0.01", 
             "rankvar": 7
           }, 
           {
@@ -4251,12 +3951,8 @@
             ], 
             "name": "alpelisib_10_48_cytosol", 
             "clust": 7, 
-            "cat_1_index": 5, 
-            "cat_0_index": 12, 
             "rank": 7, 
-            "cat-1": "compartment: cytosol", 
             "ini": 9, 
-            "cat-0": "dose: 10", 
             "rankvar": 9
           }, 
           {
@@ -4275,12 +3971,8 @@
             ], 
             "name": "alpelisib_0.1_48_cytosol", 
             "clust": 9, 
-            "cat_1_index": 6, 
-            "cat_0_index": 4, 
             "rank": 9, 
-            "cat-1": "compartment: cytosol", 
             "ini": 8, 
-            "cat-0": "dose: 0.1", 
             "rankvar": 8
           }, 
           {
@@ -4299,12 +3991,8 @@
             ], 
             "name": "alpelisib_1_48_nucleus", 
             "clust": 5, 
-            "cat_1_index": 7, 
-            "cat_0_index": 9, 
             "rank": 3, 
-            "cat-1": "compartment: nucleus", 
             "ini": 7, 
-            "cat-0": "dose: 1", 
             "rankvar": 3
           }, 
           {
@@ -4323,12 +4011,8 @@
             ], 
             "name": "alpelisib_3.1623_48_nucleus", 
             "clust": 6, 
-            "cat_1_index": 8, 
-            "cat_0_index": 11, 
             "rank": 2, 
-            "cat-1": "compartment: nucleus", 
             "ini": 6, 
-            "cat-0": "dose: 3.1623", 
             "rankvar": 1
           }, 
           {
@@ -4347,12 +4031,8 @@
             ], 
             "name": "alpelisib_0.31623_48_nucleus", 
             "clust": 3, 
-            "cat_1_index": 9, 
-            "cat_0_index": 7, 
             "rank": 1, 
-            "cat-1": "compartment: nucleus", 
             "ini": 5, 
-            "cat-0": "dose: 0.31623", 
             "rankvar": 0
           }, 
           {
@@ -4371,12 +4051,8 @@
             ], 
             "name": "alpelisib_0.031623_48_nucleus", 
             "clust": 0, 
-            "cat_1_index": 10, 
-            "cat_0_index": 3, 
             "rank": 5, 
-            "cat-1": "compartment: nucleus", 
             "ini": 4, 
-            "cat-0": "dose: 0.031623", 
             "rankvar": 6
           }, 
           {
@@ -4395,12 +4071,8 @@
             ], 
             "name": "alpelisib_0.01_48_nucleus", 
             "clust": 1, 
-            "cat_1_index": 11, 
-            "cat_0_index": 1, 
             "rank": 4, 
-            "cat-1": "compartment: nucleus", 
             "ini": 3, 
-            "cat-0": "dose: 0.01", 
             "rankvar": 4
           }, 
           {
@@ -4419,12 +4091,8 @@
             ], 
             "name": "alpelisib_10_48_nucleus", 
             "clust": 2, 
-            "cat_1_index": 12, 
-            "cat_0_index": 13, 
             "rank": 6, 
-            "cat-1": "compartment: nucleus", 
             "ini": 2, 
-            "cat-0": "dose: 10", 
             "rankvar": 5
           }, 
           {
@@ -4443,12 +4111,8 @@
             ], 
             "name": "alpelisib_0.1_48_nucleus", 
             "clust": 4, 
-            "cat_1_index": 13, 
-            "cat_0_index": 5, 
             "rank": 0, 
-            "cat-1": "compartment: nucleus", 
             "ini": 1, 
-            "cat-0": "dose: 0.1", 
             "rankvar": 2
           }
         ]
@@ -4457,21 +4121,7 @@
     }
   ], 
   "cat_colors": {
-    "col": {
-      "cat-0": {
-        "dose: 1": "#1f77b4", 
-        "dose: 3.1623": "#e377c2", 
-        "dose: 0.1": "#404040", 
-        "dose: 0.31623": "#c5b0d5", 
-        "dose: 0.01": "#ff7f0e", 
-        "dose: 0.031623": "#98df8a", 
-        "dose: 10": "#FFDB58"
-      }, 
-      "cat-1": {
-        "compartment: cytosol": "#393b79", 
-        "compartment: nucleus": "#ff7f0e"
-      }
-    }, 
+    "col": {}, 
     "row": {}
   }, 
   "row_nodes": [
@@ -4913,12 +4563,8 @@
       ], 
       "name": "alpelisib_1_48_cytosol", 
       "clust": 9, 
-      "cat_1_index": 0, 
-      "cat_0_index": 8, 
       "rank": 13, 
-      "cat-1": "compartment: cytosol", 
       "ini": 14, 
-      "cat-0": "dose: 1", 
       "rankvar": 13
     }, 
     {
@@ -4937,12 +4583,8 @@
       ], 
       "name": "alpelisib_3.1623_48_cytosol", 
       "clust": 8, 
-      "cat_1_index": 1, 
-      "cat_0_index": 10, 
       "rank": 8, 
-      "cat-1": "compartment: cytosol", 
       "ini": 13, 
-      "cat-0": "dose: 3.1623", 
       "rankvar": 10
     }, 
     {
@@ -4961,12 +4603,8 @@
       ], 
       "name": "alpelisib_0.31623_48_cytosol", 
       "clust": 12, 
-      "cat_1_index": 2, 
-      "cat_0_index": 6, 
       "rank": 11, 
-      "cat-1": "compartment: cytosol", 
       "ini": 12, 
-      "cat-0": "dose: 0.31623", 
       "rankvar": 11
     }, 
     {
@@ -4985,12 +4623,8 @@
       ], 
       "name": "alpelisib_0.031623_48_cytosol", 
       "clust": 13, 
-      "cat_1_index": 3, 
-      "cat_0_index": 2, 
       "rank": 12, 
-      "cat-1": "compartment: cytosol", 
       "ini": 11, 
-      "cat-0": "dose: 0.031623", 
       "rankvar": 12
     }, 
     {
@@ -5009,12 +4643,8 @@
       ], 
       "name": "alpelisib_0.01_48_cytosol", 
       "clust": 11, 
-      "cat_1_index": 4, 
-      "cat_0_index": 0, 
       "rank": 10, 
-      "cat-1": "compartment: cytosol", 
       "ini": 10, 
-      "cat-0": "dose: 0.01", 
       "rankvar": 5
     }, 
     {
@@ -5033,12 +4663,8 @@
       ], 
       "name": "alpelisib_10_48_cytosol", 
       "clust": 7, 
-      "cat_1_index": 5, 
-      "cat_0_index": 12, 
       "rank": 7, 
-      "cat-1": "compartment: cytosol", 
       "ini": 9, 
-      "cat-0": "dose: 10", 
       "rankvar": 8
     }, 
     {
@@ -5057,12 +4683,8 @@
       ], 
       "name": "alpelisib_0.1_48_cytosol", 
       "clust": 10, 
-      "cat_1_index": 6, 
-      "cat_0_index": 4, 
       "rank": 9, 
-      "cat-1": "compartment: cytosol", 
       "ini": 8, 
-      "cat-0": "dose: 0.1", 
       "rankvar": 9
     }, 
     {
@@ -5081,12 +4703,8 @@
       ], 
       "name": "alpelisib_1_48_nucleus", 
       "clust": 5, 
-      "cat_1_index": 7, 
-      "cat_0_index": 9, 
       "rank": 3, 
-      "cat-1": "compartment: nucleus", 
       "ini": 7, 
-      "cat-0": "dose: 1", 
       "rankvar": 1
     }, 
     {
@@ -5105,12 +4723,8 @@
       ], 
       "name": "alpelisib_3.1623_48_nucleus", 
       "clust": 6, 
-      "cat_1_index": 8, 
-      "cat_0_index": 11, 
       "rank": 2, 
-      "cat-1": "compartment: nucleus", 
       "ini": 6, 
-      "cat-0": "dose: 3.1623", 
       "rankvar": 3
     }, 
     {
@@ -5129,12 +4743,8 @@
       ], 
       "name": "alpelisib_0.31623_48_nucleus", 
       "clust": 3, 
-      "cat_1_index": 9, 
-      "cat_0_index": 7, 
       "rank": 1, 
-      "cat-1": "compartment: nucleus", 
       "ini": 5, 
-      "cat-0": "dose: 0.31623", 
       "rankvar": 2
     }, 
     {
@@ -5153,12 +4763,8 @@
       ], 
       "name": "alpelisib_0.031623_48_nucleus", 
       "clust": 0, 
-      "cat_1_index": 10, 
-      "cat_0_index": 3, 
       "rank": 6, 
-      "cat-1": "compartment: nucleus", 
       "ini": 4, 
-      "cat-0": "dose: 0.031623", 
       "rankvar": 7
     }, 
     {
@@ -5177,12 +4783,8 @@
       ], 
       "name": "alpelisib_0.01_48_nucleus", 
       "clust": 1, 
-      "cat_1_index": 11, 
-      "cat_0_index": 1, 
       "rank": 4, 
-      "cat-1": "compartment: nucleus", 
       "ini": 3, 
-      "cat-0": "dose: 0.01", 
       "rankvar": 4
     }, 
     {
@@ -5201,12 +4803,8 @@
       ], 
       "name": "alpelisib_10_48_nucleus", 
       "clust": 2, 
-      "cat_1_index": 12, 
-      "cat_0_index": 13, 
       "rank": 5, 
-      "cat-1": "compartment: nucleus", 
       "ini": 2, 
-      "cat-0": "dose: 10", 
       "rankvar": 6
     }, 
     {
@@ -5225,12 +4823,8 @@
       ], 
       "name": "alpelisib_0.1_48_nucleus", 
       "clust": 4, 
-      "cat_1_index": 13, 
-      "cat_0_index": 5, 
       "rank": 0, 
-      "cat-1": "compartment: nucleus", 
       "ini": 1, 
-      "cat-0": "dose: 0.1", 
       "rankvar": 0
     }
   ]
