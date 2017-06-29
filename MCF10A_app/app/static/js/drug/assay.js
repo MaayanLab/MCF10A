@@ -10,13 +10,10 @@ $("#" + assay + "-time-toggle").change(function(){
   time = newTime;
 });
 
-
+setupCycIF();
 // setup trigger for L1000CDS2
-console.log('on top of commands to run')
 setupL1000CDS2();
 setupL1000();
-console.log('trying to setup cycif')
-setupCycIF();
 
 
 function setupL1000CDS2(){
