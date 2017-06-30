@@ -49,7 +49,7 @@ def get_canvas_values():
 
     # get P100 z-score values
     values_dir = os.path.join(data_dir, "p100", "values")
-    for values_filename in glob.glob(values_dir + "/*.tsv"):
+    for values_filename in glob.glob(values_dir + "/old_values/*.tsv"):
         # print "values_filename=", values_filename
         base = os.path.basename(values_filename)
         filename = os.path.splitext(base)[0]

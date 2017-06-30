@@ -1,0 +1,12 @@
+<div id="p100-parameters">
+  {% with assay="P100", time=['3h'], default_time="3h"%}
+    <div id="{{assay.lower()}}-clustergrammer" ><span id="{{assay.lower()}}-clustergrammer-loading">Loading Clustergrammer</span></div>
+  {% endwith %}
+</div>
+
+<!-- {% for t in time %}
+  <div id="{{assay.lower()}}-{{t}}" style="display:{{"block" if t == default_time else "none"}};"><span id="{{assay.lower()}}-{{t}}-loading">Loading Clustergrammer</span></div>
+{% endfor %} -->
+<div class="download-table">
+  <a id="p100-clustergrammer-download" href="../static/data/{{assay.lower()}}/values/P100_{{drug}}.tsv">download {{assay}} metrics</a>
+</div>
