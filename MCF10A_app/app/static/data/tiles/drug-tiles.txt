@@ -34,9 +34,9 @@ data/l1000/values/L1000/L1000_trametinib_24h_up.tsv
 details
 trametinib#L1000
 data
-P100 - 3h
+P100
 download
-data/p100/values/P100_trametinib_3h.tsv
+data/p100/values/P100_trametinib.tsv
 details
 trametinib#P100
 data
@@ -124,9 +124,9 @@ data/l1000/values/L1000/L1000_alpelisib_24h_up.tsv
 details
 alpelisib#L1000
 data
-P100 - 3h
+P100 
 download
-data/p100/values/P100_alpelisib_3h.tsv
+data/p100/values/P100_alpelisib.tsv
 details
 alpelisib#P100
 data
@@ -189,12 +189,6 @@ download
 data/gr/metrics/MCF10A_vorinostat_GR.tsv
 details
 vorinostat#GR
-data
-P100 - 3h
-download
-data/p100/values/P100_vorinostat_3h.tsv
-details
-vorinostat#P100
 data
 GCP - 24h
 download
@@ -281,9 +275,9 @@ data/l1000/values/L1000/L1000_palbociclib_24h_up.tsv
 details
 palbociclib#L1000
 data
-P100 - 3h
+P100 
 download
-data/p100/values/P100_palbociclib_3h.tsv
+data/p100/values/P100_palbociclib.tsv
 details
 palbociclib#P100
 data
@@ -371,9 +365,9 @@ data/l1000/values/L1000/L1000_neratinib_24h_up.tsv
 details
 neratinib#L1000
 data
-P100 - 3h
+P100
 download
-data/p100/values/P100_neratinib_3h.tsv
+data/p100/values/P100_neratinib.tsv
 details
 neratinib#P100
 data
@@ -413,9 +407,9 @@ data/gr/metrics/MCF10A_paclitaxel_GR.tsv
 details
 paclitaxel#GR
 data
-P100 - 3h
+P100
 download
-data/p100/values/P100_paclitaxel_3h.tsv
+data/p100/values/P100_paclitaxel.tsv
 details
 paclitaxel#P100
 data
@@ -455,9 +449,9 @@ data/gr/metrics/MCF10A_etoposide_GR.tsv
 details
 etoposide#GR
 data
-P100 - 3h
+P100
 download
-data/p100/values/P100_etoposide_3h.tsv
+data/p100/values/P100_etoposide.tsv
 details
 etoposide#P100
 data
@@ -521,9 +515,9 @@ data/l1000/values/L1000/L1000_dasatinib_24h_up.tsv
 details
 dasatinib#L1000
 data
-P100 - 3h
+P100
 download
-data/p100/values/P100_dasatinib_3h.tsv
+data/p100/values/P100_dasatinib.tsv
 details
 dasatinib#P100
 data

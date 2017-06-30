@@ -502,7 +502,7 @@
               1.0, 
               1.0
             ], 
-            "name": "10011_DYRK_Y321_IYQY[+80]IQSR", 
+            "name": "DYRK_Y321_IYQY[+80]IQSR", 
             "clust": 51, 
             "rank": 45, 
             "ini": 80, 
@@ -522,7 +522,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1024_ISPK1_S369_TPKDS[+80]PGIPPSANAHQLFR", 
+            "name": "ISPK1_S369_TPKDS[+80]PGIPPSANAHQLFR", 
             "clust": 63, 
             "rank": 13, 
             "ini": 79, 
@@ -542,7 +542,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1078_ARM2_S87_RNS[+80]SEASSGDFLDLK", 
+            "name": "ARM2_S87_RNS[+80]SEASSGDFLDLK", 
             "clust": 21, 
             "rank": 28, 
             "ini": 78, 
@@ -562,7 +562,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1130_HSPC216_S321_LPLVPES[+80]PRR", 
+            "name": "HSPC216_S321_LPLVPES[+80]PRR", 
             "clust": 2, 
             "rank": 54, 
             "ini": 77, 
@@ -582,7 +582,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1142_CTG26_S956_ANAS[+80]PQKPLDLK", 
+            "name": "CTG26_S956_ANAS[+80]PQKPLDLK", 
             "clust": 13, 
             "rank": 63, 
             "ini": 76, 
@@ -602,7 +602,7 @@
               1.0, 
               1.0
             ], 
-            "name": "12_KIAA0701_S935_SMS[+80]VDLSHIPLKDPLLFK", 
+            "name": "KIAA0701_S935_SMS[+80]VDLSHIPLKDPLLFK", 
             "clust": 30, 
             "rank": 56, 
             "ini": 75, 
@@ -622,7 +622,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1458_OCIA_S108_LENS[+80]PLGEALR", 
+            "name": "OCIA_S108_LENS[+80]PLGEALR", 
             "clust": 22, 
             "rank": 3, 
             "ini": 74, 
@@ -642,7 +642,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1503_PDK1_S241_ANS[+80]FVGTAQYVSPELLTEK", 
+            "name": "PDK1_S241_ANS[+80]FVGTAQYVSPELLTEK", 
             "clust": 57, 
             "rank": 21, 
             "ini": 73, 
@@ -662,7 +662,7 @@
               1.0, 
               1.0
             ], 
-            "name": "151_ABI1_S184_TNPPTQKPPS[+80]PPMSGR", 
+            "name": "ABI1_S184_TNPPTQKPPS[+80]PPMSGR", 
             "clust": 58, 
             "rank": 23, 
             "ini": 72, 
@@ -682,7 +682,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1797_WDR20_S465_SNS[+80]LPHSAVSNAGSK", 
+            "name": "WDR20_S465_SNS[+80]LPHSAVSNAGSK", 
             "clust": 75, 
             "rank": 20, 
             "ini": 71, 
@@ -702,7 +702,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1811_MAP4_S2218_VGS[+80]LDNVGHLPAGGAVK", 
+            "name": "MAP4_S2218_VGS[+80]LDNVGHLPAGGAVK", 
             "clust": 55, 
             "rank": 29, 
             "ini": 70, 
@@ -722,7 +722,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1953_RBM17_S222_S[+80]PTGPSNSFLANMGGTVAHK", 
+            "name": "RBM17_S222_S[+80]PTGPSNSFLANMGGTVAHK", 
             "clust": 65, 
             "rank": 4, 
             "ini": 69, 
@@ -742,7 +742,7 @@
               1.0, 
               1.0
             ], 
-            "name": "2577_C9orf88_S692_AAPEAS[+80]SPPASPLQHLLPGK", 
+            "name": "C9orf88_S692_AAPEAS[+80]SPPASPLQHLLPGK", 
             "clust": 0, 
             "rank": 57, 
             "ini": 68, 
@@ -762,7 +762,7 @@
               1.0, 
               1.0
             ], 
-            "name": "290_TMSL3_S2_S[+122]DKPDMAEIEKFDK", 
+            "name": "TMSL3_S2_S[+122]DKPDMAEIEKFDK", 
             "clust": 43, 
             "rank": 59, 
             "ini": 67, 
@@ -782,7 +782,7 @@
               1.0, 
               1.0
             ], 
-            "name": "296_AP1GBP1_S1075_SLS[+80]LGDKEISR", 
+            "name": "AP1GBP1_S1075_SLS[+80]LGDKEISR", 
             "clust": 72, 
             "rank": 2, 
             "ini": 66, 
@@ -802,7 +802,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3013_ZC3H14_S515_DLVQPDKPAS[+80]PK", 
+            "name": "ZC3H14_S515_DLVQPDKPAS[+80]PK", 
             "clust": 62, 
             "rank": 25, 
             "ini": 65, 
@@ -822,7 +822,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3145_PFKF_S386_S[+80]FAGNLNTYKR", 
+            "name": "PFKF_S386_S[+80]FAGNLNTYKR", 
             "clust": 45, 
             "rank": 43, 
             "ini": 64, 
@@ -842,7 +842,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3169_KIAA0217_S601_SPS[+80]PAHLPDDPKVAEK", 
+            "name": "KIAA0217_S601_SPS[+80]PAHLPDDPKVAEK", 
             "clust": 68, 
             "rank": 32, 
             "ini": 63, 
@@ -862,7 +862,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3435_MAP3K7_S439_S[+80]IQDLTVTGTEPGQVSSR", 
+            "name": "MAP3K7_S439_S[+80]IQDLTVTGTEPGQVSSR", 
             "clust": 73, 
             "rank": 19, 
             "ini": 62, 
@@ -882,7 +882,7 @@
               1.0, 
               1.0
             ], 
-            "name": "343_RP11-373M8.1-002_S397_HRPS[+80]PPATPPPK", 
+            "name": "RP11-373M8.1-002_S397_HRPS[+80]PPATPPPK", 
             "clust": 66, 
             "rank": 7, 
             "ini": 61, 
@@ -902,7 +902,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3555_BRD4_S1117_IHS[+80]PIIR", 
+            "name": "BRD4_S1117_IHS[+80]PIIR", 
             "clust": 64, 
             "rank": 18, 
             "ini": 60, 
@@ -922,7 +922,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3604_KIAA0722_S556_LHS[+80]APNLSDLHVVRPK", 
+            "name": "KIAA0722_S556_LHS[+80]APNLSDLHVVRPK", 
             "clust": 40, 
             "rank": 66, 
             "ini": 59, 
@@ -942,7 +942,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3738_KIF4_S801_TFS[+80]LTEVR", 
+            "name": "KIF4_S801_TFS[+80]LTEVR", 
             "clust": 25, 
             "rank": 10, 
             "ini": 58, 
@@ -962,7 +962,7 @@
               1.0, 
               1.0
             ], 
-            "name": "381_C22orf9_S247_SLVGS[+80]WLK", 
+            "name": "C22orf9_S247_SLVGS[+80]WLK", 
             "clust": 36, 
             "rank": 70, 
             "ini": 57, 
@@ -982,7 +982,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3995_BRAF_S446_TLGRRDS[+80]SDDWEIPDGQITVGQR", 
+            "name": "BRAF_S446_TLGRRDS[+80]SDDWEIPDGQITVGQR", 
             "clust": 77, 
             "rank": 11, 
             "ini": 56, 
@@ -1002,7 +1002,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4000_FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
+            "name": "FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
             "clust": 37, 
             "rank": 77, 
             "ini": 55, 
@@ -1022,7 +1022,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4000_FOSL2_S200_S[+80]PPAPGLQPMR", 
+            "name": "FOSL2_S200_S[+80]PPAPGLQPMR", 
             "clust": 32, 
             "rank": 55, 
             "ini": 54, 
@@ -1042,7 +1042,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4054_JUND_S100_LAS[+80]PELER", 
+            "name": "JUND_S100_LAS[+80]PELER", 
             "clust": 9, 
             "rank": 37, 
             "ini": 53, 
@@ -1062,7 +1062,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4262_RPL12_S38_IGPLGLS[+80]PK", 
+            "name": "RPL12_S38_IGPLGLS[+80]PK", 
             "clust": 11, 
             "rank": 74, 
             "ini": 52, 
@@ -1082,7 +1082,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4317_CAIN_S1012_TPS[+80]IQPSLLPHAAPFAK", 
+            "name": "CAIN_S1012_TPS[+80]IQPSLLPHAAPFAK", 
             "clust": 28, 
             "rank": 69, 
             "ini": 51, 
@@ -1102,7 +1102,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4343_DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
+            "name": "DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
             "clust": 23, 
             "rank": 0, 
             "ini": 50, 
@@ -1122,7 +1122,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4343_DDX48_S12_A[+42]TTATMATSGS[+80]AR", 
+            "name": "DDX48_S12_A[+42]TTATMATSGS[+80]AR", 
             "clust": 8, 
             "rank": 38, 
             "ini": 49, 
@@ -1142,7 +1142,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4382_LAP2_S306_HAS[+80]PILPITEFSDIPR", 
+            "name": "LAP2_S306_HAS[+80]PILPITEFSDIPR", 
             "clust": 15, 
             "rank": 60, 
             "ini": 48, 
@@ -1162,7 +1162,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4474_BAT2_S1219_LIPGPLS[+80]PVAR", 
+            "name": "BAT2_S1219_LIPGPLS[+80]PVAR", 
             "clust": 4, 
             "rank": 53, 
             "ini": 47, 
@@ -1182,7 +1182,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4499_FAS_S207_LGM[+16]LS[+80]PEGTC[+57]K", 
+            "name": "FAS_S207_LGM[+16]LS[+80]PEGTC[+57]K", 
             "clust": 12, 
             "rank": 64, 
             "ini": 46, 
@@ -1202,7 +1202,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4499_FAS_S207_LGMLS[+80]PEGTC[+57]K", 
+            "name": "FAS_S207_LGMLS[+80]PEGTC[+57]K", 
             "clust": 24, 
             "rank": 9, 
             "ini": 45, 
@@ -1222,7 +1222,7 @@
               1.0, 
               1.0
             ], 
-            "name": "461_FAM76B_S193_ISNLS[+80]PEEEQGLWK", 
+            "name": "FAM76B_S193_ISNLS[+80]PEEEQGLWK", 
             "clust": 69, 
             "rank": 35, 
             "ini": 44, 
@@ -1242,7 +1242,7 @@
               1.0, 
               1.0
             ], 
-            "name": "5073_PAK2_S2_S[+122]DNGELEDKPPAPPVR", 
+            "name": "PAK2_S2_S[+122]DNGELEDKPPAPPVR", 
             "clust": 70, 
             "rank": 30, 
             "ini": 43, 
@@ -1262,7 +1262,7 @@
               1.0, 
               1.0
             ], 
-            "name": "5473_MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYM[+16]APEVVNR", 
+            "name": "MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYM[+16]APEVVNR", 
             "clust": 54, 
             "rank": 24, 
             "ini": 42, 
@@ -1282,7 +1282,7 @@
               1.0, 
               1.0
             ], 
-            "name": "5473_MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYMAPEVVNR", 
+            "name": "MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYMAPEVVNR", 
             "clust": 59, 
             "rank": 14, 
             "ini": 41, 
@@ -1302,7 +1302,7 @@
               1.0, 
               1.0
             ], 
-            "name": "5715_C17orf85_S500_RPHS[+80]PEKAFSSNPVVR", 
+            "name": "C17orf85_S500_RPHS[+80]PEKAFSSNPVVR", 
             "clust": 53, 
             "rank": 39, 
             "ini": 40, 
@@ -1322,7 +1322,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6108_ATAD2_S327_KPNIFYSGPAS[+80]PARPR", 
+            "name": "ATAD2_S327_KPNIFYSGPAS[+80]PARPR", 
             "clust": 14, 
             "rank": 67, 
             "ini": 39, 
@@ -1342,7 +1342,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6244_KIAA1321_S652_NDS[+80]WGSFDLR", 
+            "name": "KIAA1321_S652_NDS[+80]WGSFDLR", 
             "clust": 60, 
             "rank": 12, 
             "ini": 38, 
@@ -1362,7 +1362,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6267_My038_S1179_LEVTEIVKPS[+80]PK", 
+            "name": "My038_S1179_LEVTEIVKPS[+80]PK", 
             "clust": 33, 
             "rank": 58, 
             "ini": 37, 
@@ -1382,7 +1382,7 @@
               1.0, 
               1.0
             ], 
-            "name": "628_CASC3_S265_YGS[+80]PPQRDPNWNGER", 
+            "name": "CASC3_S265_YGS[+80]PPQRDPNWNGER", 
             "clust": 61, 
             "rank": 22, 
             "ini": 36, 
@@ -1402,7 +1402,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6423_AD029_S105_QDDS[+80]PPRPIIGPALPPGFIK", 
+            "name": "AD029_S105_QDDS[+80]PPRPIIGPALPPGFIK", 
             "clust": 35, 
             "rank": 61, 
             "ini": 35, 
@@ -1422,7 +1422,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6550_CCNYL1_S344_SFS[+80]ADNFIGIQR", 
+            "name": "CCNYL1_S344_SFS[+80]ADNFIGIQR", 
             "clust": 47, 
             "rank": 42, 
             "ini": 34, 
@@ -1442,7 +1442,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6588_KIAA1991_S403_VLS[+80]PLIIK", 
+            "name": "KIAA1991_S403_VLS[+80]PLIIK", 
             "clust": 38, 
             "rank": 75, 
             "ini": 33, 
@@ -1462,7 +1462,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6615_TB7_S44_AGS[+80]PDVLR", 
+            "name": "TB7_S44_AGS[+80]PDVLR", 
             "clust": 52, 
             "rank": 31, 
             "ini": 32, 
@@ -1482,7 +1482,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6696_DDX54_S75_LGPGRPLPTFPTSEC[+57]TS[+80]DVEPDTR", 
+            "name": "DDX54_S75_LGPGRPLPTFPTSEC[+57]TS[+80]DVEPDTR", 
             "clust": 78, 
             "rank": 5, 
             "ini": 31, 
@@ -1502,7 +1502,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6776_A2D_S339_QGSGRES[+80]PSLASR", 
+            "name": "A2D_S339_QGSGRES[+80]PSLASR", 
             "clust": 74, 
             "rank": 15, 
             "ini": 30, 
@@ -1522,7 +1522,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6797_AGS1_S224_LAAPSVSHVS[+80]PR", 
+            "name": "AGS1_S224_LAAPSVSHVS[+80]PR", 
             "clust": 7, 
             "rank": 17, 
             "ini": 29, 
@@ -1542,7 +1542,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6902_BAF45D_S142_VDDDS[+80]LGEFPVTNSR", 
+            "name": "BAF45D_S142_VDDDS[+80]LGEFPVTNSR", 
             "clust": 46, 
             "rank": 47, 
             "ini": 28, 
@@ -1562,7 +1562,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6927_BAF155_S310_NEEPVRS[+80]PERR", 
+            "name": "BAF155_S310_NEEPVRS[+80]PERR", 
             "clust": 19, 
             "rank": 36, 
             "ini": 27, 
@@ -1582,7 +1582,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6978_CIN85_S230_S[+80]IEVENDFLPVEK", 
+            "name": "CIN85_S230_S[+80]IEVENDFLPVEK", 
             "clust": 20, 
             "rank": 34, 
             "ini": 26, 
@@ -1602,7 +1602,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7094_C13orf8_S405_TAPTLS[+80]PEHWK", 
+            "name": "C13orf8_S405_TAPTLS[+80]PEHWK", 
             "clust": 6, 
             "rank": 62, 
             "ini": 25, 
@@ -1622,7 +1622,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7168_ALS2_S483_RLS[+80]LPGLLSQVSPR", 
+            "name": "ALS2_S483_RLS[+80]LPGLLSQVSPR", 
             "clust": 29, 
             "rank": 76, 
             "ini": 24, 
@@ -1642,7 +1642,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7173_CAT53_S313_VLS[+80]PTAAKPSPFEGK", 
+            "name": "CAT53_S313_VLS[+80]PTAAKPSPFEGK", 
             "clust": 44, 
             "rank": 68, 
             "ini": 23, 
@@ -1662,7 +1662,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7210_HCA90_S774_SSDQPLTVPVS[+80]PK", 
+            "name": "HCA90_S774_SSDQPLTVPVS[+80]PK", 
             "clust": 16, 
             "rank": 72, 
             "ini": 22, 
@@ -1682,7 +1682,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7365_KIAA1844_S64_SDS[+80]PENKYSDSTGHSK", 
+            "name": "KIAA1844_S64_SDS[+80]PENKYSDSTGHSK", 
             "clust": 71, 
             "rank": 33, 
             "ini": 21, 
@@ -1702,7 +1702,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7518_KIAA1734_S515_S[+80]IPLSIK", 
+            "name": "KIAA1734_S515_S[+80]IPLSIK", 
             "clust": 5, 
             "rank": 46, 
             "ini": 20, 
@@ -1722,7 +1722,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7710_CDW2_S121_RLS[+80]QSDEDVIR", 
+            "name": "CDW2_S121_RLS[+80]QSDEDVIR", 
             "clust": 31, 
             "rank": 51, 
             "ini": 19, 
@@ -1742,7 +1742,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7849_NANS_S275_ALGS[+80]PTKQLLPC[+57]EMAC[+57]NEK", 
+            "name": "NANS_S275_ALGS[+80]PTKQLLPC[+57]EMAC[+57]NEK", 
             "clust": 48, 
             "rank": 49, 
             "ini": 18, 
@@ -1762,7 +1762,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7934_PP8000_S203_YLLGDAPVS[+80]PSSQK", 
+            "name": "PP8000_S203_YLLGDAPVS[+80]PSSQK", 
             "clust": 79, 
             "rank": 8, 
             "ini": 17, 
@@ -1782,7 +1782,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8115_LRWD1_S212_ANS[+80]PEKPPEAGAAHKPR", 
+            "name": "LRWD1_S212_ANS[+80]PEKPPEAGAAHKPR", 
             "clust": 1, 
             "rank": 50, 
             "ini": 16, 
@@ -1802,7 +1802,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8123_EPLIN_S362_SEVQQPVHPKPLS[+80]PDSR", 
+            "name": "EPLIN_S362_SEVQQPVHPKPLS[+80]PDSR", 
             "clust": 26, 
             "rank": 6, 
             "ini": 15, 
@@ -1822,7 +1822,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8124_EPLIN_S491_ETPHS[+80]PGVEDAPIAK", 
+            "name": "EPLIN_S491_ETPHS[+80]PGVEDAPIAK", 
             "clust": 3, 
             "rank": 40, 
             "ini": 14, 
@@ -1842,7 +1842,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8209_GPATC8_S1035_SQS[+80]PHYFR", 
+            "name": "GPATC8_S1035_SQS[+80]PHYFR", 
             "clust": 49, 
             "rank": 44, 
             "ini": 13, 
@@ -1862,7 +1862,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8380_HSPC075_S353_TQLWASEPGT[+80]PPLPTSLPSQNPILK", 
+            "name": "HSPC075_S353_TQLWASEPGT[+80]PPLPTSLPSQNPILK", 
             "clust": 41, 
             "rank": 71, 
             "ini": 12, 
@@ -1882,7 +1882,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8487_MAP3K2_S163_DRS[+80]SPPPGYIPDELHQVAR", 
+            "name": "MAP3K2_S163_DRS[+80]SPPPGYIPDELHQVAR", 
             "clust": 50, 
             "rank": 48, 
             "ini": 11, 
@@ -1902,7 +1902,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8498_THRAP3_S253_SPALKS[+80]PLQSVVVR", 
+            "name": "THRAP3_S253_SPALKS[+80]PLQSVVVR", 
             "clust": 10, 
             "rank": 41, 
             "ini": 10, 
@@ -1922,7 +1922,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8541_NOC2L_S56_SPDKPGGS[+80]PSASRR", 
+            "name": "NOC2L_S56_SPDKPGGS[+80]PSASRR", 
             "clust": 56, 
             "rank": 26, 
             "ini": 9, 
@@ -1942,7 +1942,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8567_DCAF1_S999_HLPS[+80]PPTLDSIITEYLR", 
+            "name": "DCAF1_S999_HLPS[+80]PPTLDSIITEYLR", 
             "clust": 39, 
             "rank": 78, 
             "ini": 8, 
@@ -1962,7 +1962,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8982_EMK1_T597_ST[+80]FHAGQLR", 
+            "name": "EMK1_T597_ST[+80]FHAGQLR", 
             "clust": 42, 
             "rank": 73, 
             "ini": 7, 
@@ -1982,7 +1982,7 @@
               1.0, 
               1.0
             ], 
-            "name": "901_SLC38A1_S52_S[+80]LTNSHLEKK", 
+            "name": "SLC38A1_S52_S[+80]LTNSHLEKK", 
             "clust": 76, 
             "rank": 1, 
             "ini": 6, 
@@ -2002,7 +2002,7 @@
               1.0, 
               1.0
             ], 
-            "name": "920_BAT2D1_S1546_SFS[+80]SQRPVDR", 
+            "name": "BAT2D1_S1546_SFS[+80]SQRPVDR", 
             "clust": 18, 
             "rank": 27, 
             "ini": 5, 
@@ -2022,7 +2022,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9285_CDC2_T161_VYT[+80]HEVVTLWYR", 
+            "name": "CDC2_T161_VYT[+80]HEVVTLWYR", 
             "clust": 17, 
             "rank": 79, 
             "ini": 4, 
@@ -2042,7 +2042,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9379_LAP2_T160_SST[+80]PLPTISSSAENTR", 
+            "name": "LAP2_T160_SST[+80]PLPTISSSAENTR", 
             "clust": 67, 
             "rank": 16, 
             "ini": 3, 
@@ -2062,7 +2062,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9561_PLEC1_T3893_QIT[+80]MEELVR", 
+            "name": "PLEC1_T3893_QIT[+80]MEELVR", 
             "clust": 27, 
             "rank": 65, 
             "ini": 2, 
@@ -2082,7 +2082,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9940_HSPC075_T1492_ALPQT[+80]PRPR", 
+            "name": "HSPC075_T1492_ALPQT[+80]PRPR", 
             "clust": 34, 
             "rank": 52, 
             "ini": 1, 
@@ -2208,7 +2208,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4343_DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
+            "name": "DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
             "clust": 36, 
             "rank": 0, 
             "ini": 50, 
@@ -2228,7 +2228,7 @@
               1.0, 
               1.0
             ], 
-            "name": "901_SLC38A1_S52_S[+80]LTNSHLEKK", 
+            "name": "SLC38A1_S52_S[+80]LTNSHLEKK", 
             "clust": 17, 
             "rank": 1, 
             "ini": 49, 
@@ -2248,7 +2248,7 @@
               1.0, 
               1.0
             ], 
-            "name": "296_AP1GBP1_S1075_SLS[+80]LGDKEISR", 
+            "name": "AP1GBP1_S1075_SLS[+80]LGDKEISR", 
             "clust": 14, 
             "rank": 2, 
             "ini": 48, 
@@ -2268,7 +2268,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1458_OCIA_S108_LENS[+80]PLGEALR", 
+            "name": "OCIA_S108_LENS[+80]PLGEALR", 
             "clust": 37, 
             "rank": 3, 
             "ini": 47, 
@@ -2288,7 +2288,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9285_CDC2_T161_VYT[+80]HEVVTLWYR", 
+            "name": "CDC2_T161_VYT[+80]HEVVTLWYR", 
             "clust": 48, 
             "rank": 49, 
             "ini": 46, 
@@ -2308,7 +2308,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8567_DCAF1_S999_HLPS[+80]PPTLDSIITEYLR", 
+            "name": "DCAF1_S999_HLPS[+80]PPTLDSIITEYLR", 
             "clust": 27, 
             "rank": 48, 
             "ini": 45, 
@@ -2328,7 +2328,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4000_FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
+            "name": "FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
             "clust": 30, 
             "rank": 47, 
             "ini": 44, 
@@ -2348,7 +2348,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7168_ALS2_S483_RLS[+80]LPGLLSQVSPR", 
+            "name": "ALS2_S483_RLS[+80]LPGLLSQVSPR", 
             "clust": 23, 
             "rank": 46, 
             "ini": 43, 
@@ -2368,7 +2368,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1953_RBM17_S222_S[+80]PTGPSNSFLANMGGTVAHK", 
+            "name": "RBM17_S222_S[+80]PTGPSNSFLANMGGTVAHK", 
             "clust": 3, 
             "rank": 4, 
             "ini": 42, 
@@ -2388,7 +2388,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6588_KIAA1991_S403_VLS[+80]PLIIK", 
+            "name": "KIAA1991_S403_VLS[+80]PLIIK", 
             "clust": 28, 
             "rank": 45, 
             "ini": 41, 
@@ -2408,7 +2408,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4262_RPL12_S38_IGPLGLS[+80]PK", 
+            "name": "RPL12_S38_IGPLGLS[+80]PK", 
             "clust": 43, 
             "rank": 44, 
             "ini": 40, 
@@ -2428,7 +2428,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6696_DDX54_S75_LGPGRPLPTFPTSEC[+57]TS[+80]DVEPDTR", 
+            "name": "DDX54_S75_LGPGRPLPTFPTSEC[+57]TS[+80]DVEPDTR", 
             "clust": 20, 
             "rank": 5, 
             "ini": 39, 
@@ -2448,7 +2448,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8123_EPLIN_S362_SEVQQPVHPKPLS[+80]PDSR", 
+            "name": "EPLIN_S362_SEVQQPVHPKPLS[+80]PDSR", 
             "clust": 39, 
             "rank": 6, 
             "ini": 38, 
@@ -2468,7 +2468,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8982_EMK1_T597_ST[+80]FHAGQLR", 
+            "name": "EMK1_T597_ST[+80]FHAGQLR", 
             "clust": 32, 
             "rank": 43, 
             "ini": 37, 
@@ -2488,7 +2488,7 @@
               1.0, 
               1.0
             ], 
-            "name": "343_RP11-373M8.1-002_S397_HRPS[+80]PPATPPPK", 
+            "name": "RP11-373M8.1-002_S397_HRPS[+80]PPATPPPK", 
             "clust": 4, 
             "rank": 7, 
             "ini": 36, 
@@ -2508,7 +2508,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7210_HCA90_S774_SSDQPLTVPVS[+80]PK", 
+            "name": "HCA90_S774_SSDQPLTVPVS[+80]PK", 
             "clust": 49, 
             "rank": 42, 
             "ini": 35, 
@@ -2528,7 +2528,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8380_HSPC075_S353_TQLWASEPGT[+80]PPLPTSLPSQNPILK", 
+            "name": "HSPC075_S353_TQLWASEPGT[+80]PPLPTSLPSQNPILK", 
             "clust": 25, 
             "rank": 41, 
             "ini": 34, 
@@ -2548,7 +2548,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7934_PP8000_S203_YLLGDAPVS[+80]PSSQK", 
+            "name": "PP8000_S203_YLLGDAPVS[+80]PSSQK", 
             "clust": 21, 
             "rank": 8, 
             "ini": 33, 
@@ -2568,7 +2568,7 @@
               1.0, 
               1.0
             ], 
-            "name": "381_C22orf9_S247_SLVGS[+80]WLK", 
+            "name": "C22orf9_S247_SLVGS[+80]WLK", 
             "clust": 31, 
             "rank": 40, 
             "ini": 32, 
@@ -2588,7 +2588,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4499_FAS_S207_LGMLS[+80]PEGTC[+57]K", 
+            "name": "FAS_S207_LGMLS[+80]PEGTC[+57]K", 
             "clust": 38, 
             "rank": 9, 
             "ini": 31, 
@@ -2608,7 +2608,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3738_KIF4_S801_TFS[+80]LTEVR", 
+            "name": "KIF4_S801_TFS[+80]LTEVR", 
             "clust": 40, 
             "rank": 10, 
             "ini": 30, 
@@ -2628,7 +2628,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3995_BRAF_S446_TLGRRDS[+80]SDDWEIPDGQITVGQR", 
+            "name": "BRAF_S446_TLGRRDS[+80]SDDWEIPDGQITVGQR", 
             "clust": 19, 
             "rank": 11, 
             "ini": 29, 
@@ -2648,7 +2648,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4317_CAIN_S1012_TPS[+80]IQPSLLPHAAPFAK", 
+            "name": "CAIN_S1012_TPS[+80]IQPSLLPHAAPFAK", 
             "clust": 24, 
             "rank": 39, 
             "ini": 28, 
@@ -2668,7 +2668,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6244_KIAA1321_S652_NDS[+80]WGSFDLR", 
+            "name": "KIAA1321_S652_NDS[+80]WGSFDLR", 
             "clust": 7, 
             "rank": 12, 
             "ini": 27, 
@@ -2688,7 +2688,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7173_CAT53_S313_VLS[+80]PTAAKPSPFEGK", 
+            "name": "CAT53_S313_VLS[+80]PTAAKPSPFEGK", 
             "clust": 33, 
             "rank": 38, 
             "ini": 26, 
@@ -2708,7 +2708,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6108_ATAD2_S327_KPNIFYSGPAS[+80]PARPR", 
+            "name": "ATAD2_S327_KPNIFYSGPAS[+80]PARPR", 
             "clust": 45, 
             "rank": 37, 
             "ini": 25, 
@@ -2728,7 +2728,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1024_ISPK1_S369_TPKDS[+80]PGIPPSANAHQLFR", 
+            "name": "ISPK1_S369_TPKDS[+80]PGIPPSANAHQLFR", 
             "clust": 1, 
             "rank": 13, 
             "ini": 24, 
@@ -2748,7 +2748,7 @@
               1.0, 
               1.0
             ], 
-            "name": "5473_MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYMAPEVVNR", 
+            "name": "MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYMAPEVVNR", 
             "clust": 6, 
             "rank": 14, 
             "ini": 23, 
@@ -2768,7 +2768,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6776_A2D_S339_QGSGRES[+80]PSLASR", 
+            "name": "A2D_S339_QGSGRES[+80]PSLASR", 
             "clust": 15, 
             "rank": 15, 
             "ini": 22, 
@@ -2788,7 +2788,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9379_LAP2_T160_SST[+80]PLPTISSSAENTR", 
+            "name": "LAP2_T160_SST[+80]PLPTISSSAENTR", 
             "clust": 5, 
             "rank": 16, 
             "ini": 21, 
@@ -2808,7 +2808,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6797_AGS1_S224_LAAPSVSHVS[+80]PR", 
+            "name": "AGS1_S224_LAAPSVSHVS[+80]PR", 
             "clust": 41, 
             "rank": 17, 
             "ini": 20, 
@@ -2828,7 +2828,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3555_BRD4_S1117_IHS[+80]PIIR", 
+            "name": "BRD4_S1117_IHS[+80]PIIR", 
             "clust": 2, 
             "rank": 18, 
             "ini": 19, 
@@ -2848,7 +2848,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3435_MAP3K7_S439_S[+80]IQDLTVTGTEPGQVSSR", 
+            "name": "MAP3K7_S439_S[+80]IQDLTVTGTEPGQVSSR", 
             "clust": 16, 
             "rank": 19, 
             "ini": 18, 
@@ -2868,7 +2868,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3604_KIAA0722_S556_LHS[+80]APNLSDLHVVRPK", 
+            "name": "KIAA0722_S556_LHS[+80]APNLSDLHVVRPK", 
             "clust": 26, 
             "rank": 36, 
             "ini": 17, 
@@ -2888,7 +2888,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1797_WDR20_S465_SNS[+80]LPHSAVSNAGSK", 
+            "name": "WDR20_S465_SNS[+80]LPHSAVSNAGSK", 
             "clust": 18, 
             "rank": 20, 
             "ini": 16, 
@@ -2908,7 +2908,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1503_PDK1_S241_ANS[+80]FVGTAQYVSPELLTEK", 
+            "name": "PDK1_S241_ANS[+80]FVGTAQYVSPELLTEK", 
             "clust": 11, 
             "rank": 21, 
             "ini": 15, 
@@ -2928,7 +2928,7 @@
               1.0, 
               1.0
             ], 
-            "name": "628_CASC3_S265_YGS[+80]PPQRDPNWNGER", 
+            "name": "CASC3_S265_YGS[+80]PPQRDPNWNGER", 
             "clust": 8, 
             "rank": 22, 
             "ini": 14, 
@@ -2948,7 +2948,7 @@
               1.0, 
               1.0
             ], 
-            "name": "151_ABI1_S184_TNPPTQKPPS[+80]PPMSGR", 
+            "name": "ABI1_S184_TNPPTQKPPS[+80]PPMSGR", 
             "clust": 12, 
             "rank": 23, 
             "ini": 13, 
@@ -2968,7 +2968,7 @@
               1.0, 
               1.0
             ], 
-            "name": "5473_MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYM[+16]APEVVNR", 
+            "name": "MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYM[+16]APEVVNR", 
             "clust": 9, 
             "rank": 24, 
             "ini": 12, 
@@ -2988,7 +2988,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9561_PLEC1_T3893_QIT[+80]MEELVR", 
+            "name": "PLEC1_T3893_QIT[+80]MEELVR", 
             "clust": 22, 
             "rank": 35, 
             "ini": 11, 
@@ -3008,7 +3008,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4499_FAS_S207_LGM[+16]LS[+80]PEGTC[+57]K", 
+            "name": "FAS_S207_LGM[+16]LS[+80]PEGTC[+57]K", 
             "clust": 44, 
             "rank": 34, 
             "ini": 10, 
@@ -3028,7 +3028,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1142_CTG26_S956_ANAS[+80]PQKPLDLK", 
+            "name": "CTG26_S956_ANAS[+80]PQKPLDLK", 
             "clust": 46, 
             "rank": 33, 
             "ini": 9, 
@@ -3048,7 +3048,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7094_C13orf8_S405_TAPTLS[+80]PEHWK", 
+            "name": "C13orf8_S405_TAPTLS[+80]PEHWK", 
             "clust": 42, 
             "rank": 32, 
             "ini": 8, 
@@ -3068,7 +3068,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6423_AD029_S105_QDDS[+80]PPRPIIGPALPPGFIK", 
+            "name": "AD029_S105_QDDS[+80]PPRPIIGPALPPGFIK", 
             "clust": 29, 
             "rank": 31, 
             "ini": 7, 
@@ -3088,7 +3088,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3013_ZC3H14_S515_DLVQPDKPAS[+80]PK", 
+            "name": "ZC3H14_S515_DLVQPDKPAS[+80]PK", 
             "clust": 0, 
             "rank": 25, 
             "ini": 6, 
@@ -3108,7 +3108,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4382_LAP2_S306_HAS[+80]PILPITEFSDIPR", 
+            "name": "LAP2_S306_HAS[+80]PILPITEFSDIPR", 
             "clust": 47, 
             "rank": 30, 
             "ini": 5, 
@@ -3128,7 +3128,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8541_NOC2L_S56_SPDKPGGS[+80]PSASRR", 
+            "name": "NOC2L_S56_SPDKPGGS[+80]PSASRR", 
             "clust": 10, 
             "rank": 26, 
             "ini": 4, 
@@ -3148,7 +3148,7 @@
               1.0, 
               1.0
             ], 
-            "name": "920_BAT2D1_S1546_SFS[+80]SQRPVDR", 
+            "name": "BAT2D1_S1546_SFS[+80]SQRPVDR", 
             "clust": 13, 
             "rank": 27, 
             "ini": 3, 
@@ -3168,7 +3168,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1078_ARM2_S87_RNS[+80]SEASSGDFLDLK", 
+            "name": "ARM2_S87_RNS[+80]SEASSGDFLDLK", 
             "clust": 35, 
             "rank": 28, 
             "ini": 2, 
@@ -3188,7 +3188,7 @@
               1.0, 
               1.0
             ], 
-            "name": "290_TMSL3_S2_S[+122]DKPDMAEIEKFDK", 
+            "name": "TMSL3_S2_S[+122]DKPDMAEIEKFDK", 
             "clust": 34, 
             "rank": 29, 
             "ini": 1, 
@@ -3314,7 +3314,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4343_DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
+            "name": "DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
             "clust": 0, 
             "rank": 0, 
             "ini": 20, 
@@ -3334,7 +3334,7 @@
               1.0, 
               1.0
             ], 
-            "name": "901_SLC38A1_S52_S[+80]LTNSHLEKK", 
+            "name": "SLC38A1_S52_S[+80]LTNSHLEKK", 
             "clust": 8, 
             "rank": 1, 
             "ini": 19, 
@@ -3354,7 +3354,7 @@
               1.0, 
               1.0
             ], 
-            "name": "296_AP1GBP1_S1075_SLS[+80]LGDKEISR", 
+            "name": "AP1GBP1_S1075_SLS[+80]LGDKEISR", 
             "clust": 9, 
             "rank": 2, 
             "ini": 18, 
@@ -3374,7 +3374,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1458_OCIA_S108_LENS[+80]PLGEALR", 
+            "name": "OCIA_S108_LENS[+80]PLGEALR", 
             "clust": 1, 
             "rank": 3, 
             "ini": 17, 
@@ -3394,7 +3394,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9285_CDC2_T161_VYT[+80]HEVVTLWYR", 
+            "name": "CDC2_T161_VYT[+80]HEVVTLWYR", 
             "clust": 18, 
             "rank": 19, 
             "ini": 16, 
@@ -3414,7 +3414,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8567_DCAF1_S999_HLPS[+80]PPTLDSIITEYLR", 
+            "name": "DCAF1_S999_HLPS[+80]PPTLDSIITEYLR", 
             "clust": 12, 
             "rank": 18, 
             "ini": 15, 
@@ -3434,7 +3434,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4000_FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
+            "name": "FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
             "clust": 14, 
             "rank": 17, 
             "ini": 14, 
@@ -3454,7 +3454,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7168_ALS2_S483_RLS[+80]LPGLLSQVSPR", 
+            "name": "ALS2_S483_RLS[+80]LPGLLSQVSPR", 
             "clust": 10, 
             "rank": 16, 
             "ini": 13, 
@@ -3474,7 +3474,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1953_RBM17_S222_S[+80]PTGPSNSFLANMGGTVAHK", 
+            "name": "RBM17_S222_S[+80]PTGPSNSFLANMGGTVAHK", 
             "clust": 4, 
             "rank": 4, 
             "ini": 12, 
@@ -3494,7 +3494,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6588_KIAA1991_S403_VLS[+80]PLIIK", 
+            "name": "KIAA1991_S403_VLS[+80]PLIIK", 
             "clust": 13, 
             "rank": 15, 
             "ini": 11, 
@@ -3514,7 +3514,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4262_RPL12_S38_IGPLGLS[+80]PK", 
+            "name": "RPL12_S38_IGPLGLS[+80]PK", 
             "clust": 17, 
             "rank": 14, 
             "ini": 10, 
@@ -3534,7 +3534,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6696_DDX54_S75_LGPGRPLPTFPTSEC[+57]TS[+80]DVEPDTR", 
+            "name": "DDX54_S75_LGPGRPLPTFPTSEC[+57]TS[+80]DVEPDTR", 
             "clust": 6, 
             "rank": 5, 
             "ini": 9, 
@@ -3554,7 +3554,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8123_EPLIN_S362_SEVQQPVHPKPLS[+80]PDSR", 
+            "name": "EPLIN_S362_SEVQQPVHPKPLS[+80]PDSR", 
             "clust": 2, 
             "rank": 6, 
             "ini": 8, 
@@ -3574,7 +3574,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8982_EMK1_T597_ST[+80]FHAGQLR", 
+            "name": "EMK1_T597_ST[+80]FHAGQLR", 
             "clust": 16, 
             "rank": 13, 
             "ini": 7, 
@@ -3594,7 +3594,7 @@
               1.0, 
               1.0
             ], 
-            "name": "343_RP11-373M8.1-002_S397_HRPS[+80]PPATPPPK", 
+            "name": "RP11-373M8.1-002_S397_HRPS[+80]PPATPPPK", 
             "clust": 5, 
             "rank": 7, 
             "ini": 6, 
@@ -3614,7 +3614,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7210_HCA90_S774_SSDQPLTVPVS[+80]PK", 
+            "name": "HCA90_S774_SSDQPLTVPVS[+80]PK", 
             "clust": 19, 
             "rank": 12, 
             "ini": 5, 
@@ -3634,7 +3634,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8380_HSPC075_S353_TQLWASEPGT[+80]PPLPTSLPSQNPILK", 
+            "name": "HSPC075_S353_TQLWASEPGT[+80]PPLPTSLPSQNPILK", 
             "clust": 11, 
             "rank": 11, 
             "ini": 4, 
@@ -3654,7 +3654,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7934_PP8000_S203_YLLGDAPVS[+80]PSSQK", 
+            "name": "PP8000_S203_YLLGDAPVS[+80]PSSQK", 
             "clust": 7, 
             "rank": 8, 
             "ini": 3, 
@@ -3674,7 +3674,7 @@
               1.0, 
               1.0
             ], 
-            "name": "381_C22orf9_S247_SLVGS[+80]WLK", 
+            "name": "C22orf9_S247_SLVGS[+80]WLK", 
             "clust": 15, 
             "rank": 10, 
             "ini": 2, 
@@ -3694,7 +3694,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4499_FAS_S207_LGMLS[+80]PEGTC[+57]K", 
+            "name": "FAS_S207_LGMLS[+80]PEGTC[+57]K", 
             "clust": 3, 
             "rank": 9, 
             "ini": 1, 
@@ -3820,7 +3820,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4343_DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
+            "name": "DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
             "clust": 0, 
             "rank": 0, 
             "ini": 10, 
@@ -3840,7 +3840,7 @@
               1.0, 
               1.0
             ], 
-            "name": "901_SLC38A1_S52_S[+80]LTNSHLEKK", 
+            "name": "SLC38A1_S52_S[+80]LTNSHLEKK", 
             "clust": 3, 
             "rank": 1, 
             "ini": 9, 
@@ -3860,7 +3860,7 @@
               1.0, 
               1.0
             ], 
-            "name": "296_AP1GBP1_S1075_SLS[+80]LGDKEISR", 
+            "name": "AP1GBP1_S1075_SLS[+80]LGDKEISR", 
             "clust": 4, 
             "rank": 2, 
             "ini": 8, 
@@ -3880,7 +3880,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1458_OCIA_S108_LENS[+80]PLGEALR", 
+            "name": "OCIA_S108_LENS[+80]PLGEALR", 
             "clust": 1, 
             "rank": 3, 
             "ini": 7, 
@@ -3900,7 +3900,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9285_CDC2_T161_VYT[+80]HEVVTLWYR", 
+            "name": "CDC2_T161_VYT[+80]HEVVTLWYR", 
             "clust": 5, 
             "rank": 9, 
             "ini": 6, 
@@ -3920,7 +3920,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8567_DCAF1_S999_HLPS[+80]PPTLDSIITEYLR", 
+            "name": "DCAF1_S999_HLPS[+80]PPTLDSIITEYLR", 
             "clust": 8, 
             "rank": 8, 
             "ini": 5, 
@@ -3940,7 +3940,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4000_FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
+            "name": "FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
             "clust": 7, 
             "rank": 7, 
             "ini": 4, 
@@ -3960,7 +3960,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7168_ALS2_S483_RLS[+80]LPGLLSQVSPR", 
+            "name": "ALS2_S483_RLS[+80]LPGLLSQVSPR", 
             "clust": 6, 
             "rank": 6, 
             "ini": 3, 
@@ -3980,7 +3980,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1953_RBM17_S222_S[+80]PTGPSNSFLANMGGTVAHK", 
+            "name": "RBM17_S222_S[+80]PTGPSNSFLANMGGTVAHK", 
             "clust": 2, 
             "rank": 4, 
             "ini": 2, 
@@ -4000,7 +4000,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6588_KIAA1991_S403_VLS[+80]PLIIK", 
+            "name": "KIAA1991_S403_VLS[+80]PLIIK", 
             "clust": 9, 
             "rank": 5, 
             "ini": 1, 
@@ -4125,7 +4125,7 @@
               1.0, 
               1.0
             ], 
-            "name": "10011_DYRK_Y321_IYQY[+80]IQSR", 
+            "name": "DYRK_Y321_IYQY[+80]IQSR", 
             "clust": 51, 
             "rank": 45, 
             "ini": 80, 
@@ -4145,7 +4145,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1024_ISPK1_S369_TPKDS[+80]PGIPPSANAHQLFR", 
+            "name": "ISPK1_S369_TPKDS[+80]PGIPPSANAHQLFR", 
             "clust": 63, 
             "rank": 13, 
             "ini": 79, 
@@ -4165,7 +4165,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1078_ARM2_S87_RNS[+80]SEASSGDFLDLK", 
+            "name": "ARM2_S87_RNS[+80]SEASSGDFLDLK", 
             "clust": 21, 
             "rank": 28, 
             "ini": 78, 
@@ -4185,7 +4185,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1130_HSPC216_S321_LPLVPES[+80]PRR", 
+            "name": "HSPC216_S321_LPLVPES[+80]PRR", 
             "clust": 2, 
             "rank": 54, 
             "ini": 77, 
@@ -4205,7 +4205,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1142_CTG26_S956_ANAS[+80]PQKPLDLK", 
+            "name": "CTG26_S956_ANAS[+80]PQKPLDLK", 
             "clust": 13, 
             "rank": 63, 
             "ini": 76, 
@@ -4225,7 +4225,7 @@
               1.0, 
               1.0
             ], 
-            "name": "12_KIAA0701_S935_SMS[+80]VDLSHIPLKDPLLFK", 
+            "name": "KIAA0701_S935_SMS[+80]VDLSHIPLKDPLLFK", 
             "clust": 30, 
             "rank": 56, 
             "ini": 75, 
@@ -4245,7 +4245,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1458_OCIA_S108_LENS[+80]PLGEALR", 
+            "name": "OCIA_S108_LENS[+80]PLGEALR", 
             "clust": 22, 
             "rank": 3, 
             "ini": 74, 
@@ -4265,7 +4265,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1503_PDK1_S241_ANS[+80]FVGTAQYVSPELLTEK", 
+            "name": "PDK1_S241_ANS[+80]FVGTAQYVSPELLTEK", 
             "clust": 57, 
             "rank": 21, 
             "ini": 73, 
@@ -4285,7 +4285,7 @@
               1.0, 
               1.0
             ], 
-            "name": "151_ABI1_S184_TNPPTQKPPS[+80]PPMSGR", 
+            "name": "ABI1_S184_TNPPTQKPPS[+80]PPMSGR", 
             "clust": 58, 
             "rank": 23, 
             "ini": 72, 
@@ -4305,7 +4305,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1797_WDR20_S465_SNS[+80]LPHSAVSNAGSK", 
+            "name": "WDR20_S465_SNS[+80]LPHSAVSNAGSK", 
             "clust": 75, 
             "rank": 20, 
             "ini": 71, 
@@ -4325,7 +4325,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1811_MAP4_S2218_VGS[+80]LDNVGHLPAGGAVK", 
+            "name": "MAP4_S2218_VGS[+80]LDNVGHLPAGGAVK", 
             "clust": 55, 
             "rank": 29, 
             "ini": 70, 
@@ -4345,7 +4345,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1953_RBM17_S222_S[+80]PTGPSNSFLANMGGTVAHK", 
+            "name": "RBM17_S222_S[+80]PTGPSNSFLANMGGTVAHK", 
             "clust": 65, 
             "rank": 4, 
             "ini": 69, 
@@ -4365,7 +4365,7 @@
               1.0, 
               1.0
             ], 
-            "name": "2577_C9orf88_S692_AAPEAS[+80]SPPASPLQHLLPGK", 
+            "name": "C9orf88_S692_AAPEAS[+80]SPPASPLQHLLPGK", 
             "clust": 0, 
             "rank": 57, 
             "ini": 68, 
@@ -4385,7 +4385,7 @@
               1.0, 
               1.0
             ], 
-            "name": "290_TMSL3_S2_S[+122]DKPDMAEIEKFDK", 
+            "name": "TMSL3_S2_S[+122]DKPDMAEIEKFDK", 
             "clust": 43, 
             "rank": 59, 
             "ini": 67, 
@@ -4405,7 +4405,7 @@
               1.0, 
               1.0
             ], 
-            "name": "296_AP1GBP1_S1075_SLS[+80]LGDKEISR", 
+            "name": "AP1GBP1_S1075_SLS[+80]LGDKEISR", 
             "clust": 72, 
             "rank": 2, 
             "ini": 66, 
@@ -4425,7 +4425,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3013_ZC3H14_S515_DLVQPDKPAS[+80]PK", 
+            "name": "ZC3H14_S515_DLVQPDKPAS[+80]PK", 
             "clust": 62, 
             "rank": 25, 
             "ini": 65, 
@@ -4445,7 +4445,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3145_PFKF_S386_S[+80]FAGNLNTYKR", 
+            "name": "PFKF_S386_S[+80]FAGNLNTYKR", 
             "clust": 45, 
             "rank": 43, 
             "ini": 64, 
@@ -4465,7 +4465,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3169_KIAA0217_S601_SPS[+80]PAHLPDDPKVAEK", 
+            "name": "KIAA0217_S601_SPS[+80]PAHLPDDPKVAEK", 
             "clust": 68, 
             "rank": 32, 
             "ini": 63, 
@@ -4485,7 +4485,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3435_MAP3K7_S439_S[+80]IQDLTVTGTEPGQVSSR", 
+            "name": "MAP3K7_S439_S[+80]IQDLTVTGTEPGQVSSR", 
             "clust": 73, 
             "rank": 19, 
             "ini": 62, 
@@ -4505,7 +4505,7 @@
               1.0, 
               1.0
             ], 
-            "name": "343_RP11-373M8.1-002_S397_HRPS[+80]PPATPPPK", 
+            "name": "RP11-373M8.1-002_S397_HRPS[+80]PPATPPPK", 
             "clust": 66, 
             "rank": 7, 
             "ini": 61, 
@@ -4525,7 +4525,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3555_BRD4_S1117_IHS[+80]PIIR", 
+            "name": "BRD4_S1117_IHS[+80]PIIR", 
             "clust": 64, 
             "rank": 18, 
             "ini": 60, 
@@ -4545,7 +4545,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3604_KIAA0722_S556_LHS[+80]APNLSDLHVVRPK", 
+            "name": "KIAA0722_S556_LHS[+80]APNLSDLHVVRPK", 
             "clust": 40, 
             "rank": 66, 
             "ini": 59, 
@@ -4565,7 +4565,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3738_KIF4_S801_TFS[+80]LTEVR", 
+            "name": "KIF4_S801_TFS[+80]LTEVR", 
             "clust": 25, 
             "rank": 10, 
             "ini": 58, 
@@ -4585,7 +4585,7 @@
               1.0, 
               1.0
             ], 
-            "name": "381_C22orf9_S247_SLVGS[+80]WLK", 
+            "name": "C22orf9_S247_SLVGS[+80]WLK", 
             "clust": 36, 
             "rank": 70, 
             "ini": 57, 
@@ -4605,7 +4605,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3995_BRAF_S446_TLGRRDS[+80]SDDWEIPDGQITVGQR", 
+            "name": "BRAF_S446_TLGRRDS[+80]SDDWEIPDGQITVGQR", 
             "clust": 77, 
             "rank": 11, 
             "ini": 56, 
@@ -4625,7 +4625,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4000_FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
+            "name": "FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
             "clust": 37, 
             "rank": 77, 
             "ini": 55, 
@@ -4645,7 +4645,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4000_FOSL2_S200_S[+80]PPAPGLQPMR", 
+            "name": "FOSL2_S200_S[+80]PPAPGLQPMR", 
             "clust": 32, 
             "rank": 55, 
             "ini": 54, 
@@ -4665,7 +4665,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4054_JUND_S100_LAS[+80]PELER", 
+            "name": "JUND_S100_LAS[+80]PELER", 
             "clust": 9, 
             "rank": 37, 
             "ini": 53, 
@@ -4685,7 +4685,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4262_RPL12_S38_IGPLGLS[+80]PK", 
+            "name": "RPL12_S38_IGPLGLS[+80]PK", 
             "clust": 11, 
             "rank": 74, 
             "ini": 52, 
@@ -4705,7 +4705,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4317_CAIN_S1012_TPS[+80]IQPSLLPHAAPFAK", 
+            "name": "CAIN_S1012_TPS[+80]IQPSLLPHAAPFAK", 
             "clust": 28, 
             "rank": 69, 
             "ini": 51, 
@@ -4725,7 +4725,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4343_DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
+            "name": "DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
             "clust": 23, 
             "rank": 0, 
             "ini": 50, 
@@ -4745,7 +4745,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4343_DDX48_S12_A[+42]TTATMATSGS[+80]AR", 
+            "name": "DDX48_S12_A[+42]TTATMATSGS[+80]AR", 
             "clust": 8, 
             "rank": 38, 
             "ini": 49, 
@@ -4765,7 +4765,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4382_LAP2_S306_HAS[+80]PILPITEFSDIPR", 
+            "name": "LAP2_S306_HAS[+80]PILPITEFSDIPR", 
             "clust": 15, 
             "rank": 60, 
             "ini": 48, 
@@ -4785,7 +4785,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4474_BAT2_S1219_LIPGPLS[+80]PVAR", 
+            "name": "BAT2_S1219_LIPGPLS[+80]PVAR", 
             "clust": 4, 
             "rank": 53, 
             "ini": 47, 
@@ -4805,7 +4805,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4499_FAS_S207_LGM[+16]LS[+80]PEGTC[+57]K", 
+            "name": "FAS_S207_LGM[+16]LS[+80]PEGTC[+57]K", 
             "clust": 12, 
             "rank": 64, 
             "ini": 46, 
@@ -4825,7 +4825,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4499_FAS_S207_LGMLS[+80]PEGTC[+57]K", 
+            "name": "FAS_S207_LGMLS[+80]PEGTC[+57]K", 
             "clust": 24, 
             "rank": 9, 
             "ini": 45, 
@@ -4845,7 +4845,7 @@
               1.0, 
               1.0
             ], 
-            "name": "461_FAM76B_S193_ISNLS[+80]PEEEQGLWK", 
+            "name": "FAM76B_S193_ISNLS[+80]PEEEQGLWK", 
             "clust": 69, 
             "rank": 35, 
             "ini": 44, 
@@ -4865,7 +4865,7 @@
               1.0, 
               1.0
             ], 
-            "name": "5073_PAK2_S2_S[+122]DNGELEDKPPAPPVR", 
+            "name": "PAK2_S2_S[+122]DNGELEDKPPAPPVR", 
             "clust": 70, 
             "rank": 30, 
             "ini": 43, 
@@ -4885,7 +4885,7 @@
               1.0, 
               1.0
             ], 
-            "name": "5473_MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYM[+16]APEVVNR", 
+            "name": "MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYM[+16]APEVVNR", 
             "clust": 54, 
             "rank": 24, 
             "ini": 42, 
@@ -4905,7 +4905,7 @@
               1.0, 
               1.0
             ], 
-            "name": "5473_MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYMAPEVVNR", 
+            "name": "MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYMAPEVVNR", 
             "clust": 59, 
             "rank": 14, 
             "ini": 41, 
@@ -4925,7 +4925,7 @@
               1.0, 
               1.0
             ], 
-            "name": "5715_C17orf85_S500_RPHS[+80]PEKAFSSNPVVR", 
+            "name": "C17orf85_S500_RPHS[+80]PEKAFSSNPVVR", 
             "clust": 53, 
             "rank": 39, 
             "ini": 40, 
@@ -4945,7 +4945,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6108_ATAD2_S327_KPNIFYSGPAS[+80]PARPR", 
+            "name": "ATAD2_S327_KPNIFYSGPAS[+80]PARPR", 
             "clust": 14, 
             "rank": 67, 
             "ini": 39, 
@@ -4965,7 +4965,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6244_KIAA1321_S652_NDS[+80]WGSFDLR", 
+            "name": "KIAA1321_S652_NDS[+80]WGSFDLR", 
             "clust": 60, 
             "rank": 12, 
             "ini": 38, 
@@ -4985,7 +4985,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6267_My038_S1179_LEVTEIVKPS[+80]PK", 
+            "name": "My038_S1179_LEVTEIVKPS[+80]PK", 
             "clust": 33, 
             "rank": 58, 
             "ini": 37, 
@@ -5005,7 +5005,7 @@
               1.0, 
               1.0
             ], 
-            "name": "628_CASC3_S265_YGS[+80]PPQRDPNWNGER", 
+            "name": "CASC3_S265_YGS[+80]PPQRDPNWNGER", 
             "clust": 61, 
             "rank": 22, 
             "ini": 36, 
@@ -5025,7 +5025,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6423_AD029_S105_QDDS[+80]PPRPIIGPALPPGFIK", 
+            "name": "AD029_S105_QDDS[+80]PPRPIIGPALPPGFIK", 
             "clust": 35, 
             "rank": 61, 
             "ini": 35, 
@@ -5045,7 +5045,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6550_CCNYL1_S344_SFS[+80]ADNFIGIQR", 
+            "name": "CCNYL1_S344_SFS[+80]ADNFIGIQR", 
             "clust": 47, 
             "rank": 42, 
             "ini": 34, 
@@ -5065,7 +5065,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6588_KIAA1991_S403_VLS[+80]PLIIK", 
+            "name": "KIAA1991_S403_VLS[+80]PLIIK", 
             "clust": 38, 
             "rank": 75, 
             "ini": 33, 
@@ -5085,7 +5085,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6615_TB7_S44_AGS[+80]PDVLR", 
+            "name": "TB7_S44_AGS[+80]PDVLR", 
             "clust": 52, 
             "rank": 31, 
             "ini": 32, 
@@ -5105,7 +5105,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6696_DDX54_S75_LGPGRPLPTFPTSEC[+57]TS[+80]DVEPDTR", 
+            "name": "DDX54_S75_LGPGRPLPTFPTSEC[+57]TS[+80]DVEPDTR", 
             "clust": 78, 
             "rank": 5, 
             "ini": 31, 
@@ -5125,7 +5125,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6776_A2D_S339_QGSGRES[+80]PSLASR", 
+            "name": "A2D_S339_QGSGRES[+80]PSLASR", 
             "clust": 74, 
             "rank": 15, 
             "ini": 30, 
@@ -5145,7 +5145,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6797_AGS1_S224_LAAPSVSHVS[+80]PR", 
+            "name": "AGS1_S224_LAAPSVSHVS[+80]PR", 
             "clust": 7, 
             "rank": 17, 
             "ini": 29, 
@@ -5165,7 +5165,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6902_BAF45D_S142_VDDDS[+80]LGEFPVTNSR", 
+            "name": "BAF45D_S142_VDDDS[+80]LGEFPVTNSR", 
             "clust": 46, 
             "rank": 47, 
             "ini": 28, 
@@ -5185,7 +5185,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6927_BAF155_S310_NEEPVRS[+80]PERR", 
+            "name": "BAF155_S310_NEEPVRS[+80]PERR", 
             "clust": 19, 
             "rank": 36, 
             "ini": 27, 
@@ -5205,7 +5205,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6978_CIN85_S230_S[+80]IEVENDFLPVEK", 
+            "name": "CIN85_S230_S[+80]IEVENDFLPVEK", 
             "clust": 20, 
             "rank": 34, 
             "ini": 26, 
@@ -5225,7 +5225,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7094_C13orf8_S405_TAPTLS[+80]PEHWK", 
+            "name": "C13orf8_S405_TAPTLS[+80]PEHWK", 
             "clust": 6, 
             "rank": 62, 
             "ini": 25, 
@@ -5245,7 +5245,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7168_ALS2_S483_RLS[+80]LPGLLSQVSPR", 
+            "name": "ALS2_S483_RLS[+80]LPGLLSQVSPR", 
             "clust": 29, 
             "rank": 76, 
             "ini": 24, 
@@ -5265,7 +5265,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7173_CAT53_S313_VLS[+80]PTAAKPSPFEGK", 
+            "name": "CAT53_S313_VLS[+80]PTAAKPSPFEGK", 
             "clust": 44, 
             "rank": 68, 
             "ini": 23, 
@@ -5285,7 +5285,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7210_HCA90_S774_SSDQPLTVPVS[+80]PK", 
+            "name": "HCA90_S774_SSDQPLTVPVS[+80]PK", 
             "clust": 16, 
             "rank": 72, 
             "ini": 22, 
@@ -5305,7 +5305,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7365_KIAA1844_S64_SDS[+80]PENKYSDSTGHSK", 
+            "name": "KIAA1844_S64_SDS[+80]PENKYSDSTGHSK", 
             "clust": 71, 
             "rank": 33, 
             "ini": 21, 
@@ -5325,7 +5325,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7518_KIAA1734_S515_S[+80]IPLSIK", 
+            "name": "KIAA1734_S515_S[+80]IPLSIK", 
             "clust": 5, 
             "rank": 46, 
             "ini": 20, 
@@ -5345,7 +5345,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7710_CDW2_S121_RLS[+80]QSDEDVIR", 
+            "name": "CDW2_S121_RLS[+80]QSDEDVIR", 
             "clust": 31, 
             "rank": 51, 
             "ini": 19, 
@@ -5365,7 +5365,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7849_NANS_S275_ALGS[+80]PTKQLLPC[+57]EMAC[+57]NEK", 
+            "name": "NANS_S275_ALGS[+80]PTKQLLPC[+57]EMAC[+57]NEK", 
             "clust": 48, 
             "rank": 49, 
             "ini": 18, 
@@ -5385,7 +5385,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7934_PP8000_S203_YLLGDAPVS[+80]PSSQK", 
+            "name": "PP8000_S203_YLLGDAPVS[+80]PSSQK", 
             "clust": 79, 
             "rank": 8, 
             "ini": 17, 
@@ -5405,7 +5405,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8115_LRWD1_S212_ANS[+80]PEKPPEAGAAHKPR", 
+            "name": "LRWD1_S212_ANS[+80]PEKPPEAGAAHKPR", 
             "clust": 1, 
             "rank": 50, 
             "ini": 16, 
@@ -5425,7 +5425,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8123_EPLIN_S362_SEVQQPVHPKPLS[+80]PDSR", 
+            "name": "EPLIN_S362_SEVQQPVHPKPLS[+80]PDSR", 
             "clust": 26, 
             "rank": 6, 
             "ini": 15, 
@@ -5445,7 +5445,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8124_EPLIN_S491_ETPHS[+80]PGVEDAPIAK", 
+            "name": "EPLIN_S491_ETPHS[+80]PGVEDAPIAK", 
             "clust": 3, 
             "rank": 40, 
             "ini": 14, 
@@ -5465,7 +5465,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8209_GPATC8_S1035_SQS[+80]PHYFR", 
+            "name": "GPATC8_S1035_SQS[+80]PHYFR", 
             "clust": 49, 
             "rank": 44, 
             "ini": 13, 
@@ -5485,7 +5485,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8380_HSPC075_S353_TQLWASEPGT[+80]PPLPTSLPSQNPILK", 
+            "name": "HSPC075_S353_TQLWASEPGT[+80]PPLPTSLPSQNPILK", 
             "clust": 41, 
             "rank": 71, 
             "ini": 12, 
@@ -5505,7 +5505,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8487_MAP3K2_S163_DRS[+80]SPPPGYIPDELHQVAR", 
+            "name": "MAP3K2_S163_DRS[+80]SPPPGYIPDELHQVAR", 
             "clust": 50, 
             "rank": 48, 
             "ini": 11, 
@@ -5525,7 +5525,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8498_THRAP3_S253_SPALKS[+80]PLQSVVVR", 
+            "name": "THRAP3_S253_SPALKS[+80]PLQSVVVR", 
             "clust": 10, 
             "rank": 41, 
             "ini": 10, 
@@ -5545,7 +5545,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8541_NOC2L_S56_SPDKPGGS[+80]PSASRR", 
+            "name": "NOC2L_S56_SPDKPGGS[+80]PSASRR", 
             "clust": 56, 
             "rank": 26, 
             "ini": 9, 
@@ -5565,7 +5565,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8567_DCAF1_S999_HLPS[+80]PPTLDSIITEYLR", 
+            "name": "DCAF1_S999_HLPS[+80]PPTLDSIITEYLR", 
             "clust": 39, 
             "rank": 78, 
             "ini": 8, 
@@ -5585,7 +5585,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8982_EMK1_T597_ST[+80]FHAGQLR", 
+            "name": "EMK1_T597_ST[+80]FHAGQLR", 
             "clust": 42, 
             "rank": 73, 
             "ini": 7, 
@@ -5605,7 +5605,7 @@
               1.0, 
               1.0
             ], 
-            "name": "901_SLC38A1_S52_S[+80]LTNSHLEKK", 
+            "name": "SLC38A1_S52_S[+80]LTNSHLEKK", 
             "clust": 76, 
             "rank": 1, 
             "ini": 6, 
@@ -5625,7 +5625,7 @@
               1.0, 
               1.0
             ], 
-            "name": "920_BAT2D1_S1546_SFS[+80]SQRPVDR", 
+            "name": "BAT2D1_S1546_SFS[+80]SQRPVDR", 
             "clust": 18, 
             "rank": 27, 
             "ini": 5, 
@@ -5645,7 +5645,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9285_CDC2_T161_VYT[+80]HEVVTLWYR", 
+            "name": "CDC2_T161_VYT[+80]HEVVTLWYR", 
             "clust": 17, 
             "rank": 79, 
             "ini": 4, 
@@ -5665,7 +5665,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9379_LAP2_T160_SST[+80]PLPTISSSAENTR", 
+            "name": "LAP2_T160_SST[+80]PLPTISSSAENTR", 
             "clust": 67, 
             "rank": 16, 
             "ini": 3, 
@@ -5685,7 +5685,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9561_PLEC1_T3893_QIT[+80]MEELVR", 
+            "name": "PLEC1_T3893_QIT[+80]MEELVR", 
             "clust": 27, 
             "rank": 65, 
             "ini": 2, 
@@ -5705,7 +5705,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9940_HSPC075_T1492_ALPQT[+80]PRPR", 
+            "name": "HSPC075_T1492_ALPQT[+80]PRPR", 
             "clust": 34, 
             "rank": 52, 
             "ini": 1, 
@@ -5831,7 +5831,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4343_DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
+            "name": "DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
             "clust": 35, 
             "rank": 0, 
             "ini": 50, 
@@ -5851,7 +5851,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3738_KIF4_S801_TFS[+80]LTEVR", 
+            "name": "KIF4_S801_TFS[+80]LTEVR", 
             "clust": 38, 
             "rank": 7, 
             "ini": 49, 
@@ -5871,7 +5871,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9285_CDC2_T161_VYT[+80]HEVVTLWYR", 
+            "name": "CDC2_T161_VYT[+80]HEVVTLWYR", 
             "clust": 48, 
             "rank": 49, 
             "ini": 48, 
@@ -5891,7 +5891,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7210_HCA90_S774_SSDQPLTVPVS[+80]PK", 
+            "name": "HCA90_S774_SSDQPLTVPVS[+80]PK", 
             "clust": 49, 
             "rank": 44, 
             "ini": 47, 
@@ -5911,7 +5911,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8123_EPLIN_S362_SEVQQPVHPKPLS[+80]PDSR", 
+            "name": "EPLIN_S362_SEVQQPVHPKPLS[+80]PDSR", 
             "clust": 39, 
             "rank": 4, 
             "ini": 46, 
@@ -5931,7 +5931,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1458_OCIA_S108_LENS[+80]PLGEALR", 
+            "name": "OCIA_S108_LENS[+80]PLGEALR", 
             "clust": 36, 
             "rank": 2, 
             "ini": 45, 
@@ -5951,7 +5951,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4343_DDX48_S12_A[+42]TTATMATSGS[+80]AR", 
+            "name": "DDX48_S12_A[+42]TTATMATSGS[+80]AR", 
             "clust": 41, 
             "rank": 21, 
             "ini": 44, 
@@ -5971,7 +5971,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4382_LAP2_S306_HAS[+80]PILPITEFSDIPR", 
+            "name": "LAP2_S306_HAS[+80]PILPITEFSDIPR", 
             "clust": 47, 
             "rank": 38, 
             "ini": 43, 
@@ -5991,7 +5991,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6108_ATAD2_S327_KPNIFYSGPAS[+80]PARPR", 
+            "name": "ATAD2_S327_KPNIFYSGPAS[+80]PARPR", 
             "clust": 45, 
             "rank": 41, 
             "ini": 42, 
@@ -6011,7 +6011,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4000_FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
+            "name": "FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
             "clust": 24, 
             "rank": 47, 
             "ini": 41, 
@@ -6031,7 +6031,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6902_BAF45D_S142_VDDDS[+80]LGEFPVTNSR", 
+            "name": "BAF45D_S142_VDDDS[+80]LGEFPVTNSR", 
             "clust": 19, 
             "rank": 28, 
             "ini": 40, 
@@ -6051,7 +6051,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6797_AGS1_S224_LAAPSVSHVS[+80]PR", 
+            "name": "AGS1_S224_LAAPSVSHVS[+80]PR", 
             "clust": 40, 
             "rank": 10, 
             "ini": 39, 
@@ -6071,7 +6071,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1142_CTG26_S956_ANAS[+80]PQKPLDLK", 
+            "name": "CTG26_S956_ANAS[+80]PQKPLDLK", 
             "clust": 46, 
             "rank": 40, 
             "ini": 38, 
@@ -6091,7 +6091,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8124_EPLIN_S491_ETPHS[+80]PGVEDAPIAK", 
+            "name": "EPLIN_S491_ETPHS[+80]PGVEDAPIAK", 
             "clust": 30, 
             "rank": 23, 
             "ini": 37, 
@@ -6111,7 +6111,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8567_DCAF1_S999_HLPS[+80]PPTLDSIITEYLR", 
+            "name": "DCAF1_S999_HLPS[+80]PPTLDSIITEYLR", 
             "clust": 21, 
             "rank": 48, 
             "ini": 36, 
@@ -6131,7 +6131,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1953_RBM17_S222_S[+80]PTGPSNSFLANMGGTVAHK", 
+            "name": "RBM17_S222_S[+80]PTGPSNSFLANMGGTVAHK", 
             "clust": 16, 
             "rank": 3, 
             "ini": 35, 
@@ -6151,7 +6151,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6615_TB7_S44_AGS[+80]PDVLR", 
+            "name": "TB7_S44_AGS[+80]PDVLR", 
             "clust": 3, 
             "rank": 18, 
             "ini": 34, 
@@ -6171,7 +6171,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6927_BAF155_S310_NEEPVRS[+80]PERR", 
+            "name": "BAF155_S310_NEEPVRS[+80]PERR", 
             "clust": 33, 
             "rank": 19, 
             "ini": 33, 
@@ -6191,7 +6191,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4262_RPL12_S38_IGPLGLS[+80]PK", 
+            "name": "RPL12_S38_IGPLGLS[+80]PK", 
             "clust": 44, 
             "rank": 45, 
             "ini": 32, 
@@ -6211,7 +6211,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6550_CCNYL1_S344_SFS[+80]ADNFIGIQR", 
+            "name": "CCNYL1_S344_SFS[+80]ADNFIGIQR", 
             "clust": 5, 
             "rank": 25, 
             "ini": 31, 
@@ -6231,7 +6231,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4474_BAT2_S1219_LIPGPLS[+80]PVAR", 
+            "name": "BAT2_S1219_LIPGPLS[+80]PVAR", 
             "clust": 31, 
             "rank": 32, 
             "ini": 30, 
@@ -6251,7 +6251,7 @@
               1.0, 
               1.0
             ], 
-            "name": "381_C22orf9_S247_SLVGS[+80]WLK", 
+            "name": "C22orf9_S247_SLVGS[+80]WLK", 
             "clust": 25, 
             "rank": 42, 
             "ini": 29, 
@@ -6271,7 +6271,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8209_GPATC8_S1035_SQS[+80]PHYFR", 
+            "name": "GPATC8_S1035_SQS[+80]PHYFR", 
             "clust": 1, 
             "rank": 26, 
             "ini": 28, 
@@ -6291,7 +6291,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4054_JUND_S100_LAS[+80]PELER", 
+            "name": "JUND_S100_LAS[+80]PELER", 
             "clust": 42, 
             "rank": 20, 
             "ini": 27, 
@@ -6311,7 +6311,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6423_AD029_S105_QDDS[+80]PPRPIIGPALPPGFIK", 
+            "name": "AD029_S105_QDDS[+80]PPRPIIGPALPPGFIK", 
             "clust": 26, 
             "rank": 39, 
             "ini": 26, 
@@ -6331,7 +6331,7 @@
               1.0, 
               1.0
             ], 
-            "name": "343_RP11-373M8.1-002_S397_HRPS[+80]PPATPPPK", 
+            "name": "RP11-373M8.1-002_S397_HRPS[+80]PPATPPPK", 
             "clust": 17, 
             "rank": 5, 
             "ini": 25, 
@@ -6351,7 +6351,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8380_HSPC075_S353_TQLWASEPGT[+80]PPLPTSLPSQNPILK", 
+            "name": "HSPC075_S353_TQLWASEPGT[+80]PPLPTSLPSQNPILK", 
             "clust": 23, 
             "rank": 43, 
             "ini": 24, 
@@ -6371,7 +6371,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4499_FAS_S207_LGMLS[+80]PEGTC[+57]K", 
+            "name": "FAS_S207_LGMLS[+80]PEGTC[+57]K", 
             "clust": 37, 
             "rank": 6, 
             "ini": 23, 
@@ -6391,7 +6391,7 @@
               1.0, 
               1.0
             ], 
-            "name": "5473_MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYM[+16]APEVVNR", 
+            "name": "MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYM[+16]APEVVNR", 
             "clust": 7, 
             "rank": 14, 
             "ini": 22, 
@@ -6411,7 +6411,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6267_My038_S1179_LEVTEIVKPS[+80]PK", 
+            "name": "My038_S1179_LEVTEIVKPS[+80]PK", 
             "clust": 27, 
             "rank": 37, 
             "ini": 21, 
@@ -6431,7 +6431,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1130_HSPC216_S321_LPLVPES[+80]PRR", 
+            "name": "HSPC216_S321_LPLVPES[+80]PRR", 
             "clust": 32, 
             "rank": 33, 
             "ini": 20, 
@@ -6451,7 +6451,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6588_KIAA1991_S403_VLS[+80]PLIIK", 
+            "name": "KIAA1991_S403_VLS[+80]PLIIK", 
             "clust": 22, 
             "rank": 46, 
             "ini": 19, 
@@ -6471,7 +6471,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3555_BRD4_S1117_IHS[+80]PIIR", 
+            "name": "BRD4_S1117_IHS[+80]PIIR", 
             "clust": 15, 
             "rank": 11, 
             "ini": 18, 
@@ -6491,7 +6491,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1811_MAP4_S2218_VGS[+80]LDNVGHLPAGGAVK", 
+            "name": "MAP4_S2218_VGS[+80]LDNVGHLPAGGAVK", 
             "clust": 8, 
             "rank": 16, 
             "ini": 17, 
@@ -6511,7 +6511,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4000_FOSL2_S200_S[+80]PPAPGLQPMR", 
+            "name": "FOSL2_S200_S[+80]PPAPGLQPMR", 
             "clust": 28, 
             "rank": 34, 
             "ini": 16, 
@@ -6531,7 +6531,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8487_MAP3K2_S163_DRS[+80]SPPPGYIPDELHQVAR", 
+            "name": "MAP3K2_S163_DRS[+80]SPPPGYIPDELHQVAR", 
             "clust": 2, 
             "rank": 29, 
             "ini": 15, 
@@ -6551,7 +6551,7 @@
               1.0, 
               1.0
             ], 
-            "name": "901_SLC38A1_S52_S[+80]LTNSHLEKK", 
+            "name": "SLC38A1_S52_S[+80]LTNSHLEKK", 
             "clust": 10, 
             "rank": 1, 
             "ini": 14, 
@@ -6571,7 +6571,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8541_NOC2L_S56_SPDKPGGS[+80]PSASRR", 
+            "name": "NOC2L_S56_SPDKPGGS[+80]PSASRR", 
             "clust": 9, 
             "rank": 15, 
             "ini": 13, 
@@ -6591,7 +6591,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9379_LAP2_T160_SST[+80]PLPTISSSAENTR", 
+            "name": "LAP2_T160_SST[+80]PLPTISSSAENTR", 
             "clust": 18, 
             "rank": 9, 
             "ini": 12, 
@@ -6611,7 +6611,7 @@
               1.0, 
               1.0
             ], 
-            "name": "12_KIAA0701_S935_SMS[+80]VDLSHIPLKDPLLFK", 
+            "name": "KIAA0701_S935_SMS[+80]VDLSHIPLKDPLLFK", 
             "clust": 20, 
             "rank": 35, 
             "ini": 11, 
@@ -6631,7 +6631,7 @@
               1.0, 
               1.0
             ], 
-            "name": "5073_PAK2_S2_S[+122]DNGELEDKPPAPPVR", 
+            "name": "PAK2_S2_S[+122]DNGELEDKPPAPPVR", 
             "clust": 11, 
             "rank": 17, 
             "ini": 10, 
@@ -6651,7 +6651,7 @@
               1.0, 
               1.0
             ], 
-            "name": "10011_DYRK_Y321_IYQY[+80]IQSR", 
+            "name": "DYRK_Y321_IYQY[+80]IQSR", 
             "clust": 4, 
             "rank": 27, 
             "ini": 9, 
@@ -6671,7 +6671,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8498_THRAP3_S253_SPALKS[+80]PLQSVVVR", 
+            "name": "THRAP3_S253_SPALKS[+80]PLQSVVVR", 
             "clust": 43, 
             "rank": 24, 
             "ini": 8, 
@@ -6691,7 +6691,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1024_ISPK1_S369_TPKDS[+80]PGIPPSANAHQLFR", 
+            "name": "ISPK1_S369_TPKDS[+80]PGIPPSANAHQLFR", 
             "clust": 14, 
             "rank": 8, 
             "ini": 7, 
@@ -6711,7 +6711,7 @@
               1.0, 
               1.0
             ], 
-            "name": "2577_C9orf88_S692_AAPEAS[+80]SPPASPLQHLLPGK", 
+            "name": "C9orf88_S692_AAPEAS[+80]SPPASPLQHLLPGK", 
             "clust": 34, 
             "rank": 36, 
             "ini": 6, 
@@ -6731,7 +6731,7 @@
               1.0, 
               1.0
             ], 
-            "name": "151_ABI1_S184_TNPPTQKPPS[+80]PPMSGR", 
+            "name": "ABI1_S184_TNPPTQKPPS[+80]PPMSGR", 
             "clust": 12, 
             "rank": 13, 
             "ini": 5, 
@@ -6751,7 +6751,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1503_PDK1_S241_ANS[+80]FVGTAQYVSPELLTEK", 
+            "name": "PDK1_S241_ANS[+80]FVGTAQYVSPELLTEK", 
             "clust": 13, 
             "rank": 12, 
             "ini": 4, 
@@ -6771,7 +6771,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8115_LRWD1_S212_ANS[+80]PEKPPEAGAAHKPR", 
+            "name": "LRWD1_S212_ANS[+80]PEKPPEAGAAHKPR", 
             "clust": 29, 
             "rank": 31, 
             "ini": 3, 
@@ -6791,7 +6791,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7849_NANS_S275_ALGS[+80]PTKQLLPC[+57]EMAC[+57]NEK", 
+            "name": "NANS_S275_ALGS[+80]PTKQLLPC[+57]EMAC[+57]NEK", 
             "clust": 0, 
             "rank": 30, 
             "ini": 2, 
@@ -6811,7 +6811,7 @@
               1.0, 
               1.0
             ], 
-            "name": "5715_C17orf85_S500_RPHS[+80]PEKAFSSNPVVR", 
+            "name": "C17orf85_S500_RPHS[+80]PEKAFSSNPVVR", 
             "clust": 6, 
             "rank": 22, 
             "ini": 1, 
@@ -6937,7 +6937,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4343_DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
+            "name": "DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
             "clust": 8, 
             "rank": 0, 
             "ini": 20, 
@@ -6957,7 +6957,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3738_KIF4_S801_TFS[+80]LTEVR", 
+            "name": "KIF4_S801_TFS[+80]LTEVR", 
             "clust": 11, 
             "rank": 4, 
             "ini": 19, 
@@ -6977,7 +6977,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9285_CDC2_T161_VYT[+80]HEVVTLWYR", 
+            "name": "CDC2_T161_VYT[+80]HEVVTLWYR", 
             "clust": 18, 
             "rank": 19, 
             "ini": 18, 
@@ -6997,7 +6997,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7210_HCA90_S774_SSDQPLTVPVS[+80]PK", 
+            "name": "HCA90_S774_SSDQPLTVPVS[+80]PK", 
             "clust": 19, 
             "rank": 15, 
             "ini": 17, 
@@ -7017,7 +7017,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8123_EPLIN_S362_SEVQQPVHPKPLS[+80]PDSR", 
+            "name": "EPLIN_S362_SEVQQPVHPKPLS[+80]PDSR", 
             "clust": 12, 
             "rank": 3, 
             "ini": 16, 
@@ -7037,7 +7037,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1458_OCIA_S108_LENS[+80]PLGEALR", 
+            "name": "OCIA_S108_LENS[+80]PLGEALR", 
             "clust": 9, 
             "rank": 1, 
             "ini": 15, 
@@ -7057,7 +7057,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4343_DDX48_S12_A[+42]TTATMATSGS[+80]AR", 
+            "name": "DDX48_S12_A[+42]TTATMATSGS[+80]AR", 
             "clust": 10, 
             "rank": 8, 
             "ini": 14, 
@@ -7077,7 +7077,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4382_LAP2_S306_HAS[+80]PILPITEFSDIPR", 
+            "name": "LAP2_S306_HAS[+80]PILPITEFSDIPR", 
             "clust": 17, 
             "rank": 12, 
             "ini": 13, 
@@ -7097,7 +7097,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6108_ATAD2_S327_KPNIFYSGPAS[+80]PARPR", 
+            "name": "ATAD2_S327_KPNIFYSGPAS[+80]PARPR", 
             "clust": 15, 
             "rank": 14, 
             "ini": 12, 
@@ -7117,7 +7117,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4000_FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
+            "name": "FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
             "clust": 4, 
             "rank": 17, 
             "ini": 11, 
@@ -7137,7 +7137,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6902_BAF45D_S142_VDDDS[+80]LGEFPVTNSR", 
+            "name": "BAF45D_S142_VDDDS[+80]LGEFPVTNSR", 
             "clust": 3, 
             "rank": 11, 
             "ini": 10, 
@@ -7157,7 +7157,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6797_AGS1_S224_LAAPSVSHVS[+80]PR", 
+            "name": "AGS1_S224_LAAPSVSHVS[+80]PR", 
             "clust": 13, 
             "rank": 5, 
             "ini": 9, 
@@ -7177,7 +7177,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1142_CTG26_S956_ANAS[+80]PQKPLDLK", 
+            "name": "CTG26_S956_ANAS[+80]PQKPLDLK", 
             "clust": 16, 
             "rank": 13, 
             "ini": 8, 
@@ -7197,7 +7197,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8124_EPLIN_S491_ETPHS[+80]PGVEDAPIAK", 
+            "name": "EPLIN_S491_ETPHS[+80]PGVEDAPIAK", 
             "clust": 6, 
             "rank": 9, 
             "ini": 7, 
@@ -7217,7 +7217,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8567_DCAF1_S999_HLPS[+80]PPTLDSIITEYLR", 
+            "name": "DCAF1_S999_HLPS[+80]PPTLDSIITEYLR", 
             "clust": 5, 
             "rank": 18, 
             "ini": 6, 
@@ -7237,7 +7237,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1953_RBM17_S222_S[+80]PTGPSNSFLANMGGTVAHK", 
+            "name": "RBM17_S222_S[+80]PTGPSNSFLANMGGTVAHK", 
             "clust": 0, 
             "rank": 2, 
             "ini": 5, 
@@ -7257,7 +7257,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6615_TB7_S44_AGS[+80]PDVLR", 
+            "name": "TB7_S44_AGS[+80]PDVLR", 
             "clust": 1, 
             "rank": 6, 
             "ini": 4, 
@@ -7277,7 +7277,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6927_BAF155_S310_NEEPVRS[+80]PERR", 
+            "name": "BAF155_S310_NEEPVRS[+80]PERR", 
             "clust": 7, 
             "rank": 7, 
             "ini": 3, 
@@ -7297,7 +7297,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4262_RPL12_S38_IGPLGLS[+80]PK", 
+            "name": "RPL12_S38_IGPLGLS[+80]PK", 
             "clust": 14, 
             "rank": 16, 
             "ini": 2, 
@@ -7317,7 +7317,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6550_CCNYL1_S344_SFS[+80]ADNFIGIQR", 
+            "name": "CCNYL1_S344_SFS[+80]ADNFIGIQR", 
             "clust": 2, 
             "rank": 10, 
             "ini": 1, 
@@ -7443,7 +7443,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4343_DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
+            "name": "DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
             "clust": 5, 
             "rank": 0, 
             "ini": 10, 
@@ -7463,7 +7463,7 @@
               1.0, 
               1.0
             ], 
-            "name": "3738_KIF4_S801_TFS[+80]LTEVR", 
+            "name": "KIF4_S801_TFS[+80]LTEVR", 
             "clust": 8, 
             "rank": 3, 
             "ini": 9, 
@@ -7483,7 +7483,7 @@
               1.0, 
               1.0
             ], 
-            "name": "9285_CDC2_T161_VYT[+80]HEVVTLWYR", 
+            "name": "CDC2_T161_VYT[+80]HEVVTLWYR", 
             "clust": 3, 
             "rank": 9, 
             "ini": 8, 
@@ -7503,7 +7503,7 @@
               1.0, 
               1.0
             ], 
-            "name": "7210_HCA90_S774_SSDQPLTVPVS[+80]PK", 
+            "name": "HCA90_S774_SSDQPLTVPVS[+80]PK", 
             "clust": 4, 
             "rank": 7, 
             "ini": 7, 
@@ -7523,7 +7523,7 @@
               1.0, 
               1.0
             ], 
-            "name": "8123_EPLIN_S362_SEVQQPVHPKPLS[+80]PDSR", 
+            "name": "EPLIN_S362_SEVQQPVHPKPLS[+80]PDSR", 
             "clust": 9, 
             "rank": 2, 
             "ini": 6, 
@@ -7543,7 +7543,7 @@
               1.0, 
               1.0
             ], 
-            "name": "1458_OCIA_S108_LENS[+80]PLGEALR", 
+            "name": "OCIA_S108_LENS[+80]PLGEALR", 
             "clust": 6, 
             "rank": 1, 
             "ini": 5, 
@@ -7563,7 +7563,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4343_DDX48_S12_A[+42]TTATMATSGS[+80]AR", 
+            "name": "DDX48_S12_A[+42]TTATMATSGS[+80]AR", 
             "clust": 7, 
             "rank": 4, 
             "ini": 4, 
@@ -7583,7 +7583,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4382_LAP2_S306_HAS[+80]PILPITEFSDIPR", 
+            "name": "LAP2_S306_HAS[+80]PILPITEFSDIPR", 
             "clust": 2, 
             "rank": 5, 
             "ini": 3, 
@@ -7603,7 +7603,7 @@
               1.0, 
               1.0
             ], 
-            "name": "6108_ATAD2_S327_KPNIFYSGPAS[+80]PARPR", 
+            "name": "ATAD2_S327_KPNIFYSGPAS[+80]PARPR", 
             "clust": 1, 
             "rank": 6, 
             "ini": 2, 
@@ -7623,7 +7623,7 @@
               1.0, 
               1.0
             ], 
-            "name": "4000_FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
+            "name": "FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
             "clust": 0, 
             "rank": 8, 
             "ini": 1, 
@@ -7761,7 +7761,7 @@
         1.0, 
         1.0
       ], 
-      "name": "10011_DYRK_Y321_IYQY[+80]IQSR", 
+      "name": "DYRK_Y321_IYQY[+80]IQSR", 
       "clust": 51, 
       "rank": 45, 
       "ini": 80, 
@@ -7781,7 +7781,7 @@
         1.0, 
         1.0
       ], 
-      "name": "1024_ISPK1_S369_TPKDS[+80]PGIPPSANAHQLFR", 
+      "name": "ISPK1_S369_TPKDS[+80]PGIPPSANAHQLFR", 
       "clust": 63, 
       "rank": 13, 
       "ini": 79, 
@@ -7801,7 +7801,7 @@
         1.0, 
         1.0
       ], 
-      "name": "1078_ARM2_S87_RNS[+80]SEASSGDFLDLK", 
+      "name": "ARM2_S87_RNS[+80]SEASSGDFLDLK", 
       "clust": 21, 
       "rank": 28, 
       "ini": 78, 
@@ -7821,7 +7821,7 @@
         1.0, 
         1.0
       ], 
-      "name": "1130_HSPC216_S321_LPLVPES[+80]PRR", 
+      "name": "HSPC216_S321_LPLVPES[+80]PRR", 
       "clust": 2, 
       "rank": 54, 
       "ini": 77, 
@@ -7841,7 +7841,7 @@
         1.0, 
         1.0
       ], 
-      "name": "1142_CTG26_S956_ANAS[+80]PQKPLDLK", 
+      "name": "CTG26_S956_ANAS[+80]PQKPLDLK", 
       "clust": 13, 
       "rank": 63, 
       "ini": 76, 
@@ -7861,7 +7861,7 @@
         1.0, 
         1.0
       ], 
-      "name": "12_KIAA0701_S935_SMS[+80]VDLSHIPLKDPLLFK", 
+      "name": "KIAA0701_S935_SMS[+80]VDLSHIPLKDPLLFK", 
       "clust": 30, 
       "rank": 56, 
       "ini": 75, 
@@ -7881,7 +7881,7 @@
         1.0, 
         1.0
       ], 
-      "name": "1458_OCIA_S108_LENS[+80]PLGEALR", 
+      "name": "OCIA_S108_LENS[+80]PLGEALR", 
       "clust": 22, 
       "rank": 3, 
       "ini": 74, 
@@ -7901,7 +7901,7 @@
         1.0, 
         1.0
       ], 
-      "name": "1503_PDK1_S241_ANS[+80]FVGTAQYVSPELLTEK", 
+      "name": "PDK1_S241_ANS[+80]FVGTAQYVSPELLTEK", 
       "clust": 57, 
       "rank": 21, 
       "ini": 73, 
@@ -7921,7 +7921,7 @@
         1.0, 
         1.0
       ], 
-      "name": "151_ABI1_S184_TNPPTQKPPS[+80]PPMSGR", 
+      "name": "ABI1_S184_TNPPTQKPPS[+80]PPMSGR", 
       "clust": 58, 
       "rank": 23, 
       "ini": 72, 
@@ -7941,7 +7941,7 @@
         1.0, 
         1.0
       ], 
-      "name": "1797_WDR20_S465_SNS[+80]LPHSAVSNAGSK", 
+      "name": "WDR20_S465_SNS[+80]LPHSAVSNAGSK", 
       "clust": 75, 
       "rank": 20, 
       "ini": 71, 
@@ -7961,7 +7961,7 @@
         1.0, 
         1.0
       ], 
-      "name": "1811_MAP4_S2218_VGS[+80]LDNVGHLPAGGAVK", 
+      "name": "MAP4_S2218_VGS[+80]LDNVGHLPAGGAVK", 
       "clust": 55, 
       "rank": 29, 
       "ini": 70, 
@@ -7981,7 +7981,7 @@
         1.0, 
         1.0
       ], 
-      "name": "1953_RBM17_S222_S[+80]PTGPSNSFLANMGGTVAHK", 
+      "name": "RBM17_S222_S[+80]PTGPSNSFLANMGGTVAHK", 
       "clust": 65, 
       "rank": 4, 
       "ini": 69, 
@@ -8001,7 +8001,7 @@
         1.0, 
         1.0
       ], 
-      "name": "2577_C9orf88_S692_AAPEAS[+80]SPPASPLQHLLPGK", 
+      "name": "C9orf88_S692_AAPEAS[+80]SPPASPLQHLLPGK", 
       "clust": 0, 
       "rank": 57, 
       "ini": 68, 
@@ -8021,7 +8021,7 @@
         1.0, 
         1.0
       ], 
-      "name": "290_TMSL3_S2_S[+122]DKPDMAEIEKFDK", 
+      "name": "TMSL3_S2_S[+122]DKPDMAEIEKFDK", 
       "clust": 43, 
       "rank": 59, 
       "ini": 67, 
@@ -8041,7 +8041,7 @@
         1.0, 
         1.0
       ], 
-      "name": "296_AP1GBP1_S1075_SLS[+80]LGDKEISR", 
+      "name": "AP1GBP1_S1075_SLS[+80]LGDKEISR", 
       "clust": 72, 
       "rank": 2, 
       "ini": 66, 
@@ -8061,7 +8061,7 @@
         1.0, 
         1.0
       ], 
-      "name": "3013_ZC3H14_S515_DLVQPDKPAS[+80]PK", 
+      "name": "ZC3H14_S515_DLVQPDKPAS[+80]PK", 
       "clust": 62, 
       "rank": 25, 
       "ini": 65, 
@@ -8081,7 +8081,7 @@
         1.0, 
         1.0
       ], 
-      "name": "3145_PFKF_S386_S[+80]FAGNLNTYKR", 
+      "name": "PFKF_S386_S[+80]FAGNLNTYKR", 
       "clust": 45, 
       "rank": 43, 
       "ini": 64, 
@@ -8101,7 +8101,7 @@
         1.0, 
         1.0
       ], 
-      "name": "3169_KIAA0217_S601_SPS[+80]PAHLPDDPKVAEK", 
+      "name": "KIAA0217_S601_SPS[+80]PAHLPDDPKVAEK", 
       "clust": 68, 
       "rank": 32, 
       "ini": 63, 
@@ -8121,7 +8121,7 @@
         1.0, 
         1.0
       ], 
-      "name": "3435_MAP3K7_S439_S[+80]IQDLTVTGTEPGQVSSR", 
+      "name": "MAP3K7_S439_S[+80]IQDLTVTGTEPGQVSSR", 
       "clust": 73, 
       "rank": 19, 
       "ini": 62, 
@@ -8141,7 +8141,7 @@
         1.0, 
         1.0
       ], 
-      "name": "343_RP11-373M8.1-002_S397_HRPS[+80]PPATPPPK", 
+      "name": "RP11-373M8.1-002_S397_HRPS[+80]PPATPPPK", 
       "clust": 66, 
       "rank": 7, 
       "ini": 61, 
@@ -8161,7 +8161,7 @@
         1.0, 
         1.0
       ], 
-      "name": "3555_BRD4_S1117_IHS[+80]PIIR", 
+      "name": "BRD4_S1117_IHS[+80]PIIR", 
       "clust": 64, 
       "rank": 18, 
       "ini": 60, 
@@ -8181,7 +8181,7 @@
         1.0, 
         1.0
       ], 
-      "name": "3604_KIAA0722_S556_LHS[+80]APNLSDLHVVRPK", 
+      "name": "KIAA0722_S556_LHS[+80]APNLSDLHVVRPK", 
       "clust": 40, 
       "rank": 66, 
       "ini": 59, 
@@ -8201,7 +8201,7 @@
         1.0, 
         1.0
       ], 
-      "name": "3738_KIF4_S801_TFS[+80]LTEVR", 
+      "name": "KIF4_S801_TFS[+80]LTEVR", 
       "clust": 25, 
       "rank": 10, 
       "ini": 58, 
@@ -8221,7 +8221,7 @@
         1.0, 
         1.0
       ], 
-      "name": "381_C22orf9_S247_SLVGS[+80]WLK", 
+      "name": "C22orf9_S247_SLVGS[+80]WLK", 
       "clust": 36, 
       "rank": 70, 
       "ini": 57, 
@@ -8241,7 +8241,7 @@
         1.0, 
         1.0
       ], 
-      "name": "3995_BRAF_S446_TLGRRDS[+80]SDDWEIPDGQITVGQR", 
+      "name": "BRAF_S446_TLGRRDS[+80]SDDWEIPDGQITVGQR", 
       "clust": 77, 
       "rank": 11, 
       "ini": 56, 
@@ -8261,7 +8261,7 @@
         1.0, 
         1.0
       ], 
-      "name": "4000_FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
+      "name": "FOSL2_S200_S[+80]PPAPGLQPM[+16]R", 
       "clust": 37, 
       "rank": 77, 
       "ini": 55, 
@@ -8281,7 +8281,7 @@
         1.0, 
         1.0
       ], 
-      "name": "4000_FOSL2_S200_S[+80]PPAPGLQPMR", 
+      "name": "FOSL2_S200_S[+80]PPAPGLQPMR", 
       "clust": 32, 
       "rank": 55, 
       "ini": 54, 
@@ -8301,7 +8301,7 @@
         1.0, 
         1.0
       ], 
-      "name": "4054_JUND_S100_LAS[+80]PELER", 
+      "name": "JUND_S100_LAS[+80]PELER", 
       "clust": 9, 
       "rank": 37, 
       "ini": 53, 
@@ -8321,7 +8321,7 @@
         1.0, 
         1.0
       ], 
-      "name": "4262_RPL12_S38_IGPLGLS[+80]PK", 
+      "name": "RPL12_S38_IGPLGLS[+80]PK", 
       "clust": 11, 
       "rank": 74, 
       "ini": 52, 
@@ -8341,7 +8341,7 @@
         1.0, 
         1.0
       ], 
-      "name": "4317_CAIN_S1012_TPS[+80]IQPSLLPHAAPFAK", 
+      "name": "CAIN_S1012_TPS[+80]IQPSLLPHAAPFAK", 
       "clust": 28, 
       "rank": 69, 
       "ini": 51, 
@@ -8361,7 +8361,7 @@
         1.0, 
         1.0
       ], 
-      "name": "4343_DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
+      "name": "DDX48_S12_A[+42]TTATM[+16]ATSGS[+80]AR", 
       "clust": 23, 
       "rank": 0, 
       "ini": 50, 
@@ -8381,7 +8381,7 @@
         1.0, 
         1.0
       ], 
-      "name": "4343_DDX48_S12_A[+42]TTATMATSGS[+80]AR", 
+      "name": "DDX48_S12_A[+42]TTATMATSGS[+80]AR", 
       "clust": 8, 
       "rank": 38, 
       "ini": 49, 
@@ -8401,7 +8401,7 @@
         1.0, 
         1.0
       ], 
-      "name": "4382_LAP2_S306_HAS[+80]PILPITEFSDIPR", 
+      "name": "LAP2_S306_HAS[+80]PILPITEFSDIPR", 
       "clust": 15, 
       "rank": 60, 
       "ini": 48, 
@@ -8421,7 +8421,7 @@
         1.0, 
         1.0
       ], 
-      "name": "4474_BAT2_S1219_LIPGPLS[+80]PVAR", 
+      "name": "BAT2_S1219_LIPGPLS[+80]PVAR", 
       "clust": 4, 
       "rank": 53, 
       "ini": 47, 
@@ -8441,7 +8441,7 @@
         1.0, 
         1.0
       ], 
-      "name": "4499_FAS_S207_LGM[+16]LS[+80]PEGTC[+57]K", 
+      "name": "FAS_S207_LGM[+16]LS[+80]PEGTC[+57]K", 
       "clust": 12, 
       "rank": 64, 
       "ini": 46, 
@@ -8461,7 +8461,7 @@
         1.0, 
         1.0
       ], 
-      "name": "4499_FAS_S207_LGMLS[+80]PEGTC[+57]K", 
+      "name": "FAS_S207_LGMLS[+80]PEGTC[+57]K", 
       "clust": 24, 
       "rank": 9, 
       "ini": 45, 
@@ -8481,7 +8481,7 @@
         1.0, 
         1.0
       ], 
-      "name": "461_FAM76B_S193_ISNLS[+80]PEEEQGLWK", 
+      "name": "FAM76B_S193_ISNLS[+80]PEEEQGLWK", 
       "clust": 69, 
       "rank": 35, 
       "ini": 44, 
@@ -8501,7 +8501,7 @@
         1.0, 
         1.0
       ], 
-      "name": "5073_PAK2_S2_S[+122]DNGELEDKPPAPPVR", 
+      "name": "PAK2_S2_S[+122]DNGELEDKPPAPPVR", 
       "clust": 70, 
       "rank": 30, 
       "ini": 43, 
@@ -8521,7 +8521,7 @@
         1.0, 
         1.0
       ], 
-      "name": "5473_MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYM[+16]APEVVNR", 
+      "name": "MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYM[+16]APEVVNR", 
       "clust": 54, 
       "rank": 24, 
       "ini": 42, 
@@ -8541,7 +8541,7 @@
         1.0, 
         1.0
       ], 
-      "name": "5473_MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYMAPEVVNR", 
+      "name": "MAPKAPK1A_S230_KAYS[+80]FC[+57]GTVEYMAPEVVNR", 
       "clust": 59, 
       "rank": 14, 
       "ini": 41, 
@@ -8561,7 +8561,7 @@
         1.0, 
         1.0
       ], 
-      "name": "5715_C17orf85_S500_RPHS[+80]PEKAFSSNPVVR", 
+      "name": "C17orf85_S500_RPHS[+80]PEKAFSSNPVVR", 
       "clust": 53, 
       "rank": 39, 
       "ini": 40, 
@@ -8581,7 +8581,7 @@
         1.0, 
         1.0
       ], 
-      "name": "6108_ATAD2_S327_KPNIFYSGPAS[+80]PARPR", 
+      "name": "ATAD2_S327_KPNIFYSGPAS[+80]PARPR", 
       "clust": 14, 
       "rank": 67, 
       "ini": 39, 
@@ -8601,7 +8601,7 @@
         1.0, 
         1.0
       ], 
-      "name": "6244_KIAA1321_S652_NDS[+80]WGSFDLR", 
+      "name": "KIAA1321_S652_NDS[+80]WGSFDLR", 
       "clust": 60, 
       "rank": 12, 
       "ini": 38, 
@@ -8621,7 +8621,7 @@
         1.0, 
         1.0
       ], 
-      "name": "6267_My038_S1179_LEVTEIVKPS[+80]PK", 
+      "name": "My038_S1179_LEVTEIVKPS[+80]PK", 
       "clust": 33, 
       "rank": 58, 
       "ini": 37, 
@@ -8641,7 +8641,7 @@
         1.0, 
         1.0
       ], 
-      "name": "628_CASC3_S265_YGS[+80]PPQRDPNWNGER", 
+      "name": "CASC3_S265_YGS[+80]PPQRDPNWNGER", 
       "clust": 61, 
       "rank": 22, 
       "ini": 36, 
@@ -8661,7 +8661,7 @@
         1.0, 
         1.0
       ], 
-      "name": "6423_AD029_S105_QDDS[+80]PPRPIIGPALPPGFIK", 
+      "name": "AD029_S105_QDDS[+80]PPRPIIGPALPPGFIK", 
       "clust": 35, 
       "rank": 61, 
       "ini": 35, 
@@ -8681,7 +8681,7 @@
         1.0, 
         1.0
       ], 
-      "name": "6550_CCNYL1_S344_SFS[+80]ADNFIGIQR", 
+      "name": "CCNYL1_S344_SFS[+80]ADNFIGIQR", 
       "clust": 47, 
       "rank": 42, 
       "ini": 34, 
@@ -8701,7 +8701,7 @@
         1.0, 
         1.0
       ], 
-      "name": "6588_KIAA1991_S403_VLS[+80]PLIIK", 
+      "name": "KIAA1991_S403_VLS[+80]PLIIK", 
       "clust": 38, 
       "rank": 75, 
       "ini": 33, 
@@ -8721,7 +8721,7 @@
         1.0, 
         1.0
       ], 
-      "name": "6615_TB7_S44_AGS[+80]PDVLR", 
+      "name": "TB7_S44_AGS[+80]PDVLR", 
       "clust": 52, 
       "rank": 31, 
       "ini": 32, 
@@ -8741,7 +8741,7 @@
         1.0, 
         1.0
       ], 
-      "name": "6696_DDX54_S75_LGPGRPLPTFPTSEC[+57]TS[+80]DVEPDTR", 
+      "name": "DDX54_S75_LGPGRPLPTFPTSEC[+57]TS[+80]DVEPDTR", 
       "clust": 78, 
       "rank": 5, 
       "ini": 31, 
@@ -8761,7 +8761,7 @@
         1.0, 
         1.0
       ], 
-      "name": "6776_A2D_S339_QGSGRES[+80]PSLASR", 
+      "name": "A2D_S339_QGSGRES[+80]PSLASR", 
       "clust": 74, 
       "rank": 15, 
       "ini": 30, 
@@ -8781,7 +8781,7 @@
         1.0, 
         1.0
       ], 
-      "name": "6797_AGS1_S224_LAAPSVSHVS[+80]PR", 
+      "name": "AGS1_S224_LAAPSVSHVS[+80]PR", 
       "clust": 7, 
       "rank": 17, 
       "ini": 29, 
@@ -8801,7 +8801,7 @@
         1.0, 
         1.0
       ], 
-      "name": "6902_BAF45D_S142_VDDDS[+80]LGEFPVTNSR", 
+      "name": "BAF45D_S142_VDDDS[+80]LGEFPVTNSR", 
       "clust": 46, 
       "rank": 47, 
       "ini": 28, 
@@ -8821,7 +8821,7 @@
         1.0, 
         1.0
       ], 
-      "name": "6927_BAF155_S310_NEEPVRS[+80]PERR", 
+      "name": "BAF155_S310_NEEPVRS[+80]PERR", 
       "clust": 19, 
       "rank": 36, 
       "ini": 27, 
@@ -8841,7 +8841,7 @@
         1.0, 
         1.0
       ], 
-      "name": "6978_CIN85_S230_S[+80]IEVENDFLPVEK", 
+      "name": "CIN85_S230_S[+80]IEVENDFLPVEK", 
       "clust": 20, 
       "rank": 34, 
       "ini": 26, 
@@ -8861,7 +8861,7 @@
         1.0, 
         1.0
       ], 
-      "name": "7094_C13orf8_S405_TAPTLS[+80]PEHWK", 
+      "name": "C13orf8_S405_TAPTLS[+80]PEHWK", 
       "clust": 6, 
       "rank": 62, 
       "ini": 25, 
@@ -8881,7 +8881,7 @@
         1.0, 
         1.0
       ], 
-      "name": "7168_ALS2_S483_RLS[+80]LPGLLSQVSPR", 
+      "name": "ALS2_S483_RLS[+80]LPGLLSQVSPR", 
       "clust": 29, 
       "rank": 76, 
       "ini": 24, 
@@ -8901,7 +8901,7 @@
         1.0, 
         1.0
       ], 
-      "name": "7173_CAT53_S313_VLS[+80]PTAAKPSPFEGK", 
+      "name": "CAT53_S313_VLS[+80]PTAAKPSPFEGK", 
       "clust": 44, 
       "rank": 68, 
       "ini": 23, 
@@ -8921,7 +8921,7 @@
         1.0, 
         1.0
       ], 
-      "name": "7210_HCA90_S774_SSDQPLTVPVS[+80]PK", 
+      "name": "HCA90_S774_SSDQPLTVPVS[+80]PK", 
       "clust": 16, 
       "rank": 72, 
       "ini": 22, 
@@ -8941,7 +8941,7 @@
         1.0, 
         1.0
       ], 
-      "name": "7365_KIAA1844_S64_SDS[+80]PENKYSDSTGHSK", 
+      "name": "KIAA1844_S64_SDS[+80]PENKYSDSTGHSK", 
       "clust": 71, 
       "rank": 33, 
       "ini": 21, 
@@ -8961,7 +8961,7 @@
         1.0, 
         1.0
       ], 
-      "name": "7518_KIAA1734_S515_S[+80]IPLSIK", 
+      "name": "KIAA1734_S515_S[+80]IPLSIK", 
       "clust": 5, 
       "rank": 46, 
       "ini": 20, 
@@ -8981,7 +8981,7 @@
         1.0, 
         1.0
       ], 
-      "name": "7710_CDW2_S121_RLS[+80]QSDEDVIR", 
+      "name": "CDW2_S121_RLS[+80]QSDEDVIR", 
       "clust": 31, 
       "rank": 51, 
       "ini": 19, 
@@ -9001,7 +9001,7 @@
         1.0, 
         1.0
       ], 
-      "name": "7849_NANS_S275_ALGS[+80]PTKQLLPC[+57]EMAC[+57]NEK", 
+      "name": "NANS_S275_ALGS[+80]PTKQLLPC[+57]EMAC[+57]NEK", 
       "clust": 48, 
       "rank": 49, 
       "ini": 18, 
@@ -9021,7 +9021,7 @@
         1.0, 
         1.0
       ], 
-      "name": "7934_PP8000_S203_YLLGDAPVS[+80]PSSQK", 
+      "name": "PP8000_S203_YLLGDAPVS[+80]PSSQK", 
       "clust": 79, 
       "rank": 8, 
       "ini": 17, 
@@ -9041,7 +9041,7 @@
         1.0, 
         1.0
       ], 
-      "name": "8115_LRWD1_S212_ANS[+80]PEKPPEAGAAHKPR", 
+      "name": "LRWD1_S212_ANS[+80]PEKPPEAGAAHKPR", 
       "clust": 1, 
       "rank": 50, 
       "ini": 16, 
@@ -9061,7 +9061,7 @@
         1.0, 
         1.0
       ], 
-      "name": "8123_EPLIN_S362_SEVQQPVHPKPLS[+80]PDSR", 
+      "name": "EPLIN_S362_SEVQQPVHPKPLS[+80]PDSR", 
       "clust": 26, 
       "rank": 6, 
       "ini": 15, 
@@ -9081,7 +9081,7 @@
         1.0, 
         1.0
       ], 
-      "name": "8124_EPLIN_S491_ETPHS[+80]PGVEDAPIAK", 
+      "name": "EPLIN_S491_ETPHS[+80]PGVEDAPIAK", 
       "clust": 3, 
       "rank": 40, 
       "ini": 14, 
@@ -9101,7 +9101,7 @@
         1.0, 
         1.0
       ], 
-      "name": "8209_GPATC8_S1035_SQS[+80]PHYFR", 
+      "name": "GPATC8_S1035_SQS[+80]PHYFR", 
       "clust": 49, 
       "rank": 44, 
       "ini": 13, 
@@ -9121,7 +9121,7 @@
         1.0, 
         1.0
       ], 
-      "name": "8380_HSPC075_S353_TQLWASEPGT[+80]PPLPTSLPSQNPILK", 
+      "name": "HSPC075_S353_TQLWASEPGT[+80]PPLPTSLPSQNPILK", 
       "clust": 41, 
       "rank": 71, 
       "ini": 12, 
@@ -9141,7 +9141,7 @@
         1.0, 
         1.0
       ], 
-      "name": "8487_MAP3K2_S163_DRS[+80]SPPPGYIPDELHQVAR", 
+      "name": "MAP3K2_S163_DRS[+80]SPPPGYIPDELHQVAR", 
       "clust": 50, 
       "rank": 48, 
       "ini": 11, 
@@ -9161,7 +9161,7 @@
         1.0, 
         1.0
       ], 
-      "name": "8498_THRAP3_S253_SPALKS[+80]PLQSVVVR", 
+      "name": "THRAP3_S253_SPALKS[+80]PLQSVVVR", 
       "clust": 10, 
       "rank": 41, 
       "ini": 10, 
@@ -9181,7 +9181,7 @@
         1.0, 
         1.0
       ], 
-      "name": "8541_NOC2L_S56_SPDKPGGS[+80]PSASRR", 
+      "name": "NOC2L_S56_SPDKPGGS[+80]PSASRR", 
       "clust": 56, 
       "rank": 26, 
       "ini": 9, 
@@ -9201,7 +9201,7 @@
         1.0, 
         1.0
       ], 
-      "name": "8567_DCAF1_S999_HLPS[+80]PPTLDSIITEYLR", 
+      "name": "DCAF1_S999_HLPS[+80]PPTLDSIITEYLR", 
       "clust": 39, 
       "rank": 78, 
       "ini": 8, 
@@ -9221,7 +9221,7 @@
         1.0, 
         1.0
       ], 
-      "name": "8982_EMK1_T597_ST[+80]FHAGQLR", 
+      "name": "EMK1_T597_ST[+80]FHAGQLR", 
       "clust": 42, 
       "rank": 73, 
       "ini": 7, 
@@ -9241,7 +9241,7 @@
         1.0, 
         1.0
       ], 
-      "name": "901_SLC38A1_S52_S[+80]LTNSHLEKK", 
+      "name": "SLC38A1_S52_S[+80]LTNSHLEKK", 
       "clust": 76, 
       "rank": 1, 
       "ini": 6, 
@@ -9261,7 +9261,7 @@
         1.0, 
         1.0
       ], 
-      "name": "920_BAT2D1_S1546_SFS[+80]SQRPVDR", 
+      "name": "BAT2D1_S1546_SFS[+80]SQRPVDR", 
       "clust": 18, 
       "rank": 27, 
       "ini": 5, 
@@ -9281,7 +9281,7 @@
         1.0, 
         1.0
       ], 
-      "name": "9285_CDC2_T161_VYT[+80]HEVVTLWYR", 
+      "name": "CDC2_T161_VYT[+80]HEVVTLWYR", 
       "clust": 17, 
       "rank": 79, 
       "ini": 4, 
@@ -9301,7 +9301,7 @@
         1.0, 
         1.0
       ], 
-      "name": "9379_LAP2_T160_SST[+80]PLPTISSSAENTR", 
+      "name": "LAP2_T160_SST[+80]PLPTISSSAENTR", 
       "clust": 67, 
       "rank": 16, 
       "ini": 3, 
@@ -9321,7 +9321,7 @@
         1.0, 
         1.0
       ], 
-      "name": "9561_PLEC1_T3893_QIT[+80]MEELVR", 
+      "name": "PLEC1_T3893_QIT[+80]MEELVR", 
       "clust": 27, 
       "rank": 65, 
       "ini": 2, 
@@ -9341,7 +9341,7 @@
         1.0, 
         1.0
       ], 
-      "name": "9940_HSPC075_T1492_ALPQT[+80]PRPR", 
+      "name": "HSPC075_T1492_ALPQT[+80]PRPR", 
       "clust": 34, 
       "rank": 52, 
       "ini": 1, 
