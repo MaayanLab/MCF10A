@@ -530,8 +530,12 @@
             ], 
             "name": "dmso_0_24_cytosol", 
             "clust": 0, 
+            "cat_1_index": 0, 
+            "cat_0_index": 0, 
             "rank": 1, 
+            "cat-1": "compartment: cytosol", 
             "ini": 2, 
+            "cat-0": "dose: 0", 
             "rankvar": 0
           }, 
           {
@@ -550,8 +554,12 @@
             ], 
             "name": "dmso_0_24_nucleus", 
             "clust": 1, 
+            "cat_1_index": 1, 
+            "cat_0_index": 1, 
             "rank": 0, 
+            "cat-1": "compartment: nucleus", 
             "ini": 1, 
+            "cat-0": "dose: 0", 
             "rankvar": 1
           }
         ]
@@ -980,8 +988,12 @@
             ], 
             "name": "dmso_0_24_cytosol", 
             "clust": 0, 
+            "cat_1_index": 0, 
+            "cat_0_index": 0, 
             "rank": 1, 
+            "cat-1": "compartment: cytosol", 
             "ini": 2, 
+            "cat-0": "dose: 0", 
             "rankvar": 0
           }, 
           {
@@ -1000,8 +1012,12 @@
             ], 
             "name": "dmso_0_24_nucleus", 
             "clust": 1, 
+            "cat_1_index": 1, 
+            "cat_0_index": 1, 
             "rank": 0, 
+            "cat-1": "compartment: nucleus", 
             "ini": 1, 
+            "cat-0": "dose: 0", 
             "rankvar": 1
           }
         ]
@@ -1230,8 +1246,12 @@
             ], 
             "name": "dmso_0_24_cytosol", 
             "clust": 0, 
+            "cat_1_index": 0, 
+            "cat_0_index": 0, 
             "rank": 1, 
+            "cat-1": "compartment: cytosol", 
             "ini": 2, 
+            "cat-0": "dose: 0", 
             "rankvar": 0
           }, 
           {
@@ -1250,8 +1270,12 @@
             ], 
             "name": "dmso_0_24_nucleus", 
             "clust": 1, 
+            "cat_1_index": 1, 
+            "cat_0_index": 1, 
             "rank": 0, 
+            "cat-1": "compartment: nucleus", 
             "ini": 1, 
+            "cat-0": "dose: 0", 
             "rankvar": 1
           }
         ]
@@ -1699,8 +1723,12 @@
             ], 
             "name": "dmso_0_24_cytosol", 
             "clust": 0, 
+            "cat_1_index": 0, 
+            "cat_0_index": 0, 
             "rank": 1, 
+            "cat-1": "compartment: cytosol", 
             "ini": 2, 
+            "cat-0": "dose: 0", 
             "rankvar": 0
           }, 
           {
@@ -1719,8 +1747,12 @@
             ], 
             "name": "dmso_0_24_nucleus", 
             "clust": 1, 
+            "cat_1_index": 1, 
+            "cat_0_index": 1, 
             "rank": 0, 
+            "cat-1": "compartment: nucleus", 
             "ini": 1, 
+            "cat-0": "dose: 0", 
             "rankvar": 1
           }
         ]
@@ -2149,8 +2181,12 @@
             ], 
             "name": "dmso_0_24_cytosol", 
             "clust": 0, 
+            "cat_1_index": 0, 
+            "cat_0_index": 0, 
             "rank": 1, 
+            "cat-1": "compartment: cytosol", 
             "ini": 2, 
+            "cat-0": "dose: 0", 
             "rankvar": 0
           }, 
           {
@@ -2169,8 +2205,12 @@
             ], 
             "name": "dmso_0_24_nucleus", 
             "clust": 1, 
+            "cat_1_index": 1, 
+            "cat_0_index": 1, 
             "rank": 0, 
+            "cat-1": "compartment: nucleus", 
             "ini": 1, 
+            "cat-0": "dose: 0", 
             "rankvar": 1
           }
         ]
@@ -2399,8 +2439,12 @@
             ], 
             "name": "dmso_0_24_cytosol", 
             "clust": 0, 
+            "cat_1_index": 0, 
+            "cat_0_index": 0, 
             "rank": 1, 
+            "cat-1": "compartment: cytosol", 
             "ini": 2, 
+            "cat-0": "dose: 0", 
             "rankvar": 0
           }, 
           {
@@ -2419,8 +2463,12 @@
             ], 
             "name": "dmso_0_24_nucleus", 
             "clust": 1, 
+            "cat_1_index": 1, 
+            "cat_0_index": 1, 
             "rank": 0, 
+            "cat-1": "compartment: nucleus", 
             "ini": 1, 
+            "cat-0": "dose: 0", 
             "rankvar": 1
           }
         ]
@@ -2429,7 +2477,15 @@
     }
   ], 
   "cat_colors": {
-    "col": {}, 
+    "col": {
+      "cat-0": {
+        "dose: 0": "#ff7f0e"
+      }, 
+      "cat-1": {
+        "compartment: cytosol": "#393b79", 
+        "compartment: nucleus": "#ff7f0e"
+      }
+    }, 
     "row": {}
   }, 
   "row_nodes": [
@@ -2871,8 +2927,12 @@
       ], 
       "name": "dmso_0_24_cytosol", 
       "clust": 0, 
+      "cat_1_index": 0, 
+      "cat_0_index": 0, 
       "rank": 1, 
+      "cat-1": "compartment: cytosol", 
       "ini": 2, 
+      "cat-0": "dose: 0", 
       "rankvar": 0
     }, 
     {
@@ -2891,8 +2951,12 @@
       ], 
       "name": "dmso_0_24_nucleus", 
       "clust": 1, 
+      "cat_1_index": 1, 
+      "cat_0_index": 1, 
       "rank": 0, 
+      "cat-1": "compartment: nucleus", 
       "ini": 1, 
+      "cat-0": "dose: 0", 
       "rankvar": 1
     }
   ]
