@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <title>Testing D3</title>
+</head>
+
+<style>
+  .title { 
+    position: absolute;
+    top: 10px;        
+    /*width: 60px;          
+    height: 28px;*/         
+    padding: 2px;       
+    font-size: 0.8em; 
+    background: rgba(0, 0, 0, 0.6); 
+    color: #fff;
+    /*border: 0px;  */  
+    border-radius: 2px;     
+    pointer-events: none;     
+  }
+
+</style>
+
+<body>
+
+  <div id="option-time"></div>
+  <div id="option-dose"></div>
+  <svg><circle cx="70" cy="70" r="70" stroke="black" fill="none" />
+    <circle cx="70" cy="70" r="35" stroke="black" fill="none" />
+    <text x="45" y="70">nucleus</text>
+    <text x="45" y="30">cytosol</text></svg>
+<!--   <svg width="700" height="220">
+      <circle cx="300" cy="110" r="70" fill="red" />
+    <g transform="translate(300, 110)" id="abc"></g>
+
+  </svg>
+-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<script>
+
+  var time, dose, comp;
+  var results;
+  var timeButtons, doseButtons;
+  var svgContainer1, svgContainer2;
+  var cycif_cyt = new Array(21);
+  var cycif_nuc = new Array(21);
+  var lookup = new Array(21);
+  var isUpdating = false;
+
+  var container = d3.select("div#cycif-circular").append("svg").attr("width",800).attr("height",800);
+
+  function makeButtons(timeArray,doseArray) {
+    var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
+    timeArray.sort(collator.compare);
+    function sortFloat(a,b) { return a - b; }
+    doseArray.sort(sortFloat);
+
+    timeButtons = d3.select('#option-time').selectAll('input').data(timeArray).enter().append('input').attr('type','button');
+    timeButtons.attr("value", function(d) {return d;}).on("click",function(d) {d3.select('#option-time').selectAll('input').style("background-color","#AAAAAA"); d3.select(this).style("background-color","red"); updater(d);});
+    timeButtons.style("background-color","#AAAAAA").style("margin","4px 2px").style("border","none").style("color","white");
+    d3.select('#option-time').select('input').style("background-color","red");
+
+    doseButtons = d3.select('#option-dose').selectAll('input').data(doseArray).enter().append('input').attr('type','button');
+    doseButtons.attr("value", function(d) {return d+"μM";}).on("click",function(d) {d3.select('#option-dose').selectAll('input').style("background-color","#AAAAAA"); d3.select(this).style("background-color","red"); updater(d);});
+    doseButtons.style("background-color","#AAAAAA").style("margin","4px 2px").style("border","none").style("color","white");
+    d3.select('#option-dose').select('input').style("background-color","red");
+  }
+
+/*  timeButtons.on("click",function() {
+    d3.select(this).style("background-color","red");
+  })*/
+
+  function getData(callback) {
+    var temp = $.getJSON("../static/data/cycif/json/"+drug+".json", function(json) {
+      callback(json);
+    });
+  }
+
+  function loadData() {
+    getData(function(json) {
+      results = json;
+      if (isUpdating==false) {
+        time = "24h";
+        dose = Object.keys(results[time])[0];
+      }
+      var i = 0;
+      for (var molecule in results[time][dose]["cytosol"]) {
+        cycif_cyt[i++] = results[time][dose]["cytosol"][molecule];
+        lookup[i-1] = molecule;
+      }
+      i=0;
+      for (var molecule in results[time][dose]["nucleus"]) {
+       cycif_nuc[i++] = results[time][dose]["nucleus"][molecule];
+     }
+     if (isUpdating==false) {
+      var j = 0;
+      var timeArray = new Array(Object(results).length);
+      var doseArray = new Array(Object(results[time].length));
+      for (var key1 in results) {
+        timeArray[j++] = key1;
+      }
+      j = 0;
+      for (var key2 in results[time]) {
+        doseArray[j++] = key2;
+      }
+      makeButtons(timeArray,doseArray);
+    }
+    renderHeatmaps();
+  });
+  }
+
+  function renderHeatmaps() {
+
+    var absmax = Math.max.apply(null,cycif_nuc.concat(cycif_cyt).map(Math.abs));
+    console.log(absmax);
+    var scaling = d3.scale.linear().domain([-absmax,0,absmax]).range(['blue','white','red']);
+
+    var arcData = d3.range(21).map(function(d,i) {
+      i*=2;
+      return {
+        startAngleOfMyArc: i * (Math.PI/21),
+        endAngleOfMyArc: (i + 2) * (Math.PI/21),
+        innerFill: scaling(cycif_nuc[i/2]).toString(),
+        outerFill: scaling(cycif_cyt[i/2]).toString(), //assign values based on zscore
+        innerLabel: "Nuclear "+lookup[i/2] + ": "+cycif_nuc[i/2],
+        outerLabel: "Cytostolic "+lookup[i/2] + ": "+cycif_cyt[i/2]
+      };
+    });
+    
+    if (isUpdating===false) {
+      svgContainer1 = container.append("g").attr("transform","translate(300,300)");
+      var inner = svgContainer1.selectAll("path").data(arcData).enter().append("path");
+      var innerAttr = inner.attr('d', d3.svg.arc().innerRadius(0).outerRadius(170).startAngle(function(d) {return d.startAngleOfMyArc}).endAngle(function(d) {return d.endAngleOfMyArc})).attr("stroke_width",1).attr("stroke",function(d) { return d.innerFill;}).attr("fill",function(d) { return d.innerFill;});
+      svgContainer2 = container.append("g").attr("transform","translate(300,300)");
+      var outer = svgContainer2.selectAll("path").data(arcData).enter().append("path");
+      var outerAttr = outer.attr('d', d3.svg.arc().innerRadius(170).outerRadius(300).startAngle(function(d) {return d.startAngleOfMyArc}).endAngle(function(d) {return d.endAngleOfMyArc})).attr("stroke_width",1).attr("stroke",function(d) { return d.outerFill;}).attr("fill",function(d) { return d.outerFill;});
+
+      innerAttr.append("title").text(function(d) {return d.innerLabel;});
+      outerAttr.append("title").text(function(d) {return d.outerLabel;});
+
+/*      var legend = container.append("svg:text").attr("class","labels")
+
+      svgContainer2.selectAll("path").append("svg:text")
+      .attr("transform", function(d) { //set the label's origin to the center of the arc
+        //we have to make sure to set these before calling arc.centroid
+        d.outerRadius = d.innerRadius + 50; // Set Outer Coordinate
+        d.innerRadius = d.outerRadius + 45; // Set Inner Coordinate
+        console.log(d.startAngle);
+        return "translate(" + d3.svg.arc.centroid(d) + ")";
+      })
+      .attr("text-anchor", "middle") //center the text on it's origin
+      .style("fill", "Purple")
+      .style("font", "bold 12px Arial")
+      .text(function(d, i) { return lookup[i]; }); //get the label from our original data array*/
+    }
+    else {
+      svgContainer1.selectAll("path").data(arcData).transition().duration(2000).attr("stroke_width",1).attr("stroke",function(d) { return d.innerFill;}).attr("fill",function(d) { return d.innerFill;});
+      svgContainer2.selectAll("path").data(arcData).transition().duration(2000).attr("stroke_width",1).attr("stroke",function(d) { return d.outerFill;}).attr("fill",function(d) { return d.outerFill;});
+
+      svgContainer1.selectAll("title").data(arcData).text(function(d) {return d.innerLabel;});
+      svgContainer2.selectAll("title").data(arcData).text(function(d) {return d.outerLabel;});
+    }
+  }
+
+/*  function updating(newFile) {
+    isUpdating = true;
+    filename = newFile;
+    loadData();
+  }*/
+/*
+  container.on("click", function() {
+    console.log("CLICKED");
+    d3.select(this).style("color","red");
+  })*/
+
+  function updater(change) {
+    if(isNaN(change)) {
+      time = change;
+    }
+    else {
+      dose = change;
+/*      if (change%1 === 0) {
+        console.log("IS AN INT");
+        dose = change +".0";
+      }*/
+    }
+    console.log("DOSE: "+dose);
+    console.log("TIME: "+time);
+    isUpdating = true;
+    loadData();
+    //updating("testingd3");
+  }
+
+  loadData();
+
+
+</script>
+</body>
+</html>
