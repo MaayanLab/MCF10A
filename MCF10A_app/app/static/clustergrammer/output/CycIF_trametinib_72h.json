@@ -358,7 +358,7 @@
               1.0, 
               1.0
             ], 
-            "name": "RP.Ap32.ratIgG.H.L.", 
+            "name": "RP.Ap32", 
             "clust": 2, 
             "rank": 7, 
             "ini": 21, 
@@ -378,7 +378,7 @@
               1.0, 
               1.0
             ], 
-            "name": "Rb.pS807.pS811..Rb.pS807..Rb.pS811.", 
+            "name": "Rb.pS807.pS811.", 
             "clust": 16, 
             "rank": 3, 
             "ini": 20, 
@@ -498,7 +498,7 @@
               1.0, 
               1.0
             ], 
-            "name": "p53.mouseIgG.H.L..goat", 
+            "name": "p53", 
             "clust": 13, 
             "rank": 6, 
             "ini": 14, 
@@ -618,7 +618,7 @@
               1.0, 
               1.0
             ], 
-            "name": "HCSCellMaskDeepRedReagent", 
+            "name": "HCSCellMaskDeepRed", 
             "clust": 3, 
             "rank": 15, 
             "ini": 8, 
@@ -638,7 +638,7 @@
               1.0, 
               1.0
             ], 
-            "name": "FOXO3a.rabbitIgG.H.L..goat.highlycross.adsorbed", 
+            "name": "FOXO3a", 
             "clust": 0, 
             "rank": 20, 
             "ini": 7, 
@@ -658,7 +658,7 @@
               1.0, 
               1.0
             ], 
-            "name": "ERK.1.pT202.pY204..ERK.1.pT202..ERK.2.pT185.pY187..ERK.2.pT185.", 
+            "name": "ERK.1.ERK.2.", 
             "clust": 15, 
             "rank": 1, 
             "ini": 6, 
@@ -758,7 +758,7 @@
               1.0, 
               1.0
             ], 
-            "name": "MitoTrackerGreenReagent", 
+            "name": "MitoTrackerGreen", 
             "clust": 1, 
             "rank": 17, 
             "ini": 1, 
@@ -1124,7 +1124,7 @@
               1.0, 
               1.0
             ], 
-            "name": "FOXO3a.rabbitIgG.H.L..goat.highlycross.adsorbed", 
+            "name": "FOXO3a", 
             "clust": 8, 
             "rank": 19, 
             "ini": 20, 
@@ -1204,7 +1204,7 @@
               1.0, 
               1.0
             ], 
-            "name": "ERK.1.pT202.pY204..ERK.1.pT202..ERK.2.pT185.pY187..ERK.2.pT185.", 
+            "name": "ERK.1.ERK.2.", 
             "clust": 1, 
             "rank": 1, 
             "ini": 16, 
@@ -1244,7 +1244,7 @@
               1.0, 
               1.0
             ], 
-            "name": "Rb.pS807.pS811..Rb.pS807..Rb.pS811.", 
+            "name": "Rb.pS807.pS811.", 
             "clust": 3, 
             "rank": 3, 
             "ini": 14, 
@@ -1264,7 +1264,7 @@
               1.0, 
               1.0
             ], 
-            "name": "MitoTrackerGreenReagent", 
+            "name": "MitoTrackerGreen", 
             "clust": 9, 
             "rank": 16, 
             "ini": 13, 
@@ -1304,7 +1304,7 @@
               1.0, 
               1.0
             ], 
-            "name": "HCSCellMaskDeepRedReagent", 
+            "name": "HCSCellMaskDeepRed", 
             "clust": 16, 
             "rank": 14, 
             "ini": 11, 
@@ -1364,7 +1364,7 @@
               1.0, 
               1.0
             ], 
-            "name": "p53.mouseIgG.H.L..goat", 
+            "name": "p53", 
             "clust": 0, 
             "rank": 6, 
             "ini": 8, 
@@ -1384,7 +1384,7 @@
               1.0, 
               1.0
             ], 
-            "name": "RP.Ap32.ratIgG.H.L.", 
+            "name": "RP.Ap32", 
             "clust": 15, 
             "rank": 7, 
             "ini": 7, 
@@ -1870,7 +1870,7 @@
               1.0, 
               1.0
             ], 
-            "name": "FOXO3a.rabbitIgG.H.L..goat.highlycross.adsorbed", 
+            "name": "FOXO3a", 
             "clust": 8, 
             "rank": 9, 
             "ini": 10, 
@@ -1950,7 +1950,7 @@
               1.0, 
               1.0
             ], 
-            "name": "ERK.1.pT202.pY204..ERK.1.pT202..ERK.2.pT185.pY187..ERK.2.pT185.", 
+            "name": "ERK.1.ERK.2.", 
             "clust": 0, 
             "rank": 1, 
             "ini": 6, 
@@ -1990,7 +1990,7 @@
               1.0, 
               1.0
             ], 
-            "name": "Rb.pS807.pS811..Rb.pS807..Rb.pS811.", 
+            "name": "Rb.pS807.pS811.", 
             "clust": 1, 
             "rank": 3, 
             "ini": 4, 
@@ -2010,7 +2010,7 @@
               1.0, 
               1.0
             ], 
-            "name": "MitoTrackerGreenReagent", 
+            "name": "MitoTrackerGreen", 
             "clust": 9, 
             "rank": 6, 
             "ini": 3, 
@@ -2050,7 +2050,7 @@
               1.0, 
               1.0
             ], 
-            "name": "HCSCellMaskDeepRedReagent", 
+            "name": "HCSCellMaskDeepRed", 
             "clust": 4, 
             "rank": 4, 
             "ini": 1, 
@@ -2415,7 +2415,7 @@
               1.0, 
               1.0
             ], 
-            "name": "RP.Ap32.ratIgG.H.L.", 
+            "name": "RP.Ap32", 
             "clust": 2, 
             "rank": 7, 
             "ini": 21, 
@@ -2435,7 +2435,7 @@
               1.0, 
               1.0
             ], 
-            "name": "Rb.pS807.pS811..Rb.pS807..Rb.pS811.", 
+            "name": "Rb.pS807.pS811.", 
             "clust": 16, 
             "rank": 3, 
             "ini": 20, 
@@ -2555,7 +2555,7 @@
               1.0, 
               1.0
             ], 
-            "name": "p53.mouseIgG.H.L..goat", 
+            "name": "p53", 
             "clust": 13, 
             "rank": 6, 
             "ini": 14, 
@@ -2675,7 +2675,7 @@
               1.0, 
               1.0
             ], 
-            "name": "HCSCellMaskDeepRedReagent", 
+            "name": "HCSCellMaskDeepRed", 
             "clust": 3, 
             "rank": 15, 
             "ini": 8, 
@@ -2695,7 +2695,7 @@
               1.0, 
               1.0
             ], 
-            "name": "FOXO3a.rabbitIgG.H.L..goat.highlycross.adsorbed", 
+            "name": "FOXO3a", 
             "clust": 0, 
             "rank": 20, 
             "ini": 7, 
@@ -2715,7 +2715,7 @@
               1.0, 
               1.0
             ], 
-            "name": "ERK.1.pT202.pY204..ERK.1.pT202..ERK.2.pT185.pY187..ERK.2.pT185.", 
+            "name": "ERK.1.ERK.2.", 
             "clust": 15, 
             "rank": 1, 
             "ini": 6, 
@@ -2815,7 +2815,7 @@
               1.0, 
               1.0
             ], 
-            "name": "MitoTrackerGreenReagent", 
+            "name": "MitoTrackerGreen", 
             "clust": 1, 
             "rank": 17, 
             "ini": 1, 
@@ -3181,7 +3181,7 @@
               1.0, 
               1.0
             ], 
-            "name": "FOXO3a.rabbitIgG.H.L..goat.highlycross.adsorbed", 
+            "name": "FOXO3a", 
             "clust": 0, 
             "rank": 19, 
             "ini": 20, 
@@ -3221,7 +3221,7 @@
               1.0, 
               1.0
             ], 
-            "name": "HCSCellMaskDeepRedReagent", 
+            "name": "HCSCellMaskDeepRed", 
             "clust": 3, 
             "rank": 14, 
             "ini": 18, 
@@ -3301,7 +3301,7 @@
               1.0, 
               1.0
             ], 
-            "name": "MitoTrackerGreenReagent", 
+            "name": "MitoTrackerGreen", 
             "clust": 1, 
             "rank": 16, 
             "ini": 14, 
@@ -3401,7 +3401,7 @@
               1.0, 
               1.0
             ], 
-            "name": "RP.Ap32.ratIgG.H.L.", 
+            "name": "RP.Ap32", 
             "clust": 2, 
             "rank": 7, 
             "ini": 9, 
@@ -3481,7 +3481,7 @@
               1.0, 
               1.0
             ], 
-            "name": "Rb.pS807.pS811..Rb.pS807..Rb.pS811.", 
+            "name": "Rb.pS807.pS811.", 
             "clust": 17, 
             "rank": 3, 
             "ini": 5, 
@@ -3521,7 +3521,7 @@
               1.0, 
               1.0
             ], 
-            "name": "ERK.1.pT202.pY204..ERK.1.pT202..ERK.2.pT185.pY187..ERK.2.pT185.", 
+            "name": "ERK.1.ERK.2.", 
             "clust": 14, 
             "rank": 1, 
             "ini": 3, 
@@ -3541,7 +3541,7 @@
               1.0, 
               1.0
             ], 
-            "name": "p53.mouseIgG.H.L..goat", 
+            "name": "p53", 
             "clust": 13, 
             "rank": 6, 
             "ini": 2, 
@@ -3927,7 +3927,7 @@
               1.0, 
               1.0
             ], 
-            "name": "FOXO3a.rabbitIgG.H.L..goat.highlycross.adsorbed", 
+            "name": "FOXO3a", 
             "clust": 3, 
             "rank": 9, 
             "ini": 10, 
@@ -3967,7 +3967,7 @@
               1.0, 
               1.0
             ], 
-            "name": "HCSCellMaskDeepRedReagent", 
+            "name": "HCSCellMaskDeepRed", 
             "clust": 6, 
             "rank": 4, 
             "ini": 8, 
@@ -4047,7 +4047,7 @@
               1.0, 
               1.0
             ], 
-            "name": "MitoTrackerGreenReagent", 
+            "name": "MitoTrackerGreen", 
             "clust": 4, 
             "rank": 6, 
             "ini": 4, 
@@ -4489,7 +4489,7 @@
         1.0, 
         1.0
       ], 
-      "name": "RP.Ap32.ratIgG.H.L.", 
+      "name": "RP.Ap32", 
       "clust": 2, 
       "rank": 7, 
       "ini": 21, 
@@ -4509,7 +4509,7 @@
         1.0, 
         1.0
       ], 
-      "name": "Rb.pS807.pS811..Rb.pS807..Rb.pS811.", 
+      "name": "Rb.pS807.pS811.", 
       "clust": 16, 
       "rank": 3, 
       "ini": 20, 
@@ -4629,7 +4629,7 @@
         1.0, 
         1.0
       ], 
-      "name": "p53.mouseIgG.H.L..goat", 
+      "name": "p53", 
       "clust": 13, 
       "rank": 6, 
       "ini": 14, 
@@ -4749,7 +4749,7 @@
         1.0, 
         1.0
       ], 
-      "name": "HCSCellMaskDeepRedReagent", 
+      "name": "HCSCellMaskDeepRed", 
       "clust": 3, 
       "rank": 15, 
       "ini": 8, 
@@ -4769,7 +4769,7 @@
         1.0, 
         1.0
       ], 
-      "name": "FOXO3a.rabbitIgG.H.L..goat.highlycross.adsorbed", 
+      "name": "FOXO3a", 
       "clust": 0, 
       "rank": 20, 
       "ini": 7, 
@@ -4789,7 +4789,7 @@
         1.0, 
         1.0
       ], 
-      "name": "ERK.1.pT202.pY204..ERK.1.pT202..ERK.2.pT185.pY187..ERK.2.pT185.", 
+      "name": "ERK.1.ERK.2.", 
       "clust": 15, 
       "rank": 1, 
       "ini": 6, 
@@ -4889,7 +4889,7 @@
         1.0, 
         1.0
       ], 
-      "name": "MitoTrackerGreenReagent", 
+      "name": "MitoTrackerGreen", 
       "clust": 1, 
       "rank": 17, 
       "ini": 1, 

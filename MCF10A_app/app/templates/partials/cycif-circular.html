@@ -69,10 +69,6 @@
     d3.select('#option-dose').select('input').style("background-color","red");
   }
 
-/*  timeButtons.on("click",function() {
-    d3.select(this).style("background-color","red");
-  })*/
-
   function getData(callback) {
     var temp = $.getJSON("../static/data/cycif/json/"+drug+".json", function(json) {
       callback(json);
@@ -153,20 +149,6 @@
       innerAttr.append("title").text(function(d) {return d.innerLabel;});
       outerAttr.append("title").text(function(d) {return d.outerLabel;});
 
-/*      var legend = container.append("svg:text").attr("class","labels")
-
-      svgContainer2.selectAll("path").append("svg:text")
-      .attr("transform", function(d) { //set the label's origin to the center of the arc
-        //we have to make sure to set these before calling arc.centroid
-        d.outerRadius = d.innerRadius + 50; // Set Outer Coordinate
-        d.innerRadius = d.outerRadius + 45; // Set Inner Coordinate
-        console.log(d.startAngle);
-        return "translate(" + d3.svg.arc.centroid(d) + ")";
-      })
-      .attr("text-anchor", "middle") //center the text on it's origin
-      .style("fill", "Purple")
-      .style("font", "bold 12px Arial")
-      .text(function(d, i) { return lookup[i]; }); //get the label from our original data array*/
     }
     else {
       svgContainer1.selectAll("path").data(arcData).transition().duration(2000).attr("stroke_width",1).attr("stroke",function(d) { return d.innerFill;}).attr("fill",function(d) { return d.innerFill;});
@@ -176,17 +158,6 @@
       svgContainer2.selectAll("title").data(arcData).text(function(d) {return d.outerLabel;});
     }
   }
-
-/*  function updating(newFile) {
-    isUpdating = true;
-    filename = newFile;
-    loadData();
-  }*/
-/*
-  container.on("click", function() {
-    console.log("CLICKED");
-    d3.select(this).style("color","red");
-  })*/
 
   function updater(change) {
     if(isNaN(change)) {
