@@ -25,10 +25,10 @@
 
   <div id="option-time"></div>
   <div id="option-dose"></div>
-  <svg><circle cx="70" cy="70" r="70" stroke="black" fill="none" />
+<!--   <svg><circle cx="70" cy="70" r="70" stroke="black" fill="none" />
     <circle cx="70" cy="70" r="35" stroke="black" fill="none" />
     <text x="45" y="70">nucleus</text>
-    <text x="45" y="30">cytosol</text></svg>
+    <text x="45" y="30">cytosol</text></svg> -->
 <!--   <svg width="700" height="220">
       <circle cx="300" cy="110" r="70" fill="red" />
     <g transform="translate(300, 110)" id="abc"></g>
@@ -112,7 +112,7 @@
   function renderHeatmaps() {
 
     var absmax = Math.max.apply(null,cycif_nuc.concat(cycif_cyt).map(Math.abs));
-    console.log(absmax);
+/*    console.log(absmax);*/
     var scaling = d3.scale.linear().domain([-absmax,0,absmax]).range(['blue','white','red']);
 
     var arcData = d3.range(21).map(function(d,i) {
@@ -170,8 +170,8 @@
         dose = change +".0";
       }*/
     }
-    console.log("DOSE: "+dose);
-    console.log("TIME: "+time);
+/*    console.log("DOSE: "+dose);
+    console.log("TIME: "+time);*/
     isUpdating = true;
     loadData();
     //updating("testingd3");
