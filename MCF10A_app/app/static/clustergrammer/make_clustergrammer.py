@@ -43,10 +43,10 @@ for filename in os.listdir("tsv"):
 
     #optional filtering and normalization
     #########################################
-    #     net.swap_nan_for_zero()
+        net.swap_nan_for_zero()
 
-    #     net.make_clust(dist_type='cos',views=['N_row_sum', 'N_row_var'] , dendro=True,
-    #                sim_mat=True, filter_sim=0.1, calc_cat_pval=False)
+        net.make_clust(dist_type='cos',views=['N_row_sum', 'N_row_var'] , dendro=True,
+                   sim_mat=True, filter_sim=0.1, calc_cat_pval=False)
 
-    # # write jsons for front-end visualizations
-    #     net.write_json_to_file('viz', 'output/' + name + '.json', 'indent')
+    # write jsons for front-end visualizations
+        net.write_json_to_file('viz', 'output/' + name + '.json', 'indent')

@@ -51,7 +51,7 @@
 
   function sortFloat(a,b) { return a - b; }
 
-  var container = d3.select("div#cycif-circular").append("svg").attr("width",800).attr("height",800);
+  var container = d3.select("div#cycif-circular").append("svg").attr("width",850).attr("height",850);
 
   function makeButtons(timeArray,doseArray) {
     var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
@@ -132,17 +132,17 @@
 
       var getAngle = function (d) {return (180 / Math.PI * (d.startAngleOfMyArc + d.endAngleOfMyArc) / 2 - 90);};
 
-      svgContainer1 = container.append("g").attr("transform","translate(400,400)");
+      svgContainer1 = container.append("g").attr("transform","translate(420,400)");
       var inner = svgContainer1.selectAll("path").data(arcData).enter().append("path");
       var innerArc = inner.attr('d', d3.svg.arc().innerRadius(0).outerRadius(170).startAngle(function(d) {return d.startAngleOfMyArc}).endAngle(function(d) {return d.endAngleOfMyArc}));
       var innerAttr = innerArc.attr("stroke_width",1).attr("stroke",function(d) { return d.innerFill;}).attr("fill",function(d) { return d.innerFill;});
 
-      svgContainer2 = container.append("g").attr("transform","translate(400,400)");
+      svgContainer2 = container.append("g").attr("transform","translate(420,400)");
       var outer = svgContainer2.selectAll("path").data(arcData).enter().append("path");
       var outerArc = outer.attr('d', d3.svg.arc().innerRadius(170).outerRadius(300).startAngle(function(d) {return d.startAngleOfMyArc}).endAngle(function(d) {return d.endAngleOfMyArc}));
       var outerAttr = outerArc.attr("stroke_width",1).attr("stroke",function(d) { return d.outerFill;}).attr("fill",function(d) { return d.outerFill;});
 
-      var textPos = d3.svg.arc().innerRadius(250).outerRadius(400).startAngle(function (i) {return Math.PI*2/21 * i}).endAngle(function (i) {return Math.PI*2/21 * (i + 1)});
+      var textPos = d3.svg.arc().innerRadius(280).outerRadius(480).startAngle(function (i) {return Math.PI*2/21 * i}).endAngle(function (i) {return Math.PI*2/21 * (i + 1)});
       var textContainer = svgContainer2.selectAll("text").data(arcData).enter();
       var legend = textContainer.append("text").attr("transform", function(d,i) { return "translate("+textPos.centroid(i)+") "+"rotate(" +(Math.abs(getAngle(d)) > 90 ? (getAngle(d) - 180) : getAngle(d) )+ ")";}).attr("text-anchor","middle").text(function(d) {return d.label;});
 
