@@ -49,12 +49,13 @@
   var lookup = new Array(21);
   var isUpdating = false;
 
+  function sortFloat(a,b) { return a - b; }
+
   var container = d3.select("div#cycif-circular").append("svg").attr("width",800).attr("height",800);
 
   function makeButtons(timeArray,doseArray) {
     var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
     timeArray.sort(collator.compare);
-    function sortFloat(a,b) { return a - b; }
     doseArray.sort(sortFloat);
 
     timeButtons = d3.select('#option-time').selectAll('input').data(timeArray).enter().append('input').attr('type','button');
@@ -83,7 +84,8 @@
       results = json;
       if (isUpdating==false) {
         time = "24h";
-        dose = Object.keys(results[time])[0];
+        var arrayToSort = Object.keys(results[time]);
+        dose = arrayToSort.sort(sortFloat)[0];
       }
       var i = 0;
       for (var molecule in results[time][dose]["cytosol"]) {
@@ -124,18 +126,29 @@
         endAngleOfMyArc: (i + 2) * (Math.PI/21),
         innerFill: scaling(cycif_nuc[i/2]).toString(),
         outerFill: scaling(cycif_cyt[i/2]).toString(), //assign values based on zscore
+        label: lookup[i/2],
         innerLabel: "Nuclear "+lookup[i/2] + ": "+cycif_nuc[i/2],
         outerLabel: "Cytosolic "+lookup[i/2] + ": "+cycif_cyt[i/2]
       };
     });
     
     if (isUpdating===false) {
-      svgContainer1 = container.append("g").attr("transform","translate(300,300)");
+
+      var getAngle = function (d) {return (180 / Math.PI * (d.startAngleOfMyArc + d.endAngleOfMyArc) / 2 - 90);};
+
+      svgContainer1 = container.append("g").attr("transform","translate(400,400)");
       var inner = svgContainer1.selectAll("path").data(arcData).enter().append("path");
-      var innerAttr = inner.attr('d', d3.svg.arc().innerRadius(0).outerRadius(170).startAngle(function(d) {return d.startAngleOfMyArc}).endAngle(function(d) {return d.endAngleOfMyArc})).attr("stroke_width",1).attr("stroke",function(d) { return d.innerFill;}).attr("fill",function(d) { return d.innerFill;});
-      svgContainer2 = container.append("g").attr("transform","translate(300,300)");
+      var innerArc = inner.attr('d', d3.svg.arc().innerRadius(0).outerRadius(170).startAngle(function(d) {return d.startAngleOfMyArc}).endAngle(function(d) {return d.endAngleOfMyArc}));
+      var innerAttr = innerArc.attr("stroke_width",1).attr("stroke",function(d) { return d.innerFill;}).attr("fill",function(d) { return d.innerFill;});
+
+      svgContainer2 = container.append("g").attr("transform","translate(400,400)");
       var outer = svgContainer2.selectAll("path").data(arcData).enter().append("path");
-      var outerAttr = outer.attr('d', d3.svg.arc().innerRadius(170).outerRadius(300).startAngle(function(d) {return d.startAngleOfMyArc}).endAngle(function(d) {return d.endAngleOfMyArc})).attr("stroke_width",1).attr("stroke",function(d) { return d.outerFill;}).attr("fill",function(d) { return d.outerFill;});
+      var outerArc = outer.attr('d', d3.svg.arc().innerRadius(170).outerRadius(300).startAngle(function(d) {return d.startAngleOfMyArc}).endAngle(function(d) {return d.endAngleOfMyArc}));
+      var outerAttr = outerArc.attr("stroke_width",1).attr("stroke",function(d) { return d.outerFill;}).attr("fill",function(d) { return d.outerFill;});
+
+      var textPos = d3.svg.arc().innerRadius(250).outerRadius(400).startAngle(function (i) {return Math.PI*2/21 * i}).endAngle(function (i) {return Math.PI*2/21 * (i + 1)});
+      var textContainer = svgContainer2.selectAll("text").data(arcData).enter();
+      var legend = textContainer.append("text").attr("transform", function(d,i) { return "translate("+textPos.centroid(i)+") "+"rotate(" +(Math.abs(getAngle(d)) > 90 ? (getAngle(d) - 180) : getAngle(d) )+ ")";}).attr("text-anchor","middle").text(function(d) {return d.label;});
 
       innerAttr.append("title").text(function(d) {return d.innerLabel;});
       outerAttr.append("title").text(function(d) {return d.outerLabel;});
