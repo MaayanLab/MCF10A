@@ -347,9 +347,6 @@ function updateCanvases(drugNum, colAttributes){
     }
   } else{
     $("#" + drugNum + "-gcp-val").text("data unavailable");
-    //
-    $("#" + drugNum + "-cycif-val").text("data unavailable"); //LINKED TO GCP NOW BUT PLEASE REMOVE LATER!!!!
-    //
     createBlankCanvas(drugNum + "-gcp-container", drugNum + "-gcp");
   }
 }
@@ -691,4 +688,3 @@ $(document).ajaxStop(function() {
     allDrugColumns[drugId] = eachDrugColumn;
   }
 });
-
