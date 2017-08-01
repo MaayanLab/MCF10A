@@ -140,6 +140,8 @@
       innerAttr.append("title").text(function(d) {return d.innerLabel;});
       outerAttr.append("title").text(function(d) {return d.outerLabel;});
 
+      textContainer.append("text").attr("x","-400").attr("y","440").text("* indicates phosphorylation states of ERK-1(pT202;pY204);ERK-1(pT202);ERK-2(pT185;pY187);ERK-2(pT185)");
+
       makeNotes();
 
     }
