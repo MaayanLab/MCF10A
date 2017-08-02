@@ -24,6 +24,7 @@
 
   <div id="option-time"><b>Time: </b></div>
   <div id="option-dose"><b>Dose: </b></div>
+  <div id="toggle"><b>Misc: </b></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -37,6 +38,7 @@
   var cycif_nuc = new Array(21);
   var lookup = new Array(21);
   var isUpdating = false;
+  var onlySig = false;
 
   function sortFloat(a,b) { return a - b; }
 
@@ -56,6 +58,9 @@
     doseButtons.attr("value", function(d) {return d+"μM";}).on("click",function(d) {d3.select('#option-dose').selectAll('input').style("background-color","#AAAAAA"); d3.select(this).style("background-color","red"); updater(d);});
     doseButtons.style("background-color","#AAAAAA").style("margin","4px 2px").style("border","none").style("color","white");
     d3.select('#option-dose').select('input').style("background-color","red");
+
+    toggleButton = d3.select('#toggle').append('input').attr('type','button').style("background-color","#AAAAAA").style("margin","4px 2px").style("border","none").style("color","white");
+    toggleButton.attr("value","Only |z-score|>2").on("click",function() {if(onlySig==false) {d3.select(this).style("background-color","red");} else{d3.select(this).style("background-color","#AAAAAA");} onlySignificant();});
   }
 
   function getData(callback) {
@@ -74,13 +79,18 @@
       }
       var i = 0;
       for (var molecule in results[time][dose]["cytosol"]) {
-        cycif_cyt[i++] = results[time][dose]["cytosol"][molecule];
-        lookup[i-1] = molecule;
+        cycif_cyt[i] = results[time][dose]["cytosol"][molecule];
+        cycif_nuc[i] = results[time][dose]["nucleus"][molecule];
+        if (onlySig==true) {
+          if (Math.abs(cycif_cyt[i]) < 2) {
+            cycif_cyt[i]=0;
+          }
+          if (Math.abs(cycif_nuc[i]) < 2) {
+            cycif_nuc[i]=0;
+          }
+        }
+        lookup[i++] = molecule;
       }
-      i=0;
-      for (var molecule in results[time][dose]["nucleus"]) {
-       cycif_nuc[i++] = results[time][dose]["nucleus"][molecule];
-     }
      if (isUpdating==false) {
       var j = 0;
       var timeArray = new Array(Object(results).length);
@@ -173,6 +183,12 @@
 /*    console.log("DOSE: "+dose);
     console.log("TIME: "+time);*/
     isUpdating = true;
+    loadData();
+  }
+
+  function onlySignificant() {
+    onlySig = !onlySig;
+    isUpdating=true;
     loadData();
   }
 
