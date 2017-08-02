@@ -12,10 +12,9 @@ def get_canvas_layouts():
     # print "static folder=", app.static_folder
     data_dir = app.static_folder + "/data"
     all_canvas_layouts = {}
-
     for assay in app.config["CANVAS_ASSAYS"]:
         canvas_order_dir = os.path.join(data_dir, assay, "canvas_order")
-        for order_filename in glob.glob(canvas_order_dir + "\*.json"):
+        for order_filename in glob.glob(canvas_order_dir + "/*.json"):
             base = os.path.basename(order_filename)
             filename = os.path.splitext(base)[0]
             time = filename.split("_")[-1]
@@ -23,6 +22,7 @@ def get_canvas_layouts():
             if (canvas not in all_canvas_layouts):
                 all_canvas_layouts[canvas] = {}
             with open(order_filename) as data_file:
+                print(data_file)
                 all_canvas_layouts[canvas][time] = json.load(data_file)["texts"]
 
     return all_canvas_layouts
