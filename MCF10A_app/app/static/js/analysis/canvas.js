@@ -52,8 +52,6 @@ function renderBlankL1000UpDownCanvases(drugNum) {
 
 function createCanvas(dataArray, valueLabel, containerId, svgId, assay){
 
-    console.log("creating canvas");
-
 	var borderColor = "black";
 	var border = 1;
 
