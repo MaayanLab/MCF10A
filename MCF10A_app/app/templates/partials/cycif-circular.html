@@ -31,23 +31,25 @@
 <script>
 
   var time, dose, comp;
+  var time1, time2;
   var results;
   var timeButtons, doseButtons;
   var svgContainer1, svgContainer2;
   var cycif_cyt = new Array(21);
   var cycif_nuc = new Array(21);
+  var temp_cyt = new Array(21);
+  var temp_nuc = new Array(21);
   var lookup = new Array(21);
   var isUpdating = false;
   var onlySig = false;
+  var isDelta = false;
 
   function sortFloat(a,b) { return a - b; }
+  var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
 
   var container = d3.select("div#cycif-circular").append("svg").attr("width",850).attr("height",850);
 
   function makeButtons(timeArray,doseArray) {
-    var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
-    timeArray.sort(collator.compare);
-    doseArray.sort(sortFloat);
 
     timeButtons = d3.select('#option-time').selectAll('input').data(timeArray).enter().append('input').attr('type','button');
     timeButtons.attr("value", function(d) {return d;}).on("click",function(d) {d3.select('#option-time').selectAll('input').style("background-color","#AAAAAA"); d3.select(this).style("background-color","red"); updater(d);});
@@ -60,7 +62,7 @@
     d3.select('#option-dose').select('input').style("background-color","red");
 
     toggleButton = d3.select('#toggle').append('input').attr('type','button').style("background-color","#AAAAAA").style("margin","4px 2px").style("border","none").style("color","white");
-    toggleButton.attr("value","Only |z-score|>2").on("click",function() {if(onlySig==false) {d3.select(this).style("background-color","red");} else{d3.select(this).style("background-color","#AAAAAA");} onlySignificant();});
+    toggleButton.attr("value","Only |z-score|>1.3").on("click",function() {if(onlySig==false) {d3.select(this).style("background-color","red");} else{d3.select(this).style("background-color","#AAAAAA");} onlySignificant();});
   }
 
   function getData(callback) {
@@ -81,20 +83,27 @@
       for (var molecule in results[time][dose]["cytosol"]) {
         cycif_cyt[i] = results[time][dose]["cytosol"][molecule];
         cycif_nuc[i] = results[time][dose]["nucleus"][molecule];
+
+        if (isDelta==true) {
+            cycif_cyt[i] = results[time1][dose]["cytosol"][molecule] - cycif_cyt[i];
+            cycif_nuc[i] = results[time1][dose]["nucleus"][molecule] - cycif_nuc[i];
+        }
+
         if (onlySig==true) {
-          if (Math.abs(cycif_cyt[i]) < 2) {
+          if (Math.abs(cycif_cyt[i]) < 1.3) {
             cycif_cyt[i]=0;
           }
-          if (Math.abs(cycif_nuc[i]) < 2) {
+          if (Math.abs(cycif_nuc[i]) < 1.3) {
             cycif_nuc[i]=0;
           }
         }
         lookup[i++] = molecule;
       }
+
      if (isUpdating==false) {
       var j = 0;
-      var timeArray = new Array(Object(results).length);
-      var doseArray = new Array(Object(results[time].length));
+      var timeArray = new Array();
+      var doseArray = new Array();
       for (var key1 in results) {
         timeArray[j++] = key1;
       }
@@ -102,6 +111,13 @@
       for (var key2 in results[time]) {
         doseArray[j++] = key2;
       }
+
+      timeArray.sort(collator.compare);
+      timeArray[3] = timeArray[0]+"->"+timeArray[1];
+      timeArray[4] = timeArray[1] + "->" + timeArray[2];
+      timeArray[5] = timeArray[0] + "->" + timeArray[2];
+      doseArray.sort(sortFloat);
+
       makeButtons(timeArray,doseArray);
     }
     renderHeatmaps();
@@ -171,7 +187,15 @@
 
   function updater(change) {
     if(isNaN(change)) {
-      time = change;
+      if (change.split("->").length>1) {
+        time = change.split("->")[0];
+        time1 = change.split("->")[1];
+        isDelta = true;
+      }
+      else {
+        isDelta = false;
+        time = change;
+      }
     }
     else {
       dose = change;
