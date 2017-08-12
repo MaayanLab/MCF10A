@@ -273,7 +273,10 @@ table, th, td {
   background-color:purple;
   color: white !important;
 }
-
+.assay-MWA{
+  background-color:orange;
+  color: white !important;
+}
 .description{
 	font-size:1.1em;
 	padding-bottom: 5px;
@@ -422,9 +425,6 @@ table, th, td {
 }
 .gcp-container{
 	height:140px;
-}
-.cycif-container{
-  height:140px;
 }
 /*END overview page*/
 

@@ -26,7 +26,7 @@
   <div id="option-dose"><b>Dose: </b></div>
   <div id="toggle"><b>Misc: </b></div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+<script src="https://d3js.org/d3.v3.min.js""></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>
 
@@ -63,6 +63,7 @@
 
     toggleButton = d3.select('#toggle').append('input').attr('type','button').style("background-color","#AAAAAA").style("margin","4px 2px").style("border","none").style("color","white");
     toggleButton.attr("value","Only |z-score|>1.3").on("click",function() {if(onlySig==false) {d3.select(this).style("background-color","red");} else{d3.select(this).style("background-color","#AAAAAA");} onlySignificant();});
+
   }
 
   function getData(callback) {
