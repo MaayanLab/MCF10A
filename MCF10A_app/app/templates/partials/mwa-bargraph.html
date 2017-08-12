@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+<style>
+
+.axis .domain {
+  display: none;
+}
+
+</style>
+</head>
+
+<body>
+
+  <div id="mwa-option-time"><b>Time: </b></div>
+  <div id="mwa-subcontainer"></div>
+  <div id="mwa-download"></div>
+<script src="https://d3js.org/d3.v3.min.js""></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+
+var results;
+var time, ratio, dose;
+var svg, g;
+var arr = new Array();
+var isUpdating = false;
+
+var lmargin, rmargin, tmargin, bmargin;
+var timeButtons;
+
+var chartContainer, maxchartheight, maxchartwidth;
+var x, x0, y, barColors, keys;
+
+var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
+
+  function renderButtons(timeArray) {
+
+    timeButtons = d3.select('#mwa-option-time').selectAll('input').data(timeArray).enter().append('input').attr('type','button');
+    timeButtons.attr("value", function(d) {return d;}).on("click",function(d) {d3.select('#mwa-option-time').selectAll('input').style("background-color","#AAAAAA"); d3.select(this).style("background-color","red"); updater(d);});
+    timeButtons.style("background-color","#AAAAAA").style("margin","4px 2px").style("border","none").style("color","white");
+    d3.select('#mwa-option-time').select('input').style("background-color","red");
+  }
+
+  function getData(callback) {
+    var temp = $.getJSON("../static/data/mwa/json/"+drug+".json", function(json) {
+      callback(json);
+    });
+  }
+
+  function loadData() {
+    getData(function(json) {
+      results = json;
+      if (isUpdating==false) {
+        lmargin = 50;
+        rmargin = 20;
+        tmargin = 20;
+        bmargin = 40;
+        chartContainer = d3.select("#mwa-subcontainer").append("svg").attr("height","500").attr("width","800").append("g").attr("transform", "translate(" + lmargin + "," + tmargin + ")");
+
+        maxchartheight = 500 - tmargin - bmargin;
+        maxchartwidth = 800 - lmargin - rmargin;
+
+        x0 = d3.scale.ordinal().rangeRoundBands([0, maxchartwidth], 0.25);
+        x1 = d3.scale.ordinal();
+        y = d3.scale.linear().range([maxchartheight, 0]);
+        barColors = d3.scale.ordinal().range(["red", "blue", "orange", "green"]);
+        var timeArray = Object.keys(results);
+        timeArray.sort(collator.compare);
+
+        renderButtons(timeArray);
+
+        time = "0hr";
+      }
+      
+      var ratioList = new Array();
+      var i = 0;
+      for (var key in results[time]) {
+        var temp = results[time][key];
+        if (i==0) keys = Object.keys(temp);
+        temp['Ratio'] = key;
+        arr[i] = temp;
+        ratioList[i++] = key;
+      }
+      arr['ratioList'] = ratioList;
+  
+      x0.domain(arr.map(function(d) { return d.Ratio; }));
+      x1.domain(keys).rangeRoundBands([0, x0.rangeBand()]);
+      y.domain([0, d3.max(arr, function(d) { return d3.max(keys, function(key) { return d[key]; }); })]).nice();
+
+      renderChart(arr,keys);
+
+      d3.select("#mwa-download").select("div").remove();
+      d3.select("#mwa-download").append("div").attr("class","download-table").append("a").text("download MWA metrics").attr("href", "../static/data/mwa/values/MWA_"+drug+"_"+time+".tsv");
+  });
+  }
+
+  function renderChart(arr, keys) {
+    chartContainer.selectAll("g").remove();
+      chartContainer.append("g").attr("class", "axis").attr("transform", "translate(0," + maxchartheight + ")").call(d3.svg.axis().scale(x0).orient("bottom"));
+
+      chartContainer.append("g")
+      .attr("class", "axis")
+      .call(d3.svg.axis().scale(y.domain([0,1])).orient("left").tickFormat(d3.format(".1")));
+
+  var legend = chartContainer.append("g")
+      .attr("font-family", "sans-serif")
+      .attr("font-size", 10)
+      .attr("text-anchor", "end")
+    .selectAll("g")
+    .data(keys.slice())
+    .enter().append("g")
+      .attr("transform", function(d, i) {return "translate(0," + i * 20 + ")"; });
+
+  legend.append("rect")
+      .attr("x", maxchartwidth - 20)
+      .attr("width", 20)
+      .attr("height", 20)
+      .attr("fill", barColors);
+
+  legend.append("text")
+      .attr("x", maxchartwidth - 24)
+      .attr("y", 9)
+      .attr("dy", "0.35em")
+      .text(function(d) { return d+"μM"; });
+
+      
+      chartContainer.append("g")
+    .selectAll("g")
+    .data(arr)
+    .enter().append("g")
+      .attr("transform", function(d) { return "translate(" + x0(d.Ratio) + ",0)"; })
+    .selectAll("rect")
+    .data(function(d) { return keys.map(function(key) {return {key: key, value: d[key]}; }); })
+    .enter().append("rect")
+      .attr("x", function(d) { return x1(d.key); })
+      .attr("y", function(d) { return y(d.value); })
+      .attr("width", x1.rangeBand())
+      .attr("height", function(d) { return maxchartheight - y(d.value); })
+      .attr("fill", function(d) { return barColors(d.key); })
+      .append("title").text(function(d) {return d.value;});
+  }
+
+ function updater(timeChange) {
+    time = timeChange;
+    isUpdating = true;
+    loadData();
+  }
+
+  loadData();
+
+</script>
+
+</body>
+</html>

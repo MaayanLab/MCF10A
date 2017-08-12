@@ -33,6 +33,9 @@
       {% if 'CycIF' in drug_info['assays'] %}
         |<a href="#CycIF">CycIF</a>
       {% endif %}
+      {% if 'MWA' in drug_info['assays'] %}
+        |<a href="#MWA">MWA</a>
+      {% endif %}
     </div>
 
     <div class="description">
@@ -247,6 +250,19 @@
           {% include "partials/drug-cycif.html" %}
       {% endwith %}
     </div> <!-- /.assay-content (CycIF) -->
+  {% endif %}
+
+    {% if 'MWA' in drug_info['assays'] %}
+    <div class="assay-content">
+      <h2 id="MWA">Microwestern Array (MWA)</h2>
+      <div class="description">
+        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2881471/" target="_blank">Microwestern Array (MWA)</a> is a high-throughput variation of the Western blot, which uses electrophoresis to determine protein levels and modifications by measuring fluorescence intensity.
+      </div>
+      
+      {% with assay="MWA", drug=drug_selected, time=['0h','1h','6h','24h'], default_time="24h"%}
+          {% include "partials/drug-mwa.html" %}
+      {% endwith %}
+    </div> <!-- /.assay-content (MWA) -->
   {% endif %}
 
 {% endblock %}

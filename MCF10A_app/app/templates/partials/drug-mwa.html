@@ -1,15 +1,9 @@
-<div id="mwa-parameters">
-  {% with assay="CycIF", time=['0h', '1h','6h', '24h'], default_time="24h"%}
-    {% include "partials/time-toggle.html" %}
-  {% endwith %}
-</div>
-
 <!-- {% for t in time %}
   <div id="{{assay.lower()}}-{{t}}" style="display:{{"block" if t == default_time else "none"}};"><span id="{{assay.lower()}}-{{t}}-loading">Loading Clustergrammer</span></div>
 {% endfor %} -->
-<div id="mwa-container"></div>
+<div id="mwa-container">
 
-<div class="download-table">
-  <a id="mwa-download" href="../static/data/{{assay.lower()}}/values/MWA_{{drug}}_{{default_time}}.tsv">download {{assay}} metrics</a>
+    	{% include "partials/mwa-bargraph.html" %}
+
 </div>
 
