@@ -44,11 +44,13 @@
   var onlySig = false;
   var isDelta = false;
 
+  //Sort floating point values
   function sortFloat(a,b) { return a - b; }
   var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
 
   var container = d3.select("div#cycif-circular").append("svg").attr("width",850).attr("height",850);
-
+                                                                                               
+  //Create time and dose buttons, only significant z-scores toggle                                                                                        
   function makeButtons(timeArray,doseArray) {
 
     timeButtons = d3.select('#option-time').selectAll('input').data(timeArray).enter().append('input').attr('type','button');
@@ -75,21 +77,27 @@
   function loadData() {
     getData(function(json) {
       results = json;
+      
+      //default values
       if (isUpdating==false) {
         time = "24h";
         var arrayToSort = Object.keys(results[time]);
         dose = arrayToSort.sort(sortFloat)[0];
       }
+      
+      //populate array for heatmap values
       var i = 0;
       for (var molecule in results[time][dose]["cytosol"]) {
         cycif_cyt[i] = results[time][dose]["cytosol"][molecule];
         cycif_nuc[i] = results[time][dose]["nucleus"][molecule];
 
+        //heatmap values are difference between z-scores of different time points
         if (isDelta==true) {
             cycif_cyt[i] = results[time1][dose]["cytosol"][molecule] - cycif_cyt[i];
             cycif_nuc[i] = results[time1][dose]["nucleus"][molecule] - cycif_nuc[i];
         }
 
+        //set segments with z-scores < 1.3 to white
         if (onlySig==true) {
           if (Math.abs(cycif_cyt[i]) < 1.3) {
             cycif_cyt[i]=0;
@@ -101,7 +109,8 @@
         lookup[i++] = molecule;
       }
 
-     if (isUpdating==false) {
+     //create button names
+      if (isUpdating==false) {
       var j = 0;
       var timeArray = new Array();
       var doseArray = new Array();
@@ -125,17 +134,19 @@
   });
   }
 
+  //create circular heatmaps with D3.js
   function renderHeatmaps() {
 
     var absmax = Math.max.apply(null,cycif_nuc.concat(cycif_cyt).map(Math.abs));
 /*    console.log(absmax);*/
     var scaling = d3.scale.linear().domain([-absmax,0,absmax]).range(['blue','white','red']);
 
+    //Data for binding to DOM elements
     var arcData = d3.range(21).map(function(d,i) {
       i*=2;
       return {
-        startAngleOfMyArc: i * (Math.PI/21),
-        endAngleOfMyArc: (i + 2) * (Math.PI/21),
+        startingAngle: i * (Math.PI/21),
+        endingAngle: (i + 2) * (Math.PI/21),
         innerFill: scaling(cycif_nuc[i/2]).toString(),
         outerFill: scaling(cycif_cyt[i/2]).toString(), //assign values based on zscore
         label: lookup[i/2],
@@ -144,18 +155,19 @@
       };
     });
     
+    //Default settings of heatmap
     if (isUpdating===false) {
 
-      var getAngle = function (d) {return (180 / Math.PI * (d.startAngleOfMyArc + d.endAngleOfMyArc) / 2 - 90);};
+      var getAngle = function (d) {return (180 / Math.PI * (d.startingAngle + d.endingAngle) / 2 - 90);};
 
       svgContainer1 = container.append("g").attr("transform","translate(420,400)");
       var inner = svgContainer1.selectAll("path").data(arcData).enter().append("path");
-      var innerArc = inner.attr('d', d3.svg.arc().innerRadius(0).outerRadius(170).startAngle(function(d) {return d.startAngleOfMyArc}).endAngle(function(d) {return d.endAngleOfMyArc}));
+      var innerArc = inner.attr('d', d3.svg.arc().innerRadius(0).outerRadius(170).startAngle(function(d) {return d.startingAngle}).endAngle(function(d) {return d.endingAngle}));
       var innerAttr = innerArc.attr("stroke_width",1).attr("stroke",function(d) { return d.innerFill;}).attr("fill",function(d) { return d.innerFill;});
 
       svgContainer2 = container.append("g").attr("transform","translate(420,400)");
       var outer = svgContainer2.selectAll("path").data(arcData).enter().append("path");
-      var outerArc = outer.attr('d', d3.svg.arc().innerRadius(170).outerRadius(300).startAngle(function(d) {return d.startAngleOfMyArc}).endAngle(function(d) {return d.endAngleOfMyArc}));
+      var outerArc = outer.attr('d', d3.svg.arc().innerRadius(170).outerRadius(300).startAngle(function(d) {return d.startingAngle}).endAngle(function(d) {return d.endingAngle}));
       var outerAttr = outerArc.attr("stroke_width",1).attr("stroke",function(d) { return d.outerFill;}).attr("fill",function(d) { return d.outerFill;});
 
       var textPos = d3.svg.arc().innerRadius(280).outerRadius(480).startAngle(function (i) {return Math.PI*2/21 * i}).endAngle(function (i) {return Math.PI*2/21 * (i + 1)});
@@ -170,6 +182,7 @@
       makeNotes();
 
     }
+    //transition when updating heatmap
     else {
       svgContainer1.selectAll("path").data(arcData).transition().duration(2000).attr("stroke_width",1).attr("stroke",function(d) { return d.innerFill;}).attr("fill",function(d) { return d.innerFill;});
       svgContainer2.selectAll("path").data(arcData).transition().duration(2000).attr("stroke_width",1).attr("stroke",function(d) { return d.outerFill;}).attr("fill",function(d) { return d.outerFill;});
@@ -179,6 +192,7 @@
     }
   }
 
+  //create heatmap legend
   function makeNotes() {
     container.append("svg:circle").attr("cx","70").attr("cy","70").attr("r","70").attr("stroke","black").attr("fill","none");
     container.append("svg:circle").attr("cx","70").attr("cy","70").attr("r","35").attr("stroke","black").attr("fill","none");
@@ -186,6 +200,7 @@
     container.append("text").attr("x","45").attr("y","30").text("cytosol");
   }
 
+  //change heatmap parameters when different buttons are selected
   function updater(change) {
     if(isNaN(change)) {
       if (change.split("->").length>1) {
