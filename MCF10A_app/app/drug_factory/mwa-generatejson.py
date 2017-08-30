@@ -1,6 +1,7 @@
 import os
 import glob, json, csv
 
+## Parse through mwa values from mwa data files and assign values to associative array
 def get_mwa_values(data_dir, drug):
 	mwa_values = {}
 	values_dir = os.path.join(data_dir, "mwa", "values")
@@ -18,6 +19,7 @@ def get_mwa_values(data_dir, drug):
 
 	return mwa_values
 
+## Extract specific mwa values and their keys
 def get_mwa_score(filename):
 	value = {}
 	with open(filename, 'rb') as tsvfile:
@@ -38,4 +40,6 @@ def get_mwa_score(filename):
 	return value
 
 mwa_values = get_mwa_values("C:\\Users\\maayanlab\\MCF10A\\MCF10A_app\\app\\static\\data\\", "vorinostat")
+
+## Save associative array of mwa values to JSON
 json.dump(mwa_values, open('C:\\Users\\maayanlab\\MCF10A\\MCF10A_app\\app\\static\\data\\mwa\\json\\vorinostat.json','wb'))
