@@ -1,6 +1,7 @@
 import os
 import glob, json, csv
 
+## Parse through cycif values from cycif data files and assign values to associative array
 def get_cycif_values(data_dir, drug):
     cycif_values = {}
     values_dir = os.path.join(data_dir, "cycif", "values")
@@ -18,6 +19,7 @@ def get_cycif_values(data_dir, drug):
 
     return cycif_values
 
+## Extract specific cycif zscore values and their keys
 def get_cycif_z_score(filename):
     value = {}
     with open(filename, 'rb') as tsvfile:
@@ -45,4 +47,6 @@ def get_cycif_z_score(filename):
     return value
 
 cycif_values = get_cycif_values("C:\\Users\\maayanlab\\MCF10A\\MCF10A_app\\app\\static\\data\\", "vorinostat")
+
+## Save associative array of cycif values to JSON
 json.dump(cycif_values, open('C:\\Users\\maayanlab\\MCF10A\\MCF10A_app\\app\\static\\data\\cycif\\json\\vorinostat.json','wb'))

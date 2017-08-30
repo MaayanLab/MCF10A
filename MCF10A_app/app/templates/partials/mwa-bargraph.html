@@ -33,6 +33,7 @@ var x, x0, y, barColors, keys;
 
 var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
 
+	//make buttons for each timepoint
   function renderButtons(timeArray) {
 
     timeButtons = d3.select('#mwa-option-time').selectAll('input').data(timeArray).enter().append('input').attr('type','button');
@@ -50,6 +51,8 @@ var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'}
   function loadData() {
     getData(function(json) {
       results = json;
+
+      //default parameters for bar graph
       if (isUpdating==false) {
         lmargin = 50;
         rmargin = 20;
@@ -72,6 +75,7 @@ var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'}
         time = "0hr";
       }
       
+      //extract ratios for x axis labels
       var ratioList = new Array();
       var i = 0;
       for (var key in results[time]) {
@@ -94,14 +98,19 @@ var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'}
   });
   }
 
+  //create bar graph
   function renderChart(arr, keys) {
     chartContainer.selectAll("g").remove();
+
+    	//create x axis
       chartContainer.append("g").attr("class", "axis").attr("transform", "translate(0," + maxchartheight + ")").call(d3.svg.axis().scale(x0).orient("bottom"));
 
+      //create y axis
       chartContainer.append("g")
       .attr("class", "axis")
       .call(d3.svg.axis().scale(y.domain([0,1])).orient("left").tickFormat(d3.format(".1")));
 
+      //create legend container
   var legend = chartContainer.append("g")
       .attr("font-family", "sans-serif")
       .attr("font-size", 10)
@@ -111,19 +120,21 @@ var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'}
     .enter().append("g")
       .attr("transform", function(d, i) {return "translate(0," + i * 20 + ")"; });
 
+      //create rectangles in legend
   legend.append("rect")
       .attr("x", maxchartwidth - 20)
       .attr("width", 20)
       .attr("height", 20)
       .attr("fill", barColors);
 
+      //create text in legend
   legend.append("text")
       .attr("x", maxchartwidth - 24)
       .attr("y", 9)
       .attr("dy", "0.35em")
       .text(function(d) { return d+"μM"; });
 
-      
+      //create bars
       chartContainer.append("g")
     .selectAll("g")
     .data(arr)
@@ -140,6 +151,7 @@ var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'}
       .append("title").text(function(d) {return d.value;});
   }
 
+//changes bar graph parameters when timepoint buttons are clicked
  function updater(timeChange) {
     time = timeChange;
     isUpdating = true;
